@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Cool CLI &#8211; A Hacker&#8217;s Terminal from 1995 | Robert DeVore</title>
+    <meta name="description" content="Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native. Building enterprise-grade solutions that scale with your business.">
+    <meta name="keywords" content="Laravel Developer, Next.js Developer, WordPress Developer, React Native, Full Stack Developer, Premium Development">
+    <meta name="author" content="Robert">
+
+    <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+    
+    <link href="../assets/css/stattic.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+     
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Zero Cool CLI &#8211; A Hacker&#8217;s Terminal from 1995">
+    <meta property="og:description" content="Stattic is a fast, lightweight static site generator.">
+    <meta property="og:url" content="https://robertdevore.com">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:image" content="..//images/zero-cool-cli-laravel-robertdevore.webp">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zero Cool CLI &#8211; A Hacker&#8217;s Terminal from 1995">
+    <meta name="twitter:description" content="Stattic is a fast, lightweight static site generator.">
+    
+    <meta name="twitter:image" content="..//images/zero-cool-cli-laravel-robertdevore.webp">
+    
+    <!-- Alpine.js for interactive components -->
+    <script src="../assets/js/alpine.min.js" defer></script>
+    <script src="../assets/js/stattic.js" defer></script>
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }" class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="container max-w-screen-xl m-auto py-4 px-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="../assets/images/robert-devore-avatar.jpg" 
+                 alt="Robert DeVore Avatar" 
+                 class="w-10 h-10 rounded-full object-cover border-2 border-slate-200">
+            <h2 class="text-2xl font-bold font-heading">
+                <a href="../" class="text-slate-900 hover:text-blue-600 transition-colors">
+                    Robert DeVore
+                </a>
+            </h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="/free-ai-tools/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Free AI Tools
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li x-data="{ servicesOpen: false }" class="relative">
+                    <button @click="servicesOpen = !servicesOpen" 
+                            @click.away="servicesOpen = false"
+                            class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group flex items-center">
+                        Services
+                        <svg class="w-4 h-4 ml-1 transition-transform duration-200" 
+                             :class="servicesOpen ? 'rotate-180' : ''" 
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </button>
+                    
+                    <!-- Mega Menu -->
+                    <div x-show="servicesOpen" 
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 scale-95 translate-y-1"
+                         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 scale-95 translate-y-1"
+                         class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-slate-200 p-8 z-50"
+                         style="display: none;">
+                        
+                        <div class="grid grid-cols-3 gap-8">
+                            <!-- App Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    App Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/mvp-app-build/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">MVP App Build</div>
+                                        <div class="text-sm text-slate-500 mt-1">Launch-ready apps in less than 2 weeks</div>
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">React Native Apps</div>
+                                        <div class="text-sm text-slate-500 mt-1">Cross-platform iOS & Android apps</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Web Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/laravel-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Laravel Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Modern PHP applications & APIs</div>
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Next.js Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">React apps with SSR & static generation</div>
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">WordPress Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Custom plugins, themes & solutions</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optimization & Security -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Optimization & Security
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/page-speed-optimization/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Page Speed Optimization</div>
+                                        <div class="text-sm text-slate-500 mt-1">Lightning-fast performance tuning</div>
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Security Audit</div>
+                                        <div class="text-sm text-slate-500 mt-1">Comprehensive security assessments</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom CTA Section -->
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900">Need something custom?</h4>
+                                    <p class="text-sm text-slate-500 mt-1">Let's discuss your unique requirements</p>
+                                </div>
+                                <a href="/contact/" 
+                                   class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/blog/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Blog
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/" 
+                       class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                        Get Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
+                    <h3 class="text-xl font-bold font-heading text-slate-900">Robert DeVore</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6" x-data="{ mobileServicesOpen: false }">
+                    <ul class="space-y-4">
+                        <li>
+                            <a 
+                                href="/free-ai-tools/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Free AI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <button 
+                                @click="mobileServicesOpen = !mobileServicesOpen"
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium py-2 transition-colors flex items-center justify-between w-full"
+                            >
+                                Services
+                                <svg class="w-5 h-5 transition-transform duration-200" 
+                                     :class="mobileServicesOpen ? 'rotate-180' : ''" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            
+                            <!-- Mobile Services Dropdown -->
+                            <div x-show="mobileServicesOpen" 
+                                 x-transition:enter="transition ease-out duration-200"
+                                 x-transition:enter-start="opacity-0 -translate-y-2"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-150"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-2"
+                                 class="ml-4 mt-2 space-y-2"
+                                 style="display: none;">
+                                
+                                <!-- App Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">App Development</div>
+                                    <a href="/mvp-app-build/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        MVP App Build
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        React Native Apps
+                                    </a>
+                                </div>
+
+                                <!-- Web Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Web Development</div>
+                                    <a href="/laravel-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Laravel Development
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Next.js Development
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        WordPress Development
+                                    </a>
+                                </div>
+
+                                <!-- Optimization & Security Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Optimization & Security</div>
+                                    <a href="/page-speed-optimization/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Page Speed Optimization
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Security Audit
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a 
+                                href="/portfolio/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/blog/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/about/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li class="pt-4">
+                            <a 
+                                href="/contact/" 
+                                class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-3 rounded-lg font-medium inline-block hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Get Quote
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Section -->
+    
+    <section class="relative py-48 border-b border-slate-100 overflow-hidden">
+        <!-- Background Image with Fade -->
+        <div class="absolute inset-0">
+            <img src="/assets//images/zero-cool-cli-laravel-robertdevore.webp" alt="Zero Cool CLI &#8211; A Hacker&#8217;s Terminal from 1995" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-white"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="relative container max-w-2xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white font-heading drop-shadow-lg">Zero Cool CLI &#8211; A Hacker&#8217;s Terminal from 1995</h1>
+                <div class="flex items-center justify-center gap-4 text-white/90 drop-shadow-md">
+                    <time datetime="July 03, 2025">July 03, 2025</time>
+                    <span>&middot;</span>
+                    <span>Robert</span>
+                    <span>&middot;</span>
+                    <span class="reading-time"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Content -->
+    <section class="container max-w-2xl mx-auto px-4 py-16">
+        <article class="prose dark:prose-dark max-w-none stattic-content">
+            <p>HACK THE PLANET 🌍💻</p>
+<p>I built this CLI tool because I couldn&#8217;t get the movie &#8220;Hackers&#8221; out of my head after rewatching it recently.</p>
+<p>If you&#8217;ve followed my work &#8211; especially around terminal tools and developer utilities &#8211; you know I love building things that make the command line more fun and engaging.</p>
+<p>But this one&#8217;s different. This is pure nostalgia meets functionality.</p>
+<p>Zero Cool CLI captures that authentic 1995 hacker aesthetic with movie-accurate quotes, retro terminal styling, and educational content about classic hacking techniques.</p>
+<p>It&#8217;s like having Dade Murphy&#8217;s computer setup right in your terminal 😎</p>
+<figure class="wp-block-video alignwide"><video controls src="https://robertdevore.com/wp-content/uploads/2025/07/zero-cool-cli-video-example.mp4"></video></figure>
+<h2 class="wp-block-heading">Meet the CLI</h2>
+<p><strong><a href="https://github.com/robertdevore/zero-cool-cli" target="_blank" rel="noreferrer noopener">Zero Cool CLI</a></strong> is a collection of hacker-themed terminal commands that bring the spirit of 90s hacking culture to your modern terminal.</p>
+<p>Each command has its own personality, complete with:</p>
+<ul class="wp-block-list">
+<li><strong>Authentic movie quotes</strong> from the actual Hackers film</li>
+<li><strong>Retro terminal colors</strong> and ASCII art styling</li>
+<li><strong>Educational content</strong> about classic hacking techniques</li>
+<li><strong>Interactive animations</strong> and progress bars</li>
+<li><strong>Movie-accurate references</strong> to Gibson, The Plague, and the crew</li>
+</ul>
+<p>Here&#8217;s what you can do:</p>
+<ul class="wp-block-list">
+<li><code>zero-cool</code> &#8211; Channel Dade Murphy&#8217;s persona with quotes and hacker profile</li>
+<li><code>hack-the-planet</code> &#8211; Global hack simulation with ASCII globe animation</li>
+<li><code>gibson</code> &#8211; Interactive Gibson mainframe simulator</li>
+<li><code>acid-burn</code> &#8211; System diagnostics with Kate Libby&#8217;s sarcastic attitude</li>
+<li><code>phreak</code> &#8211; Phone phreaking techniques and tone dialing demos</li>
+<li><code>nmap-lite</code> &#8211; Network port scanner with retro styling</li>
+<li><code>whoami</code> &#8211; Display your hacker alias and daily motivation</li>
+<li><code>garbage</code> &#8211; Generate junk files with weird extensions</li>
+<li><code>god</code> &#8211; Ultimate system control and omniscience mode</li>
+<li><code>inspire</code> &#8211; Motivational quotes from hackers and the movie</li>
+</ul>
+<h2 class="wp-block-heading">Why I Built It</h2>
+<p>I&#8217;m constantly working in terminals, and while I love efficiency, sometimes you want your tools to have personality.</p>
+<p>The movie &#8220;Hackers&#8221; captured something special about that era of computing &#8211; when everything felt new and dangerous and full of possibility. </p>
+<p>The aesthetics, the culture, the underground spirit of exploration.</p>
+<p>Modern hacking tools are powerful but clinical. They get the job done, but they don&#8217;t capture that sense of wonder and rebellion that made computing exciting in the first place.</p>
+<p>This CLI brings that feeling back. It&#8217;s educational, entertaining, and pays proper respect to the cultural touchstones that inspired a generation of hackers and developers.</p>
+<p>Plus, let&#8217;s be honest &#8211; typing <code>zero-cool hack-the-planet --animate</code> never gets old.</p>
+<h2 class="wp-block-heading">How to Install</h2>
+<p>The installation is dead simple:</p>
+<ol class="wp-block-list">
+<li><strong>Clone the repository</strong></li>
+</ol>
+<pre class="wp-block-code"><code lang="bash" class="language-bash">git clone https://github.com/robertdevore/zero-cool-cli
+
+cd zero-cool-cli</code></pre>
+<ol start="2" class="wp-block-list">
+<li><strong>Install globally</strong></li>
+</ol>
+<pre class="wp-block-code"><code lang="bash" class="language-bash">./install.sh</code></pre>
+<ol start="3" class="wp-block-list">
+<li><strong>Start hacking</strong></li>
+</ol>
+<pre class="wp-block-code"><code lang="bash" class="language-bash">zero-cool zero-cool --profile</code></pre>
+<p>That&#8217;s it. Now you have access to all the commands from anywhere in your terminal.</p>
+<p>The installer creates a symlink in <code>/usr/local/bin</code> so any updates you make to the source code are immediately available globally.</p>
+<figure class="wp-block-image alignwide size-full"><img loading="lazy" decoding="async" width="2560" height="1281" src="/images/zero_cool_cli_list_robertdevore_scaled.webp" alt="Zero Cool CLI - command list" class="wp-image-15406" srcset="/images/zero_cool_cli_list_robertdevore_scaled.webp 2560w, /images/zero_cool_cli_list_robertdevore_300x150.webp 300w, /images/zero_cool_cli_list_robertdevore_1024x512.webp 1024w, /images/zero_cool_cli_list_robertdevore_768x384.webp 768w, /images/zero_cool_cli_list_robertdevore_1536x769.webp 1536w, /images/zero_cool_cli_list_robertdevore_2048x1025.webp 2048w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></figure>
+<h2 class="wp-block-heading">Educational Value</h2>
+<p>While this tool is fun and nostalgic, it&#8217;s also educational.</p>
+<p>Each command teaches something about:</p>
+<ul class="wp-block-list">
+<li><strong>Classic hacking techniques</strong> from the 90&#8217;s era</li>
+<li><strong>Network security concepts</strong> through the nmap-lite scanner</li>
+<li><strong>Phone phreaking history</strong> via the phreak command</li>
+<li><strong>Social engineering</strong> through interactive scenarios</li>
+<li><strong>System administration</strong> with diagnostic tools</li>
+</ul>
+<p>Everything is completely safe and simulated &#8211; no actual hacking occurs. It&#8217;s about learning the history and culture, not breaking into systems.</p>
+<figure class="wp-block-image alignwide size-full"><img loading="lazy" decoding="async" width="2560" height="1281" src="/images/zero_cool_cli_zero_cool_robertdevore_scaled.webp" alt="Zero Cool CLI - zero-cool command" class="wp-image-15407" srcset="/images/zero_cool_cli_zero_cool_robertdevore_scaled.webp 2560w, /images/zero_cool_cli_zero_cool_robertdevore_300x150.webp 300w, /images/zero_cool_cli_zero_cool_robertdevore_1024x512.webp 1024w, /images/zero_cool_cli_zero_cool_robertdevore_768x384.webp 768w, /images/zero_cool_cli_zero_cool_robertdevore_1536x769.webp 1536w, /images/zero_cool_cli_zero_cool_robertdevore_2048x1025.webp 2048w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></figure>
+<h2 class="wp-block-heading">What&#8217;s Next</h2>
+<p>This is just v1.0 and I&#8217;m already thinking about more features:</p>
+<ul class="wp-block-list">
+<li><strong>More movie references</strong> from other classic hacker films</li>
+<li><strong>Additional characters</strong> like Lord Nikon and Cereal Killer</li>
+<li><strong>Sound effects</strong> for the full 90&#8217;s experience</li>
+<li><strong>Network visualization</strong> tools with ASCII graphics</li>
+<li><strong>BBS-style interfaces</strong> for that authentic feel</li>
+<li><strong>Customizable themes</strong> for different terminal setups</li>
+</ul>
+<p>The codebase is clean, well-documented, and built on Laravel Zero. </p>
+<p>If you want to contribute new commands or improve existing ones, PR&#8217;s are welcome.</p>
+<h2 class="wp-block-heading">Built With Love (and PHP)</h2>
+<p>I&#8217;ve been diving deeper into Laravel, and recently built a <a href="https://github.com/robertdevore/laravel-cli" target="_blank" rel="noreferrer noopener">CLI script</a> to pull WordPress posts from the REST API into CSV format, among other projects. When I decided to build Zero Cool CLI, I wanted to try out Laravel Zero.</p>
+<p>Turns out, it was the perfect choice.</p>
+<p>The entire CLI is built with:</p>
+<ul class="wp-block-list">
+<li><strong><a href="https://laravel-zero.com/" target="_blank" rel="noreferrer noopener">Laravel Zero</a></strong> &#8211; Micro-framework for console applications</li>
+<li><strong>PHP 8.0+</strong> &#8211; Because sometimes PHP is the right tool</li>
+<li><strong>Pure terminal magic</strong> &#8211; No external dependencies for the core experience</li>
+</ul>
+<p>Laravel Zero gives you all the good parts of Laravel &#8211; the clean command structure, built-in testing, dependency injection &#8211; without the web overhead. </p>
+<p>The artisan-style command generation saved me hours of boilerplate, and the way it handles colored output and user prompts just feels natural.</p>
+<p>It works on macOS, Linux, and Windows. The only requirement is PHP 8.0+ and a terminal that supports ANSI colors.</p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="500" height="221" src="/images/hack_the_planet.webp" alt="HACK THE PLANET GIF" class="wp-image-15401"/></figure>
+<h2 class="wp-block-heading">Try It Out</h2>
+<p>If you grew up watching &#8220;Hackers&#8221; or you just love terminal tools with personality, this CLI will feel right at home.</p>
+<p>It&#8217;s about bringing joy back to the command line. About remembering that technology should be fun, not just functional.</p>
+<p>You can grab the CLI here:</p>
+<p><strong><a href="https://github.com/robertdevore/zero-cool-cli" target="_blank" rel="noreferrer noopener">Zero Cool CLI on GitHub</a></strong></p>
+<p>Install it, hack the planet, and let me know what you think.</p>
+<p>And remember &#8211; <em>&#8220;This is our world now&#8230; the world of the electron and the switch, the beauty of the baud.&#8221;</em></p>
+
+        </article>
+    </section>
+</main>
+
+
+<footer class="bg-slate-900 text-white py-12" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+            <!-- Brand Section -->
+            <div class="md:col-span-1">
+                <h3 class="text-xl font-bold font-heading mb-4">Robert DeVore</h3>
+                <p class="text-slate-300 text-sm mb-4">
+                    Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/robertdevore" target="_blank" name="GitHub" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/robertdevore" target="_blank" name="Linkedin" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/robertdevore" target="_blank" name="Twitter" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/laravel-development/" class="hover:text-white transition-colors">Laravel Development</a></li>
+                    <li><a href="/nextjs-development/" class="hover:text-white transition-colors">Next.js Applications</a></li>
+                    <li><a href="/wordpress-development/" class="hover:text-white transition-colors">WordPress Solutions</a></li>
+                    <li><a href="/react-native-development/" class="hover:text-white transition-colors">React Native Apps</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4">Get In Touch</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>
+                        <a href="mailto:me@robertdevore.com" class="hover:text-white transition-colors">
+                            me@robertdevore.com
+                        </a>
+                    </li>
+                    <li class="text-slate-400">Response time: &lt; 4 hours</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+            <p class="text-slate-400 text-sm">
+                © 2025 Robert DeVore. All rights reserved. 
+                <span class="mx-2">•</span>
+                Built with <a href="https://stattic.site/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors" aria-label="Stattic - opens in a new tab">Stattic</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

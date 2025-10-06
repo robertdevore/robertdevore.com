@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next.js Development Services | Robert DeVore</title>
+    <meta name="description" content="Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native. Building enterprise-grade solutions that scale with your business.">
+    <meta name="keywords" content="Laravel Developer, Next.js Developer, WordPress Developer, React Native, Full Stack Developer, Premium Development">
+    <meta name="author" content="Unknown">
+
+    <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+    
+    <link href="../assets/css/stattic.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+     
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Next.js Development Services">
+    <meta property="og:description" content="Stattic is a fast, lightweight static site generator.">
+    <meta property="og:url" content="https://robertdevore.com">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:image" content="..//images/robert-devore-home-hero.webp">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Next.js Development Services">
+    <meta name="twitter:description" content="Stattic is a fast, lightweight static site generator.">
+    
+    <meta name="twitter:image" content="..//images/robert-devore-home-hero.webp">
+    
+    <!-- Alpine.js for interactive components -->
+    <script src="../assets/js/alpine.min.js" defer></script>
+    <script src="../assets/js/stattic.js" defer></script>
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }" class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="container max-w-screen-xl m-auto py-4 px-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="../assets/images/robert-devore-avatar.jpg" 
+                 alt="Robert DeVore Avatar" 
+                 class="w-10 h-10 rounded-full object-cover border-2 border-slate-200">
+            <h2 class="text-2xl font-bold font-heading">
+                <a href="../" class="text-slate-900 hover:text-blue-600 transition-colors">
+                    Robert DeVore
+                </a>
+            </h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="/free-ai-tools/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Free AI Tools
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li x-data="{ servicesOpen: false }" class="relative">
+                    <button @click="servicesOpen = !servicesOpen" 
+                            @click.away="servicesOpen = false"
+                            class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group flex items-center">
+                        Services
+                        <svg class="w-4 h-4 ml-1 transition-transform duration-200" 
+                             :class="servicesOpen ? 'rotate-180' : ''" 
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </button>
+                    
+                    <!-- Mega Menu -->
+                    <div x-show="servicesOpen" 
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 scale-95 translate-y-1"
+                         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 scale-95 translate-y-1"
+                         class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-slate-200 p-8 z-50"
+                         style="display: none;">
+                        
+                        <div class="grid grid-cols-3 gap-8">
+                            <!-- App Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    App Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/mvp-app-build/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">MVP App Build</div>
+                                        <div class="text-sm text-slate-500 mt-1">Launch-ready apps in less than 2 weeks</div>
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">React Native Apps</div>
+                                        <div class="text-sm text-slate-500 mt-1">Cross-platform iOS & Android apps</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Web Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/laravel-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Laravel Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Modern PHP applications & APIs</div>
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Next.js Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">React apps with SSR & static generation</div>
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">WordPress Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Custom plugins, themes & solutions</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optimization & Security -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Optimization & Security
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/page-speed-optimization/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Page Speed Optimization</div>
+                                        <div class="text-sm text-slate-500 mt-1">Lightning-fast performance tuning</div>
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Security Audit</div>
+                                        <div class="text-sm text-slate-500 mt-1">Comprehensive security assessments</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom CTA Section -->
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900">Need something custom?</h4>
+                                    <p class="text-sm text-slate-500 mt-1">Let's discuss your unique requirements</p>
+                                </div>
+                                <a href="/contact/" 
+                                   class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/blog/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Blog
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/" 
+                       class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                        Get Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
+                    <h3 class="text-xl font-bold font-heading text-slate-900">Robert DeVore</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6" x-data="{ mobileServicesOpen: false }">
+                    <ul class="space-y-4">
+                        <li>
+                            <a 
+                                href="/free-ai-tools/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Free AI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <button 
+                                @click="mobileServicesOpen = !mobileServicesOpen"
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium py-2 transition-colors flex items-center justify-between w-full"
+                            >
+                                Services
+                                <svg class="w-5 h-5 transition-transform duration-200" 
+                                     :class="mobileServicesOpen ? 'rotate-180' : ''" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            
+                            <!-- Mobile Services Dropdown -->
+                            <div x-show="mobileServicesOpen" 
+                                 x-transition:enter="transition ease-out duration-200"
+                                 x-transition:enter-start="opacity-0 -translate-y-2"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-150"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-2"
+                                 class="ml-4 mt-2 space-y-2"
+                                 style="display: none;">
+                                
+                                <!-- App Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">App Development</div>
+                                    <a href="/mvp-app-build/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        MVP App Build
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        React Native Apps
+                                    </a>
+                                </div>
+
+                                <!-- Web Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Web Development</div>
+                                    <a href="/laravel-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Laravel Development
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Next.js Development
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        WordPress Development
+                                    </a>
+                                </div>
+
+                                <!-- Optimization & Security Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Optimization & Security</div>
+                                    <a href="/page-speed-optimization/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Page Speed Optimization
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Security Audit
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a 
+                                href="/portfolio/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/blog/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/about/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li class="pt-4">
+                            <a 
+                                href="/contact/" 
+                                class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-3 rounded-lg font-medium inline-block hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Get Quote
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Section -->
+    
+    <section class="relative py-48 border-b border-slate-100 overflow-hidden">
+        <!-- Background Image with Fade -->
+        <div class="absolute inset-0">
+            <img src="/images/robert-devore-home-hero.webp" alt="Next.js Development Services" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-white"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="relative container max-w-4xl mx-auto px-6">
+            <div class="text-center">
+                <div class="flex items-center justify-center mb-6">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white font-heading drop-shadow-lg">Next.js Development</h1>
+                </div>
+                <p class="text-xl text-white/90 max-w-2xl mx-auto drop-shadow-md">
+                    Build lightning-fast React applications with Next.js. From static sites to full-stack applications with server-side rendering.
+                </p>
+                
+                <!-- Hero CTAs -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+                    <a href="#projects" 
+                       class="px-8 py-3 bg-white border-2 border-white text-slate-900 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-200 transform hover:scale-105 shadow-lg">
+                        View Next.js Projects
+                    </a>
+                    <a href="/contact" 
+                       class="px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-slate-900 transition-colors">
+                        Start Your Next.js Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Next.js Benefits Section -->
+    <section class="py-16 bg-white">
+        <div class="container max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 font-heading mb-4">Why Choose Next.js for Your Project?</h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+                    Next.js combines the best of React with powerful features for production-ready applications that scale.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="group bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-xl p-6 shadow-sm hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                    <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-blue-600 text-white group-hover:scale-105 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Lightning Performance</h3>
+                    <p class="text-slate-600 text-sm">Built-in optimizations like automatic code splitting, image optimization, and edge functions for blazing speed.</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="group bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-xl p-6 shadow-sm hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                    <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-green-600 text-white group-hover:scale-105 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">SEO Excellence</h3>
+                    <p class="text-slate-600 text-sm">Server-side rendering and static generation ensure perfect SEO scores and social media sharing.</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="group bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-200 rounded-xl p-6 shadow-sm hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                    <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-purple-600 text-white group-hover:scale-105 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Full-Stack Ready</h3>
+                    <p class="text-slate-600 text-sm">API routes, middleware, and database integration make Next.js perfect for complete applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next.js Development Process -->
+    <section class="py-16 bg-gradient-to-br from-slate-50 to-slate-100">
+        <div class="container max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 font-heading mb-4">Next.js Development Process</h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+                    A streamlined approach to building performant React applications with Next.js best practices.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Phase 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center transform hover:scale-105 transition-all duration-200">
+                    <div class="w-12 h-12 bg-slate-900 rounded-lg flex items-center justify-center mx-auto mb-4 text-white font-bold">1</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Architecture & Planning</h3>
+                    <p class="text-sm text-slate-600">Component design, routing strategy, and performance planning for scalable architecture.</p>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center transform hover:scale-105 transition-all duration-200">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4 text-white font-bold">2</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Component Development</h3>
+                    <p class="text-sm text-slate-600">React components, TypeScript interfaces, and reusable UI elements with modern hooks.</p>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center transform hover:scale-105 transition-all duration-200">
+                    <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mx-auto mb-4 text-white font-bold">3</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Performance &amp; Testing</h3>
+                    <p class="text-sm text-slate-600">Lighthouse optimization, Jest testing, and SEO implementation for production readiness.</p>
+                </div>
+
+                <!-- Phase 4 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center transform hover:scale-105 transition-all duration-200">
+                    <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto mb-4 text-white font-bold">4</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Deployment &amp; Monitoring</h3>
+                    <p class="text-sm text-slate-600">Vercel deployment, analytics setup, and continuous monitoring for optimal performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next.js Capabilities Showcase -->
+    <section class="py-16 bg-white">
+        <div class="container max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 font-heading mb-4">Next.js Capabilities at a Glance</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+                    Explore the powerful features and capabilities that make Next.js the perfect choice for modern web applications.
+                </p>
+            </div>
+            
+            <!-- Bento Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 auto-rows-[200px] gap-4">
+                <!-- Server-Side Rendering – 2 cols -->
+                <article class="group relative rounded-xl overflow-hidden bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200 border border-gray-200 shadow-lg hover:-translate-y-1 hover:shadow-xl transform hover:scale-105 transition-all duration-200 lg:col-span-2">
+                    <div class="relative z-10 h-full flex flex-col justify-end p-6">
+                        <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-blue-600 text-white group-hover:scale-105 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-2 text-blue-600">Server-Side Rendering</h3>
+                        <p class="text-sm text-slate-700">Pre-rendered pages for lightning-fast initial loads and superior SEO performance.</p>
+                    </div>
+                </article>
+
+                <!-- Static Generation -->
+                <article class="group relative rounded-xl overflow-hidden bg-gradient-to-br from-green-50 via-green-100 to-green-200 border border-gray-200 shadow-lg hover:-translate-y-1 hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                    <div class="relative z-10 h-full flex flex-col justify-end p-5">
+                        <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-green-600 text-white group-hover:scale-105 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-1 text-green-600">Static Generation</h3>
+                        <p class="text-xs text-slate-700">Build-time optimization for maximum performance and global CDN distribution.</p>
+                    </div>
+                </article>
+
+                <!-- API Routes – tall tile -->
+                <article class="group relative rounded-xl overflow-hidden bg-gradient-to-br from-purple-50 via-purple-100 to-purple-200 border border-gray-200 shadow-lg hover:-translate-y-1 hover:shadow-xl transform hover:scale-105 transition-all duration-200 lg:row-span-2">
+                    <div class="relative z-10 h-full flex flex-col justify-end p-6">
+                        <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-purple-600 text-white group-hover:scale-105 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-purple-600">API Routes</h3>
+                        <p class="text-sm text-slate-700">Built-in serverless functions for backend logic without separate infrastructure.</p>
+                    </div>
+                </article>
+
+                <!-- App Router -->
+                <article class="group relative rounded-xl overflow-hidden bg-gradient-to-br from-orange-50 via-orange-100 to-orange-200 border border-gray-200 shadow-lg hover:-translate-y-1 hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                    <div class="relative z-10 h-full flex flex-col justify-end p-5">
+                        <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-orange-600 text-white group-hover:scale-105 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="4,17 10,11 4,5"/>
+                                <line x1="12" y1="19" x2="20" y2="19"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-1 text-orange-600">App Router</h3>
+                        <p class="text-xs text-slate-700">Modern routing with layouts, loading states, and error boundaries.</p>
+                    </div>
+                </article>
+
+                <!-- Image Optimization – 2 cols -->
+                <article class="group relative rounded-xl overflow-hidden bg-gradient-to-br from-teal-50 via-teal-100 to-teal-200 border border-gray-200 shadow-lg hover:-translate-y-1 hover:shadow-xl transform hover:scale-105 transition-all duration-200 lg:col-span-2">
+                    <div class="relative z-10 h-full flex flex-col justify-end p-6">
+                        <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-teal-600 text-white group-hover:scale-105 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/>
+                                <circle cx="9" cy="9" r="2"/>
+                                <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2 text-teal-600">Image Optimization</h3>
+                        <p class="text-sm text-slate-700">Automatic image optimization with WebP conversion and lazy loading for better performance.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next.js Projects Showcase -->
+    <section class="py-16 bg-slate-50" id="projects">
+        <div class="container max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 font-heading mb-4">Featured Next.js Projects</h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+                    Production-ready Next.js applications built for enterprise clients and innovative startups.
+                </p>
+            </div>
+            
+            <div class="space-y-12">
+                <!-- Project 1 - E-commerce Platform -->
+                <article class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="grid lg:grid-cols-2 gap-0">
+                        <div class="bg-gradient-to-br from-blue-100 to-blue-200 p-8 flex items-center justify-center min-h-[300px]">
+                            <div class="text-center">
+                                <div class="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-4 flex items-center justify-center">
+                                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                    </svg>
+                                </div>
+                                <p class="text-blue-600 font-medium">Next.js E-commerce</p>
+                            </div>
+                        </div>
+                        <div class="p-8 lg:p-12">
+                            <div class="flex items-center gap-2 mb-4">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-lg text-sm font-medium">Featured</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">E-commerce</span>
+                            </div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-heading">High-Performance E-commerce Platform</h3>
+                            <p class="text-slate-600 mb-6 leading-relaxed">
+                                Built a scalable e-commerce platform with Next.js 14, featuring SSR product pages, dynamic pricing, inventory management, and seamless checkout. Handles 50,000+ products with sub-second load times.
+                            </p>
+                            
+                            <div class="mb-6">
+                                <h4 class="font-semibold mb-3">Technical Features:</h4>
+                                <ul class="grid md:grid-cols-2 gap-2 text-sm text-slate-600">
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Next.js 14 App Router
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        TypeScript & Prisma ORM
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Stripe payment integration
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Edge functions & ISR
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-slate-50 rounded-lg p-4">
+                                <div class="grid grid-cols-2 gap-4 text-center">
+                                    <div>
+                                        <div class="text-2xl font-bold text-blue-600">50K+</div>
+                                        <div class="text-xs text-slate-500">Products Managed</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-2xl font-bold text-blue-600">&lt;1s</div>
+                                        <div class="text-xs text-slate-500">Average Load Time</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 - SaaS Dashboard -->
+                <article class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="grid lg:grid-cols-2 gap-0">
+                        <div class="bg-gradient-to-br from-purple-100 to-purple-200 p-8 flex items-center justify-center min-h-[300px] order-2 lg:order-1">
+                            <div class="text-center">
+                                <div class="w-20 h-20 bg-purple-600 rounded-2xl mx-auto mb-4 flex items-center justify-center">
+                                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                    </svg>
+                                </div>
+                                <p class="text-purple-600 font-medium">Analytics SaaS</p>
+                            </div>
+                        </div>
+                        <div class="p-8 lg:p-12 order-1 lg:order-2">
+                            <div class="flex items-center gap-2 mb-4">
+                                <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-lg text-sm font-medium">SaaS</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">Dashboard</span>
+                            </div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-heading">Real-time Analytics Dashboard</h3>
+                            <p class="text-slate-600 mb-6 leading-relaxed">
+                                Developed a comprehensive analytics SaaS platform with Next.js featuring real-time data visualization, user management, subscription billing, and API integration. Serves 10,000+ active users.
+                            </p>
+                            
+                            <div class="mb-6">
+                                <h4 class="font-semibold mb-3">Key Features:</h4>
+                                <ul class="grid md:grid-cols-2 gap-2 text-sm text-slate-600">
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Real-time WebSocket data
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Chart.js visualizations
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        NextAuth.js authentication
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Subscription management
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-slate-50 rounded-lg p-4">
+                                <div class="grid grid-cols-2 gap-4 text-center">
+                                    <div>
+                                        <div class="text-2xl font-bold text-purple-600">10K+</div>
+                                        <div class="text-xs text-slate-500">Active Users</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-2xl font-bold text-purple-600">99.9%</div>
+                                        <div class="text-xs text-slate-500">Uptime</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 - Marketing Website -->
+                <article class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="grid lg:grid-cols-2 gap-0">
+                        <div class="bg-gradient-to-br from-green-100 to-green-200 p-8 flex items-center justify-center min-h-[300px]">
+                            <div class="text-center">
+                                <div class="w-20 h-20 bg-green-600 rounded-2xl mx-auto mb-4 flex items-center justify-center">
+                                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
+                                    </svg>
+                                </div>
+                                <p class="text-green-600 font-medium">Marketing Site</p>
+                            </div>
+                        </div>
+                        <div class="p-8 lg:p-12">
+                            <div class="flex items-center gap-2 mb-4">
+                                <span class="px-3 py-1 bg-green-100 text-green-600 rounded-lg text-sm font-medium">JAMstack</span>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">SEO</span>
+                            </div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-heading">High-Converting Marketing Site</h3>
+                            <p class="text-slate-600 mb-6 leading-relaxed">
+                                Created a lightning-fast marketing website using Next.js static generation, achieving perfect Lighthouse scores. Features dynamic content management, A/B testing, and conversion optimization.
+                            </p>
+                            
+                            <div class="mb-6">
+                                <h4 class="font-semibold mb-3">Performance Features:</h4>
+                                <ul class="grid md:grid-cols-2 gap-2 text-sm text-slate-600">
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Static site generation
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Perfect Lighthouse scores
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        Headless CMS integration
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        A/B testing framework
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-slate-50 rounded-lg p-4">
+                                <div class="grid grid-cols-2 gap-4 text-center">
+                                    <div>
+                                        <div class="text-2xl font-bold text-green-600">100</div>
+                                        <div class="text-xs text-slate-500">Lighthouse Score</div>
+                                    </div>
+                                    <div>
+                                        <div class="text-2xl font-bold text-green-600">85%</div>
+                                        <div class="text-xs text-slate-500">Conversion Increase</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next.js Tech Stack -->
+    <section class="py-16 bg-white">
+        <div class="container max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 font-heading mb-4">Next.js Development Stack</h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+                    Modern React development with Next.js, TypeScript, and the latest tools for building scalable applications.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Framework -->
+                <div class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-200 transform hover:scale-105 transition-all duration-200 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <img src="https://cdn.simpleicons.org/nextdotjs/000000" alt="Next.js" class="h-8 w-8" />
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Framework</h3>
+                    <p class="text-sm text-slate-600">Next.js 14, React 18, TypeScript, App Router</p>
+                </div>
+
+                <!-- Styling -->
+                <div class="text-center p-6 bg-blue-50 rounded-2xl border border-blue-200 transform hover:scale-105 transition-all duration-200 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind CSS" class="h-8 w-8" />
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Styling</h3>
+                    <p class="text-sm text-slate-600">Tailwind CSS, Styled Components, Framer Motion</p>
+                </div>
+
+                <!-- Database -->
+                <div class="text-center p-6 bg-green-50 rounded-2xl border border-green-200 transform hover:scale-105 transition-all duration-200 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <img src="https://cdn.simpleicons.org/prisma/2D3748" alt="Prisma" class="h-8 w-8" />
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Database</h3>
+                    <p class="text-sm text-slate-600">Prisma, Supabase, MongoDB, PostgreSQL</p>
+                </div>
+
+                <!-- Deployment -->
+                <div class="text-center p-6 bg-purple-50 rounded-2xl border border-purple-200 transform hover:scale-105 transition-all duration-200 hover:shadow-xl">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <img src="https://cdn.simpleicons.org/vercel/000000" alt="Vercel" class="h-8 w-8" />
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Deployment</h3>
+                    <p class="text-sm text-slate-600">Vercel, Netlify, AWS, Docker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use the CTA macro -->
+    
+<section class="py-20 bg-gradient-to-br from-blue-50 to-pink-50">
+    <div class="container max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 font-heading mb-6">Ready to Build Your <span class="text-slate-900">Next.js</span> Application?</h2>
+        <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">Let's create a lightning-fast React application with Next.js that delivers exceptional user experience and business results.</p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact" 
+               class="px-8 py-3 bg-blue-600 border-2 border-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 transform hover:scale-105">
+                Start Next.js Project
+            </a>
+            <a href="/portfolio" 
+               class="px-8 py-3 border-2 border-slate-300 text-slate-900 font-semibold rounded-lg hover:bg-slate-50 transition-all duration-200 transform hover:scale-105">
+                View Portfolio
+            </a>
+        </div>
+        
+        <div class="mt-12 text-slate-500">
+            <p class="mb-2">⚡ Typical response time: Within 4 hours</p>
+            <p>📅 Project timeline: 2-16 weeks depending on scope</p>
+        </div>
+    </div>
+</section>
+
+
+</main>
+
+
+<footer class="bg-slate-900 text-white py-12" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+            <!-- Brand Section -->
+            <div class="md:col-span-1">
+                <h3 class="text-xl font-bold font-heading mb-4">Robert DeVore</h3>
+                <p class="text-slate-300 text-sm mb-4">
+                    Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/robertdevore" target="_blank" name="GitHub" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/robertdevore" target="_blank" name="Linkedin" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/robertdevore" target="_blank" name="Twitter" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/laravel-development/" class="hover:text-white transition-colors">Laravel Development</a></li>
+                    <li><a href="/nextjs-development/" class="hover:text-white transition-colors">Next.js Applications</a></li>
+                    <li><a href="/wordpress-development/" class="hover:text-white transition-colors">WordPress Solutions</a></li>
+                    <li><a href="/react-native-development/" class="hover:text-white transition-colors">React Native Apps</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4">Get In Touch</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>
+                        <a href="mailto:me@robertdevore.com" class="hover:text-white transition-colors">
+                            me@robertdevore.com
+                        </a>
+                    </li>
+                    <li class="text-slate-400">Response time: &lt; 4 hours</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+            <p class="text-slate-400 text-sm">
+                © 2025 Robert DeVore. All rights reserved. 
+                <span class="mx-2">•</span>
+                Built with <a href="https://stattic.site/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors" aria-label="Stattic - opens in a new tab">Stattic</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

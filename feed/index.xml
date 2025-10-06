@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Robert DeVore</title>
+<link>https://robertdevore.com</link>
+<description>Latest posts from Robert DeVore</description>
+<lastBuildDate>Tue, 12 Aug 2025 17:16:23 -0000</lastBuildDate>
+
+<item>
+<title>Zero Cool CLI &amp;#8211; A Hacker&amp;#8217;s Terminal from 1995</title>
+<link>https://robertdevore.com/zero-cool-cli-a-hackers-terminal-from-1995/</link>
+<description>HACK THE PLANET 🌍💻 I built this CLI tool because I couldn't get the movie "Hackers" out of my head after rewatching it recently. If you've followed my work - especially around terminal tools and developer utilities - you know I love building things that make the command line more fun and engaging. But this […]</description>
+<pubDate>Thu, 03 Jul 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/zero-cool-cli-a-hackers-terminal-from-1995/</guid>
+</item>
+<item>
+<title>Stattic v1.0: The World&amp;#8217;s Fastest Python-based Static Site Generator</title>
+<link>https://robertdevore.com/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/</link>
+<description>Over the last few months, I’ve gone all-in on Python. Not just because it's powerful - but because it’s accessible. I've been building tools, writing tutorials, dropping full cipher projects, and even releasing a full Python course specifically designed to help PHP and WordPress® developers make the leap. Because I’m not just trying to hand […]</description>
+<pubDate>Fri, 20 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/</guid>
+</item>
+<item>
+<title>Complete Beginner&amp;#8217;s Guide: Building a Python URL Checker for Google Sheets</title>
+<link>https://robertdevore.com/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/</link>
+<description>Don't worry if you've never written Python before! This tutorial will explain every single line of code so you understand exactly what's happening. Think of this like you're building with LEGO blocks - we'll add one piece at a time and explain what each piece does as we go. What We're Building (In Simple Terms) […]</description>
+<pubDate>Thu, 19 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/</guid>
+</item>
+<item>
+<title>Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios</title>
+<link>https://robertdevore.com/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/</link>
+<description>A little over a week ago, I announced that I was stepping away from the WordPress® community and giving away all of my open source plugins. It wasn’t a light decision, but it was the right one for me. Today, I want to share an update: WebDevStudios has officially adopted 20 of my plugins 🔥 […]</description>
+<pubDate>Thu, 19 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/</guid>
+</item>
+<item>
+<title>The Fastest Way for PHP Devs to Learn Python</title>
+<link>https://robertdevore.com/the-fastest-way-for-php-devs-to-learn-python/</link>
+<description>So you've been writing PHP for years, maybe shipping WordPress® sites, WooCommerce® stores, or custom plugins. Now you’re stepping into the Python world - maybe because you found Stattic and realized you don’t need a bloated CMS to build a fast, modern site. The good news? PHP and Python aren’t as different as they look. […]</description>
+<pubDate>Wed, 18 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/the-fastest-way-for-php-devs-to-learn-python/</guid>
+</item>
+<item>
+<title>I Just Launched a Python Course for PHP Developers</title>
+<link>https://robertdevore.com/i-just-launched-a-python-course-for-php-developers/</link>
+<description>After 20+ years of wrestling with WordPress and PHP, I've had enough. If you've been writing PHP for years - wrangling WordPress® sites, duct-taping functions together, or shipping WooCommerce hacks - this is for you. I just launched a free Python course built specifically for PHP developers who are ready to break free from the […]</description>
+<pubDate>Wed, 18 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/i-just-launched-a-python-course-for-php-developers/</guid>
+</item>
+<item>
+<title>WordPress &amp;amp; WooCommerce plugins I will no longer maintain</title>
+<link>https://robertdevore.com/wordpress-woocommerce-plugins-i-will-no-longer-maintain/</link>
+<description>In an effort to help the code below potentially find new homes, I've compiled all of the free WordPress and WooCommerce plugins I've released. These will all be archived in GitHub eventually, and the Projects page on this website will be updated soon to reflect new projects outside of WordPress®. If you liked any of […]</description>
+<pubDate>Tue, 10 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/wordpress-woocommerce-plugins-i-will-no-longer-maintain/</guid>
+</item>
+<item>
+<title>WP Townhall 13: The Debate Kevin Geary Doesn’t Want You to See</title>
+<link>https://robertdevore.com/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see/</link>
+<description>A little over a month ago, I joined Kevin Geary on WP Townhall for what was supposed to be an honest debate about WordPress, pricing, and how to actually help clients win. It didn't go the way he expected. I challenged his claims, exposed the weak foundations of his positioning, and made it clear that […]</description>
+<pubDate>Mon, 09 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see/</guid>
+</item>
+<item>
+<title>Goodbye WordPress: A Eulogy</title>
+<link>https://robertdevore.com/goodbye-wordpress-a-eulogy/</link>
+<description>From "Thank You WordPress", to "WTF is WordPress?", to this. The day WordPress becomes dead to me. From this day forward, I will not freely write another line of code for the WordPress® platform. No more releasing new free plugins. No more plugin updates at all. I will not be fixing any bugs if they […]</description>
+<pubDate>Mon, 09 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/goodbye-wordpress-a-eulogy/</guid>
+</item>
+<item>
+<title>I Built a Python Stego-Cipher Tool (And You Can Have It)</title>
+<link>https://robertdevore.com/i-built-a-python-stego-cipher-tool-and-you-can-have-it/</link>
+<description>Hide secret messages in plain sight with this custom encryption tool</description>
+<pubDate>Mon, 09 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/i-built-a-python-stego-cipher-tool-and-you-can-have-it/</guid>
+</item>
+<item>
+<title>Why I’m Launching Devio Chat &amp;#8211; And Letting You in Early</title>
+<link>https://robertdevore.com/why-im-launching-devio-chat-and-letting-you-in-early/</link>
+<description>Back in January, I said automation would be the word of the year. Not just as an idea or a buzzword - but as a requirement. If you're a creator, indie hacker or lone wolf trying to build something great in 2025, you have to move faster, smarter, and with less overhead. That's why I […]</description>
+<pubDate>Sat, 07 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/why-im-launching-devio-chat-and-letting-you-in-early/</guid>
+</item>
+<item>
+<title>Introducing: Markdown Comments for WordPress®</title>
+<link>https://robertdevore.com/introducing-markdown-comments-for-wordpress/</link>
+<description>Markdown ALL THE THINGS 🔥 I built this plugin because I couldn't stand how unnatural it felt to write HTML or plain text in WordPress comments. If you've followed my work - especially around Stattic - you know I write in Markdown - a lot. It's how I draft blog posts, write notes, collaborate on […]</description>
+<pubDate>Thu, 05 Jun 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/introducing-markdown-comments-for-wordpress/</guid>
+</item>
+<item>
+<title>How I Use TextExpander to Reuse My Best AI Prompts</title>
+<link>https://robertdevore.com/how-i-use-textexpander-to-reuse-my-best-ai-prompts/</link>
+<description>Most AI tools are bad at memory - I mean, bad-bad. You come up with a strong prompt, you use it, and it works. Then it's gone. Lost in the sidebar, buried in a thread, or locked into one app's context window. And when you switch tools - from ChatGPT to DeepSeek to Claude - […]</description>
+<pubDate>Thu, 29 May 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/how-i-use-textexpander-to-reuse-my-best-ai-prompts/</guid>
+</item>
+<item>
+<title>Introducing: DB Version Control for WordPress</title>
+<link>https://robertdevore.com/db-version-control-wordpress-plugin/</link>
+<description>Finally, a WordPress plugin that treats your content like code. After years of wrestling with database dumps, manual content migrations, and the constant fear of losing site changes, I'm excited to introduce DB Version Control - a WordPress plugin that fundamentally changes how we manage content across environments. The Problem We All Face If you're […]</description>
+<pubDate>Wed, 28 May 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/db-version-control-wordpress-plugin/</guid>
+</item>
+<item>
+<title>How to build a content engine that scales with you</title>
+<link>https://robertdevore.com/how-to-build-a-content-engine-that-scales-with-you/</link>
+<description>You published your first post. Then your second. By the third, you're tired. The fourth? Forgotten. And the fifth one? Still sitting in drafts. This is what happens when content depends entirely on willpower. No workflows or structure. Just chaos and caffeine. This post fixes that. Because building a sustainable content engine means building a […]</description>
+<pubDate>Tue, 27 May 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/how-to-build-a-content-engine-that-scales-with-you/</guid>
+</item>
+<item>
+<title>Tools and Workflows for Formatting, Visuals, and Citations</title>
+<link>https://robertdevore.com/tools-and-workflows-for-formatting-visuals-and-citations/</link>
+<description>You wrote the draft and on your first read-through, it hits. But now it's sitting there like a great idea in sweatpants - unstyled and unfinished. Just vibes 🤦‍♂️ This post fixes that. Because turning your draft into real content means doing more than hitting "Publish." You need to dress it up, back it up, […]</description>
+<pubDate>Mon, 26 May 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/tools-and-workflows-for-formatting-visuals-and-citations/</guid>
+</item>
+<item>
+<title>How to edit AI content so it feels clean, not robotic</title>
+<link>https://robertdevore.com/how-to-edit-ai-content-so-it-feels-clean-not-robotic/</link>
+<description>You let AI write your first draft. Smart move. But now you're reading it back … and something’s off. It’s not wrong. It’s just soulless. Technically solid, and emotionally sterile. It says things, but it doesn’t say anything. That’s because AI can generate content - but it can’t give it life. That’s your job. This […]</description>
+<pubDate>Sun, 25 May 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/how-to-edit-ai-content-so-it-feels-clean-not-robotic/</guid>
+</item>
+<item>
+<title>How to Build Modular Prompts That Save You Hours Per Week</title>
+<link>https://robertdevore.com/how-to-build-modular-prompts-that-save-you-hours-per-week/</link>
+<description>If you're typing out a brand-new prompt every time you sit down to write, you're wasting time - and likely getting inconsistent results. This post fixes that. Because the secret to writing faster, better content with AI isn't just knowing what to prompt… It's building a system of how you prompt - once. Then reusing […]</description>
+<pubDate>Sat, 24 May 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/how-to-build-modular-prompts-that-save-you-hours-per-week/</guid>
+</item>
+<item>
+<title>How to teach AI to match your voice</title>
+<link>https://robertdevore.com/how-to-teach-ai-to-match-your-voice/</link>
+<description>Most people ask AI to "sound more like me" - then get frustrated when it doesn't. But here's the truth: AI can't match your voice if you don't know what your voice actually sounds like. You don't need branding decks or tone-of-voice documents. You need examples: Contrast &amp; Clarity. And a system that turns "make […]</description>
+<pubDate>Fri, 23 May 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/how-to-teach-ai-to-match-your-voice/</guid>
+</item>
+<item>
+<title>How to Write Prompts That Get the Tone, Structure, and Intent Right</title>
+<link>https://robertdevore.com/how-to-write-prompts-that-get-the-tone-structure-and-intent-right/</link>
+<description>If you've ever typed a prompt into ChatGPT, hit enter, and thought … "Well, that's not quite it" … you're not alone. That moment of disappointment usually comes from a mismatch between what you meant and what you asked. And that gap can make even the smartest AI feel like it's speaking a different language. […]</description>
+<pubDate>Thu, 22 May 2025 04:00:00 -0000</pubDate>
+<guid>https://robertdevore.com/how-to-write-prompts-that-get-the-tone-structure-and-intent-right/</guid>
+</item>
+</channel>
+</rss>

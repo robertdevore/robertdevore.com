@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducing Projects for WordPress®: A Better Way to Showcase Your Work | Robert DeVore</title>
+    <meta name="description" content="Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native. Building enterprise-grade solutions that scale with your business.">
+    <meta name="keywords" content="Laravel Developer, Next.js Developer, WordPress Developer, React Native, Full Stack Developer, Premium Development">
+    <meta name="author" content="Robert">
+
+    <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+    
+    <link href="../assets/css/stattic.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+     
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Introducing Projects for WordPress®: A Better Way to Showcase Your Work">
+    <meta property="og:description" content="Stattic is a fast, lightweight static site generator.">
+    <meta property="og:url" content="https://robertdevore.com">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:image" content="..//images/projects-for-wordpress-monitor-with-charts-graphs-and-data.webp">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Introducing Projects for WordPress®: A Better Way to Showcase Your Work">
+    <meta name="twitter:description" content="Stattic is a fast, lightweight static site generator.">
+    
+    <meta name="twitter:image" content="..//images/projects-for-wordpress-monitor-with-charts-graphs-and-data.webp">
+    
+    <!-- Alpine.js for interactive components -->
+    <script src="../assets/js/alpine.min.js" defer></script>
+    <script src="../assets/js/stattic.js" defer></script>
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }" class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="container max-w-screen-xl m-auto py-4 px-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="../assets/images/robert-devore-avatar.jpg" 
+                 alt="Robert DeVore Avatar" 
+                 class="w-10 h-10 rounded-full object-cover border-2 border-slate-200">
+            <h2 class="text-2xl font-bold font-heading">
+                <a href="../" class="text-slate-900 hover:text-blue-600 transition-colors">
+                    Robert DeVore
+                </a>
+            </h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="/free-ai-tools/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Free AI Tools
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li x-data="{ servicesOpen: false }" class="relative">
+                    <button @click="servicesOpen = !servicesOpen" 
+                            @click.away="servicesOpen = false"
+                            class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group flex items-center">
+                        Services
+                        <svg class="w-4 h-4 ml-1 transition-transform duration-200" 
+                             :class="servicesOpen ? 'rotate-180' : ''" 
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </button>
+                    
+                    <!-- Mega Menu -->
+                    <div x-show="servicesOpen" 
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 scale-95 translate-y-1"
+                         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 scale-95 translate-y-1"
+                         class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-slate-200 p-8 z-50"
+                         style="display: none;">
+                        
+                        <div class="grid grid-cols-3 gap-8">
+                            <!-- App Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    App Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/mvp-app-build/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">MVP App Build</div>
+                                        <div class="text-sm text-slate-500 mt-1">Launch-ready apps in less than 2 weeks</div>
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">React Native Apps</div>
+                                        <div class="text-sm text-slate-500 mt-1">Cross-platform iOS & Android apps</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Web Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/laravel-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Laravel Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Modern PHP applications & APIs</div>
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Next.js Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">React apps with SSR & static generation</div>
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">WordPress Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Custom plugins, themes & solutions</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optimization & Security -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Optimization & Security
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/page-speed-optimization/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Page Speed Optimization</div>
+                                        <div class="text-sm text-slate-500 mt-1">Lightning-fast performance tuning</div>
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Security Audit</div>
+                                        <div class="text-sm text-slate-500 mt-1">Comprehensive security assessments</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom CTA Section -->
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900">Need something custom?</h4>
+                                    <p class="text-sm text-slate-500 mt-1">Let's discuss your unique requirements</p>
+                                </div>
+                                <a href="/contact/" 
+                                   class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/blog/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Blog
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/" 
+                       class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                        Get Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
+                    <h3 class="text-xl font-bold font-heading text-slate-900">Robert DeVore</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6" x-data="{ mobileServicesOpen: false }">
+                    <ul class="space-y-4">
+                        <li>
+                            <a 
+                                href="/free-ai-tools/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Free AI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <button 
+                                @click="mobileServicesOpen = !mobileServicesOpen"
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium py-2 transition-colors flex items-center justify-between w-full"
+                            >
+                                Services
+                                <svg class="w-5 h-5 transition-transform duration-200" 
+                                     :class="mobileServicesOpen ? 'rotate-180' : ''" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            
+                            <!-- Mobile Services Dropdown -->
+                            <div x-show="mobileServicesOpen" 
+                                 x-transition:enter="transition ease-out duration-200"
+                                 x-transition:enter-start="opacity-0 -translate-y-2"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-150"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-2"
+                                 class="ml-4 mt-2 space-y-2"
+                                 style="display: none;">
+                                
+                                <!-- App Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">App Development</div>
+                                    <a href="/mvp-app-build/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        MVP App Build
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        React Native Apps
+                                    </a>
+                                </div>
+
+                                <!-- Web Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Web Development</div>
+                                    <a href="/laravel-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Laravel Development
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Next.js Development
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        WordPress Development
+                                    </a>
+                                </div>
+
+                                <!-- Optimization & Security Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Optimization & Security</div>
+                                    <a href="/page-speed-optimization/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Page Speed Optimization
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Security Audit
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a 
+                                href="/portfolio/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/blog/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/about/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li class="pt-4">
+                            <a 
+                                href="/contact/" 
+                                class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-3 rounded-lg font-medium inline-block hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Get Quote
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Section -->
+    
+    <section class="relative py-48 border-b border-slate-100 overflow-hidden">
+        <!-- Background Image with Fade -->
+        <div class="absolute inset-0">
+            <img src="/assets//images/projects-for-wordpress-monitor-with-charts-graphs-and-data.webp" alt="Introducing Projects for WordPress®: A Better Way to Showcase Your Work" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-white"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="relative container max-w-2xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white font-heading drop-shadow-lg">Introducing Projects for WordPress®: A Better Way to Showcase Your Work</h1>
+                <div class="flex items-center justify-center gap-4 text-white/90 drop-shadow-md">
+                    <time datetime="April 04, 2025">April 04, 2025</time>
+                    <span>&middot;</span>
+                    <span>Robert</span>
+                    <span>&middot;</span>
+                    <span class="reading-time"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Content -->
+    <section class="container max-w-2xl mx-auto px-4 py-16">
+        <article class="prose dark:prose-dark max-w-none stattic-content">
+            <p>Let me start by saying this isn&#8217;t simply about hate. It’s about clarity, control, and community.</p>
+<p>WordPress &#8211; the open source project &#8211; has been the foundation of my entire career. I&#8217;m grateful for it. And I&#8217;ve even gone on record praising Matt Mullenweg in the past for his open source leadership and vision.</p>
+<p>But in the aftermath of recent events &#8211; specifically the fallout from “the talk” at #WCUS, the weaponization of WordCamp, and the unsettling consolidation of influence &#8211; I found myself asking a simple question:</p>
+<p><strong><a href="https://robertdevore.com/wtf-is-wordpress/">What the fuck is WordPress?</a></strong></p>
+<p>And more importantly:</p>
+<p><strong>What does it mean to be a WordPress developer in 2025?</strong></p>
+<p>We’ve reached a point where the blurred lines between open source software and venture-backed influence can no longer be ignored. </p>
+<p>When one person can dictate which companies are &#8220;worthy&#8221; of being part of the community &#8211; while profiting from the very same open source work the rest of us build on &#8211; it&#8217;s time to start carving out new space.</p>
+<p>I’m here to help create something better.</p>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="2560" height="1672" src="/images/projects_wordpress_single_view.webp" alt="Projects for WordPress® - Single page layout example" class="wp-image-14743" srcset="/images/projects_wordpress_single_view.webp 2560w, /images/projects_wordpress_single_view_300x196.webp 300w, /images/projects_wordpress_single_view_1024x669.webp 1024w, /images/projects_wordpress_single_view_768x502.webp 768w, /images/projects_wordpress_single_view_1536x1003.webp 1536w, /images/projects_wordpress_single_view_2048x1338.webp 2048w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /><figcaption class="wp-element-caption">Single Project Example</figcaption></figure>
+<h2 class="wp-block-heading">What Is Projects for WordPress®?</h2>
+<p><a href="https://robertdevore.com/projects/projects-for-wordpress/">Projects for WordPress®</a> is a free, open source plugin that lets developers:</p>
+<ul class="wp-block-list">
+<li>🚀 <strong>Create a directory of projects</strong> &#8211; plugins, themes, patterns &#8211; right on their own site.</li>
+<li>🔗 <strong>Connect each project to a GitHub repository</strong> to fetch release data, version info, and stats.</li>
+<li>📦 <strong>Generate public download links</strong> (<code>/download/ID</code>) that track and increment download counts.</li>
+<li>📊 <strong>View metrics directly inside WordPress</strong> &#8211; no third-party tracking or data ownership required.</li>
+<li>🎨 <strong>Customize the look and feel</strong> with a template layout that mimics the WordPress.org plugin directory.</li>
+<li>📡 <strong>Expose REST API endpoints</strong> for your site or others to consume project data.</li>
+</ul>
+<p>All of it runs from your own WordPress® site.</p>
+<p>All of it is fully independent of WordPress.org, Automattic, or any other platform related to Matt Mullenweg.</p>
+<p>It’s freedom &#8211; without sacrificing familiarity.</p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="498" height="299" src="/images/nic_cage_nicolas_cage_freedom.webp" alt="Nic Cage - Freedom GIF" class="wp-image-14748" srcset="/images/nic_cage_nicolas_cage_freedom.webp 498w, /images/nic_cage_nicolas_cage_freedom_300x180.webp 300w" sizes="auto, (max-width: 498px) 100vw, 498px" /></figure>
+<h2 class="wp-block-heading">What Developers Get Out of This</h2>
+<h3 class="wp-block-heading">Independence</h3>
+<p>No more relying on a centralized repo that can be de-indexed, deprioritized, or deleted without your input. With <a href="https://robertdevore.com/projects/projects-for-wordpress/">Projects for WordPress®</a>, your site <em>is</em> your plugin repo.</p>
+<h3 class="wp-block-heading">Download Tracking</h3>
+<p>Each time someone clicks your project&#8217;s &#8220;Download&#8221; button, the plugin:</p>
+<ul class="wp-block-list">
+<li>Redirects them to the latest GitHub release</li>
+<li>Increments your download count</li>
+<li>Stores everything locally &#8211; where you control it</li>
+</ul>
+<p>It’s your data. Not someone else&#8217;s 💯</p>
+<h3 class="wp-block-heading">GitHub-Powered Updates</h3>
+<p>The plugin uses the GitHub API to:</p>
+<ul class="wp-block-list">
+<li>Pull the latest release info (via token-authenticated requests)</li>
+<li>Display metadata like stars, forks, license, language</li>
+<li>Keep your layout looking professional, modern, and recognizable</li>
+</ul>
+<p>You can even include release ZIPs in your GitHub release assets and serve them directly.</p>
+<h3 class="wp-block-heading">Full Customization</h3>
+<p>You can override the templates in your theme, change the archive layout, and control what’s shown (downloads, forks, last updated, etc.) using simple toggles in the plugin settings.</p>
+<h3 class="wp-block-heading">REST API Ready</h3>
+<p>Want to power a mobile app, client dashboard, or external listing? The plugin includes custom endpoints like:</p>
+<ul class="wp-block-list">
+<li><code>/wp-json/projects/v1/projects</code></li>
+<li><code>/wp-json/projects/v1/popular</code></li>
+</ul>
+<p>So you can pull and display your project data anywhere.</p>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1496" height="2189" src="/images/projects_wordpress_admin_settings.webp" alt="Projects for WordPress® - Admin settings" class="wp-image-14744" srcset="/images/projects_wordpress_admin_settings.webp 1496w, /images/projects_wordpress_admin_settings_205x300.webp 205w, /images/projects_wordpress_admin_settings_700x1024.webp 700w, /images/projects_wordpress_admin_settings_768x1124.webp 768w, /images/projects_wordpress_admin_settings_1050x1536.webp 1050w, /images/projects_wordpress_admin_settings_1400x2048.webp 1400w" sizes="auto, (max-width: 1496px) 100vw, 1496px" /></figure>
+<h2 class="wp-block-heading">Why This Matters</h2>
+<p>Matt once said, <em>&#8220;Own your content.&#8221;</em></p>
+<p>But what does that mean in practice?</p>
+<p>Because while we’ve been told to &#8220;own our content&#8221;, the content we write on WordPress.com and Tumblr &#8211; platforms now <a href="https://www.404media.co/tumblr-and-wordpress-to-sell-users-data-to-train-ai-tools/" target="_blank" rel="noreferrer noopener">selling data to OpenAI</a> &#8211; is a reminder of who really owns what.</p>
+<p>This plugin is a step toward reclaiming our publishing power. It&#8217;s a small act of digital sovereignty for the developers who:</p>
+<ul class="wp-block-list">
+<li>Wrote tutorials and documentation</li>
+<li>Built plugins and themes from scratch</li>
+<li>Grew WordPress® by teaching, creating, and contributing</li>
+<li>Never got VC funding</li>
+<li>Never bought a booth at WordCamp</li>
+<li>Still showed up and made the project what it is</li>
+</ul>
+<p>We are the builders who turned WordPress into a CMS that currently powers ~43% of the internet. And this is one way to take that power back.</p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="498" height="280" src="/images/power_that_can_be_reclaimed.webp" alt="There's a bit of Power that can be reclaimed - GIF" class="wp-image-14749" srcset="/images/power_that_can_be_reclaimed.webp 498w, /images/power_that_can_be_reclaimed_300x169.webp 300w" sizes="auto, (max-width: 498px) 100vw, 498px" /></figure>
+<h2 class="wp-block-heading">Who Should Use This Plugin?</h2>
+<ul class="wp-block-list">
+<li>Indie plugin/theme developers who want a self-hosted showcase</li>
+<li>Agencies that release public tools or design systems</li>
+<li>Creators with GitHub-hosted projects and no interest in submitting to WordPress.org</li>
+<li>Developers who want more control over tracking, updates, and design</li>
+</ul>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="2456" height="1204" src="/images/projects_wordpress_admin_view.webp" alt="Projects for WordPress® Admin list view" class="wp-image-14745" srcset="/images/projects_wordpress_admin_view.webp 2456w, /images/projects_wordpress_admin_view_300x147.webp 300w, /images/projects_wordpress_admin_view_1024x502.webp 1024w, /images/projects_wordpress_admin_view_768x376.webp 768w, /images/projects_wordpress_admin_view_1536x753.webp 1536w, /images/projects_wordpress_admin_view_2048x1004.webp 2048w" sizes="auto, (max-width: 2456px) 100vw, 2456px" /></figure>
+<h2 class="wp-block-heading">How to Get Started</h2>
+<ol class="wp-block-list">
+<li><strong>Download the plugin</strong> from <a class="" href="https://github.com/robertdevore/projects-for-wordpress/">GitHub</a> or <a href="https://robertdevore.com/projects/projects-for-wordpress/">robertdevore.com</a>.</li>
+<li><strong>Upload &amp; activate it</strong> on your site.</li>
+<li>Go to <strong>Projects → Add New</strong> and start publishing.</li>
+<li>Paste in your GitHub URL and select a Project Type (plugin, theme, pattern).</li>
+<li>Your <code>/projects</code> archive is live.</li>
+<li>Share your <code>/download/ID</code> link anywhere.</li>
+</ol>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="2506" height="2559" src="/images/projects_wordpress_archive_list.webp" alt="Projects for WordPress® Archive list view" class="wp-image-14747" srcset="/images/projects_wordpress_archive_list.webp 2506w, /images/projects_wordpress_archive_list_294x300.webp 294w, /images/projects_wordpress_archive_list_1003x1024.webp 1003w, /images/projects_wordpress_archive_list_768x784.webp 768w, /images/projects_wordpress_archive_list_1504x1536.webp 1504w, /images/projects_wordpress_archive_list_2006x2048.webp 2006w" sizes="auto, (max-width: 2506px) 100vw, 2506px" /><figcaption class="wp-element-caption">Projects Archive Example</figcaption></figure>
+<h2 class="wp-block-heading">Bonus: Releasing Your Plugin via GitHub</h2>
+<p>To serve project downloads directly from GitHub:</p>
+<ol class="wp-block-list">
+<li>Create a <strong>release</strong> on your GitHub repo.</li>
+<li><strong>Attach a ZIP file</strong> of your plugin/theme (make sure it contains all root-level files).</li>
+<li>Paste the repo URL into the Project edit screen.</li>
+<li><a href="https://robertdevore.com/projects/projects-for-wordpress/">Projects for WordPress®</a> will fetch the latest <code>.zip</code> and generate a public download link.</li>
+</ol>
+<p>You control when and how updates are served.</p>
+<p>No middleman.</p>
+<p>No gatekeeper.</p>
+<p>No Matt.</p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="500" height="281" src="/images/bye_bitch_snoop_dogg.webp" alt="Bye bitch - Snoop Dogg GIF" class="wp-image-14750" srcset="/images/bye_bitch_snoop_dogg.webp 500w, /images/bye_bitch_snoop_dogg_300x169.webp 300w" sizes="auto, (max-width: 500px) 100vw, 500px" /></figure>
+<h2 class="wp-block-heading">Final Thoughts</h2>
+<p>WordPress® is complicated.</p>
+<ul class="wp-block-list">
+<li>It’s code and community.</li>
+<li>It’s open source and venture capital.</li>
+<li>It’s both a gift and a battleground.</li>
+</ul>
+<p>This plugin is my contribution to the next chapter &#8211; one where developers own their code, control their updates, and aren’t forced to bend to a delusional single point of failure.</p>
+<p>Let’s build something better, together 💪💯</p>
+
+        </article>
+    </section>
+</main>
+
+
+<footer class="bg-slate-900 text-white py-12" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+            <!-- Brand Section -->
+            <div class="md:col-span-1">
+                <h3 class="text-xl font-bold font-heading mb-4">Robert DeVore</h3>
+                <p class="text-slate-300 text-sm mb-4">
+                    Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/robertdevore" target="_blank" name="GitHub" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/robertdevore" target="_blank" name="Linkedin" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/robertdevore" target="_blank" name="Twitter" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/laravel-development/" class="hover:text-white transition-colors">Laravel Development</a></li>
+                    <li><a href="/nextjs-development/" class="hover:text-white transition-colors">Next.js Applications</a></li>
+                    <li><a href="/wordpress-development/" class="hover:text-white transition-colors">WordPress Solutions</a></li>
+                    <li><a href="/react-native-development/" class="hover:text-white transition-colors">React Native Apps</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4">Get In Touch</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>
+                        <a href="mailto:me@robertdevore.com" class="hover:text-white transition-colors">
+                            me@robertdevore.com
+                        </a>
+                    </li>
+                    <li class="text-slate-400">Response time: &lt; 4 hours</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+            <p class="text-slate-400 text-sm">
+                © 2025 Robert DeVore. All rights reserved. 
+                <span class="mx-2">•</span>
+                Built with <a href="https://stattic.site/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors" aria-label="Stattic - opens in a new tab">Stattic</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

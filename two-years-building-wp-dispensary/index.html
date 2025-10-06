@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP Dispensary: 2 years after the launch | Robert DeVore</title>
+    <meta name="description" content="Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native. Building enterprise-grade solutions that scale with your business.">
+    <meta name="keywords" content="Laravel Developer, Next.js Developer, WordPress Developer, React Native, Full Stack Developer, Premium Development">
+    <meta name="author" content="Robert">
+
+    <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+    
+    <link href="../assets/css/stattic.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+     
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="WP Dispensary: 2 years after the launch">
+    <meta property="og:description" content="Stattic is a fast, lightweight static site generator.">
+    <meta property="og:url" content="https://robertdevore.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="WP Dispensary: 2 years after the launch">
+    <meta name="twitter:description" content="Stattic is a fast, lightweight static site generator.">
+    
+    <!-- Alpine.js for interactive components -->
+    <script src="../assets/js/alpine.min.js" defer></script>
+    <script src="../assets/js/stattic.js" defer></script>
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }" class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="container max-w-screen-xl m-auto py-4 px-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="../assets/images/robert-devore-avatar.jpg" 
+                 alt="Robert DeVore Avatar" 
+                 class="w-10 h-10 rounded-full object-cover border-2 border-slate-200">
+            <h2 class="text-2xl font-bold font-heading">
+                <a href="../" class="text-slate-900 hover:text-blue-600 transition-colors">
+                    Robert DeVore
+                </a>
+            </h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="/free-ai-tools/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Free AI Tools
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li x-data="{ servicesOpen: false }" class="relative">
+                    <button @click="servicesOpen = !servicesOpen" 
+                            @click.away="servicesOpen = false"
+                            class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group flex items-center">
+                        Services
+                        <svg class="w-4 h-4 ml-1 transition-transform duration-200" 
+                             :class="servicesOpen ? 'rotate-180' : ''" 
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </button>
+                    
+                    <!-- Mega Menu -->
+                    <div x-show="servicesOpen" 
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 scale-95 translate-y-1"
+                         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 scale-95 translate-y-1"
+                         class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-slate-200 p-8 z-50"
+                         style="display: none;">
+                        
+                        <div class="grid grid-cols-3 gap-8">
+                            <!-- App Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    App Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/mvp-app-build/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">MVP App Build</div>
+                                        <div class="text-sm text-slate-500 mt-1">Launch-ready apps in less than 2 weeks</div>
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">React Native Apps</div>
+                                        <div class="text-sm text-slate-500 mt-1">Cross-platform iOS & Android apps</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Web Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/laravel-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Laravel Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Modern PHP applications & APIs</div>
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Next.js Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">React apps with SSR & static generation</div>
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">WordPress Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Custom plugins, themes & solutions</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optimization & Security -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Optimization & Security
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/page-speed-optimization/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Page Speed Optimization</div>
+                                        <div class="text-sm text-slate-500 mt-1">Lightning-fast performance tuning</div>
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Security Audit</div>
+                                        <div class="text-sm text-slate-500 mt-1">Comprehensive security assessments</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom CTA Section -->
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900">Need something custom?</h4>
+                                    <p class="text-sm text-slate-500 mt-1">Let's discuss your unique requirements</p>
+                                </div>
+                                <a href="/contact/" 
+                                   class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/blog/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Blog
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/" 
+                       class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                        Get Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
+                    <h3 class="text-xl font-bold font-heading text-slate-900">Robert DeVore</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6" x-data="{ mobileServicesOpen: false }">
+                    <ul class="space-y-4">
+                        <li>
+                            <a 
+                                href="/free-ai-tools/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Free AI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <button 
+                                @click="mobileServicesOpen = !mobileServicesOpen"
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium py-2 transition-colors flex items-center justify-between w-full"
+                            >
+                                Services
+                                <svg class="w-5 h-5 transition-transform duration-200" 
+                                     :class="mobileServicesOpen ? 'rotate-180' : ''" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            
+                            <!-- Mobile Services Dropdown -->
+                            <div x-show="mobileServicesOpen" 
+                                 x-transition:enter="transition ease-out duration-200"
+                                 x-transition:enter-start="opacity-0 -translate-y-2"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-150"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-2"
+                                 class="ml-4 mt-2 space-y-2"
+                                 style="display: none;">
+                                
+                                <!-- App Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">App Development</div>
+                                    <a href="/mvp-app-build/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        MVP App Build
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        React Native Apps
+                                    </a>
+                                </div>
+
+                                <!-- Web Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Web Development</div>
+                                    <a href="/laravel-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Laravel Development
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Next.js Development
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        WordPress Development
+                                    </a>
+                                </div>
+
+                                <!-- Optimization & Security Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Optimization & Security</div>
+                                    <a href="/page-speed-optimization/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Page Speed Optimization
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Security Audit
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a 
+                                href="/portfolio/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/blog/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/about/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li class="pt-4">
+                            <a 
+                                href="/contact/" 
+                                class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-3 rounded-lg font-medium inline-block hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Get Quote
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Section -->
+    
+    <section class="bg-gradient-to-br from-blue-50 via-white to-slate-50 py-20 border-b border-slate-100">
+        <div class="container max-w-2xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-slate-900 font-heading">WP Dispensary: 2 years after the launch</h1>
+                <div class="flex items-center justify-center gap-4 text-slate-600">
+                    <time datetime="December 11, 2017">December 11, 2017</time>
+                    <span>&middot;</span>
+                    <span>Robert</span>
+                    <span>&middot;</span>
+                    <span>5 min read</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Content -->
+    <section class="container max-w-2xl mx-auto px-4 py-16">
+        <article class="prose dark:prose-dark max-w-none stattic-content">
+            <p>Over the last two years, the <a href="https://www.wpdispensary.com/">WP Dispensary</a> WordPress plugin has changed my entire life.
+In these last two years, <strong>WP Dispensary** has gone from being just a &quot;thing&quot; I built to a thing that powers hundreds of websites for cannabis businesses around the world.
+It's also become my <a href="https://robertdevore.com/going-all-in-with-wp-dispensary/">full time job</a>, giving me the ability to leave 10+ years of freelancing behind.
+I'd like to look back over these last two years, what **WP Dispensary</strong> has done and where I plan on pushing it in the future.</p>
+<h2>How it all started</h2>
+<p>For those of you who aren't aware of <strong>WP Dispensary** or how it came to be, let's take a little trip back.
+In 2015 I built the <a href="https://robertdevore.com/leafly-reviews-wordpress-plugin/">Leafly Reviews</a> plugin for <strong>WordPress<strong>.
+It would grab reviews for dispensaries on <strong>Leafly** via their (now closed) API and display them on a WordPress site via widget or shortcode.
+When I released the plugin, it was a pivotal moment in my life because it was my first open source plugin release and it was part of an industry that was severely under served (it still is, IMO).
+Unfortunately, a few months after it's release, <strong>Leafly** decided to close down it's API, for what I can only assume was to compete with how other larger dispensary menu sites were handling their API's (**Weedmaps</strong> , etc).
+At that time, I took it personal.
+I built an open source plugin that used the open API to give <a href="https://www.wordpress.org">WordPress</a> users a way to display their dispensary reviews without the need to link people to their </strong>Leafly</strong> profiles.
+I was also planning on tapping into other areas of their API to make accompanying plugins that would help dispensary owners connect their </strong>Leafly</strong> account to their website.
+Sure, it sounds like a crazy thought now, but the jury is still out on what the actual cause of the closure was.</p>
+<h2>What happened next</h2>
+<p>After building the <strong>Leafly Reviews</strong> plugin, my plan was to build something that was a bit more unique and useful beyond just <a href="https://www.leafly.com">Leafly</a>.
+So, I started working on it.
+I wrote code, wrote documentation, built the initial website and got it ready for launch … all without the Mrs even knowing ?</p>
+<blockquote>
+<p>One of my favorite things about the new <a href="https://twitter.com/hashtag/WPDispensary?src=hash&amp;ref_src=twsrc%5Etfw">#WPDispensary</a> project is that it's been completely secret from the Mrs.
+-- Robert DeVore (@deviorobert) <a href="https://twitter.com/deviorobert/status/668949190706380800?ref_src=twsrc%5Etfw">November 24, 2015</a></p>
+</blockquote>
+<p><em>Tweeting about WP Dispensary before it had a Twitter username</em>
+I teased a <a href="https://twitter.com/deviorobert/status/667510760902365184">few</a> <a href="https://twitter.com/deviorobert/status/656810593698074624">different</a> <a href="https://twitter.com/deviorobert/status/667767383067611136">screenshots</a> of the plugin once it got closer to launch, but still kept everything tight-lipped.
+When it did <a href="https://www.wpdispensary.com/welcome-to-wp-dispensary/">officially launch</a>, I felt accomplished.
+I did something that only a few months prior, I never even dreamed would be possible.
+I put out the first version of a plugin that would completely change my life; I just didn't know it at the time.</p>
+<h2>The first year</h2>
+<p>The first year was a blur.
+I had a lot of personal setbacks throughout the year but I kept pushing <strong>WP Dispensary</strong> forward while still freelancing full time to pay the bills.
+WPD started to get accompanying add-on's, like <a href="https://www.wordpress.org/plugins/dispensary-coupons">Coupons</a> and <a href="https://www.wpdispensary.com/downloads/dispensary-downloads">Locations</a>.
+I also spent time building out marketing materials beyond just code.
+This include the <a href="https://www.wpdispensary.com/marketing-for-dispensaries/">Marketing for Dispensaries</a> e-book that was released in June of 2016.</p>
+<blockquote>
+<p>Download &quot;Marketing for Dispenaries&quot; free <a href="https://twitter.com/hashtag/ebook?src=hash&amp;ref_src=twsrc%5Etfw">#ebook</a> now! <a href="https://t.co/3geJ5VgYXw">https://t.co/3geJ5VgYXw</a><a href="https://twitter.com/hashtag/mmj?src=hash&amp;ref_src=twsrc%5Etfw">#mmj</a> <a href="https://twitter.com/hashtag/cannabismarketing?src=hash&amp;ref_src=twsrc%5Etfw">#cannabismarketing</a> <a href="https://twitter.com/hashtag/marketing?src=hash&amp;ref_src=twsrc%5Etfw">#marketing</a> <a href="https://t.co/DRzsMaYqdb">pic.twitter.com/DRzsMaYqdb</a>
+-- WP Dispensary (@WPDispensary) <a href="https://twitter.com/WPDispensary/status/743192879430926337?ref_src=twsrc%5Etfw">June 15, 2016</a></p>
+</blockquote>
+<p>I also have the pleasure of enjoying a lot of top shelf cannabis ?, so I spent time taking high quality photos and released 100 free <a href="https://www.wpdispensary.com/100-free-marijuana-stock-photos/">cannabis stock photos</a>.
+I originally released the <strong>Dispensary Display** theme to work with <strong>WP Dispensary** , but that theme has since been discontinued and replaced by the <a href="https://www.wpdispensary.com/downloads/cannabiz">CannaBiz WordPress theme</a>.
+<strong>CannaBiz** was released in <a href="https://twitter.com/WPDispensary/status/741299852890509312">June of 2016</a> and has had 8 updates released between then and now.
+I've wrote about that **CannaBiz</strong> here <a href="https://robertdevore.com/cannabiz/">before</a> and it is currently the second highest selling item on the WP Dispensary website.
+On September 1st 2016 </strong>WP Dispensary</strong> hit 1,000 downloads from the WordPress directory.</p>
+<blockquote>
+<p>We officially hit 1,000 downloads from the WordPress plugin directory 🙌
+Thank you to everyone who's downloaded &amp; used our plugin so far 💯💯💯
+-- WP Dispensary (@WPDispensary) <a href="https://twitter.com/WPDispensary/status/771309557561696256?ref_src=twsrc%5Etfw">September 1, 2016</a></p>
+</blockquote>
+<p>Shortly after that milestone, I released the <a href="https://www.wpdispensary.com/downloads/dispensary-top-sellers/">Dispensary Top Sellers</a> add-on, giving dispensary owners the ability to mark items in their menu as featured and display them via their own widget or shortcode.
+Along with that add-on, I released the <a href="https://www.wpdispensary.com/downloads/dispensary-inventory-management/">Inventory Management</a> add-on so shops can easily keep track of their available inventory, plus display out of stock messages, etc.
+At the end of the first year, along with the 9 updates released throughout the year for <strong>WP Dispensary</strong> was the release of <a href="https://www.wordpress.org/plugins/dispensary-age-verification">Dispensary Age Verification</a>.
+The Age Verification plugin has become the second most popular free plugin from WP Dispensary, besides WPD itself.</p>
+<h2>The second year</h2>
+<p>Again, there were a lot of personal setbacks in the second year, but I guess that's how life goes so I don't really focus too much on them.
+Professionally, the second year started out strong with the release of the <a href="https://www.wpdispensary.com/downloads/wooconnect-for-woocommerce">Connect for WooCommerce</a> add-on.
+<a href="https://www.wpdispensary.com/downloads/wooconnect-for-woocommerce"><img src="/images/wpd_woocommerce_connect_add_on.webp" alt="" /></a>
+It provides users with the ability to connect their <strong>WP Dispensary** menu to <a href="https://www.woocommerce.com">WooCommerce</a> and allow for sales via their own website.
+It should be no surprise that this add-on is the highest selling item on the WP Dispensary website.
+Throughout the year, the <strong>WP Dispensary** plugin download count increased to just under 5,000 and the usage is up to 200+ active installs, according to the WordPress plugin directory.
+The <strong>Dispensary Age Verification** plugin also hit 2,500+ downloads.
+Then came the <a href="https://www.wpdispensary.com/top-5-wp-dispensary-code-snippets/">Top 5 Code Snippets</a> for **WP Dispensary</strong> published on May 16th, 2017.
+<a href="https://www.wpdispensary.com/downloads/cannabiz">CannaBiz</a> celebrated it's 1 year birthday with a showcase and version 1.5's release, as well as a list of ways to extend the </strong>CannaBiz</strong> theme.</p>
+<blockquote>
+<p><a href="https://www.wpdispensary.com/wordpress-plugins-to-extend-cannabiz-dispensary-theme/">WordPress plugins to extend the CannaBiz dispensary theme</a></p>
+</blockquote>
+<p>Year two also seen the release of the <a href="https://www.wpdispensary.com/wp-dispensary-heavyweights-extension/">Heavyweights</a> add-on, which gives shop owners the ability to set prices from 2oz to 3lb.
+On August 23rd, 2017 I released version 2.0 of the <a href="https://www.wpdispensary.com/wooconnect-for-woocommerce-version-2/">Connect for WooCommerce</a> add-on, which finally set up the instant product creation-and-linking when adding WP Dispensary products.
+Shortly after, in September the <a href="https://www.wpdispensary.com/styles-add-on-release-notes/">Styles</a> add-on was released.
+It gives you the ability to let your <em>Buy Now</em> buttons open up in a modal, as well as switch up the menu item shortcodes from a grid to a list.
+<img src="/images/wpd_styles_modal_sample_768x428.webp" alt="" />
+Continuing along with the goal of being a solid resource for developers and dispensary owners, I put together two new pages on the <strong>WP Dispensary** website:
+For <a href="https://www.wpdispensary.com/for-developers/">Developers</a> and For <a href="https://www.wpdispensary.com/for-dispensaries/">Dispensaries</a>.
+<img src="/images/code_snippets_screenshot.webp" alt="" />
+These pages each lay out the plugin(s), theme and code in an easy to understand way.
+This also included new documentation … a lot of new <a href="https://www.wpdispensary.com/documentation">documentation</a>.
+Before the second year was up I released the <a href="https://www.wpdispensary.com/dispensary-details-woocommerce/">Dispensary Details for WooCommerce</a> plugin.
+The plugin was built to work without needing **WP Dispensary</strong> , simply adding the dispensary details to <a href="https://www.woocommerce.com">WooCommerce</a> products directly.
+It also received a nice write up on <a href="https://www.wptavern.com">WP Tavern</a>.</p>
+<blockquote>
+<p><a href="https://wptavern.com/new-dispensary-details-plugin-for-woocommerce-adds-cannabis-details-to-products">New Dispensary Details Plugin for WooCommerce Adds Cannabis Details to Products</a></p>
+</blockquote>
+<p>There were a total of 12 <strong>WP Dispensary** releases in the second year (1.9.2 - 1.9.14) and just under 4,000 downloads (a nice size jump over year one).
+Year two also got me a C&amp;D letter based on an add-on I released (and have since removed ?), but I won't be talking about that ?
+However, on a high note, I was able to leave freelancing behind on September 26th 2017 and devote 100% of my time to **WP Dispensary</strong>.</p>
+<blockquote>
+<p>90 days until Christmas 🙌
+What are you doing to make the most of the time left?
+I'm going full time at <a href="https://twitter.com/WPDispensary?ref_src=twsrc%5Etfw">@WPDispensary</a> starting today 💪💯💯💯
+-- Robert DeVore (@deviorobert) <a href="https://twitter.com/deviorobert/status/912642836759236608?ref_src=twsrc%5Etfw">September 26, 2017</a></p>
+</blockquote>
+<h2>What's next?</h2>
+<p>There's a lot in the works for <a href="https://www.wpdispensary.com">WP Dispensary</a> in 2018, including the release of WP Dispensary version 2.0.
+The plan is to have a setup wizard for the auto creation of menu pages, shortcode selection options, etc.
+There will also be the inclusion of default template files, so users can have a clean and customized archive view of each menu type, plus a lot more.
+I'm also getting into domain flipping in 2018, focusing on the cannabis industry, of course.
+Below are a couple of currently owned cannabis domains that I've acquired and set up landing pages on.
+These domains are all open to offers for sale, so if you're looking to jump in as a developer in the cannabis industry, maybe one of these domains will work for you!
+<strong>Currently Available</strong></p>
+<ul>
+<li><a href="http://dispensary.press">Dispensary.Press</a></li>
+<li><a href="http://cannabiz.design">CannaBiz.Design</a></li>
+</ul>
+<p>Year three will also include the launch of the <a href="http://marijuanalawshq.com/">Marijuana Laws HQ</a> website, giving visitors an easy way to find specific cannabis laws by country, state and city.
+That, along with <strong>The Chronicle</strong> newsletter / podcast I'm planning to launch will be additional educational resources to go along with the software development I'm doing.
+I'd like to be a bridge between the development community (WordPress specifically but not exclusively) and the cannabis community, and my hope is that these additional resources will continue to make that happen.
+There's also a secret project I'm working on and have let a few secrets slip on Twitter about.</p>
+<blockquote>
+<p>shhhh … it's a secret 🙊😂 <a href="https://t.co/C9pDCbzkdx">pic.twitter.com/C9pDCbzkdx</a>
+-- Robert DeVore (@deviorobert) <a href="https://twitter.com/deviorobert/status/879021753443504128?ref_src=twsrc%5Etfw">June 25, 2017</a></p>
+</blockquote>
+<p>That secret project will be the main focus in 2018, along with continued add-on and theme updates - plus a couple of other things that I'm sure I'll blog about when the time comes.
+Looking back, I'm extremely proud of where the last two years brought me.
+I'm also extremely excited to see what the next two years will bring me!</p>
+
+        </article>
+    </section>
+</main>
+
+
+<footer class="bg-slate-900 text-white py-12" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+            <!-- Brand Section -->
+            <div class="md:col-span-1">
+                <h3 class="text-xl font-bold font-heading mb-4">Robert DeVore</h3>
+                <p class="text-slate-300 text-sm mb-4">
+                    Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/robertdevore" target="_blank" name="GitHub" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/robertdevore" target="_blank" name="Linkedin" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/robertdevore" target="_blank" name="Twitter" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/laravel-development/" class="hover:text-white transition-colors">Laravel Development</a></li>
+                    <li><a href="/nextjs-development/" class="hover:text-white transition-colors">Next.js Applications</a></li>
+                    <li><a href="/wordpress-development/" class="hover:text-white transition-colors">WordPress Solutions</a></li>
+                    <li><a href="/react-native-development/" class="hover:text-white transition-colors">React Native Apps</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4">Get In Touch</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>
+                        <a href="mailto:me@robertdevore.com" class="hover:text-white transition-colors">
+                            me@robertdevore.com
+                        </a>
+                    </li>
+                    <li class="text-slate-400">Response time: &lt; 4 hours</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+            <p class="text-slate-400 text-sm">
+                © 2025 Robert DeVore. All rights reserved. 
+                <span class="mx-2">•</span>
+                Built with <a href="https://stattic.site/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors" aria-label="Stattic - opens in a new tab">Stattic</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

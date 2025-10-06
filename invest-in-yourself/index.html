@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest in Yourself | Robert DeVore</title>
+    <meta name="description" content="Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native. Building enterprise-grade solutions that scale with your business.">
+    <meta name="keywords" content="Laravel Developer, Next.js Developer, WordPress Developer, React Native, Full Stack Developer, Premium Development">
+    <meta name="author" content="Robert">
+
+    <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+    
+    <link href="../assets/css/stattic.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+     
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Invest in Yourself">
+    <meta property="og:description" content="Stattic is a fast, lightweight static site generator.">
+    <meta property="og:url" content="https://robertdevore.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Invest in Yourself">
+    <meta name="twitter:description" content="Stattic is a fast, lightweight static site generator.">
+    
+    <!-- Alpine.js for interactive components -->
+    <script src="../assets/js/alpine.min.js" defer></script>
+    <script src="../assets/js/stattic.js" defer></script>
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }" class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="container max-w-screen-xl m-auto py-4 px-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="../assets/images/robert-devore-avatar.jpg" 
+                 alt="Robert DeVore Avatar" 
+                 class="w-10 h-10 rounded-full object-cover border-2 border-slate-200">
+            <h2 class="text-2xl font-bold font-heading">
+                <a href="../" class="text-slate-900 hover:text-blue-600 transition-colors">
+                    Robert DeVore
+                </a>
+            </h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="/free-ai-tools/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Free AI Tools
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li x-data="{ servicesOpen: false }" class="relative">
+                    <button @click="servicesOpen = !servicesOpen" 
+                            @click.away="servicesOpen = false"
+                            class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group flex items-center">
+                        Services
+                        <svg class="w-4 h-4 ml-1 transition-transform duration-200" 
+                             :class="servicesOpen ? 'rotate-180' : ''" 
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </button>
+                    
+                    <!-- Mega Menu -->
+                    <div x-show="servicesOpen" 
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 scale-95 translate-y-1"
+                         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 scale-95 translate-y-1"
+                         class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-slate-200 p-8 z-50"
+                         style="display: none;">
+                        
+                        <div class="grid grid-cols-3 gap-8">
+                            <!-- App Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    App Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/mvp-app-build/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">MVP App Build</div>
+                                        <div class="text-sm text-slate-500 mt-1">Launch-ready apps in less than 2 weeks</div>
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">React Native Apps</div>
+                                        <div class="text-sm text-slate-500 mt-1">Cross-platform iOS & Android apps</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Web Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/laravel-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Laravel Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Modern PHP applications & APIs</div>
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Next.js Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">React apps with SSR & static generation</div>
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">WordPress Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Custom plugins, themes & solutions</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optimization & Security -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Optimization & Security
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/page-speed-optimization/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Page Speed Optimization</div>
+                                        <div class="text-sm text-slate-500 mt-1">Lightning-fast performance tuning</div>
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Security Audit</div>
+                                        <div class="text-sm text-slate-500 mt-1">Comprehensive security assessments</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom CTA Section -->
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900">Need something custom?</h4>
+                                    <p class="text-sm text-slate-500 mt-1">Let's discuss your unique requirements</p>
+                                </div>
+                                <a href="/contact/" 
+                                   class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/blog/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Blog
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/" 
+                       class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                        Get Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
+                    <h3 class="text-xl font-bold font-heading text-slate-900">Robert DeVore</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6" x-data="{ mobileServicesOpen: false }">
+                    <ul class="space-y-4">
+                        <li>
+                            <a 
+                                href="/free-ai-tools/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Free AI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <button 
+                                @click="mobileServicesOpen = !mobileServicesOpen"
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium py-2 transition-colors flex items-center justify-between w-full"
+                            >
+                                Services
+                                <svg class="w-5 h-5 transition-transform duration-200" 
+                                     :class="mobileServicesOpen ? 'rotate-180' : ''" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            
+                            <!-- Mobile Services Dropdown -->
+                            <div x-show="mobileServicesOpen" 
+                                 x-transition:enter="transition ease-out duration-200"
+                                 x-transition:enter-start="opacity-0 -translate-y-2"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-150"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-2"
+                                 class="ml-4 mt-2 space-y-2"
+                                 style="display: none;">
+                                
+                                <!-- App Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">App Development</div>
+                                    <a href="/mvp-app-build/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        MVP App Build
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        React Native Apps
+                                    </a>
+                                </div>
+
+                                <!-- Web Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Web Development</div>
+                                    <a href="/laravel-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Laravel Development
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Next.js Development
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        WordPress Development
+                                    </a>
+                                </div>
+
+                                <!-- Optimization & Security Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Optimization & Security</div>
+                                    <a href="/page-speed-optimization/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Page Speed Optimization
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Security Audit
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a 
+                                href="/portfolio/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/blog/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/about/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li class="pt-4">
+                            <a 
+                                href="/contact/" 
+                                class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-3 rounded-lg font-medium inline-block hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Get Quote
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Section -->
+    
+    <section class="bg-gradient-to-br from-blue-50 via-white to-slate-50 py-20 border-b border-slate-100">
+        <div class="container max-w-2xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-slate-900 font-heading">Invest in Yourself</h1>
+                <div class="flex items-center justify-center gap-4 text-slate-600">
+                    <time datetime="June 21, 2016">June 21, 2016</time>
+                    <span>&middot;</span>
+                    <span>Robert</span>
+                    <span>&middot;</span>
+                    <span>5 min read</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Content -->
+    <section class="container max-w-2xl mx-auto px-4 py-16">
+        <article class="prose dark:prose-dark max-w-none stattic-content">
+            <p>When it comes to building something that you want to turn into a business and earn a living from, there's a lot of paths to success.
+Sometimes you go viral because one specific person tweeted you. Other times there's 3-4 years of hard work behind the scenes before a coordinated launch effort.
+Maybe you're the <a href="http://www.twitter.com/garyvee">guy</a> who spent 18 months doing daily videos about wine before you got your breakthrough moment.
+Your path is going to be different than everyone before you and everyone after you.
+That's the beauty of building a business. Nobody else is going to do it like you can do it.
+Be uniquely you, and never stop improving yourself and your position.
+Investing in yourself is the most important investment you'll ever make, and investing the right amount of time, energy and money can be the difference between a failed business and an absolute success.</p>
+<h2>Cash Investments</h2>
+<p>Investing your own cash is one of the most common ways that people tell you to invest in yourself or your business. Sure, there's a lot of great things that can come from a lot of funding being pushed through your business.
+However, I believe that too much cash investment becomes a crutch to <em>build something profitable</em> instead of trying to <em>build something useful</em>.
+It takes your eyes off the end goal, and focuses a lot of attention on how to recoup your cash investment.
+However, there are some easy ways to invest cash in your business without letting yourself become dependent on it for your survival.</p>
+<h3>Business necessities</h3>
+<p>You build for the web, right? Then you're going to need to invest in the following, at the very least:</p>
+<ol>
+<li>Domain name</li>
+<li>Hosting account</li>
+<li>Social media accounts</li>
+</ol>
+<p>The above cash investment will cost you anywhere from $20+ depending on what <a href="http://www.wpsitecare.com/performance-of-7-top-wordpress-hosting-companies-compared/">hosting provider</a> you go with and what domain name you choose.
+These are the bare minimum needs for an online business.
+At this point, you can hustle your way into some cash which you can then flip and invest in the other necessities that come with running a business.
+Depending on your business and what your ultimate goals are, you'll also need to make sure you've got <a href="https://piwik.org/">analytics</a> set up, a couple <a href="https://www.woopra.com/blog/2014/01/23/the-7-best-marketing-automation-tools/">marketing automation tools</a>, a DBA or LLC, an accountant (or <a href="http://www.thesimpledollar.com/best-accounting-software/">accounting software</a>), marketing materials like <a href="https://www.moo.com/us/products/business-cards.html">business cards</a>, and the list goes on and on.</p>
+<h3>Business extras</h3>
+<p>Now that you've got some of the basics out of the way, what about investing in some of the cooler items as a business owner?
+How about your own t-shirts branded with your logo? Maybe you're wanting to attend a conference and have your own booth to interact with people at? You might also want to wrap your entire car in your logo like the <a href="http://www.activistpost.com/wp-content/uploads/2015/12/kush-gods1.jpg">Kush Gods</a>?
+The ultimate goal when you invest is to get a return on that investment, so make sure that you're spending your money wisely and holding onto some for a rainy day.
+If not, you'll be paying for it in sweat equity.
+I know this feeling all too well.</p>
+<h2>Sweat Equity</h2>
+<p>The other way that you'll see a lot of business owners invest in their own company is through <a href="https://en.wikipedia.org/wiki/Sweat_equity">sweat equity</a>.
+Putting your own time and energy into a project is what sweat equity is, and the amount of return you get on your sweat equity is based on the amount of skill and drive you have within yourself.
+Some people build businesses and hire out workers to create the actual products.
+People like me <a href="https://robertdevore.com/wp-dispensary">build it</a> ourselves instead, putting sweat equity into the product, pushing it to become a sustainable source of income.
+When that happens, then you can re-evaluate how you're spending your cash and figure out different ways of investing in your business.</p>
+<h3>Hard work pays off</h3>
+<p>Building something yourself is very rewarding. The amount of joy I felt when I launched WP Dispensary is unrivaled by anything else I've done over the last decade.
+Coming up with an idea, working on it (sometimes for months, like I did with <a href="http://www.wpdispensary.com">WP Dispensary</a>) and releasing it for the world to use is fucking awesome.
+If you haven't done it yet, I'd highly recommend it. There's no other feeling in the world that's like it.</p>
+<h3>Focus on the plan</h3>
+<p>You've got your online accounts set up, you've got your business accounts set up and now it comes time to actually put the work in.
+Are you going in blind, or do you have a business plan put together?
+It can be a loose plan and should never been too long term. Things change in business much too fast for you to have a 10 year plan.</p>
+<blockquote>
+<p>Think in years, plan in months, work in days. 🙌💯💯💯
+-- Robert DeVore (@deviorobert) <a href="https://twitter.com/deviorobert/status/734743180982128640?ref_src=twsrc%5Etfw">May 23, 2016</a></p>
+</blockquote>
+<p>Sometimes you get muddled with all of the details and never actually get your business off the ground.
+Planning can be endless. Instead of overthinking, try overdoing.
+Get out there today and build something.
+Blood sweat and tears go into great businesses, and if you're not willing to invest in yourself, why should anyone else?
+Long term goals are great, but have a loose plan on how you want to get there.
+Then execute that plan relentlessly.</p>
+<h3>One last piece of advice</h3>
+<p>Investing in yourself is great, and it helps you to feel more confident about your business and yourself as a business owner.
+But don't overspend.
+You don't want to end up broke, scrambling to keep the lights on and food on your table while your business is barely off the ground.
+Trust me, it's not a great position to be in.
+Save! Save! Save!
+Whatever profit you receive, put a percentage of it away and never touch it. That's your emergency funds and should only be used in times of great need.
+Starting a business is rough, and the added pressure of not knowing how you're going to pay your rent will only distract you from your main goals even more than you already may be.
+Don't let yourself get into that spot.
+Work hard, be nice to people and save as much as possible. Then, and only then should you invest cash.
+Until then, work the plan and sweat your ass off!</p>
+
+        </article>
+    </section>
+</main>
+
+
+<footer class="bg-slate-900 text-white py-12" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+            <!-- Brand Section -->
+            <div class="md:col-span-1">
+                <h3 class="text-xl font-bold font-heading mb-4">Robert DeVore</h3>
+                <p class="text-slate-300 text-sm mb-4">
+                    Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/robertdevore" target="_blank" name="GitHub" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/robertdevore" target="_blank" name="Linkedin" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/robertdevore" target="_blank" name="Twitter" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/laravel-development/" class="hover:text-white transition-colors">Laravel Development</a></li>
+                    <li><a href="/nextjs-development/" class="hover:text-white transition-colors">Next.js Applications</a></li>
+                    <li><a href="/wordpress-development/" class="hover:text-white transition-colors">WordPress Solutions</a></li>
+                    <li><a href="/react-native-development/" class="hover:text-white transition-colors">React Native Apps</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4">Get In Touch</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>
+                        <a href="mailto:me@robertdevore.com" class="hover:text-white transition-colors">
+                            me@robertdevore.com
+                        </a>
+                    </li>
+                    <li class="text-slate-400">Response time: &lt; 4 hours</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+            <p class="text-slate-400 text-sm">
+                © 2025 Robert DeVore. All rights reserved. 
+                <span class="mx-2">•</span>
+                Built with <a href="https://stattic.site/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors" aria-label="Stattic - opens in a new tab">Stattic</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTF is WordPress? | Robert DeVore</title>
+    <meta name="description" content="Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native. Building enterprise-grade solutions that scale with your business.">
+    <meta name="keywords" content="Laravel Developer, Next.js Developer, WordPress Developer, React Native, Full Stack Developer, Premium Development">
+    <meta name="author" content="Robert">
+
+    <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+    
+    <link href="../assets/css/stattic.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+     
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="WTF is WordPress?">
+    <meta property="og:description" content="Stattic is a fast, lightweight static site generator.">
+    <meta property="og:url" content="https://robertdevore.com">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:image" content="..//images/wtf-is-wordpress.webp">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="WTF is WordPress?">
+    <meta name="twitter:description" content="Stattic is a fast, lightweight static site generator.">
+    
+    <meta name="twitter:image" content="..//images/wtf-is-wordpress.webp">
+    
+    <!-- Alpine.js for interactive components -->
+    <script src="../assets/js/alpine.min.js" defer></script>
+    <script src="../assets/js/stattic.js" defer></script>
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }" class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="container max-w-screen-xl m-auto py-4 px-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="../assets/images/robert-devore-avatar.jpg" 
+                 alt="Robert DeVore Avatar" 
+                 class="w-10 h-10 rounded-full object-cover border-2 border-slate-200">
+            <h2 class="text-2xl font-bold font-heading">
+                <a href="../" class="text-slate-900 hover:text-blue-600 transition-colors">
+                    Robert DeVore
+                </a>
+            </h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="/free-ai-tools/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Free AI Tools
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li x-data="{ servicesOpen: false }" class="relative">
+                    <button @click="servicesOpen = !servicesOpen" 
+                            @click.away="servicesOpen = false"
+                            class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group flex items-center">
+                        Services
+                        <svg class="w-4 h-4 ml-1 transition-transform duration-200" 
+                             :class="servicesOpen ? 'rotate-180' : ''" 
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </button>
+                    
+                    <!-- Mega Menu -->
+                    <div x-show="servicesOpen" 
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 scale-95 translate-y-1"
+                         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 scale-95 translate-y-1"
+                         class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-slate-200 p-8 z-50"
+                         style="display: none;">
+                        
+                        <div class="grid grid-cols-3 gap-8">
+                            <!-- App Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    App Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/mvp-app-build/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">MVP App Build</div>
+                                        <div class="text-sm text-slate-500 mt-1">Launch-ready apps in less than 2 weeks</div>
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">React Native Apps</div>
+                                        <div class="text-sm text-slate-500 mt-1">Cross-platform iOS & Android apps</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Web Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/laravel-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Laravel Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Modern PHP applications & APIs</div>
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Next.js Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">React apps with SSR & static generation</div>
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">WordPress Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Custom plugins, themes & solutions</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optimization & Security -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Optimization & Security
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/page-speed-optimization/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Page Speed Optimization</div>
+                                        <div class="text-sm text-slate-500 mt-1">Lightning-fast performance tuning</div>
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Security Audit</div>
+                                        <div class="text-sm text-slate-500 mt-1">Comprehensive security assessments</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom CTA Section -->
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900">Need something custom?</h4>
+                                    <p class="text-sm text-slate-500 mt-1">Let's discuss your unique requirements</p>
+                                </div>
+                                <a href="/contact/" 
+                                   class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/blog/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Blog
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/" 
+                       class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                        Get Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
+                    <h3 class="text-xl font-bold font-heading text-slate-900">Robert DeVore</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6" x-data="{ mobileServicesOpen: false }">
+                    <ul class="space-y-4">
+                        <li>
+                            <a 
+                                href="/free-ai-tools/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Free AI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <button 
+                                @click="mobileServicesOpen = !mobileServicesOpen"
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium py-2 transition-colors flex items-center justify-between w-full"
+                            >
+                                Services
+                                <svg class="w-5 h-5 transition-transform duration-200" 
+                                     :class="mobileServicesOpen ? 'rotate-180' : ''" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            
+                            <!-- Mobile Services Dropdown -->
+                            <div x-show="mobileServicesOpen" 
+                                 x-transition:enter="transition ease-out duration-200"
+                                 x-transition:enter-start="opacity-0 -translate-y-2"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-150"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-2"
+                                 class="ml-4 mt-2 space-y-2"
+                                 style="display: none;">
+                                
+                                <!-- App Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">App Development</div>
+                                    <a href="/mvp-app-build/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        MVP App Build
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        React Native Apps
+                                    </a>
+                                </div>
+
+                                <!-- Web Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Web Development</div>
+                                    <a href="/laravel-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Laravel Development
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Next.js Development
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        WordPress Development
+                                    </a>
+                                </div>
+
+                                <!-- Optimization & Security Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Optimization & Security</div>
+                                    <a href="/page-speed-optimization/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Page Speed Optimization
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Security Audit
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a 
+                                href="/portfolio/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/blog/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/about/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li class="pt-4">
+                            <a 
+                                href="/contact/" 
+                                class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-3 rounded-lg font-medium inline-block hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Get Quote
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Section -->
+    
+    <section class="relative py-48 border-b border-slate-100 overflow-hidden">
+        <!-- Background Image with Fade -->
+        <div class="absolute inset-0">
+            <img src="/assets//images/wtf-is-wordpress.webp" alt="WTF is WordPress?" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-white"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="relative container max-w-2xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white font-heading drop-shadow-lg">WTF is WordPress?</h1>
+                <div class="flex items-center justify-center gap-4 text-white/90 drop-shadow-md">
+                    <time datetime="September 23, 2024">September 23, 2024</time>
+                    <span>&middot;</span>
+                    <span>Robert</span>
+                    <span>&middot;</span>
+                    <span class="reading-time"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Content -->
+    <section class="container max-w-2xl mx-auto px-4 py-16">
+        <article class="prose dark:prose-dark max-w-none stattic-content">
+            <div class="wp-block-group has-secondary-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-is-layout-ce8a117f wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)">
+<p>The soundtrack for this blog post is the Ted Dibiase Million Dollar Man Theme Song (<a href="https://www.youtube.com/watch?v=2_JTzEppKy8">youtube</a>)</p>
+</div>
+<p>WordPress &#8211; real name, no gimmicks 🙄</p>
+<p>First, let me say that I&#8217;m <a href="https://robertdevore.com/thank-you-wordpress/" target="_blank" rel="noreferrer noopener">thankful for WordPress</a>.</p>
+<p>I&#8217;d also like to say that I agree with Matt on predatory practices of &#8220;big money&#8221; in order to further their bottom lines.</p>
+<p>I have posted my public respect for him and his decisions both in open source and business (<a href="https://x.com/deviorobert/status/1540485039208767489">link</a>).</p>
+<p>This is not an attack on him or <a href="https://www.wordpress.org/" target="_blank" rel="noreferrer noopener">WordPress</a>, the open source software that this website and my entire professional development career have been built on.</p>
+<p>This is not an attack at all.</p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="499" height="250" src="/images/im_coolin_gif.webp" alt="" class="wp-image-12448" srcset="/images/im_coolin_gif.webp 499w, /images/im_coolin_gif_300x150.webp 300w" sizes="auto, (max-width: 499px) 100vw, 499px" /></figure>
+<p>What I would like is for this to be a discussion starter.</p>
+<p>What I would like to do is point out a few things I&#8217;ve noticed during the fallout of &#8220;the talk&#8221; and related outbursts Matt Mullenweg gave at #WCUS</p>
+<p>And to start it all off, I want to ask a question:</p>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p><em>What the fuck is WordPress?</em></p>
+</blockquote>
+<h2 class="wp-block-heading">If&nbsp;you&nbsp;don&#8217;t&nbsp;know&nbsp;where&nbsp;you&#8217;ve come&nbsp;from,&nbsp;you&nbsp;don&#8217;t&nbsp;know&nbsp;where&nbsp;you&#8217;re going</h2>
+<p>In order to discuss the difference between wordpress.org and wordpress.com, we just need to check out when each of them were started.</p>
+<p><strong>WordPress.org</strong> the open source content management system was first released on May 27, 2003 &#8211; <a href="https://en.wikipedia.org/wiki/WordPress#:~:text=WordPress%20was%20released%20on%20May,and%20English%20developer%20Mike%20Little." target="_blank" rel="noreferrer noopener">Wikipedia</a></p>
+<p><strong>WordPress.com</strong> the secure managed WordPress hosting platform was first released to the public on November 21, 2005 &#8211; <a href="https://en.wikipedia.org/wiki/WordPress.com#:~:text=6%20External%20links-,History,com%20to%20Midjourney%20and%20OpenAI." target="_blank" rel="noreferrer noopener">Wikipedia</a></p>
+<p>So the open source, free for anyone software was released 2+ years <em>before</em> the hosted solution. </p>
+<p><strong>So WordPress is software, right?</strong></p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="450" height="338" src="/images/wtf_joe_pesci.webp" alt="" class="wp-image-12451"/></figure>
+<p>Then why are so many people confused over what it is when you search Google for it?</p>
+<p>&#8220;WordPress.com VS&#8221; results in a LOT of content to compare dot com to dot org, but you know what&#8217;s missing?</p>
+<p>Absolutely any type of focus on WordPress VS WP Engine.</p>
+<figure class="wp-block-image aligncenter size-large"><a href="/images/wordpress_com_vs_wp_engine_google_search_results_scaled.webp"><img loading="lazy" decoding="async" width="394" height="1024" src="/images/wordpress_com_vs_wp_engine_google_search_results_394x1024.webp" alt="" class="wp-image-12445" srcset="/images/wordpress_com_vs_wp_engine_google_search_results_394x1024.webp 394w, /images/wordpress_com_vs_wp_engine_google_search_results_115x300.webp 115w, /images/wordpress_com_vs_wp_engine_google_search_results_768x1998.webp 768w, /images/wordpress_com_vs_wp_engine_google_search_results_787x2048.webp 787w, /images/wordpress_com_vs_wp_engine_google_search_results_scaled.webp 984w" sizes="auto, (max-width: 394px) 100vw, 394px" /></a><figcaption class="wp-element-caption">Screenshot</figcaption></figure>
+<p>Actually, if you search for &#8220;wordpress.com vs wp engine&#8221; there is only 1 result that shows up (<a href="https://www.krishaweb.com/blog/what-is-a-wordpress-vip/" target="_blank" rel="noreferrer noopener nofollow">link</a>), while &#8220;wordpress.org vs wp engine&#8221; returns 0 results.</p>
+<p>And if you search for &#8220;WordPress VS WP Engine&#8221; (in quotes) you&#8217;ll see a lot of articles comparing their respective hosting offerings &#8211; and nothing related to people not knowing if WP Engine is WordPress (<a href="https://wordpress.org/news/2024/09/wp-engine/" target="_blank" rel="noreferrer noopener nofollow">reference</a>).</p>
+<h2 class="wp-block-heading">So, what is WordPress?</h2>
+<p>WordPress is <a href="https://www.wordpress.org" target="_blank" rel="noreferrer noopener">open source software</a>.</p>
+<p>But thanks to Matt creating The WordPress Foundation, <a href="https://ma.tt/2010/09/wordpress-trademark/">giving the &#8220;WordPress&#8221; trademark to it</a> and then giving himself a license to use it (<a href="https://x.com/photomatt/status/1837800253342335024" target="_blank" rel="noreferrer noopener">ref</a>), WordPress is also a managed WordPress hosting company.</p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="480" height="480" src="/images/thats_a_mouthful_gif.webp" alt="" class="wp-image-12446" srcset="/images/thats_a_mouthful_gif.webp 480w, /images/thats_a_mouthful_gif_300x300.webp 300w, /images/thats_a_mouthful_gif_150x150.webp 150w" sizes="auto, (max-width: 480px) 100vw, 480px" /></figure>
+<p>Please don&#8217;t mention it though because he&#8217;ll just point out he&#8217;s one of three people on the board of The WordPress Foundation (<a href="https://x.com/photomatt/status/1837825438070329525" target="_blank" rel="noreferrer noopener">source</a>)</p>
+<p>One of the others is a woman who has a <a href="https://x.com/CheleFarley" target="_blank" rel="noreferrer noopener">pinned tweet</a> from in 2020 thanking Donald Trump for his endorsement he gave to her running for office (spoiler alert, <a href="https://x.com/sereedmedia/status/1837910118496981268" target="_blank" rel="noreferrer noopener">she lost &#8230; twice</a>).</p>
+<p>And the third is a man who hasn&#8217;t tweeted, blogged or (as far as I can tell) been around since 2013.</p>
+<p>Surely these two people are active enough in the foundation and focused enough on the sanctity of our software that they&#8217;re working hard behind the scenes this whole time and we just don&#8217;t know it &#8230;</p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="415" height="250" src="/images/okay_okay_gif.webp" alt="" class="wp-image-12453" srcset="/images/okay_okay_gif.webp 415w, /images/okay_okay_gif_300x181.webp 300w" sizes="auto, (max-width: 415px) 100vw, 415px" /></figure>
+<h2 class="wp-block-heading">Why WP Engine and why now?</h2>
+<p>The problem used to be Chris Pearson and Thesis, where Matt Mullenweg and him publicly battled over GPL licensing years before Matt spending ~100K on the thesis.com domain to seemingly spite him (<a href="https://pearsonified.com/truth-about-thesis-com/" target="_blank" rel="noreferrer noopener">source</a>)</p>
+<p>Then more recently, GoDaddy was the existential threat to the WordPress ecosystem (<a href="https://wptavern.com/matt-mullenweg-identifies-godaddy-as-a-parasitic-company-and-an-existential-threat-to-wordpress-future" target="_blank" rel="noreferrer noopener">reference</a>) which I also <a href="https://x.com/deviorobert/status/1540089135444234251" target="_blank" rel="noreferrer noopener">discussed</a> on Twitter while  Matt targeted a GoDaddy (Pagely) employee, telling him essentially to fuck off if he wasn&#8217;t going to donate back to the project.</p>
+<p>The reason he did that? </p>
+<p>Jeff simply asked about whether Automattic&#8217;s Newspack platform had all open source components or some proprietary elements.</p>
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="305" src="/images/matt_mullenweg_targeting_jeff_matson_1024x305.webp" alt="" class="wp-image-12447" srcset="/images/matt_mullenweg_targeting_jeff_matson_1024x305.webp 1024w, /images/matt_mullenweg_targeting_jeff_matson_300x89.webp 300w, /images/matt_mullenweg_targeting_jeff_matson_768x229.webp 768w, /images/matt_mullenweg_targeting_jeff_matson.webp 1296w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Screenshot because Matt deleted the tweet</figcaption></figure>
+<p>Now we&#8217;re seeing Matt target another VC funded mega host in a public manner, using both the WordPress Foundation (WordCamp) and the wordpress.org platform to voice his opinions.</p>
+<p>We&#8217;re supposed to look at this from an open source founder fighting a mega corporation lens, which I like and stand with.</p>
+<p>But we&#8217;re supposed to completely ignore the fact that the same founder runs a mega corporation that took $288M in funding from VC firms like BlackRock (yes, <em>that</em> <a href="https://blackrocksbigproblem.com/" target="_blank" rel="noreferrer noopener">BlackRock</a>) and directly profits from the work open source community does for the WordPress CMS.</p>
+<p>It should be noted that Automattic invested in WP Engine in 2011, sold their stake in 2018 (<a href="https://x.com/photomatt/status/1065227975715680256" target="_blank" rel="noreferrer noopener">source</a>) as what looks to be part of a buyback from WP Engine&#8217;s VC investment from Silver Lake, Matt praised them in 2020 for Genesis playing a role in being Gutenberg-first (<a href="https://x.com/photomatt/status/1258513648873422848" target="_blank" rel="noreferrer noopener">source</a>) and now hates them and calls them &#8220;a cancer to WordPress&#8221; (<a href="https://wordpress.org/news/2024/09/wp-engine/" target="_blank" rel="noreferrer noopener">source</a>).</p>
+<p><em>If Silver Lake is as predatory as described, it raises the question of why Matt chose to sell his stake rather than continue to influence from within?</em></p>
+<h2 class="wp-block-heading">What if WP Engine just does as they&#8217;re asked?</h2>
+<p>When watching the action unfold on Twitter this weekend, I noticed Matt say something in passing in a tweet and it took a while before I finally figured out what it was that bothered me about it.</p>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;we do donate to a number of other projects <strong>when we&#8217;re asked like PHP foundation</strong>, but would love to do more there&#8221; &#8211; <a href="https://x.com/photomatt/status/1837330036682321952">link</a></p>
+</blockquote>
+<p><em>emphasis mine.</em></p>
+<p>So this tells me two things:</p>
+<ol class="wp-block-list">
+<li>They do not regularly donate to PHP which WordPress is built on</li>
+<li>They do donate <em>if they&#8217;re asked to</em>.</li>
+</ol>
+<p>Is the issue here that Matt asked WP Engine to give more to the WordPress project but they didn&#8217;t comply like he says that he does when asked?</p>
+<p>Looking over the history of controversial and sometimes childish outbursts that at times get deleted, it&#8217;s entirely possible that Matt is just mad he&#8217;s not being listened to, like a parent upset they&#8217;re not being taken serious enough.</p>
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter">
+<div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">If &quot;do as I say, not as I do&quot; was a person 🤷‍♂️</p>&mdash; Robert DeVore (@deviorobert) <a href="https://twitter.com/deviorobert/status/1837360950988374231?ref_src=twsrc%5Etfw">September 21, 2024</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</figure>
+<p>And if we&#8217;re demonizing WP Engine for limiting what you can do with your WordPress website (revisions), when are we gonna demonize Automattic for doing the exact same thing (plugins, different dashboard experience, etc)?</p>
+<p>Or do we not get to do that because they&#8217;re the ones who gave us WordPress? </p>
+<p>Or did they?</p>
+<p>Or maybe we need to demonize Kinsta, Pressable and all other opinionated WordPress hosts because they don&#8217;t just give you a blank sandbox to play in, limit which plugins (features) they allow, etc?</p>
+<p>And why has the demonization only started now and not around or before the $250M investment from Silver Lake to WP Engine in 2018?</p>
+<h2 class="wp-block-heading">Who is responsible for WordPress&#8217; growth?</h2>
+<p>While we&#8217;re discussing all of this current drama, there&#8217;s one thing that has been loosely talked about and that&#8217;s who is responsible for the massive adoption of WordPress as a content management system.</p>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;Parading as an open source / &#8220;The Commons&#8221; evangelist while simultaneously being a business owner profiting off the work of the community doesn&#8217;t do you, the project or the community any justice.&#8221; (<a href="https://x.com/deviorobert/status/1837932462858817872" target="_blank" rel="noreferrer noopener">source</a>)</p>
+</blockquote>
+<p>Matt is quick to point out the fact that Automattic gives back more to the WordPress project than any other company (<a href="https://wordpress.org/news/2024/09/wp-engine/" target="_blank" rel="noreferrer noopener">source</a>).</p>
+<p>Does this mean Automattic, and by extension Matt Mullenweg, gives more to the growth of WordPress than anyone else?</p>
+<p>Why are we glossing over the freelancers and agency owners who built countless websites for family, friends and customers who would have otherwise never built a website on WordPress and reduced the reach that WordPress currently has?</p>
+<p>Why are we glossing over the tutorial writers, video creators, tutors, podcasters and bloggers who relentlessly made content to promote WordPress and how to use it when the general user didn&#8217;t know know it existed, let alone how to use it?</p>
+<p>Why are we glossing over the builders who helped grow WordPress into what it is, like Brian Gardner and Adii Pienaar who created the WordPress premium theme market. </p>
+<p>The same market that helped push WordPress forward while the people building products made lucrative amounts of money from the source code they sold on top of the WordPress code base.</p>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="480" height="320" src="/images/i_dont_get_it.webp" alt="" class="wp-image-12449" srcset="/images/i_dont_get_it.webp 480w, /images/i_dont_get_it_300x200.webp 300w" sizes="auto, (max-width: 480px) 100vw, 480px" /></figure>
+<p>Was it only ok because a single person or small team were the ones making money by providing premium solutions to problems that users of the WordPress software have?</p>
+<p>As Matt pointed out in 2020, &#8220;If companies taking or growing share don&#8217;t contribute the same amount as Automattic back into <strong>the commons</strong>, WP will suffer and slow down.&#8221; &#8211; <a href="https://x.com/photomatt/status/1258375039184965633" target="_blank" rel="noreferrer noopener">source</a></p>
+<p>So it IS about how much Automattic does compared to everyone else, both big and small.</p>
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter">
+<div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">They’re taking revenue and customers away from people who are contributing.</p>&mdash; Matt Mullenweg (@photomatt) <a href="https://twitter.com/photomatt/status/1837302638939099339?ref_src=twsrc%5Etfw">September 21, 2024</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</figure>
+<p>It seems like Automattic (Matt) didn&#8217;t have a problem with WooThemes and their WooCommerce product when they bought them out.</p>
+<p>WooCommerce was a fork of another WordPress plugin that wouldn&#8217;t agree on a sale price to WooThemes. Then WooThemes hired developers of the previous plugin which <a href="https://wplift.com/forked-wordpress/#:~:text=WooCommerce%20started%20life%20when%20it,wages%20for%20over%20a%20year." target="_blank" rel="noreferrer noopener">caused controversy</a> at the time.</p>
+<p>That plugin (WooCommerce) then got bought by Automattic in order to &#8220;help democratize commerce online&#8221;, but like all other acquisitions, they&#8217;re using it to try and move the Automattic bottom line.</p>
+<p>And fast forwarding to today, that&#8217;s the bottom line of a <a href="https://ma.tt/2021/08/funding-buyback-hiring/" target="_blank" rel="noreferrer noopener">venture backed company</a> who&#8217;s owner is now publicly using the WordPress open source platform to berate another venture backed company he deems as predatory.</p>
+<p>Both the WordCamp talk itself and the blog post published to the wordpress.org blog clearly show that Matt does not understand where the line in the sand is drawn between the company and the open source software.</p>
+<p>Or maybe he does and just doesn&#8217;t care? 🤔</p>
+<h2 class="wp-block-heading">So WTF is WordPress?</h2>
+<p>WordPress is a clusterfuck. Always has been, and likely always will be.</p>
+<p>WordPress is a cool community of people from around the world who tend to all agree on the open source nature of the CMS that we love.</p>
+<p>WordPress is a tool that can be used to document your life, publish your novels, centralize all of your social media content, showcase your designs, photography, and so much more.</p>
+<p>But WordPress is also a source of income that can be used to provide a good life for yourself and your family, both as an individual and as a company.</p>
+<p>WordPress is all of that and so much more.</p>
+<h2 class="wp-block-heading">Community Vibes</h2>
+<p>In another example of the level of professionalism we&#8217;re working with, Matt posted a &#8220;community vibes check&#8221; to see what everyone thought about WP Engine continuing to sponsor events if &#8220;they don&#8217;t change&#8221;.</p>
+<p>Based on the results of the poll that Matt posted, the WordPress community vibes are saying that we&#8217;re ok with WP Engine still being a sponsor at the next WordCamp.</p>
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter">
+<div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Just wanted to do a community vibes check: If you saw my <a href="https://twitter.com/hashtag/wcus?src=hash&amp;ref_src=twsrc%5Etfw">#wcus</a> presentation and assuming they don’t change, should we allow <a href="https://twitter.com/wpengine?ref_src=twsrc%5Etfw">@wpengine</a> to have a booth at the next WordCamp?</p>&mdash; Matt Mullenweg (@photomatt) <a href="https://twitter.com/photomatt/status/1837303425106837784?ref_src=twsrc%5Etfw">September 21, 2024</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</figure>
+<p>And while we&#8217;re on that subject, why would Matt say &#8220;I&#8217;m happy to refund @wpengine their 75k sponsorship of #WCUS&#8221; (<a href="https://x.com/photomatt/status/1837330828726087858">source</a>) instead of actually refunding their blood money and cutting all ties entirely?</p>
+<p>Why would he even entertain the idea of them sponsoring the event again next year at all?</p>
+<p>Can anyone verify the Silver Lake investment into WP Engine didn&#8217;t buy out the Automattic stake? And if it actually did, why was their money and influence ok at that time, but not now?</p>
+<p>It&#8217;s not hard to say &#8220;fuck your money&#8221; in the face of a shitty company you don&#8217;t morally agree with &#8211; I&#8217;ve done it, ask around.</p>
+<p>Why would he direct criticism toward <em>workers</em> at the WP Engine booth who are not directly responsible for the decisions of the &#8220;cancer&#8221; we know as Silver Lake?</p>
+<p>&#8220;Own your content&#8221; was meant to be a selling point for the person who writes it and uses an Automattic sponsored product to post it &#8211; not the company who runs WordPress.com, bought Tumblr then looks to be selling both sites data to OpenAI (<a href="https://mashable.com/article/tumblr-wordpress-selling-user-data-openai-mirjourney" target="_blank" rel="noreferrer noopener">source</a>)</p>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>We will only share public content that’s hosted on WordPress.com and Tumblr, and only from sites that haven’t opted out. (<a href="https://automattic.com/2024/02/27/protecting-user-choice/">source</a>)</p>
+</blockquote>
+<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="480" height="245" src="/images/the_lines_are_real_clear_gif.webp" alt="" class="wp-image-12464" style="width:480px;height:auto" srcset="/images/the_lines_are_real_clear_gif.webp 480w, /images/the_lines_are_real_clear_gif_300x153.webp 300w" sizes="auto, (max-width: 480px) 100vw, 480px" /><figcaption class="wp-element-caption">/s</figcaption></figure>
+<p><strong>WTF is WordPress?</strong></p>
+<p>WordPress is complicated, but it&#8217;s worth fighting for.</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="has-text-align-center"><em>Featured Image by Naji Habib from Pixabay</em></p>
+
+        </article>
+    </section>
+</main>
+
+
+<footer class="bg-slate-900 text-white py-12" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+            <!-- Brand Section -->
+            <div class="md:col-span-1">
+                <h3 class="text-xl font-bold font-heading mb-4">Robert DeVore</h3>
+                <p class="text-slate-300 text-sm mb-4">
+                    Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/robertdevore" target="_blank" name="GitHub" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/robertdevore" target="_blank" name="Linkedin" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/robertdevore" target="_blank" name="Twitter" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/laravel-development/" class="hover:text-white transition-colors">Laravel Development</a></li>
+                    <li><a href="/nextjs-development/" class="hover:text-white transition-colors">Next.js Applications</a></li>
+                    <li><a href="/wordpress-development/" class="hover:text-white transition-colors">WordPress Solutions</a></li>
+                    <li><a href="/react-native-development/" class="hover:text-white transition-colors">React Native Apps</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4">Get In Touch</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>
+                        <a href="mailto:me@robertdevore.com" class="hover:text-white transition-colors">
+                            me@robertdevore.com
+                        </a>
+                    </li>
+                    <li class="text-slate-400">Response time: &lt; 4 hours</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+            <p class="text-slate-400 text-sm">
+                © 2025 Robert DeVore. All rights reserved. 
+                <span class="mx-2">•</span>
+                Built with <a href="https://stattic.site/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors" aria-label="Stattic - opens in a new tab">Stattic</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

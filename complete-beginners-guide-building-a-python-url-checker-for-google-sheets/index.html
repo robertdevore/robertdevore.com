@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Beginner&#8217;s Guide: Building a Python URL Checker for Google Sheets | Robert DeVore</title>
+    <meta name="description" content="Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native. Building enterprise-grade solutions that scale with your business.">
+    <meta name="keywords" content="Laravel Developer, Next.js Developer, WordPress Developer, React Native, Full Stack Developer, Premium Development">
+    <meta name="author" content="Robert">
+
+    <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+    
+    <link href="../assets/css/stattic.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+     
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Complete Beginner&#8217;s Guide: Building a Python URL Checker for Google Sheets">
+    <meta property="og:description" content="Stattic is a fast, lightweight static site generator.">
+    <meta property="og:url" content="https://robertdevore.com">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:image" content="..//images/python-url-checker-in-google-sheets-robertdevore.webp">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Complete Beginner&#8217;s Guide: Building a Python URL Checker for Google Sheets">
+    <meta name="twitter:description" content="Stattic is a fast, lightweight static site generator.">
+    
+    <meta name="twitter:image" content="..//images/python-url-checker-in-google-sheets-robertdevore.webp">
+    
+    <!-- Alpine.js for interactive components -->
+    <script src="../assets/js/alpine.min.js" defer></script>
+    <script src="../assets/js/stattic.js" defer></script>
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }" class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="container max-w-screen-xl m-auto py-4 px-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="../assets/images/robert-devore-avatar.jpg" 
+                 alt="Robert DeVore Avatar" 
+                 class="w-10 h-10 rounded-full object-cover border-2 border-slate-200">
+            <h2 class="text-2xl font-bold font-heading">
+                <a href="../" class="text-slate-900 hover:text-blue-600 transition-colors">
+                    Robert DeVore
+                </a>
+            </h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="/free-ai-tools/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Free AI Tools
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li x-data="{ servicesOpen: false }" class="relative">
+                    <button @click="servicesOpen = !servicesOpen" 
+                            @click.away="servicesOpen = false"
+                            class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group flex items-center">
+                        Services
+                        <svg class="w-4 h-4 ml-1 transition-transform duration-200" 
+                             :class="servicesOpen ? 'rotate-180' : ''" 
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </button>
+                    
+                    <!-- Mega Menu -->
+                    <div x-show="servicesOpen" 
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 scale-95 translate-y-1"
+                         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 scale-95 translate-y-1"
+                         class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-slate-200 p-8 z-50"
+                         style="display: none;">
+                        
+                        <div class="grid grid-cols-3 gap-8">
+                            <!-- App Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    App Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/mvp-app-build/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">MVP App Build</div>
+                                        <div class="text-sm text-slate-500 mt-1">Launch-ready apps in less than 2 weeks</div>
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">React Native Apps</div>
+                                        <div class="text-sm text-slate-500 mt-1">Cross-platform iOS & Android apps</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Web Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/laravel-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Laravel Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Modern PHP applications & APIs</div>
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Next.js Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">React apps with SSR & static generation</div>
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">WordPress Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Custom plugins, themes & solutions</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optimization & Security -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Optimization & Security
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/page-speed-optimization/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Page Speed Optimization</div>
+                                        <div class="text-sm text-slate-500 mt-1">Lightning-fast performance tuning</div>
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Security Audit</div>
+                                        <div class="text-sm text-slate-500 mt-1">Comprehensive security assessments</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom CTA Section -->
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900">Need something custom?</h4>
+                                    <p class="text-sm text-slate-500 mt-1">Let's discuss your unique requirements</p>
+                                </div>
+                                <a href="/contact/" 
+                                   class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/blog/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Blog
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/" 
+                       class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                        Get Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
+                    <h3 class="text-xl font-bold font-heading text-slate-900">Robert DeVore</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6" x-data="{ mobileServicesOpen: false }">
+                    <ul class="space-y-4">
+                        <li>
+                            <a 
+                                href="/free-ai-tools/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Free AI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <button 
+                                @click="mobileServicesOpen = !mobileServicesOpen"
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium py-2 transition-colors flex items-center justify-between w-full"
+                            >
+                                Services
+                                <svg class="w-5 h-5 transition-transform duration-200" 
+                                     :class="mobileServicesOpen ? 'rotate-180' : ''" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            
+                            <!-- Mobile Services Dropdown -->
+                            <div x-show="mobileServicesOpen" 
+                                 x-transition:enter="transition ease-out duration-200"
+                                 x-transition:enter-start="opacity-0 -translate-y-2"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-150"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-2"
+                                 class="ml-4 mt-2 space-y-2"
+                                 style="display: none;">
+                                
+                                <!-- App Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">App Development</div>
+                                    <a href="/mvp-app-build/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        MVP App Build
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        React Native Apps
+                                    </a>
+                                </div>
+
+                                <!-- Web Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Web Development</div>
+                                    <a href="/laravel-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Laravel Development
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Next.js Development
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        WordPress Development
+                                    </a>
+                                </div>
+
+                                <!-- Optimization & Security Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Optimization & Security</div>
+                                    <a href="/page-speed-optimization/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Page Speed Optimization
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Security Audit
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a 
+                                href="/portfolio/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/blog/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/about/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li class="pt-4">
+                            <a 
+                                href="/contact/" 
+                                class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-3 rounded-lg font-medium inline-block hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Get Quote
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Section -->
+    
+    <section class="relative py-48 border-b border-slate-100 overflow-hidden">
+        <!-- Background Image with Fade -->
+        <div class="absolute inset-0">
+            <img src="/assets//images/python-url-checker-in-google-sheets-robertdevore.webp" alt="Complete Beginner&#8217;s Guide: Building a Python URL Checker for Google Sheets" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-white"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="relative container max-w-2xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white font-heading drop-shadow-lg">Complete Beginner&#8217;s Guide: Building a Python URL Checker for Google Sheets</h1>
+                <div class="flex items-center justify-center gap-4 text-white/90 drop-shadow-md">
+                    <time datetime="June 19, 2025">June 19, 2025</time>
+                    <span>&middot;</span>
+                    <span>Robert</span>
+                    <span>&middot;</span>
+                    <span class="reading-time"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Content -->
+    <section class="container max-w-2xl mx-auto px-4 py-16">
+        <article class="prose dark:prose-dark max-w-none stattic-content">
+            <p>Don&#8217;t worry if you&#8217;ve never written Python before!</p>
+<p>This tutorial will explain every single line of code so you understand exactly what&#8217;s happening.</p>
+<p>Think of this like you&#8217;re building with LEGO blocks &#8211; we&#8217;ll add one piece at a time and explain what each piece does as we go.</p>
+<h2 class="wp-block-heading">What We&#8217;re Building (In Simple Terms)</h2>
+<p>Imagine you have a huge list of website links in a Google Sheet, and you want to check if they&#8217;re all working.</p>
+<p>Instead of clicking each one manually, we&#8217;re building a faux-bot (our Python script) that will:</p>
+<ol class="wp-block-list">
+<li>Read each website link from your Google Sheet</li>
+<li>Visit each website to see if it works</li>
+<li>Write the results back to your sheet (like &#8220;Working&#8221; or &#8220;Broken&#8221;)</li>
+</ol>
+<h2 class="wp-block-heading">Before We Start: What You&#8217;ll Need</h2>
+<ul class="wp-block-list">
+<li>Python installed on your computer</li>
+<li>A Google account</li>
+<li>Basic text editor (like VS Code)</li>
+</ul>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="480" height="269" src="/images/lets_go_baby.webp" alt="Let's Go Baby! Jellyroll GIF" class="wp-image-15377"/></figure>
+<h2 class="wp-block-heading">Part 1: The Shopping List (Imports)</h2>
+<p>Just like cooking, we need to gather our ingredients first. </p>
+<p>In Python, these &#8220;ingredients&#8221; are called <strong>libraries</strong> &#8211; pre-written code that does specific jobs for us.</p>
+<pre class="wp-block-code"><code lang="python" class="language-python">import gspread
+import requests
+import time
+import json
+from google.auth.transport.requests import Request
+from google.oauth2.service_account import Credentials</code></pre>
+<p>Let&#8217;s break this down line by line:</p>
+<p><strong>Line 1: <code>import gspread</code></strong></p>
+<ul class="wp-block-list">
+<li>This is like hiring a translator who speaks &#8220;Google Sheets language&#8221;</li>
+<li>It lets our Python script talk to Google Sheets</li>
+</ul>
+<p><strong>Line 2: <code>import requests</code></strong></p>
+<ul class="wp-block-list">
+<li>This is our website visitor</li>
+<li>It can go to any website and tell us if it&#8217;s working or broken</li>
+</ul>
+<p><strong>Line 3: <code>import time</code></strong></p>
+<ul class="wp-block-list">
+<li>This is our timer/stopwatch</li>
+<li>We&#8217;ll use it to pause between checking websites (so we don&#8217;t overwhelm them)</li>
+</ul>
+<p><strong>Line 4: <code>import json</code></strong></p>
+<ul class="wp-block-list">
+<li>JSON is a way to store information in a file</li>
+<li>Think of it like a digital notebook that both humans and computers can read</li>
+</ul>
+<p><strong>Lines 5-6: The Google authentication imports</strong></p>
+<ul class="wp-block-list">
+<li>These are like security guards that prove we&#8217;re allowed to access Google Sheets</li>
+<li>They handle all the permission checking for us</li>
+</ul>
+<h2 class="wp-block-heading">Part 2: Setting Up Our Configuration (The Settings)</h2>
+<pre class="wp-block-code"><code lang="python" class="language-python"># Config
+SPREADSHEET_NAME = "Redirections"
+SHEET_NAME = "Redirections"
+BATCH_SIZE = 100
+PROGRESS_FILE = "progress.json"</code></pre>
+<p>In Python, lines starting with <code>#</code> are <strong>comments</strong> &#8211; they&#8217;re notes for humans and the computer ignores them.</p>
+<p><strong>Line 2: <code>SPREADSHEET_NAME = "Redirections"</code></strong></p>
+<ul class="wp-block-list">
+<li>This tells our script which Google Sheet to open</li>
+<li>Change &#8220;Redirections&#8221; to whatever your sheet is called</li>
+<li>The quotes tell Python this is text (called a &#8220;string&#8221;)</li>
+</ul>
+<p><strong>Line 3: <code>SHEET_NAME = "Redirections"</code></strong></p>
+<ul class="wp-block-list">
+<li>Google Sheets can have multiple tabs &#8211; this picks which tab to use</li>
+<li>If your tab has a different name, change this</li>
+</ul>
+<p><strong>Line 4: <code>BATCH_SIZE = 100</code></strong></p>
+<ul class="wp-block-list">
+<li>Instead of checking all URLs at once, we&#8217;ll do them in groups</li>
+<li>100 means &#8220;check 100 websites, then take a break&#8221;</li>
+<li>This prevents Google from thinking we&#8217;re a spam robot</li>
+</ul>
+<p><strong>Line 5: <code>PROGRESS_FILE = "progress.json"</code></strong></p>
+<ul class="wp-block-list">
+<li>This creates a digital bookmark</li>
+<li>If our script stops halfway through, it remembers where it left off</li>
+</ul>
+<h2 class="wp-block-heading">Part 3: Connecting to Google Sheets (The Handshake)</h2>
+<pre class="wp-block-code"><code lang="python" class="language-python"># Auth &amp; connect to Google Sheet
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+creds = Credentials.from_service_account_file("credentials.json", scopes=SCOPES)
+client = gspread.authorize(creds)
+sheet = client.open(SPREADSHEET_NAME).worksheet(SHEET_NAME)</code></pre>
+<p><strong>Line 2: <code>SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]</code></strong></p>
+<ul class="wp-block-list">
+<li>This is like asking for a specific key to a specific room</li>
+<li>We&#8217;re asking Google: &#8220;Please let us read and write spreadsheets&#8221;</li>
+<li>The square brackets <code>[]</code> create a <strong>list</strong> &#8211; a container that holds multiple items</li>
+</ul>
+<p><strong>Line 3: <code>creds = Credentials.from_service_account_file("credentials.json", scopes=SCOPES)</code></strong></p>
+<ul class="wp-block-list">
+<li>This reads our secret key file (credentials.json)</li>
+<li>It&#8217;s like showing your ID card to get into a building</li>
+<li><code>creds</code> is a <strong>variable</strong> &#8211; a box where we store information</li>
+</ul>
+<p><strong>Line 4: <code>client = gspread.authorize(creds)</code></strong></p>
+<ul class="wp-block-list">
+<li>This uses our credentials to create a connection to Google Sheets</li>
+<li>Think of <code>client</code> as our personal assistant who can talk to Google</li>
+</ul>
+<p><strong>Line 5: <code>sheet = client.open(SPREADSHEET_NAME).worksheet(SHEET_NAME)</code></strong></p>
+<ul class="wp-block-list">
+<li>This opens our specific spreadsheet and sheet tab</li>
+<li>Now <code>sheet</code> represents our actual Google Sheet that we can read and write to</li>
+</ul>
+<h2 class="wp-block-heading">Part 4: Building Our Memory System (Progress Tracking)</h2>
+<h3 class="wp-block-heading">Function 1: Remembering Where We Left Off</h3>
+<pre class="wp-block-code"><code lang="python" class="language-python">def load_progress():
+    try:
+        with open(PROGRESS_FILE, "r") as f:
+            return json.load(f).get("startRow", 2)
+    except FileNotFoundError:
+        return 2</code></pre>
+<p><strong>What&#8217;s a function?</strong> Think of a function like a mini-robot that does one specific job. </p>
+<p>When you call its name, it does its job and gives you an answer.</p>
+<p><strong>Line 1: <code>def load_progress():</code></strong></p>
+<ul class="wp-block-list">
+<li><code>def</code> means &#8220;define a new function&#8221;</li>
+<li><code>load_progress</code> is the name we gave our function</li>
+<li>The <code>()</code> is where we could give the function information, but this one doesn&#8217;t need any</li>
+<li>The <code>:</code> tells Python &#8220;the function&#8217;s instructions start on the next line&#8221;</li>
+</ul>
+<p><strong>Line 2: <code>try:</code></strong></p>
+<ul class="wp-block-list">
+<li>This means &#8220;try to do the following, but if something goes wrong, don&#8217;t crash&#8221;</li>
+<li>It&#8217;s like saying &#8220;attempt this, but have a backup plan&#8221;</li>
+</ul>
+<p><strong>Line 3: <code>with open(PROGRESS_FILE, "r") as f:</code></strong></p>
+<ul class="wp-block-list">
+<li>This opens our progress file for reading (the &#8220;r&#8221; means &#8220;read&#8221;)</li>
+<li><code>with</code> is polite &#8211; it automatically closes the file when we&#8217;re done</li>
+<li><code>as f</code> gives the opened file a nickname: <code>f</code></li>
+</ul>
+<p><strong>Line 4: <code>return json.load(f).get("startRow", 2)</code></strong></p>
+<ul class="wp-block-list">
+<li><code>json.load(f)</code> reads the JSON file and turns it into Python data</li>
+<li><code>.get("startRow", 2)</code> looks for a value called &#8220;startRow&#8221;</li>
+<li>If it finds it, it returns that number</li>
+<li>If it doesn&#8217;t find it, it returns 2 (our default starting row)</li>
+<li><code>return</code> means &#8220;give this answer back to whoever called this function&#8221;</li>
+</ul>
+<p><strong>Line 5: <code>except FileNotFoundError:</code></strong></p>
+<ul class="wp-block-list">
+<li>This is our backup plan if the progress file doesn&#8217;t exist</li>
+<li>&#8220;If you can&#8217;t find the file, do this instead&#8221;</li>
+</ul>
+<p><strong>Line 6: <code>return 2</code></strong></p>
+<ul class="wp-block-list">
+<li>If there&#8217;s no progress file, start from row 2</li>
+<li>(Row 1 usually has column headers like &#8220;URL&#8221; and &#8220;Status&#8221;)</li>
+</ul>
+<h3 class="wp-block-heading">Function 2: Saving Our Progress</h3>
+<pre class="wp-block-code"><code lang="python" class="language-python">def save_progress(row):
+    with open(PROGRESS_FILE, "w") as f:
+        json.dump({"startRow": row}, f)</code></pre>
+<p><strong>Line 1: <code>def save_progress(row):</code></strong></p>
+<ul class="wp-block-list">
+<li>This function takes one piece of information: <code>row</code></li>
+<li><code>row</code> is the row number we want to remember</li>
+</ul>
+<p><strong>Line 2: <code>with open(PROGRESS_FILE, "w") as f:</code></strong></p>
+<ul class="wp-block-list">
+<li>Opens our progress file for writing (the &#8220;w&#8221; means &#8220;write&#8221;)</li>
+<li>This will create the file if it doesn&#8217;t exist, or replace it if it does</li>
+</ul>
+<p><strong>Line 3: <code>json.dump({"startRow": row}, f)</code></strong></p>
+<ul class="wp-block-list">
+<li><code>{"startRow": row}</code> creates a <strong>dictionary</strong> &#8211; like a mini-database with one entry</li>
+<li>It stores the row number with the label &#8220;startRow&#8221;</li>
+<li><code>json.dump()</code> writes this information to the file in JSON format</li>
+</ul>
+<h2 class="wp-block-heading">Part 5: The Website Checker (The Core Function)</h2>
+<pre class="wp-block-code"><code lang="python" class="language-python">def check_url_status(url):
+    try:
+        response = requests.get(url, timeout=5)
+        if response.status_code == 404:
+            return "404 Not Found"
+        else:
+            return f"Status Code: {response.status_code}"
+    except Exception as e:
+        return f"Error: {str(e)}"</code></pre>
+<p>This is our website visitor function. Let&#8217;s break it down:</p>
+<p><strong>Line 1: <code>def check_url_status(url):</code></strong></p>
+<ul class="wp-block-list">
+<li>This function takes one input: a website URL</li>
+<li>It will return a message about whether the website is working</li>
+</ul>
+<p><strong>Line 2: <code>try:</code></strong></p>
+<ul class="wp-block-list">
+<li>Again, we&#8217;re being careful &#8211; &#8220;try this, but have a backup plan&#8221;</li>
+</ul>
+<p><strong>Line 3: <code>response = requests.get(url, timeout=5)</code></strong></p>
+<ul class="wp-block-list">
+<li><code>requests.get(url)</code> visits the website</li>
+<li><code>timeout=5</code> means &#8220;if the website doesn&#8217;t respond in 5 seconds, give up&#8221;</li>
+<li><code>response</code> stores the website&#8217;s answer</li>
+</ul>
+<p><strong>Line 4: <code>if response.status_code == 404:</code></strong></p>
+<ul class="wp-block-list">
+<li>Every website gives back a status code (like a report card)</li>
+<li>404 means &#8220;page not found&#8221; &#8211; the website is broken</li>
+<li><code>if</code> means &#8220;only do the next thing IF this condition is true&#8221;</li>
+<li><code>==</code> means &#8220;is equal to&#8221; (different from <code>=</code> which means &#8220;assign&#8221;)</li>
+</ul>
+<p><strong>Line 5: <code>return "404 Not Found"</code></strong></p>
+<ul class="wp-block-list">
+<li>If the website is broken, return this friendly message</li>
+</ul>
+<p><strong>Line 6: <code>else:</code></strong></p>
+<ul class="wp-block-list">
+<li>&#8220;If the condition above wasn&#8217;t true, do this instead&#8221;</li>
+</ul>
+<p><strong>Line 7: <code>return f"Status Code: {response.status_code}"</code></strong></p>
+<ul class="wp-block-list">
+<li>For working websites, return the status code</li>
+<li>The <code>f</code> before the quotes creates an <strong>f-string</strong> &#8211; it lets us insert variables into text</li>
+<li><code>{response.status_code}</code> gets replaced with the actual number</li>
+</ul>
+<p><strong>Line 8: <code>except Exception as e:</code></strong></p>
+<ul class="wp-block-list">
+<li>Our backup plan if anything goes wrong (network error, invalid URL, etc.)</li>
+</ul>
+<p><strong>Line 9: <code>return f"Error: {str(e)}"</code></strong></p>
+<ul class="wp-block-list">
+<li>Return an error message with details about what went wrong</li>
+<li><code>str(e)</code> converts the error into readable text</li>
+</ul>
+<h2 class="wp-block-heading">Part 6: The Main Brain (The check_urls Function)</h2>
+<p>This is our biggest function &#8211; it coordinates everything. </p>
+<p>Let&#8217;s break it into digestible pieces:</p>
+<h3 class="wp-block-heading">Getting Started and Loading Data</h3>
+<pre class="wp-block-code"><code lang="python" class="language-python">def check_urls():
+    urls = sheet.col_values(1)[1:]
+    start_row = load_progress()
+    total_urls = len(urls)</code></pre>
+<p><strong>Line 1: <code>def check_urls():</code></strong></p>
+<ul class="wp-block-list">
+<li>Our main function that doesn&#8217;t need any input</li>
+</ul>
+<p><strong>Line 2: <code>urls = sheet.col_values(1)[1:]</code></strong></p>
+<ul class="wp-block-list">
+<li><code>sheet.col_values(1)</code> gets all values from column 1 (column A)</li>
+<li><code>[1:]</code> is <strong>slicing</strong> &#8211; it takes everything except the first item</li>
+<li>This skips the header row and gives us just the URLs</li>
+<li>Square brackets <code>[]</code> access specific parts of a list</li>
+</ul>
+<p><strong>Line 3: <code>start_row = load_progress()</code></strong></p>
+<ul class="wp-block-list">
+<li>Calls our progress function to see which row to start from</li>
+</ul>
+<p><strong>Line 4: <code>total_urls = len(urls)</code></strong></p>
+<ul class="wp-block-list">
+<li><code>len()</code> counts how many URLs we have</li>
+<li><code>total_urls</code> stores this number for later</li>
+</ul>
+<h3 class="wp-block-heading">Checking If We&#8217;re Done</h3>
+<pre class="wp-block-code"><code lang="python" class="language-python">if start_row &gt; total_urls + 1:
+    print("All URLs processed.")
+    return</code></pre>
+<p><strong>Line 1: <code>if start_row &gt; total_urls + 1:</code></strong></p>
+<ul class="wp-block-list">
+<li>If our starting row is past the end of our URLs, we&#8217;re done</li>
+<li><code>+1</code> accounts for the header row</li>
+</ul>
+<p><strong>Line 2: <code>print("All URLs processed.")</code></strong></p>
+<ul class="wp-block-list">
+<li><code>print()</code> displays a message on the screen</li>
+<li>Like the script talking to us</li>
+</ul>
+<p><strong>Line 3: <code>return</code></strong></p>
+<ul class="wp-block-list">
+<li>Exit the function early &#8211; we&#8217;re done!</li>
+</ul>
+<h3 class="wp-block-heading">Calculating Our Batch</h3>
+<pre class="wp-block-code"><code lang="python" class="language-python">end_row = min(start_row + BATCH_SIZE - 1, total_urls + 1)
+
+print(f"Processing rows {start_row} to {end_row}...")
+updates = []</code></pre>
+<p><strong>Line 1: <code>end_row = min(start_row + BATCH_SIZE - 1, total_urls + 1)</code></strong></p>
+<ul class="wp-block-list">
+<li><code>min()</code> picks the smaller of two numbers</li>
+<li>We want to process either our full batch size OR up to the last URL</li>
+<li>This prevents us from trying to process URLs that don&#8217;t exist</li>
+</ul>
+<p><strong>Line 2: <code>print(f"Processing rows {start_row} to {end_row}...")</code></strong></p>
+<ul class="wp-block-list">
+<li>Tell the user what we&#8217;re doing</li>
+<li>The <code>f</code> string inserts our row numbers into the message</li>
+</ul>
+<p><strong>Line 3: <code>updates = []</code></strong></p>
+<ul class="wp-block-list">
+<li>Create an empty list to store our results</li>
+<li><code>[]</code> creates an empty list</li>
+</ul>
+<h3 class="wp-block-heading">Processing Each URL</h3>
+<pre class="wp-block-code"><code lang="python" class="language-python">for i in range(start_row - 2, end_row - 1):
+    url = urls[i]
+    result = check_url_status(url)
+    updates.append([result])</code></pre>
+<p><strong>Line 1: <code>for i in range(start_row - 2, end_row - 1):</code></strong></p>
+<ul class="wp-block-list">
+<li>A <strong>for loop</strong> &#8211; repeat the following code for each number in a range</li>
+<li><code>range()</code> creates a sequence of numbers</li>
+<li>The math adjusts for the difference between row numbers and list positions</li>
+<li><code>i</code> is our counter variable</li>
+</ul>
+<p><strong>Line 2: <code>url = urls[i]</code></strong></p>
+<ul class="wp-block-list">
+<li>Get the URL at position <code>i</code> from our list</li>
+</ul>
+<p><strong>Line 3: <code>result = check_url_status(url)</code></strong></p>
+<ul class="wp-block-list">
+<li>Call our URL checker function and store the result</li>
+</ul>
+<p><strong>Line 4: <code>updates.append([result])</code></strong></p>
+<ul class="wp-block-list">
+<li>Add the result to our updates list</li>
+<li><code>[result]</code> puts the result in its own list (required by Google Sheets)</li>
+<li><code>append()</code> adds an item to the end of a list</li>
+</ul>
+<h3 class="wp-block-heading">Saving Results and Planning Next Steps</h3>
+<pre class="wp-block-code"><code lang="python" class="language-python">sheet.update(f"B{start_row}:B{end_row}", updates)
+save_progress(end_row + 1)
+
+if end_row &lt; total_urls + 1:
+    print("Sleeping before next batch...")
+    time.sleep(3)
+    check_urls()
+else:
+    print("Processing complete.")
+    save_progress(2)</code></pre>
+<p><strong>Line 1: <code>sheet.update(f"B{start_row}:B{end_row}", updates)</code></strong></p>
+<ul class="wp-block-list">
+<li>Write all our results to column B in Google Sheets</li>
+<li><code>f"B{start_row}:B{end_row}"</code> creates a range like &#8220;B2:B101&#8221;</li>
+<li>This is much faster than writing one cell at a time</li>
+</ul>
+<p><strong>Line 2: <code>save_progress(end_row + 1)</code></strong></p>
+<ul class="wp-block-list">
+<li>Save where we should start next time</li>
+</ul>
+<p><strong>Line 3: <code>if end_row &lt; total_urls + 1:</code></strong></p>
+<ul class="wp-block-list">
+<li>Check if there are more URLs to process</li>
+</ul>
+<p><strong>Line 4: <code>print("Sleeping before next batch...")</code></strong></p>
+<ul class="wp-block-list">
+<li>Tell the user we&#8217;re taking a break</li>
+</ul>
+<p><strong>Line 5: <code>time.sleep(3)</code></strong></p>
+<ul class="wp-block-list">
+<li>Pause for 3 seconds</li>
+<li>This prevents us from overwhelming Google&#8217;s servers</li>
+</ul>
+<p><strong>Line 6: <code>check_urls()</code></strong></p>
+<ul class="wp-block-list">
+<li>Call ourselves again to process the next batch</li>
+<li>This is called <strong>recursion</strong> &#8211; a function calling itself</li>
+</ul>
+<p><strong>Line 7: <code>else:</code></strong></p>
+<ul class="wp-block-list">
+<li>If we&#8217;ve processed all URLs…</li>
+</ul>
+<p><strong>Line 8: <code>print("Processing complete.")</code></strong></p>
+<ul class="wp-block-list">
+<li>Celebrate! We&#8217;re done!</li>
+</ul>
+<p><strong>Line 9: <code>save_progress(2)</code></strong></p>
+<ul class="wp-block-list">
+<li>Reset our progress for the next time we run the script</li>
+</ul>
+<h2 class="wp-block-heading">Part 7: Starting the Engine</h2>
+<pre class="wp-block-code"><code lang="python" class="language-python"># Run it
+check_urls()</code></pre>
+<p>This final line actually starts our script. </p>
+<p>Without this, we&#8217;d have defined all our functions but never used them.</p>
+<h2 class="wp-block-heading">The Complete Script (With Comments)</h2>
+<p>Here&#8217;s everything together with helpful comments:</p>
+<pre class="wp-block-code"><code lang="python" class="language-python"># Import our tools
+import gspread  # Google Sheets connector
+import requests  # Website visitor
+import time  # Timer for pauses
+import json  # File format handler
+from google.auth.transport.requests import Request  # Google authentication
+from google.oauth2.service_account import Credentials  # Google credentials
+
+# Settings - change these to match your needs
+SPREADSHEET_NAME = "Redirections"  # Your Google Sheet name
+SHEET_NAME = "Redirections"  # Your sheet tab name
+BATCH_SIZE = 100  # How many URLs to check at once
+PROGRESS_FILE = "progress.json"  # Where to save our progress
+
+# Connect to Google Sheets
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]  # Permission we need
+creds = Credentials.from_service_account_file("credentials.json", scopes=SCOPES)
+client = gspread.authorize(creds)  # Create connection
+sheet = client.open(SPREADSHEET_NAME).worksheet(SHEET_NAME)  # Open our sheet
+
+def load_progress():
+    """Remember where we left off"""
+    try:
+        with open(PROGRESS_FILE, "r") as f:
+            return json.load(f).get("startRow", 2)
+    except FileNotFoundError:
+        return 2  # Start from row 2 if no progress file
+
+def save_progress(row):
+    """Save our current position"""
+    with open(PROGRESS_FILE, "w") as f:
+        json.dump({"startRow": row}, f)
+
+def check_url_status(url):
+    """Visit a website and check if it's working"""
+    try:
+        response = requests.get(url, timeout=5)
+        if response.status_code == 404:
+            return "404 Not Found"
+        else:
+            return f"Status Code: {response.status_code}"
+    except Exception as e:
+        return f"Error: {str(e)}"
+
+def check_urls():
+    """Main function - coordinates everything"""
+    # Get all URLs from column A (skip header)
+    urls = sheet.col_values(1)[1:]
+    start_row = load_progress()
+    total_urls = len(urls)
+
+    # Check if we're already done
+    if start_row &gt; total_urls + 1:
+        print("All URLs processed.")
+        return
+
+    # Figure out which batch to process
+    end_row = min(start_row + BATCH_SIZE - 1, total_urls + 1)
+
+    print(f"Processing rows {start_row} to {end_row}...")
+    updates = []  # Store our results here
+
+    # Check each URL in this batch
+    for i in range(start_row - 2, end_row - 1):
+        url = urls[i]
+        result = check_url_status(url)
+        updates.append([result])
+
+    # Write results to Google Sheets
+    sheet.update(f"B{start_row}:B{end_row}", updates)
+    save_progress(end_row + 1)
+
+    # Check if we need to do more batches
+    if end_row &lt; total_urls + 1:
+        print("Sleeping before next batch...")
+        time.sleep(3)  # Be polite to Google's servers
+        check_urls()  # Process next batch
+    else:
+        print("Processing complete.")
+        save_progress(2)  # Reset for next run
+
+# Start the script!
+check_urls()</code></pre>
+<h2 class="wp-block-heading">How to Use This Script</h2>
+<ol class="wp-block-list">
+<li><strong>Set up your Google Sheet</strong> with URLs in column A (starting from A2, with A1 as your header)</li>
+<li><strong>Get your credentials file</strong> from Google Cloud Console and save it as <code>credentials.json</code></li>
+<li><strong>Update the configuration</strong> at the top to match your sheet names</li>
+<li><strong>Run the script</strong> and watch it work!</li>
+</ol>
+<h2 class="wp-block-heading">What You&#8217;ve Learned</h2>
+<p>Congratulations! You&#8217;ve just learned about:</p>
+<ul class="wp-block-list">
+<li><strong>Variables</strong> (storing information)</li>
+<li><strong>Functions</strong> (reusable pieces of code)</li>
+<li><strong>Lists</strong> (containers for multiple items)</li>
+<li><strong>Loops</strong> (repeating actions)</li>
+<li><strong>Conditionals</strong> (making decisions)</li>
+<li><strong>Error handling</strong> (dealing with problems gracefully)</li>
+<li><strong>File operations</strong> (reading and writing files)</li>
+<li><strong>API interactions</strong> (talking to other services)</li>
+</ul>
+<p>You&#8217;re now ready to start modifying this script for your own needs!</p>
+<p>If you&#8217;re looking to learn more about <a href="https://python.robertdevore.com">programming with Python</a>, I put out a course for that 💪</p>
+
+        </article>
+    </section>
+</main>
+
+
+<footer class="bg-slate-900 text-white py-12" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+            <!-- Brand Section -->
+            <div class="md:col-span-1">
+                <h3 class="text-xl font-bold font-heading mb-4">Robert DeVore</h3>
+                <p class="text-slate-300 text-sm mb-4">
+                    Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/robertdevore" target="_blank" name="GitHub" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/robertdevore" target="_blank" name="Linkedin" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/robertdevore" target="_blank" name="Twitter" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/laravel-development/" class="hover:text-white transition-colors">Laravel Development</a></li>
+                    <li><a href="/nextjs-development/" class="hover:text-white transition-colors">Next.js Applications</a></li>
+                    <li><a href="/wordpress-development/" class="hover:text-white transition-colors">WordPress Solutions</a></li>
+                    <li><a href="/react-native-development/" class="hover:text-white transition-colors">React Native Apps</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4">Get In Touch</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>
+                        <a href="mailto:me@robertdevore.com" class="hover:text-white transition-colors">
+                            me@robertdevore.com
+                        </a>
+                    </li>
+                    <li class="text-slate-400">Response time: &lt; 4 hours</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+            <p class="text-slate-400 text-sm">
+                © 2025 Robert DeVore. All rights reserved. 
+                <span class="mx-2">•</span>
+                Built with <a href="https://stattic.site/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors" aria-label="Stattic - opens in a new tab">Stattic</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

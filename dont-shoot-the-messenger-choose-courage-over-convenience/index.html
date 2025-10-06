@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don&#8217;t Shoot the Messenger: Choose Courage Over Convenience | Robert DeVore</title>
+    <meta name="description" content="Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native. Building enterprise-grade solutions that scale with your business.">
+    <meta name="keywords" content="Laravel Developer, Next.js Developer, WordPress Developer, React Native, Full Stack Developer, Premium Development">
+    <meta name="author" content="Robert">
+
+    <link href="../assets/css/tailwind.min.css" rel="stylesheet">
+    
+    <link href="../assets/css/stattic.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+     
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Don&#8217;t Shoot the Messenger: Choose Courage Over Convenience">
+    <meta property="og:description" content="Stattic is a fast, lightweight static site generator.">
+    <meta property="og:url" content="https://robertdevore.com">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:image" content="..//images/dont-shoot-the-messenger-robertdevore-com.webp">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Don&#8217;t Shoot the Messenger: Choose Courage Over Convenience">
+    <meta name="twitter:description" content="Stattic is a fast, lightweight static site generator.">
+    
+    <meta name="twitter:image" content="..//images/dont-shoot-the-messenger-robertdevore-com.webp">
+    
+    <!-- Alpine.js for interactive components -->
+    <script src="../assets/js/alpine.min.js" defer></script>
+    <script src="../assets/js/stattic.js" defer></script>
+</head>
+<body class="bg-white text-slate-900 font-sans">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }" class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="container max-w-screen-xl m-auto py-4 px-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <img src="../assets/images/robert-devore-avatar.jpg" 
+                 alt="Robert DeVore Avatar" 
+                 class="w-10 h-10 rounded-full object-cover border-2 border-slate-200">
+            <h2 class="text-2xl font-bold font-heading">
+                <a href="../" class="text-slate-900 hover:text-blue-600 transition-colors">
+                    Robert DeVore
+                </a>
+            </h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-8">
+                <li>
+                    <a href="/free-ai-tools/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Free AI Tools
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li x-data="{ servicesOpen: false }" class="relative">
+                    <button @click="servicesOpen = !servicesOpen" 
+                            @click.away="servicesOpen = false"
+                            class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group flex items-center">
+                        Services
+                        <svg class="w-4 h-4 ml-1 transition-transform duration-200" 
+                             :class="servicesOpen ? 'rotate-180' : ''" 
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </button>
+                    
+                    <!-- Mega Menu -->
+                    <div x-show="servicesOpen" 
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 scale-95 translate-y-1"
+                         x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 scale-95 translate-y-1"
+                         class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-[800px] bg-white rounded-lg shadow-xl border border-slate-200 p-8 z-50"
+                         style="display: none;">
+                        
+                        <div class="grid grid-cols-3 gap-8">
+                            <!-- App Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    App Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/mvp-app-build/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">MVP App Build</div>
+                                        <div class="text-sm text-slate-500 mt-1">Launch-ready apps in less than 2 weeks</div>
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">React Native Apps</div>
+                                        <div class="text-sm text-slate-500 mt-1">Cross-platform iOS & Android apps</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Web Development
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/laravel-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Laravel Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Modern PHP applications & APIs</div>
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Next.js Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">React apps with SSR & static generation</div>
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">WordPress Development</div>
+                                        <div class="text-sm text-slate-500 mt-1">Custom plugins, themes & solutions</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optimization & Security -->
+                            <div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+                                    Optimization & Security
+                                </h3>
+                                <div class="space-y-3">
+                                    <a href="/page-speed-optimization/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Page Speed Optimization</div>
+                                        <div class="text-sm text-slate-500 mt-1">Lightning-fast performance tuning</div>
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="group block p-3 rounded-lg hover:bg-blue-50 transition-colors">
+                                        <div class="font-medium text-slate-900 group-hover:text-blue-600">Security Audit</div>
+                                        <div class="text-sm text-slate-500 mt-1">Comprehensive security assessments</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bottom CTA Section -->
+                        <div class="mt-8 pt-6 border-t border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900">Need something custom?</h4>
+                                    <p class="text-sm text-slate-500 mt-1">Let's discuss your unique requirements</p>
+                                </div>
+                                <a href="/contact/" 
+                                   class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/blog/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        Blog
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/" 
+                        class="relative text-slate-600 hover:text-blue-600 font-medium transition-colors group">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/" 
+                       class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 font-medium">
+                        Get Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-sm bg-white shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-200">
+                    <h3 class="text-xl font-bold font-heading text-slate-900">Robert DeVore</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6" x-data="{ mobileServicesOpen: false }">
+                    <ul class="space-y-4">
+                        <li>
+                            <a 
+                                href="/free-ai-tools/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Free AI Tools
+                            </a>
+                        </li>
+                        <li>
+                            <button 
+                                @click="mobileServicesOpen = !mobileServicesOpen"
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium py-2 transition-colors flex items-center justify-between w-full"
+                            >
+                                Services
+                                <svg class="w-5 h-5 transition-transform duration-200" 
+                                     :class="mobileServicesOpen ? 'rotate-180' : ''" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            
+                            <!-- Mobile Services Dropdown -->
+                            <div x-show="mobileServicesOpen" 
+                                 x-transition:enter="transition ease-out duration-200"
+                                 x-transition:enter-start="opacity-0 -translate-y-2"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-150"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-2"
+                                 class="ml-4 mt-2 space-y-2"
+                                 style="display: none;">
+                                
+                                <!-- App Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">App Development</div>
+                                    <a href="/mvp-app-build/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        MVP App Build
+                                    </a>
+                                    <a href="/react-native-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        React Native Apps
+                                    </a>
+                                </div>
+
+                                <!-- Web Development Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Web Development</div>
+                                    <a href="/laravel-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Laravel Development
+                                    </a>
+                                    <a href="/nextjs-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Next.js Development
+                                    </a>
+                                    <a href="/wordpress-development/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        WordPress Development
+                                    </a>
+                                </div>
+
+                                <!-- Optimization & Security Section -->
+                                <div class="mb-4">
+                                    <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2 pl-4">Optimization & Security</div>
+                                    <a href="/page-speed-optimization/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Page Speed Optimization
+                                    </a>
+                                    <a href="/security-audit/" 
+                                       class="block text-slate-600 hover:text-blue-600 font-medium py-2 pl-4 border-l-2 border-slate-200 hover:border-blue-600 transition-all"
+                                       @click="mobileMenuOpen = false">
+                                        Security Audit
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a 
+                                href="/portfolio/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/blog/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="/about/" 
+                                class="text-slate-700 hover:text-blue-600 text-lg font-medium block py-2 transition-colors"
+                                @click="mobileMenuOpen = false"
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li class="pt-4">
+                            <a 
+                                href="/contact/" 
+                                class="bg-gradient-to-tl from-blue-600 to-pink-600 text-white px-6 py-3 rounded-lg font-medium inline-block hover:from-blue-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105"
+                                @click="mobileMenuOpen = false"
+                            >
+                                Get Quote
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Section -->
+    
+    <section class="relative py-48 border-b border-slate-100 overflow-hidden">
+        <!-- Background Image with Fade -->
+        <div class="absolute inset-0">
+            <img src="/assets//images/dont-shoot-the-messenger-robertdevore-com.webp" alt="Don&#8217;t Shoot the Messenger: Choose Courage Over Convenience" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-white"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="relative container max-w-2xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white font-heading drop-shadow-lg">Don&#8217;t Shoot the Messenger: Choose Courage Over Convenience</h1>
+                <div class="flex items-center justify-center gap-4 text-white/90 drop-shadow-md">
+                    <time datetime="April 29, 2025">April 29, 2025</time>
+                    <span>&middot;</span>
+                    <span>Robert</span>
+                    <span>&middot;</span>
+                    <span class="reading-time"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Content -->
+    <section class="container max-w-2xl mx-auto px-4 py-16">
+        <article class="prose dark:prose-dark max-w-none stattic-content">
+            <p>Over recent days, there’s been a lot of noise around my exchange with Kevin Geary, from the <a href="https://www.youtube.com/watch?v=e6eHP6KWyrE">WP Townhall Debate on YouTube</a>, to the public knowledge I gathered about <a href="https://robertdevore.com/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/">his history of hate and racism</a> and <a href="https://x.com/deviorobert/status/1914985785373155424">shared</a> on <a href="https://bsky.app/profile/robertdevore.com/post/3lnonsuyfts2r">social</a> <a href="https://www.instagram.com/reel/DJAZPc9ppbR/">media</a>.
+Predictably, most of the heat hasn’t been about what was actually said - it’s been about <em>how</em> it was said.
+That alone is revealing.
+When a community chooses to focus on <strong>tone** instead of <strong>truth** , it's a sign that comfort is being prioritized over clarity.
+And it's worth examining why that happens, and what it costs.
+Today, I'm going to walk through this situation clearly - from Kevin's early track record to the latest events - so that anyone genuinely interested in the facts can see the full picture without distortions.
+Because at the end of the day:
+</strong>If the facts are true, the messenger isn 't the problem.</strong></p>
+<div class="wp-block-cover"><img loading="lazy" decoding="async" width="1024" height="683" class="wp-block-cover__image-background wp-image-14898 size-large" alt="" src="/images/dont_shoot_the_messenger_image_1024x683.webp" data-object-fit="cover" srcset="/images/dont_shoot_the_messenger_image_1024x683.webp 1024w, /images/dont_shoot_the_messenger_image_300x200.webp 300w, /images/dont_shoot_the_messenger_image_768x512.webp 768w, /images/dont_shoot_the_messenger_image.webp 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<h2 class="wp-block-heading has-text-align-center">Why Tone Policing is a Red Flag</h2>
+</div>
+</div>
+<p>Tone policing is one of the oldest deflection tactics out there.</p>
+<p>When someone says something uncomfortable but true, the easiest way to dismiss it is to attack <em>how</em> they said it, not <em>whether it&#8217;s accurate.</em></p>
+<p>You see it everywhere:</p>
+<ul class="wp-block-list">
+<li>Whistleblowers are called &#8220;disruptive.&#8221;</li>
+<li>Critics are called &#8220;negative forces.&#8221;</li>
+<li>People raising uncomfortable truths are labeled &#8220;divisive.&#8221;</li>
+</ul>
+<p>It’s an emotional defense mechanism.</p>
+<p>But it’s also how communities stagnate &#8211; when the desire to stay comfortable outweighs the desire to stay honest.</p>
+<p>This is exactly what’s happening here.</p>
+<div class="wp-block-cover" style="min-height:430px;aspect-ratio:unset;aspect-ratio:unset;"><img loading="lazy" decoding="async" width="1024" height="683" class="wp-block-cover__image-background wp-image-14899 size-large" alt="" src="/images/dont_shoot_the_messenger_kevin_geary_history_1024x683.webp" data-object-fit="cover" srcset="/images/dont_shoot_the_messenger_kevin_geary_history_1024x683.webp 1024w, /images/dont_shoot_the_messenger_kevin_geary_history_300x200.webp 300w, /images/dont_shoot_the_messenger_kevin_geary_history_768x512.webp 768w, /images/dont_shoot_the_messenger_kevin_geary_history.webp 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<h2 class="wp-block-heading has-text-align-center">Kevin Michael Geary</h2>
+<p class="has-text-align-center"><em>A timeline of twisted behavior</em></p>
+</div>
+</div>
+<p>Let’s move past the feelings for a second and actually <em><a href="https://robertdevore.com/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/">look at the record</a>.</em></p>
+<h3 class="wp-block-heading">Early Career</h3>
+<p>Kevin’s early public work started with photokevin.com freelance photography and the Martialpreneur moniker he coined in order to sell marketing tips to karate school instructors. </p>
+<p>Then he moved into the personal development and coaching spaces.</p>
+<p>He positioned himself early on as a strong, self-help-oriented figure, offering programs focused on health, weight loss, and mindset.</p>
+<p>Even then, the pattern was clear:</p>
+<ul class="wp-block-list">
+<li>Heavy emphasis on <strong>authority</strong> positioning.</li>
+<li>A strong &#8220;I have the real answers&#8221; stance.</li>
+<li>Quick dismissals of anyone outside his framework.</li>
+</ul>
+<p>This isn&#8217;t inherently bad &#8211; conviction matters &#8211; but unchecked, this pattern often breeds insularity.</p>
+<h3 class="wp-block-heading">Mid-Career Moves</h3>
+<p>Later, Kevin pivoted into web development and digital business coaching.</p>
+<p>He launched businesses, courses, and eventually moved into the WordPress ecosystem, focusing heavily on design systems (<a href="https://automaticcss.com" target="_blank" rel="noreferrer noopener nofollow">AutomaticCSS</a>) and components (<a href="https://getframes.io/" rel="nofollow">Frames</a>).</p>
+<p>Again, the pattern continued:</p>
+<ul class="wp-block-list">
+<li>Establishing ideological lines (&#8220;this is how real professionals do it&#8221;).</li>
+<li>Cultivating an inner circle of loyal followers.</li>
+<li>Setting up binary choices: you’re either <em>with</em> the system, or you’re part of the problem.</li>
+</ul>
+<p>It&#8217;s a strong model for building a niche brand.</p>
+<p>But it also tends to create echo chambers where dissent is seen as betrayal instead of engagement.</p>
+<h3 class="wp-block-heading">Recent Actions</h3>
+<p>As Kevin’s influence grew in WordPress circles (especially around the Oxygen and Bricks builder communities), the same dynamics scaled with him:</p>
+<ul class="wp-block-list">
+<li>Increasing intolerance for public criticism.</li>
+<li>Public callouts of competitors or alternative viewpoints.</li>
+<li>Attempts to reshape the WordPress discussion around his personal standards for professionalism and business acumen.</li>
+</ul>
+<p>And now, as tension builds inside those ecosystems, people are finding that the very environment he cultivated &#8211; rigid, hierarchical, loyalty-driven &#8211; is creating fractures.</p>
+<p>None of this is surprising if you zoom out and look at the pattern across his career.</p>
+<div class="wp-block-cover"><img loading="lazy" decoding="async" width="1024" height="683" class="wp-block-cover__image-background wp-image-14900 size-large" alt="" src="/images/dont_shoot_the_messenger_post_image_robertdevore_com_1024x683.webp" data-object-fit="cover" srcset="/images/dont_shoot_the_messenger_post_image_robertdevore_com_1024x683.webp 1024w, /images/dont_shoot_the_messenger_post_image_robertdevore_com_300x200.webp 300w, /images/dont_shoot_the_messenger_post_image_robertdevore_com_768x512.webp 768w, /images/dont_shoot_the_messenger_post_image_robertdevore_com.webp 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<h2 class="wp-block-heading has-text-align-center">The Dust-Up</h2>
+<p class="has-text-align-center"><em>What Actually Happened</em></p>
+</div>
+<p>My interaction with Kevin was simple:
+I pointed out publicly - <a href="https://robertdevore.com/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/">with evidence</a> - concerns about his behavior, positioning, and influence.
+Instead of engaging with the content of what I said, the reaction from many was to critique my delivery, because I posted on social media and tagged people to increase the message's reach.
+This is the easiest move to make when you don't want to confront something uncomfortable:
+Attack the messenger.
+Dismiss the critique based on tone, not substance.
+The irony?
+Many of the people most upset about &quot;how&quot; I spoke are the same ones who have cheered when I used much harsher tactics against Matt Mullenweg and team - because they agreed with the message.
+It's not about tone.
+It’s about whether the critique threatens their preferred narrative.</p>
+<div class="wp-block-cover"><img loading="lazy" decoding="async" width="1024" height="683" class="wp-block-cover__image-background wp-image-14901 size-large" alt="" src="/images/dont_shoot_the_messenger_why_this_matters_1024x683.webp" data-object-fit="cover" srcset="/images/dont_shoot_the_messenger_why_this_matters_1024x683.webp 1024w, /images/dont_shoot_the_messenger_why_this_matters_300x200.webp 300w, /images/dont_shoot_the_messenger_why_this_matters_768x512.webp 768w, /images/dont_shoot_the_messenger_why_this_matters.webp 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<h2 class="wp-block-heading has-text-align-center">Why This Matters Beyond Kevin</h2>
+</div>
+</div>
+<p>This isn’t really about one person.</p>
+<p>It’s about a larger cultural moment in the WordPress ecosystem:</p>
+<ul class="wp-block-list">
+<li>Loyalty is being valued over critical thinking.</li>
+<li>Influence is being mistaken for wisdom.</li>
+<li>Tone is being used as a shield against accountability.</li>
+</ul>
+<p>If WordPress wants to remain vibrant, independent, and genuinely community-driven, it needs to reward <strong>truth and transparency</strong> over <strong>comfort and cults of personality.</strong></p>
+<p>Otherwise, it’s not a community anymore &#8211; it’s just another closed loop where the loudest voices write the rules, and everyone else either falls in line or gets iced out.</p>
+<div class="wp-block-cover"><img loading="lazy" decoding="async" width="1024" height="683" class="wp-block-cover__image-background wp-image-14902 size-large" alt="" src="/images/dont_shoot_the_messenger_blog_post_robertdevore_com_1024x683.webp" data-object-fit="cover" srcset="/images/dont_shoot_the_messenger_blog_post_robertdevore_com_1024x683.webp 1024w, /images/dont_shoot_the_messenger_blog_post_robertdevore_com_300x200.webp 300w, /images/dont_shoot_the_messenger_blog_post_robertdevore_com_768x512.webp 768w, /images/dont_shoot_the_messenger_blog_post_robertdevore_com.webp 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<h2 class="wp-block-heading has-text-align-center">We Need Clarity Over Comfort</h2>
+</div>
+<p>I don’t expect everyone to agree with how I present things.
+That's fine.
+But if your first instinct is to critique the delivery instead of addressing the underlying truth, it’s worth asking:
+<strong>Are you defending the community - or just your comfort inside it?</strong>
+I’ll always choose clarity over comfort.
+Because at the end of the day, <a href="https://robertdevore.com/tag/extreme-leadership/">extreme leadership</a> isn't about keeping everyone happy - it's about doing what’s right, even when it’s inconvenient.
+The truth doesn't require permission.
+And sometimes, it shows up louder than people would like.</p>
+
+        </article>
+    </section>
+</main>
+
+
+<footer class="bg-slate-900 text-white py-12" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+            <!-- Brand Section -->
+            <div class="md:col-span-1">
+                <h3 class="text-xl font-bold font-heading mb-4">Robert DeVore</h3>
+                <p class="text-slate-300 text-sm mb-4">
+                    Premium full-stack developer specializing in Laravel, Next.js, WordPress, and React Native.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/robertdevore" target="_blank" name="GitHub" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/robertdevore" target="_blank" name="Linkedin" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/robertdevore" target="_blank" name="Twitter" class="text-slate-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4 class="font-semibold mb-4">Services</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/laravel-development/" class="hover:text-white transition-colors">Laravel Development</a></li>
+                    <li><a href="/nextjs-development/" class="hover:text-white transition-colors">Next.js Applications</a></li>
+                    <li><a href="/wordpress-development/" class="hover:text-white transition-colors">WordPress Solutions</a></li>
+                    <li><a href="/react-native-development/" class="hover:text-white transition-colors">React Native Apps</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-semibold mb-4">Get In Touch</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>
+                        <a href="mailto:me@robertdevore.com" class="hover:text-white transition-colors">
+                            me@robertdevore.com
+                        </a>
+                    </li>
+                    <li class="text-slate-400">Response time: &lt; 4 hours</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+            <p class="text-slate-400 text-sm">
+                © 2025 Robert DeVore. All rights reserved. 
+                <span class="mx-2">•</span>
+                Built with <a href="https://stattic.site/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors" aria-label="Stattic - opens in a new tab">Stattic</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
