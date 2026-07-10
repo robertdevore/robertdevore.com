@@ -49,6 +49,23 @@ for path in html_files:
                 if target.startswith(("/wp-content/", "/recommends/")): warnings.append(f"{rel}: retained historical external path {target}")
                 else: warnings.append(f"{rel}: missing historical internal target {target}")
 
+    article_content = soup.select_one(".article-content")
+    if article_content:
+        if any(h.get_text(" ", strip=True).lower() == "continue reading" for h in article_content.find_all(["h2", "h3"])):
+            errors.append(f"{rel}: obsolete Continue reading section")
+        first_block = article_content.find(recursive=False)
+        first_links = first_block.select('a[href^="/category/"], a[href^="/tag/"]') if first_block else []
+        if first_block and first_block.name == "p" and first_links and len(first_links) == len(first_block.find_all("a")):
+            errors.append(f"{rel}: duplicate taxonomy row at start of article content")
+        related = next((h for h in article_content.find_all("h2") if h.get_text(" ", strip=True) == "Related Reading"), None)
+        related_links = related.find_next_sibling("ul").find_all("a") if related and related.find_next_sibling("ul") else []
+        if len(related_links) != 3: errors.append(f"{rel}: expected three Related Reading links, found {len(related_links)}")
+
+    if soup.select_one(".project-page"):
+        if len(soup.select(".project-landing h2")) < 3: errors.append(f"{rel}: project landing page lacks substantive sections")
+        if not soup.select_one('.project-landing a[href^="https://github.com/kujolang/"]'):
+            errors.append(f"{rel}: project landing page missing Kujo GitHub link")
+
 for value, paths in titles.items():
     if value and len(paths) > 1 and not all("/page/" in p or p.startswith("page/") for p in paths): warnings.append(f"duplicate title: {value} ({len(paths)})")
 
@@ -64,6 +81,27 @@ for path in sorted(root.rglob("*.css")):
 required = ["index.html", "blog/index.html", "page/2/index.html", "about/index.html", "contact/index.html", "projects/index.html", "category/developer-tools/index.html", "tag/engineering/index.html", "404.html", "feed/index.xml", "sitemap.xml", "robots.txt", "llms.txt"]
 for item in required:
     if not (root / item).exists(): errors.append(f"missing required output: {item}")
+
+home = BeautifulSoup((root / "index.html").read_text(errors="ignore"), "html.parser")
+transmission = home.select_one("#writing .section-index")
+if not transmission or transmission.get_text(" ", strip=True) != "03 / Transmission log": errors.append("homepage transmission label includes pagination or is missing")
+footer = home.select_one(".site-footer")
+if not footer or "© 1985-2026 Robert DeVore." not in footer.get_text(" ", strip=True): errors.append("footer copyright is incorrect")
+for href in ("https://x.com/deviorobert", "https://github.com/robertdevore"):
+    if not footer or not footer.select_one(f'a[href="{href}"]'): errors.append(f"footer missing social link {href}")
+
+contact = BeautifulSoup((root / "contact/index.html").read_text(errors="ignore"), "html.parser")
+if len(contact.select("form[data-contact-form] label")) != 5: errors.append("contact form fields are incomplete")
+
+llms = (root / "llms.txt").read_text(errors="ignore")
+if "## Projects" not in llms or "[Projects index](https://robertdevore.com/projects/)" not in llms:
+    errors.append("llms.txt missing Projects collection")
+for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
+    if f"https://robertdevore.com/projects/{slug}/" not in llms: errors.append(f"llms.txt missing project {slug}")
+
+site_css = (root / "assets/css/site.css").read_text(errors="ignore")
+for contract in ("-webkit-text-stroke:3px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
+    if contract not in site_css: errors.append(f"site CSS missing requested contract {contract}")
 
 print(f"Validated {len(html_files)} primary HTML routes")
 print(f"Warnings: {len(warnings)}")

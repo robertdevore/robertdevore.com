@@ -16,10 +16,10 @@ The site uses the supported contracts directly:
 - `layout.html`, page/listing overrides, content-type listing overrides, and per-item templates
 - unified frontmatter for title, description, author, date, canonical, template, excerpt, categories, tags, draft state, ordering, and navigation visibility
 - root pages, root post permalinks, blog/home pagination, custom collection routes, flat aliases, and 404 output
-- canonical, Open Graph, Twitter Card, BlogPosting/WebSite JSON-LD, RSS, sitemap, robots, favicon, and llms.txt
+- canonical, Open Graph, Twitter Card, BlogPosting/WebSite JSON-LD, RSS, sitemap, robots, favicon, and llms.txt with posts, pages, and custom collections
 - local asset copying, deterministic font/image handling, and output validation
 
-One general platform gap was proven: public posts needed to remain at `/<slug>/` while the writing listing remained at `/blog/`. Kujo SSG now supports `posts_at_root`; the upstream change is tested and committed as `8641a71`. No parallel router or metadata system was created.
+Two general platform gaps were proven. Public posts needed to remain at `/<slug>/` while the writing listing remained at `/blog/`; Kujo SSG supports that through the tested `posts_at_root` change in commit `8641a71`. Custom collections were missing from `llms.txt`; the SSG now emits a deterministic section, collection-index URL, and non-draft item URLs for every built custom collection through local commit `d17ed50`. No site-specific parallel router or machine-readable index was created.
 
 Native taxonomy archive generation is not yet an SSG feature. Archives are materialized through the supported custom-collection contract at `/category/<term>/` and `/tag/<term>/`. The migration script regenerates them from canonical post frontmatter.
 
@@ -61,13 +61,13 @@ Primary navigation is Writing, Projects, About, Contact. Machine-readable and se
 
 The art direction is systems editorial design with controlled digital decay. Order remains dominant: white canvas, black/gray structure, thin rules, generous space, narrow reading measure, SiteKit tokens, and Departure Mono throughout. Red is restricted to small signal labels, active markers, and acquisition residue.
 
-Three supplied fragmentation works form the background system. Each has a 1920px WebP (92–128 KB), a 720px mobile WebP (24–25 KB), and the original PNG fallback. A/B/C variants use different focal positions and mobile crops across home, writing, article, page, project, and error heroes. A white local contrast field and lower diffusion gradient preserve title legibility without thick outlines.
+Three supplied fragmentation works form the background system. Each has a 1920px WebP (92–128 KB), a 720px mobile WebP (24–25 KB), and the original PNG fallback. A/B/C variants use different focal positions and mobile crops across home, writing, article, page, project, and error heroes. The centered homepage hero shows the source art without a left or lower fade and uses a 3px white letter stroke instead of a faded title panel.
 
-Signal-acquisition motion uses two CSS pseudo-layers for 640–720 ms, runs once, does not replace the real heading, causes no layout shift, and is removed under `prefers-reduced-motion`. The site remains navigable and readable without JavaScript. JavaScript (2.9 KB uncompressed) only adds current-page state, heading anchors/TOC, and accessible copy-code controls.
+Signal-acquisition motion uses two CSS pseudo-layers for 640–720 ms, runs once, does not replace the real heading, causes no layout shift, and is removed under `prefers-reduced-motion`. The site remains navigable and readable without JavaScript. JavaScript adds current-page state, heading anchors/TOC, accessible copy-code controls, related-reading card enhancement, and a privacy-preserving mailto draft for the contact form.
 
 ## Content migration and routes
 
-`scripts/migrate_legacy.py` parses the previous llms.txt/sitemap and rendered HTML, converts article bodies to Markdown, normalizes frontmatter, preserves 138 post routes, creates previous/next and related links, and materializes category/tag archives. The route-by-route record is [content-migration.csv](content-migration.csv).
+`scripts/migrate_legacy.py` parses the previous llms.txt/sitemap and rendered HTML, converts article bodies to Markdown, normalizes frontmatter, preserves 138 post routes, creates three related-reading links, and materializes category/tag archives. Category and tag metadata remains in article heroes; the redundant body taxonomy row and previous/next “Continue reading” section are intentionally omitted. The route-by-route record is [content-migration.csv](content-migration.csv).
 
 All 138 listed post URLs remain unchanged. The current homepage, blog, about, contact, free tools, seven service routes, portfolio, and unlisted `contact-new` route remain available. No route required a redirect. Old generated pagination routes continue through Kujo SSG. Historical broken project/tag/media/recommendation links are reported as warnings rather than silently rewritten.
 
@@ -75,6 +75,6 @@ All 138 listed post URLs remain unchanged. The current homepage, blog, about, co
 
 The shell uses landmarks, one page-level H1, skip link, native `<details>` mobile navigation, visible focus, large targets, semantic lists/tables, image alt validation, reduced motion, forced-color fallback, print styles, and no-JavaScript navigation/content. Heading anchors, TOC, and copy controls are progressive enhancements.
 
-Final authored payloads: site CSS 16,289 bytes, site JS 2,949 bytes, Departure Mono WOFF2 22,496 bytes, and each desktop hero 93–128 KB. Legacy article media totals 195 MB in the repository/output but loads only when referenced by an individual historical article; it is never globally requested. No framework, animation library, tracking script, or third-party font request was added.
+Current authored payloads: site CSS 22,926 bytes, site JS 4,723 bytes, Departure Mono WOFF2 22,496 bytes, and each desktop hero 93–128 KB. Legacy article media totals 195 MB in the repository/output but loads only when referenced by an individual historical article; it is never globally requested. No framework, animation library, tracking script, or third-party font request was added.
 
 Deployment assumption: a static host publishes `output/` at `https://robertdevore.com`. No production deployment was performed.
