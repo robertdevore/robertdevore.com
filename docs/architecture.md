@@ -41,7 +41,7 @@ SiteKit's generated design guide, tokens, Kujo Light theme, standards, personal/
 | alert | archived legacy warning | semantic Markdown quote styled as a warning surface |
 | pagination | SSG-generated listings | SSG markup styled with SiteKit tokens |
 
-No SiteKit source changes were needed. Compiled distribution assets are synced rather than copying component source into the theme. RobertDeVore.com-specific artwork, composition, crops, motion, and editorial rhythm stay in `assets/css/site.css` and site templates.
+No SiteKit source changes were needed. Compiled distribution assets are synced rather than copying component source into the theme. Their source revisions and hashes are locked in `workspace-dependencies.json`; `scripts/sync_dependencies.sh` performs the portable, atomic sync and `scripts/workspace.py doctor` verifies provenance. RobertDeVore.com-specific artwork, composition, crops, motion, and editorial rhythm stay in `assets/css/site.css` and site templates.
 
 ## Information architecture and templates
 
@@ -78,3 +78,5 @@ The shell uses landmarks, one page-level H1, skip link, native `<details>` mobil
 Current authored payloads: site CSS 22,926 bytes, site JS 4,723 bytes, Departure Mono WOFF2 22,496 bytes, and each desktop hero 93–128 KB. Legacy article media totals 195 MB in the repository/output but loads only when referenced by an individual historical article; it is never globally requested. No framework, animation library, tracking script, or third-party font request was added.
 
 Deployment assumption: a static host publishes `output/` at `https://robertdevore.com`. No production deployment was performed.
+
+For local operations, the Kujo runtime and SSG/SiteKit source paths are resolved from the project-local dependency manifest rather than a developer-specific absolute path. The validator's Python dependency is declared in `requirements.txt`. See [dependencies.md](dependencies.md) for the sync and doctor contracts.
