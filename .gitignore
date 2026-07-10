@@ -1,4 +1,5 @@
 output/
+.lens/
 .cache/
 .DS_Store
 reports/tmp/

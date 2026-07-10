@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/tools-and-workflows-for-formatting-visuals-and-citations/" },
+  "title": { "contains": "Tools and Workflows for Formatting, Visuals, and Citations" },
+  "text": { "contains": ["Tools and Workflows for Formatting, Visuals, and Citations"] },
+  "selectors": { "exists": ["main"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/projects/lens/" },
+  "title": { "contains": "Lens" },
+  "text": { "contains": ["Lens"] },
+  "selectors": { "exists": ["main"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

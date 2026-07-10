@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/contact/" },
+  "title": { "contains": "Contact" },
+  "text": { "contains": ["Send the useful context first"] },
+  "selectors": { "exists": ["main"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

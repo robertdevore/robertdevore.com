@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/" },
+  "title": { "contains": "Robert DeVore" },
+  "text": { "contains": ["Systems, tools, and writing for work that has to hold up."] },
+  "selectors": { "exists": ["main"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

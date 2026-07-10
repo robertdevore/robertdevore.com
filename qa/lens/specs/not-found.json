@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/404.html" },
+  "title": { "contains": "Page Not Found" },
+  "text": { "contains": ["This route did not resolve."] },
+  "selectors": { "exists": ["main"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}
