@@ -51,6 +51,7 @@ roadmaps/audits, README, and the capability matrix. This campaign folder adds:
 - `verification.yml`
 - `remediation.spec.yml`
 - `handoff-qa-001-visual-release-receipts.md`
+- `strata-handoff.md`
 - `final-review.md`
 
 ## Verification
