@@ -1,0 +1,13 @@
+decisions:
+  - id: D-001
+    decision: Prioritize portable target workflow, two safe SSG P0 hardenings, and a local visual/a11y receipt.
+    rationale: These remedies are independently testable and directly map to documented P0/P1 gaps.
+    evidence: docs/postmortems/robertdevore-site-build-action-backlog.md
+  - id: D-002
+    decision: Defer remote-fetch SSRF policy, taxonomy archives, watch mode, and a SiteKit distribution redesign.
+    rationale: Each requires wider runtime, security, product, or distribution design beyond this bounded local campaign.
+    evidence: campaign task ledger and postmortem sizing
+  - id: D-003
+    decision: Keep QA-001's failed receipt as release evidence instead of weakening its threshold.
+    rationale: The findings are serious automated accessibility defects and are actionable frontend work.
+    evidence: .lens/runs/qa-001-20260710T215357Z/home/accessibility.json

@@ -1,0 +1,30 @@
+name: "KUJO postmortem remediation"
+goal: "Close the feasible RobertDeVore.com postmortem P0/P1 gaps with portable setup, safe SSG hardening, and repeatable release evidence."
+priority: "high"
+background: "The 2026-07-10 postmortem found absolute-path target dependencies, undeclared validation prerequisites, SSG path/frontmatter hardening gaps, and no visual/a11y receipt."
+scope: "Portable target manifest, doctor, dependency synchronization, and validation dependency declaration; SSG local featured-image containment and delimiter-aware frontmatter parsing; representative local visual/accessibility receipts; postmortem and campaign evidence updates."
+non_goals:
+  - "Deployment, publishing, tagging, or pushing"
+  - "Remote-fetch SSRF policy, taxonomy archives, watch mode, or SiteKit distribution redesign"
+acceptance_criteria:
+  - "Target build and dependency sync do not default to an absolute workstation path."
+  - "Target doctor emits actionable prerequisite/provenance results and the validator dependency is declared."
+  - "SSG rejects featured-image candidates outside approved local roots while retaining approved paths."
+  - "SSG only treats delimiter lines as frontmatter delimiters and preserves literal dashes in content."
+  - "A local visual/accessibility receipt covers representative routes and records artifacts."
+  - "Target build/validation, relevant SSG contracts, SSG starter validation, and release review are recorded."
+risks:
+  - "Remote fetch policy needs wider runtime/security design and remains deferred."
+  - "Visual tooling may be unavailable in the local environment."
+dependencies:
+  - "Local Kujo runtime, SSG checkout, SiteKit checkout, Python validation environment, and Lens when available"
+review_expectations:
+  - "Independent QA, security, and release review after implementation receipts."
+human_approval_points:
+  - "Any deploy, publish, push, tag, external fetch policy change, or release remains out of scope."
+tags:
+  - "postmortem"
+  - "remediation"
+  - "kujo"
+  - "ssg"
+  - "release-evidence"

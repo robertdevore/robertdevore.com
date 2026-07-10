@@ -1,0 +1,24 @@
+run_id: 2026-07-10-kujo-postmortem-remediation
+mission: Remediate feasible P0/P1 findings from the RobertDeVore.com postmortem.
+commander: General Commander (Codex)
+constraints:
+  - local edits and commands are authorized
+  - preserve unrelated changes
+  - no push, deploy, publication, tag, or release
+repositories:
+  target: /Users/robertdevore/2026/robertdevore.com
+  ssg: /Users/robertdevore/2026/Kujolang/kujo-repos/ssg
+  sitekit: /Users/robertdevore/2026/Kujolang/kujo-repos/site-kit
+  runtime: /Users/robertdevore/2026/Kujolang/kujo-repos/kujo
+objectives:
+  - portable target workspace and doctor workflow
+  - SSG frontmatter and featured-image hardening
+  - repeatable visual/accessibility receipt
+  - target dependency and release documentation
+  - source-grounded postmortem status updates
+non_goals:
+  - publishing or deploying
+  - broad taxonomy or watch-mode refactors
+  - SiteKit distribution redesign
+  - untrusted network fetch enablement
+status: active

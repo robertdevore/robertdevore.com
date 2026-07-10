@@ -1,0 +1,26 @@
+evidence:
+  - id: E-001
+    source: postmortem packet
+    status: inspected
+  - id: E-002
+    source: target scripts/build.sh and scripts/sync_dependencies.sh
+    status: inspected
+  - id: E-003
+    source: SSG build.kujo and contract scripts
+    status: inspected
+  - id: E-004
+    source: "Target doctor, sync check, build, and validator"
+    command: "python3 scripts/workspace.py doctor --json && ./scripts/sync_dependencies.sh --check && ./scripts/build.sh && python3 scripts/validate_site.py output"
+    result: "passed; 138 posts, 12 pages, 195 routes; 73 pre-existing historical-link warnings"
+  - id: E-005
+    source: "SSG CI"
+    command: "KUJO_BIN=.../kujo/target/release/kujo bash scripts/run_ci_checks.sh"
+    result: "passed; CLI, generated-output, documentation contracts, starter build, and generated-output validation"
+  - id: E-006
+    source: "QA-001 Lens receipt"
+    artifact: ".lens/runs/qa-001-20260710T215357Z/receipt.json"
+    result: "failed as intended on four serious home-page axe findings; other five representative routes passed"
+  - id: E-007
+    source: "ShipCheck gate"
+    command: "kujo run shipcheck.kujo gate --dir /Users/robertdevore/2026/robertdevore.com --format json"
+    result: "gate failed with three generic repository metadata/test errors and eight warnings"

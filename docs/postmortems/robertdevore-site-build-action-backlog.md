@@ -1,5 +1,32 @@
 # RobertDeVore.com build postmortem — actionable backlog
 
+## Remediation update — 2026-07-10 campaign
+
+The local remediation campaign closed the feasible, bounded portions of the
+portable-workspace and SSG-hardening work. The target now has a pinned
+`workspace-dependencies.json`, portable build/sync entrypoints, a
+machine-readable doctor, declared BeautifulSoup validation dependency, and an
+agent handoff contract. SSG now confines local featured-image sources to
+approved roots and parses frontmatter on delimiter lines; its current capability
+docs are covered by a documentation contract. The target also has a versioned
+Lens route/viewport receipt workflow.
+
+The first receipt correctly found serious home-page color-contrast and
+discernible-link-name violations, so the receipt mechanism is complete but the
+release gate remains blocked pending frontend remediation. Remote-fetch
+destination policy, native taxonomy archives, watch mode, SiteKit's consumer
+distribution model, link-waiver policy, and clean-machine CI remain open.
+
+| Item | Campaign status | Evidence |
+| --- | --- | --- |
+| SITE-001 | Completed locally | `workspace-dependencies.json`, `scripts/workspace.py`, `scripts/sync_dependencies.py`; target doctor/sync/build/validator passed. |
+| SITE-002 | Completed locally | `requirements.txt` pins BeautifulSoup; doctor verifies it is importable. |
+| SSG-001 | Completed locally | SSG commit `83e56b7` plus generated-output containment fixture. |
+| SSG-003 | Completed locally | SSG commit `83e56b7` plus delimiter/body/malformed-frontmatter fixtures. |
+| SSG-007 | Completed locally | SSG commit `a09a534`, capability matrix, and documentation contract. |
+| QA-001 | Implemented; release blocked | Target commit `2d6e72d`; Lens found home-page contrast and image-link-name violations. |
+| SSG-002, SSG-004, SSG-005, SK-001, SK-002, SITE-003 | Open | Require broader security, product, distribution, or content-policy work. |
+
 ## Kujo SSG / runtime
 
 ### SSG-001 — Constrain local featured-image paths

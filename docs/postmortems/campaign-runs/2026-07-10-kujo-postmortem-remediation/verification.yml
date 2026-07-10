@@ -1,0 +1,16 @@
+verification:
+  planned:
+    - target workspace doctor, sync, build, and validator
+    - SSG CLI and generated-output contracts plus focused hardening coverage
+    - SSG starter build and validation
+    - SiteKit gate only if SiteKit changes
+    - local Lens accessibility/visual receipt
+    - release readiness review without publishing
+  results:
+    target_doctor_sync_build_validator: pass
+    ssg_contracts_starter_validation: pass
+    sitekit_gate: not_run_no_sitekit_changes
+    visual_accessibility_receipt: fail
+    shipcheck_release_gate: fail
+    security_review: pass_with_open_remote_fetch_risk
+  release_verdict: blocked
