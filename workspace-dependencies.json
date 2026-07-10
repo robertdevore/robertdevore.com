@@ -16,7 +16,7 @@
     "ssg": {
       "name": "Kujo SSG",
       "repository": "https://github.com/kujolang/ssg",
-      "revision": "d17ed50ed327d63413078280e4979501a8715eaf",
+      "revision": "a09a5341b2f050dcb8afc66b900b56eabb484d1b",
       "path": "../Kujolang/kujo-repos/ssg",
       "environment": "SSG_ROOT"
     },
@@ -29,7 +29,7 @@
     }
   },
   "artifacts": [
-    {"source": "ssg:build.kujo", "destination": "build.kujo", "source_sha256": "3fdb9136c1abab5992124f46b30f4a271da1513e6cb502bc7ba122050422a7e2", "sha256": "3fdb9136c1abab5992124f46b30f4a271da1513e6cb502bc7ba122050422a7e2"},
+    {"source": "ssg:build.kujo", "destination": "build.kujo", "source_sha256": "2b27df592292b094751a67275efadcc811d8add84f6430b78e9c6a6f3621a7d6", "sha256": "2b27df592292b094751a67275efadcc811d8add84f6430b78e9c6a6f3621a7d6"},
     {"source": "sitekit:css/reset.css", "destination": "assets/css/sitekit/reset.css", "source_sha256": "e61e93dfeb15b276d0a43cff763c7632375978d2a2c714f7b3b0fd4e09241634", "sha256": "e61e93dfeb15b276d0a43cff763c7632375978d2a2c714f7b3b0fd4e09241634"},
     {"source": "sitekit:css/generated/tokens.css", "destination": "assets/css/sitekit/tokens.css", "source_sha256": "777f8276552c6eaebdf619ecacd49987ba33257f3eaf7f36d1ce0a65985e757e", "sha256": "777f8276552c6eaebdf619ecacd49987ba33257f3eaf7f36d1ce0a65985e757e"},
     {"source": "sitekit:css/generated/themes.css", "destination": "assets/css/sitekit/themes.css", "source_sha256": "70c394fa9df80023c6d818a80cb644bfd5295cfeaf6fd81c98ee0963f8e623a1", "sha256": "70c394fa9df80023c6d818a80cb644bfd5295cfeaf6fd81c98ee0963f8e623a1"},
