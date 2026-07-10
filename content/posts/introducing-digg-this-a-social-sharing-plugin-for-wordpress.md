@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 There are a million social sharing plugins out there. Most of them suck 🤷‍♂️
 
 They either slow your site to a crawl, inject bloated tracking scripts, or just look like they were designed in 2008 and never updated.
@@ -78,14 +76,8 @@ Let me know what you think. If you run into issues, hit me up [here](/contact/).
 
 Otherwise, install it, use it, and enjoy having social sharing that doesn’t suck 💪
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Why WordPress Plugin Developers Need Security Audits](/why-wordpress-plugin-developers-need-security-audits/)
-
-**Older:** [How a Security Audit Can Save Your E-Commerce Store from Disaster](/how-a-security-audit-can-save-your-e-commerce-store-from-disaster/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Let’s be perfectly clear here: WooCommerce’s reliance on **tracking.woocommerce.com** to gather telemetry data about your site is an overreach that we’re going to rectify today.
 
 While data collection isn’t inherently bad, you should have the freedom to decide what information is shared and when – especially when it’s to companies run by “leadership” that proved on more than on occasion they don’t care about the users, just the profits.
@@ -113,14 +111,8 @@ And yes, just like the [WPCom Check](/how-to-stop-your-plugins-themes-from-being
 
 We see you, and we don’t respect you.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Block AI Crawlers for WordPress®](/introducing-block-ai-crawlers-for-wordpress/)
-
-**Older:** [Honoring Jesse Petersen with the Revival of “Stealth Login Page”](/honoring-jesse-petersen-with-the-revival-of-stealth-login-page/)

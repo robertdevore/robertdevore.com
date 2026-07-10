@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 Most AI content isn’t wrong. It’s just lifeless. It ticks boxes, hits the keyword and follows the format. **And still gets ignored 😭** That’s the real problem: Content that’s technically fine - but emotionally flat. It lacks energy, says nothing with conviction, and disappears from memory the moment you scroll past it.
 
 ![What beautifully useful content actually means](/assets/legacy-images/what_beautifully_useful_actually_means_1024x683.webp)
@@ -130,14 +128,8 @@ That’s how you ship with clarity, not just completion.
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [5 Questions You Must Answer Before Writing Anything](/5-questions-you-must-answer-before-writing-anything/)
-
-**Older:** [Just Released: Stattic v.0.3.0](/stattic-v0-3-0-release-llms-txt-faster-gifs-leaner-core-and-smarter-routing/)

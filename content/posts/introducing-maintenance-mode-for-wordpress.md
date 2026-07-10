@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Today, I’m thrilled to announce the release of **[Maintenance Mode for WordPress®](https://github.com/robertdevore/maintenance-mode-for-wordpress/)** 🔥
 
 This is a 100% free plugin designed to bring simplicity, flexibility, and true WordPress® integration to a task often overcomplicated by bloated alternatives: enabling a maintenance mode or coming soon page.
@@ -133,14 +131,8 @@ Your feedback helps me improve and inspires me to continue developing plugins th
 
 Here’s to a simpler, more elegant way to manage maintenance mode. 🚀
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Associated Taxonomies for WordPress®](/introducing-associated-taxonomies-for-wordpress/)
-
-**Older:** [Introducing Persistent Dismissible Notices](/introducing-persistent-dismissible-notices/)

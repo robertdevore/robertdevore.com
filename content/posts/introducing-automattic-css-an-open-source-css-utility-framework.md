@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Today I’m releasing **v0.1.0 of[automattic.css](https://github.com/robertdevore/automattic-css/)** – a new utility-first CSS framework inspired by the structure and philosophy of Automatic.css, but with a twist: it’s lean, builder-agnostic, and open to the community from day one.
 
 ### Why I Built It
@@ -134,14 +132,8 @@ Let’s build something better, together 💪💯
 
 _The[automattic.css](https://github.com/robertdevore/automattic-css/) CSS utility framework is in no way affiliated with Automattic Inc, Matt Mullenweg, WordPress.com, or the WordPress open source project._
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [How to teach AI to match your voice](/how-to-teach-ai-to-match-your-voice/)
-
-**Older:** [How to Write Prompts That Get the Tone, Structure, and Intent Right](/how-to-write-prompts-that-get-the-tone-structure-and-intent-right/)

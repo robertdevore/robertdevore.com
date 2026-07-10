@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 I can’t remember what sparked the idea, but I got bit by a strong urge to create my own cipher.
 
 Maybe it’s all the spy shit I watch on TV 😂
@@ -137,14 +135,8 @@ An example a before/after image can be found in the following tweet from when I 
 
 It's not fool proof, and since I've tweeted **AND** blogged about it, you should consider this setup burned. This was simply created because I wanted to have some fun, and I did 🤘 Itch, scratched.
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
-
-## Continue reading
-
-**Newer:** [Introducing IntelliPress: The Smart Ai Assistant for WordPress](/introducing-intellipress-the-smart-ai-assistant-for-wordpress/)
-
-**Older:** [“How hungry are you?”](/how-hungry-are-you/)

@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 Most people think of **anarchism** as chaos – burning dumpsters and smashed windows.
 
 But real anarchism is far more dangerous to power than broken glass.
@@ -72,14 +70,8 @@ Open source hasn't faded, it's been hijacked. Corporations saw the value but ski
 
 Open source doesn’t borrow from anarchism - it proves that it works. There are no bosses or messy budgets to wade through. Just the people, building projects because they actually give a shit. Because they see something broken and know they can fix it - without asking permission. It's not theoretical and it's not just symbolic. It's the code shipped by strangers that was organized by trust instead of titles. This isn't a lab experiment. It’s a war on gatekeeping, fought one pull request at a time. In open source, we don't burn the system down. We subvert it entirely. We fork. We fix. We free the future from anybody's permission.
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
-
-## Continue reading
-
-**Newer:** [Kevin Michael Geary: A Hidden History of Hate, Racism, and Bigotry](/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/)
-
-**Older:** [Do Less, Deliver More](/do-less-deliver-more/)

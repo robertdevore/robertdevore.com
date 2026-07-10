@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Fact: If you run an e-commerce store, **your security is either making you money or losing it**.
 
 There’s no middle ground 🤷‍♂️
@@ -146,14 +144,8 @@ A security audit is **not an expense – it’s a business-saving investment.**
 
 If you actually care about keeping your customers, protecting your revenue, and making sure your store doesn’t get wrecked by some asshole with a laptop, **[get a security audit now](/security-audits-for-wordpress/).**
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Digg This: A social sharing plugin for WordPress®](/introducing-digg-this-a-social-sharing-plugin-for-wordpress/)
-
-**Older:** [IntelliPress: The Smart AF AI Assistant for WordPress®](/intellipress-the-smart-af-ai-assistant-for-wordpress/)

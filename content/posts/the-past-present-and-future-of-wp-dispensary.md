@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 It’s been nearly 7 years since I first [released](https://www.wpdispensary.com/welcome-to-wp-dispensary/) WP Dispensary 😲
 
 On November 26th, 2015 I published [this article](https://www.wpdispensary.com/welcome-to-wp-dispensary/) announcing to the world that I built the first [cannabis menu plugin](https://wordpress.org/plugins/wp-dispensary) for WordPress.
@@ -83,14 +81,8 @@ I’ll also break down some of the business decisions I’ve made, the products/
 
 You can also keep up with my shenanigans on [Twitter](https://twitter.com/deviorobert), where I am currently finishing up a [90 day grind](https://twitter.com/deviorobert/status/1532204884619034626), which is leading the way for the CannaBiz launch 🚀
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [“How hungry are you?”](/how-hungry-are-you/)
-
-**Older:** [How to customize the style of your WordPress login screen](/how-to-customize-the-style-of-your-wordpress-login-screen/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Let me start by saying this isn’t simply about hate. It’s about clarity, control, and community.
 
 WordPress – the open source project – has been the foundation of my entire career. I’m grateful for it. And I’ve even gone on record praising Matt Mullenweg in the past for his open source leadership and vision.
@@ -180,14 +178,8 @@ This plugin is my contribution to the next chapter – one where developers own 
 
 Let’s build something better, together 💪💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [LEAP: The Code of Extreme Leadership](/leap-the-code-of-extreme-leadership/)
-
-**Older:** [Rethinking Keyword Research in the Age of AI](/rethinking-keyword-research-in-the-age-of-ai/)

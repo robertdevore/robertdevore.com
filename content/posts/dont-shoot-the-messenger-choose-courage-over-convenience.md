@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Over recent days, there’s been a lot of noise around my exchange with Kevin Geary, from the [WP Townhall Debate on YouTube](https://www.youtube.com/watch?v=e6eHP6KWyrE), to the public knowledge I gathered about [his history of hate and racism](/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/) and [shared](https://x.com/deviorobert/status/1914985785373155424) on [social](https://bsky.app/profile/robertdevore.com/post/3lnonsuyfts2r) [media](https://www.instagram.com/reel/DJAZPc9ppbR/). Predictably, most of the heat hasn’t been about what was actually said - it’s been about _how_ it was said. That alone is revealing. When a community chooses to focus on **tone** instead of**truth** , it's a sign that comfort is being prioritized over clarity. And it's worth examining why that happens, and what it costs. Today, I'm going to walk through this situation clearly - from Kevin's early track record to the latest events - so that anyone genuinely interested in the facts can see the full picture without distortions. Because at the end of the day:** If the facts are true, the messenger isn 't the problem.**
 
 ![](/assets/legacy-images/dont_shoot_the_messenger_image_1024x683.webp)
@@ -128,14 +126,8 @@ Otherwise, it’s not a community anymore – it’s just another closed loop wh
 
 I don’t expect everyone to agree with how I present things. That's fine. But if your first instinct is to critique the delivery instead of addressing the underlying truth, it’s worth asking: **Are you defending the community - or just your comfort inside it?** I’ll always choose clarity over comfort. Because at the end of the day, [extreme leadership](/tag/extreme-leadership/) isn't about keeping everyone happy - it's about doing what’s right, even when it’s inconvenient. The truth doesn't require permission. And sometimes, it shows up louder than people would like.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Say Goodbye to WordPress](/say-goodbye-to-wordpress/)
-
-**Older:** [Kevin Michael Geary: A Hidden History of Hate, Racism, and Bigotry](/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 **Finally, a WordPress plugin that treats your content like code.**
 
 After years of wrestling with database dumps, manual content migrations, and the constant fear of losing site changes, I’m excited to introduce **[DB Version Control](https://github.com/robertdevore/db-version-control/)** – a WordPress plugin that fundamentally changes how we manage content across environments.
@@ -339,14 +337,8 @@ The age of database dumps and manual migrations is over. The future of WordPress
 
 Download [DB Version Control](https://github.com/robertdevore/db-version-control/) today and join the growing community of developers who are treating their content with the same professionalism as their code.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [How I Use TextExpander to Reuse My Best AI Prompts](/how-i-use-textexpander-to-reuse-my-best-ai-prompts/)
-
-**Older:** [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)

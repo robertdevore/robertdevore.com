@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 I’m excited to announce the release of [**HPOS Compatibility Scanner**](https://github.com/robertdevore/hpos-compatibility-scanner), a free WordPress® plugin designed to help developers identify and fix compatibility issues with WooCommerce’s High-Performance Order Storage (HPOS).
 
 This plugin aims to fill a gap that has been glaringly obvious since HPOS became the new standard.
@@ -90,14 +88,8 @@ If you’re a developer struggling with the HPOS transition, give this tool a tr
 
 Let me know how it works for you and what features you’d like to see in the future (if any) 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Host Your WordPress Plugins on GitHub and Automate Plugin Packaging](/host-your-wordpress-plugins-on-github-and-automate-plugin-packaging/)
-
-**Older:** [Introducing Shipping Multiple Addresses for WooCommerce® (free)](/introducing-shipping-multiple-addresses-for-woocommerce-free/)

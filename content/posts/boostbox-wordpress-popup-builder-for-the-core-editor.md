@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 What better way to start off the year than to release a free WordPress plugin that lets you design your popups using the core WordPress editor?
 
 That’s exactly what I’m doing today – say hello to [BoostBox](https://wordpress.org/plugins/boostbox/) 😎
@@ -246,14 +244,8 @@ And if you haven’t been [following](https://twitter.com/deviorobert/status/174
 
 Here’s to more laughs, more love and more money in 2024 💰
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing the Phlush Permalinks WordPress Plugin](/introducing-the-phlush-permalinks-wordpress-plugin/)
-
-**Older:** [Improve CLS scores by dynamically setting image width and height](/improve-cls-scores-by-dynamically-setting-image-width-and-height/)

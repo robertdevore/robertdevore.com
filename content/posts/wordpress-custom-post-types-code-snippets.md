@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I've been working on extending the [WP Dispensary](https://www.wpdispensary.com/) plugin and wanted to share some of the ways I've found to help boost the power of the **Custom Post Types** you create. Custom Post Types are a great building block for turning WordPress into more than a piece of blogging software. Going beyond the original Posts and Pages, you can now segment your content as much as you need, with relative ease. I personally feel that WordPress wouldn't be where it is today without the inclusion of Post Type's in [version 3.0](https://codex.wordpress.org/Version_3.0). This is my attempt to show how a few simple code snippets can push the boundaries of what's possible with WordPress and Custom Post Types. Plus, it's a good way for me to keep the codes together in one place to reference in the future ?
 
 > If you're new to CPT's and/or haven't built a Custom Post Type yet, you can check out this article from [Torque](https://torquemag.io/2015/12/wordpress-custom-post-types-tutorial/) that breaks CPT's down and gives you a variety of ways to create your own.
@@ -40,14 +38,8 @@ Now that we've gone over a few ways to enhance your CPT's, it's time to dig even
   * [How to Make a WordPress Settings Autocomplete Field Using Ajax](https://hollerwp.com/wordpress-settings-autocomplete-field-using-ajax/)
   * [12 Most Useful WordPress Custom Post Types Tutorials](http://www.wpbeginner.com/wp-tutorials/12-most-useful-wordpress-custom-post-types-tutorials/)
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Going all in with WP Dispensary](/going-all-in-with-wp-dispensary/)
-
-**Older:** [My Brothers Keeper](/my-brothers-keeper-sons-of-anarchy-fanfiction/)

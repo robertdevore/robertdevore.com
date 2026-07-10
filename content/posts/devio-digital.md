@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 It's taken me three tries to sit here and begin writing this blog post. I've put so much of myself into my work these last six months that I am feeling something unique to me; pride in myself and my work. Over the last few years I've been living off of the income generated from various websites I was running, but I never felt connected to the work. It was always just what helped me survive, and I lost interest in it. On my birthday last year I made a promise to myself that I'll be moving forward in a new direction, giving back to the open source community that helped me survive and provide a somewhat decent life over the last decade.
 
 ## #opensource saved my life
@@ -32,14 +30,8 @@ First some backstory. I created the name Devio Digital because the word Devio (_
 
 If your business is suffering from a bad website, or even if you don't have one up currently, I am here and happy to help you push your business to the next level online. The cannabis industry gets a bad wrap, and my goal is to help you present yourself professionally and help end the stigma around your business. You can read more about my current offerings on the [Devio Digital](http://www.deviodigital.com) website. Thank you for taking the time to read my blog posts here. I know your time is valuable, and I respect that. Hopefully you find the things I write and build to be worth it.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [CannaBiz](/cannabiz/)
-
-**Older:** [Health Benefits of Cannabis](/cannabis-health-benefits/)

@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 Don’t worry if you’ve never written Python before!
 
 This tutorial will explain every single line of code so you understand exactly what’s happening.
@@ -533,14 +531,8 @@ You’re now ready to start modifying this script for your own needs!
 
 If you’re looking to learn more about [programming with Python](https://python.robertdevore.com), I put out a course for that 💪
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
 - [Extreme Programming for Extreme Leaders](/extreme-programming-for-extreme-leaders/)
-
-## Continue reading
-
-**Newer:** [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
-
-**Older:** [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)

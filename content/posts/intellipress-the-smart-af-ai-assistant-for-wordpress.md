@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Let’s be real – managing a WordPress® site is a full-time job, and I’m not even talking about [page speed optimization](/page-speed-optimization/), server maintenance, [security audits](/security-audits-for-wordpress/), etc.
 
 Writing content? Takes forever.
@@ -98,14 +96,8 @@ Your content strategy just got a whole lot easier.
 
 You’re welcome. 😎
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [How a Security Audit Can Save Your E-Commerce Store from Disaster](/how-a-security-audit-can-save-your-e-commerce-store-from-disaster/)
-
-**Older:** [Hello, Plugin Pal: Your AI Powered Plugin Generator for WordPress®](/hello-plugin-pal-your-ai-powered-plugin-generator-for-wordpress/)

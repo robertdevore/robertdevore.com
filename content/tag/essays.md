@@ -11,4 +11,4 @@ nav_hide: true
 
 ## Articles
 
-- 2016-06-21 — [Invest in Yourself](/invest-in-yourself/)
+- 2016-06-21 [Invest in Yourself](/invest-in-yourself/)

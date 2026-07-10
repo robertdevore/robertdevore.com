@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Over the last few months I've watched as [Gutenberg](https://wordpress.org/gutenberg/) has been developed, silently taking notes, watching for patterns and possible areas to excel in. Then I found that the domain [Pillar.Press](http://pillar.press) was available and it snapped me into action. You see, for about 6 months I've had the name **Pillar** saved as a name idea for a headless WordPress theme I wanted to create. Last September,[Todd Motto](https://www.toddmotto.com) passed the [HTML5Blank](https://github.com/html5blank/) theme to me to take over development for. It hasn't received much in the way of updates over the past few years, but it has a strong following. I've cleaned it up a bit and launched a new [landing page](http://html5blank.com/), but it's code is so far behind WordPress standards I figure a fresh start was needed. The plan was to use the name **Pillar** as the _" refreshed"_ theme. Well, that's got a new plan, because after a random search in [Namecheap](https://namecheap.com) showed the **Pillar.Press** domain was available, the **Pillar** name is now being used for the [custom Gutenberg blocks](https://www.wordpress.org/plugins/pillar-press-content-blocks) I'm building. ![](/assets/legacy-images/banner_772x250.webp)
 
 ### Building Blocks with Pillar Press
@@ -44,14 +42,8 @@ While not a huge change, it will cause problems for anyone who's built a Gutenbe
 
 I'm excited to see where Gutenberg goes over the next few months as it makes it's way into WordPress core. I'm also excited to see **Pillar Press** grow into a powerful solution for WordPress users as they begin using Gutenberg. **What about you?** Have you started looking into Gutenberg yet and what you'll do to upgrade your WordPress skills to work with it? Or are you on the side of the fence that hates Gutenberg and everything it stands for?
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Thank You WordPress](/thank-you-wordpress/)
-
-**Older:** [Back to Basics](/back-to-basics/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Today, I am releasing my first official open source WordPress theme. I've worked with WordPress for years, but have never created anything that is free to download … until now. Being able to create open source projects, like WordPress themes, has always weighed heavy on my mind. Without WordPress itself, and the free themes released for it, I am not sure where I would have ended up in my professional career. Open source saved my life. I have always wanted to give back as much as possible. With the release of the Clean Blog theme, today is the first step in this never-ending process. Clean Blog is a personal blogging theme, free of clutter, with a focus on the writers words while not sacrificing visual quality. It is a mash-up of the [Clean Blog Bootstrap template](http://startbootstrap.com/template-overviews/clean-blog/) from StartBootstrap, and [Underscores](http://underscores.me/) WordPress theme from Automattic, both of which are open source projects. When I began thinking of a theme that I'd like to build, I knew that I wanted to base the main WordPress codes off of the Underscores theme. I also knew that I wanted to build a blog template that I would personally want to use. Finding the Clean Blog template from StartBootstrap was an accident, but a happy one. As soon as I seen the template, I immediately started building out the WordPress theme. Then I stopped writing code for 5 months. The itch to blog never left, and the desire to release my own open source themes as way to give back to the community that allowed me to be my own boss was still burning in me. Fast forward to three days ago and I was cleaning up my bookmarks and came across the Clean Blog template again. It was like a bolt of lightning hit me and I immediately got to work, starting over from scratch. Three days later and the Clean Blog WordPress theme is here.
 
 ## Demo & Download
@@ -32,12 +30,8 @@ Without the open source projects below, this theme would have never came togethe
 
 Thank you for taking the time to read this entire release post. Thank you for downloading and checking the theme out, and thank you for any issues you find with it that you report through Github. Up next, I have a few ideas for this theme that I'd like to implement. I also have plans on a couple more WordPress themes, and possibly a plugin or two. Besides WordPress code, I also plan on releasing other open source work, but that's information for a later post. For now, take the Clean Blog theme for a [test drive](http://www.deviodigital.com/demo/cleanblog/), download it ([Github Repository](http://github.com/deviodigital/cleanblog/) * [direct download](http://github.com/deviodigital/cleanblog/archive/master.zip)), and let me know how you like it. **Update 3-16-2016:** After finishing this article, you can read the most recent updates to the theme since it's official release by viewing the [Recent Projects](/my-development-projects/) post from March 16, 2016.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Run a Tor relay](/run-a-tor-relay/)

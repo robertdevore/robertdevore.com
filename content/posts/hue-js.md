@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 ## I forked a color picker for WordPress
 
 I know what you're thinking. _Isn 't there a color picker in WordPress already?  
@@ -57,14 +55,8 @@ That's all there is to it. Now, anywhere the class is called (for instance, on a
 
 Just a note to let you know bug reports & pull requests are always welcome ?
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Set Featured Images Programmatically in WordPress](/set-featured-images-programatically-wordpress/)
-
-**Older:** [WP Dispensary: 2 years after the launch](/two-years-building-wp-dispensary/)

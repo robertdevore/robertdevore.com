@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 I’m thrilled to announce the release of **[Test Orders for WooCommerce®](https://github.com/robertdevore/test-orders-for-woocommerce)** , a free plugin designed to simplify testing workflows for WooCommerce® store owners. 
 
 This plugin adds a “Test Order” payment gateway to your store, allowing you to place test orders without processing actual payments.
@@ -104,14 +102,8 @@ I’d love to hear your thoughts and suggestions! If you have feedback or need a
   * Open an issue on [GitHub](https://github.com/robertdevore/test-orders-for-woocommerce/issues).
   * Contact me directly via my [contact page](/contact/).
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Persistent Dismissible Notices](/introducing-persistent-dismissible-notices/)
-
-**Older:** [Introducing Media File Versioning for WordPress®](/introducing-media-file-versioning-for-wordpress/)

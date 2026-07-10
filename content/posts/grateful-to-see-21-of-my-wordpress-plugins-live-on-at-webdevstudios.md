@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 A little over a week ago, I announced that I was stepping away from the WordPress® community and [giving away](/wordpress-woocommerce-plugins-i-will-no-longer-maintain/) all of my open source plugins. 
 
 It wasn’t a light decision, but it was the right one for me.
@@ -77,14 +75,8 @@ More great products are coming, just not where you used to expect them.
 
 Forever forward 💪💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
 - [I Just Launched a Python Course for PHP Developers](/i-just-launched-a-python-course-for-php-developers/)
-
-## Continue reading
-
-**Newer:** [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
-
-**Older:** [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)

@@ -12,8 +12,6 @@ categories: ["Engineering Archive"]
 tags: ["Archive"]
 ---
 
-[Engineering Archive](/category/engineering-archive/) · [Archive](/tag/archive/)
-
 Growing pains are a part of everyone's life. From the time you're little and you wake up in the middle of the night with leg cramps because you're getting taller, to the time you have to bite your tongue when someone makes an offhand remark you don't like. Change is inevitable. Personal growth is a choice. Being scared of change is normal, but we all have to move past those fears in order to grow personally and professionally. Over the last few years I've had to do a lot of soul searching in order to find my direction going forward in life. It's been a rough process. At times I definitely wanted to give up; but I never did. Instead, I used my past mistakes and failures to build a road map that I would follow moving forward. The first step to finding the inner peace I've been searching for is learning how to let go of things I no longer have control over, things that I have done in my past, and the mistakes I've made.
 
 ## Learning to let go
@@ -52,13 +50,8 @@ I've said all of that to say this: Nobody is perfect, not you and definitely not
 
 I'm not sure where I first seen that quote, but it's stuck with me and I'm making it a central part of my life moving forward. Do good, help people where you can and understand that even if you've done something wrong in your past, that doesn't dictate your entire future. The future is what we make it. Let's make it awesome, together!
 
-## Related writing
+## Related Reading
 
 - [Organized Chaos](/organized-chaos/)
 - [Twitter Marketing](/twitter-marketing/)
-
-## Continue reading
-
-**Newer:** [Recent project updates](/my-development-projects/)
-
-**Older:** [Slackedd](/slackedd/)
+- [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)

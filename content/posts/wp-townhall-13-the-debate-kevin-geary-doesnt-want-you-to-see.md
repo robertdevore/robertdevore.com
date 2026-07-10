@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 A little over a month ago, I joined [Kevin Geary](/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/) on [WP Townhall](https://wptownhall.show) for what was supposed to be an honest debate about WordPress, pricing, and how to actually help clients win.
 
 It didn’t go the way he expected.
@@ -48,14 +46,8 @@ I moved the original **WP Townhall 13** debate to my own channel so it can’t b
 
 Decide for yourself who came with clarity - and who crumbled under it. And remember, I was painted out as a psycho who wouldn't last fifteen minutes. Yet, we went 3+ hours - Kevin interrupted me first, Kevin cussed first and Kevin's Inner Circle joined and also cut me off repeatedly. And when I brought up the Rebooted Body, Kevin called it 🤦‍♂️ Kevin wants to rewrite the past. I'm here to make sure people never forget it. **["THEY'RE ALL GONNA LAUGH AT YOU"](https://x.com/deviorobert/status/1915844735744315723)** I tried to warn him 🤷‍♂️
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [WordPress & WooCommerce plugins I will no longer maintain](/wordpress-woocommerce-plugins-i-will-no-longer-maintain/)
-
-**Older:** [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 If not now, then when? Today is the day I start working full time on my own product!
 
 > 90 days until Christmas 🙌 What are you doing to make the most of the time left? I'm going full time at [@WPDispensary](https://twitter.com/WPDispensary?ref_src=twsrc%5Etfw) starting today 💪💯💯💯 \-- Robert DeVore (@deviorobert) [September 26, 2017](https://twitter.com/deviorobert/status/912642836759236608?ref_src=twsrc%5Etfw)
@@ -32,14 +30,8 @@ God damn right it will, because I'm going to make it work! Anyone who knows me k
 
 Connect with me on Twitter where I'll be following Fred Rivett's [lead](https://twitter.com/FredRivett/status/912436978330869760) and [tweeting](https://twitter.com/deviorobert/status/912642836759236608) a daily recap of what I've done to further the business. The more of you who follow along, the more pressure that'll put on me to not slack off - so go [follow me](https://www.twitter.com/deviorobert) now ?
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [7 days full time at WP Dispensary](/7-days-full-time-wp-dispensary/)
-
-**Older:** [Enhance the power of your WordPress Custom Post Types](/wordpress-custom-post-types-code-snippets/)

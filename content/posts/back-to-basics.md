@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I always thought Impostor Syndrome was bullshit. Then I realized I was 6 months in to running WP Dispensary [full time](/going-all-in-with-wp-dispensary/) and I had no idea what I was doing. Recently, I've been working on [WPD v2.0](/wp-dispensary-v2/) and have pushed myself to do things with code that I haven't before. This lead me to question my whole entire existence, as both a developer and a human being. **Seriously.** It's taken some getting used to, but I have come to grips with the impostor syndrome within. I've also realized what I need to do in order to make sure that I never feel this uncomfortable again.
 
 ## Getting back to the basics
@@ -28,14 +26,8 @@ Sure, I've learned a lot of PHP over the years, along with a handful of other la
 
 For starters, I'm writing this blog post and making a public declaration that I'm _actually_ going to do something about it ? While I continue working on the release of WP Dispensary v2.0 (which is less than a week away as I type this), I will continue _**" learning on the job"**_. I will also be taking the [PHP course](https://www.codecademy.com/en/tracks/php) at [Codecademy](https://www.codecademy.com/). Over 900 thousand others have taken the course, and it says it's only about 4 hours from start to finish, so I feel like it'll give me a solid - and quick - overview of PHP. This video also gives a nice, brief run down of PHP, so I plan on watching this a couple of times while working on projects. Because I want to continue making [WP Dispensary](https://www.wpdispensary.com) better, and offering full Gutenberg support when WordPress switches editors, I plan on also learning JavaScript basics. One of the first things I'll be doing is watching this video, which has over 1 million views and packs a lot of the basics of JavaScript into such a short video. I've also been looking into a couple of courses, like the [JavaScript for WordPress](https://javascriptforwp.com/) course from [Zac Gordon](https://twitter.com/zgordon). This is really going to be a life long journey, but I'm really happy to be jumping off the edge at this point in my life and (hopefully) learning to fly on the way down ?
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [5 Things I’ve learned building my first blocks for Gutenberg](/5-things-i-learned-building-my-first-gutenberg-blocks-plugin/)
-
-**Older:** [WP Dispensary v2.0 is being released on 4/20](/wp-dispensary-v2/)

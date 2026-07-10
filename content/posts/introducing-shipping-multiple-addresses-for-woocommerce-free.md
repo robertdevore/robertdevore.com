@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 I’m thrilled to share my latest plugin that aims to make WooCommerce® even more powerful and versatile.
 
 Introducing **[Shipping Multiple Addresses for WooCommerce®](https://github.com/robertdevore/shipping-multiple-addresses-for-woocommerce)** , the free plugin that simplifies sending items to multiple locations from a single order.
@@ -124,14 +122,8 @@ This is my second-to-last [#WooWednesday](https://x.com/hashtag/WooWednesday) re
 
 Until then, I hope you enjoy using [Shipping Multiple Addresses for WooCommerce®](https://github.com/robertdevore/shipping-multiple-addresses-for-woocommerce) and find it as useful as I hope it is for you 🙏
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing HPOS Compatibility Scanner for WooCommerce® (free)](/introducing-hpos-compatibility-scanner-for-woocommerce-free/)
-
-**Older:** [Introducing IMG A11Y](/introducing-img-a11y/)

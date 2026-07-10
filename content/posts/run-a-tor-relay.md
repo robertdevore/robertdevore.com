@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 Tor is an important tool for your privacy, security and freedom of speech. In an increasingly Orwellian world, Tor has become one of the most important tools, in my opinion, for you to be truly _free_ online. I would like to start doing my part to help out with a project that I've personally used for years, which is why I am writing up this guide on how to set up a Tor middle relay on a Digital Ocean droplet.
 
 ## What is a Tor relay?
@@ -75,14 +73,8 @@ The links below were a big help for me getting this process together, and I doub
 
 How'd it go for you? Were you able to get set up, or was there a part of the process that you didn't fully understand? Drop a comment and let me know and I'll help as much as I possibly can.
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
-
-## Continue reading
-
-**Newer:** [MNML](/mnml-free-minimalist-wordpress-theme/)
-
-**Older:** [Clean Blog](/clean-blog-free-wordpress-theme/)

@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 HACK THE PLANET 🌍💻
 
 I built this CLI tool because I couldn’t get the movie “Hackers” out of my head after rewatching it recently.
@@ -160,12 +158,8 @@ Install it, hack the planet, and let me know what you think.
 
 And remember – _“This is our world now… the world of the electron and the switch, the beauty of the baud.”_
 
-## Related writing
+## Related Reading
 
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
 - [Extreme Programming for Extreme Leaders](/extreme-programming-for-extreme-leaders/)
-
-## Continue reading
-
-**Older:** [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)

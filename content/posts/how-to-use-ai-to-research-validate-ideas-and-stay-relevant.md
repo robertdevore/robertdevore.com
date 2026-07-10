@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 Let's be honest: Most "AI research" is just asking ChatGPT, _" Give me 10 blog post ideas about [insert niche]"_ … and hoping one of them sticks. It's fast, and it **feels** productive. But it's usually just slop dressed up as options. Because here's the thing: If your idea doesn't start from target market relevance - it's not worth writing. You're not looking for a topic. You're looking for **traction**. And that means using AI to dig deeper, challenge assumptions, and uncover the _real_ conversations happening in your space - not just recycling what's already ranking. This is where AI becomes a weapon - not a crutch.
 
 ![Why research matters for writing AI content](/assets/legacy-images/why_research_matters_for_ai_content_writing_1024x683.webp)
@@ -185,14 +183,8 @@ AI won't give you a great idea. But it _will_ expose a bad one before you waste 
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [How to Write Prompts That Get the Tone, Structure, and Intent Right](/how-to-write-prompts-that-get-the-tone-structure-and-intent-right/)
-
-**Older:** [Introducing the Prompts Library – A Playground for AI Creativity](/introducing-the-prompts-library-a-playground-for-ai-creativity/)

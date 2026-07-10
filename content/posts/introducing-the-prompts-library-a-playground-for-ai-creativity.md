@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 Over the last few months, I’ve been experimenting with ways to push generative AI further – not just to create images, but to **design tools** that help you _consistently_ create great ones.
 
 That’s where the **[Prompts Library](https://prompts.robertdevore.com)** comes in.
@@ -64,14 +62,8 @@ Start exploring at [prompts.robertdevore.com](https://prompts.robertdevore.com),
 
 Let’s make better stuff, faster.
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [How to Use AI to Research, Validate Ideas, and Stay Relevant](/how-to-use-ai-to-research-validate-ideas-and-stay-relevant/)
-
-**Older:** [5 Questions You Must Answer Before Writing Anything](/5-questions-you-must-answer-before-writing-anything/)

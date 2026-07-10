@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 In a world drowning in bloat and broken systems, leadership needs more than charisma.
 
 It needs a code. A compass. A creed that doesn’t just sound good in a keynote, but _works_ when it’s 2AM and the product still isn’t finished.
@@ -230,14 +228,8 @@ Ready to take the LEAP?
 
 Sign up below and get notified when the next articles about Extreme Leadership get published 🤘
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
-
-## Continue reading
-
-**Newer:** [Do Less, Deliver More](/do-less-deliver-more/)
-
-**Older:** [Introducing Projects for WordPress®: A Better Way to Showcase Your Work](/introducing-projects-for-wordpress-a-better-way-to-showcase-your-work/)

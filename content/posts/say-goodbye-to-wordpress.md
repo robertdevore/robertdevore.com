@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 ![Who's coming with me? GIF](/assets/legacy-images/whos_coming_with_me_half_baked_gif.webp)
 
 I’ve spent the past two decades working in the WordPress ecosystem – building, fixing, debugging, migrating, and patching sites for clients large and small.
@@ -158,14 +156,8 @@ This is your exit.
 
 **[Take it.](/contact/)**
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Use AI to create your own WWF Action Figure Blister Packs](/use-ai-to-create-your-own-wwf-action-figure-blister-packs/)
-
-**Older:** [Don’t Shoot the Messenger: Choose Courage Over Convenience](/dont-shoot-the-messenger-choose-courage-over-convenience/)

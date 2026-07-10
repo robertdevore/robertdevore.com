@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Let’s face it: broken image links are like ghosts haunting your website – annoying, scary for your users, and not great for your SEO. 
 
 That’s why I’m excited to release the **[Broken Image Scanner](https://github.com/robertdevore/broken-image-scanner)** , a free WordPress® plugin designed to help you hunt down and fix those pesky broken image URLs.
@@ -96,14 +94,8 @@ With the [Broken Image Scanner](https://github.com/robertdevore/broken-image-sca
 
 Thanks for checking out the plugin! If you have any feedback or suggestions, [shoot me a message](/contact/), and happy scanning 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Hello, Plugin Pal: Your AI Powered Plugin Generator for WordPress®](/hello-plugin-pal-your-ai-powered-plugin-generator-for-wordpress/)
-
-**Older:** [Introducing Block AI Crawlers for WordPress®](/introducing-block-ai-crawlers-for-wordpress/)

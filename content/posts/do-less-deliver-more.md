@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 There's a lie that's been passed around in every business Slack channel, every "educational" YouTube video, every founder AMA: _Do more to get ahead._ ✅ More features.  
 ✅ More tasks.  
 ✅ More tools.  
@@ -151,14 +149,8 @@ Doing less isn't a productivity hack. It's a leadership principle. When you cut 
 **💪** **Work that lasts.**  
 **🔥** **Impact that 's earned.** You already know what's in the way - it's everything you're afraid to drop. Strip it down until what's left can stand on its own. Ship that. Then do it again with sharper focus and a shorter list.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Open Source is Anarchism in Action](/open-source-is-anarchism-in-action/)
-
-**Older:** [LEAP: The Code of Extreme Leadership](/leap-the-code-of-extreme-leadership/)

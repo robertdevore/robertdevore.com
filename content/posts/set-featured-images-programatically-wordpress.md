@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Recently, I found myself needing to auto-set 300+ featured images for a customers [WooCommerce](https://www.woocommerce.com) store. After the initial panic phased itself out, I took a couple of deep breathes and realized I've done a few kinda-sorta similar things with custom functions in the past. After a few hours of hacking the code up and reformatting it to fit my specific needs, I ended up with the plugin that automatically cycles through each WooCommerce product and does it's magic on plugin activation. ![](/assets/legacy-images/magic.webp)
 
 ## Why set featured images programmatically?
@@ -28,14 +26,8 @@ The function loops through all published WooCommerce products and checks if ther
 
 I created a simple plugin that fires off this function on plugin activation. Download the beta version: `git clone https://github.com/robertdevore/woocommerce-set-featured-images` Don't want to get it from the command line? Download it from it's [Github repository](https://github.com/robertdevore/woocommerce-set-featured-images). **Although this code works for me, I cannot guarantee that it will work for you.****Please remember to back up your website before use, just in case ?**
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [WP Dispensary v2.0 is being released on 4/20](/wp-dispensary-v2/)
-
-**Older:** [? hue.js](/hue-js/)

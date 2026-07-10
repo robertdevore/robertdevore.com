@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 If you’ve ever typed a prompt into ChatGPT, hit enter, and thought … “Well, that’s not quite it” … you’re not alone.
 
 That moment of disappointment usually comes from a mismatch between what you _meant_ and what you _asked_.
@@ -210,14 +208,8 @@ Lock those in – and every draft starts sharper.
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [Introducing automattic.css – An open source CSS Utility Framework](/introducing-automattic-css-an-open-source-css-utility-framework/)
-
-**Older:** [How to Use AI to Research, Validate Ideas, and Stay Relevant](/how-to-use-ai-to-research-validate-ideas-and-stay-relevant/)

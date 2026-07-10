@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Welcome to another edition of [#WooWednesday](https://x.com/search?q=%23WooWednesday&src=typeahead_click&f=live)! 
 
 This week, I’m excited to unveil a significant update to  _[Customer Loyalty for WooCommerce®](https://github.com/deviodigital/customer-loyalty-for-woocommerce)_ with the release of version **2.0.0**. 
@@ -104,14 +102,8 @@ I’ve always been a fan of the CLWC plugin since I first released it [5 years a
 
 Stay tuned for more updates, and be sure to follow along with [#WooWednesday](https://x.com/search?q=%23WooWednesday&src=typeahead_click&f=live) on Twitter (X) 🚀
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing the Module Usage Tracker for WP Bakery](/introducing-module-usage-tracker-for-wp-bakery/)
-
-**Older:** [Introducing Markdown Exporter for WordPress®](/introducing-markdown-exporter-for-wordpress/)

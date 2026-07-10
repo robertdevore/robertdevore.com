@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 Most people use AI to make bad content faster. This guide flips that on its head. Over the next 9 days, I'm breaking down a complete system for using AI to create content that's actually worth reading - content that sounds like _you_ , solves real problems, and earns attention. It's called **Plan. Prompt. Publish.** This isn't about shortcuts. It's about learning how to leverage AI to free up your time to do other things. I've spent the last two years building and refining this workflow to help creators, marketers, and founders write faster without sounding fake. You'll learn how to _think_ with AI, not just _write_ with it.
 
 ![Why this guide exists - Plan. Prompt. Publish.](/assets/legacy-images/why_this_guide_exists_plan_prompt_publish_1024x683.webp)
@@ -111,14 +109,8 @@ Post #1 goes live tomorrow, May 18th 2025. Then one per day until it’s done.
 
 **Plan. Prompt. Publish.**
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [Just Released: Stattic v.0.3.0](/stattic-v0-3-0-release-llms-txt-faster-gifs-leaner-core-and-smarter-routing/)
-
-**Older:** [Extreme Programming for Extreme Leaders](/extreme-programming-for-extreme-leaders/)

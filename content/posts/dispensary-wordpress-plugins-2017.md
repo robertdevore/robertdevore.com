@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 **Notice: This post has been updated for 2018.** Within the last few months we've seen [medical and recreational marijuana laws](http://www.thecannabist.co/2016/11/14/marijuana-legalization-election-2016-tipping-point/67407/) pass in 8 out of 9 states. This means there is going to be an influx of websites being built for new businesses with WordPress in the upcoming years. It doesn't matter if you're the cannabis business owner or a freelancer/agency setting up that biz owners website, you should know what WordPress plugins will help make the website you're building solid, secure and professionally focused. This article will cover the WordPress plugins that you should know about and utilize in 2017.
 
 ## WordPress SEO Plugins
@@ -98,14 +96,8 @@ Every day we become more attached to our phones, mainly through the use of Apps,
 
 With the above WordPress plugins, your website will have a solid foundation to build from in 2017 and beyond! Once you've got the basics in place, you'll be able to start working on [creating high quality content](http://searchengineland.com/what-is-quality-content-251071), making better use of [twitter for marketing](/twitter-marketing/) and build your business into a powerhouse. Then, take some time to get a high quality [WordPress theme](https://www.wpdispensary.com/downloads/cannabiz/) to give your website the professional visual appearance your cannabis business deserves! 2017 will be a break out year for a lot of cannabis businesses, and with the right tools and resources, one of those businesses could be yours!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [DocuPress: documentation simplified.](/docupress-documentation-plugin-for-wordpress/)
-
-**Older:** [Hello 2017](/hello-2017/)

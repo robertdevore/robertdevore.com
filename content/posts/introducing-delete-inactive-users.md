@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Managing a WordPress® website can often feel like a juggling act, especially when dealing with thousands of users.
 
 Keeping your database lean and mean is not just about performance; it’s also about maintaining clean, actionable data. 
@@ -78,14 +76,8 @@ I’d love to hear how this plugin works for you!
 
 Feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/robertdevore/delete-inactive-users/). Your feedback helps make this plugin even better.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing SEO for WordPress®](/introducing-seo-for-wordpress/)
-
-**Older:** [How to Stop Your Plugins & Themes from Being Used on WordPress.com Hosting](/how-to-stop-your-plugins-themes-from-being-used-on-wordpress-com-hosting/)

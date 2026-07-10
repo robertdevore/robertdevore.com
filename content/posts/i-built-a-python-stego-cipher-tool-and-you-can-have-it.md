@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 Back in 2022, I got the itch (no, not _that_ itch)
 
 An itch to build a cipher. A [custom cipher](/creating-my-own-cipher-code/) that I could call my own.
@@ -139,14 +137,8 @@ And now, it’s yours.
 
 Or just to say hi – in a meme image so I have to work for it 😂
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [Extreme Programming for Extreme Leaders](/extreme-programming-for-extreme-leaders/)
-
-## Continue reading
-
-**Newer:** [WP Townhall 13: The Debate Kevin Geary Doesn’t Want You to See](/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see/)
-
-**Older:** [Goodbye WordPress: A Eulogy](/goodbye-wordpress-a-eulogy/)

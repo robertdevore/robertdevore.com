@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Back in 2018, I built **[Dispensary Details for WooCommerce®](/projects/dispensary-details-for-woocommerce/)** to solve a problem: 
 
 WooCommerce® lacked the essential cannabis-specific product details that dispensaries needed. Lab results, strain information, effects, and medical benefits – none of it was natively supported.
@@ -92,14 +90,8 @@ If you find it useful, consider sharing it with other dispensary owners or leavi
 
 And if you need additional features or custom development, feel free to reach out – I’ve been building cannabis software since 2015, and I’m here to help 💪
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Slop Stopper: A free content checker for WordPress®](/introducing-slop-stopper-a-free-content-checker-for-wordpress/)
-
-**Older:** [I’m freelancing again](/im-freelancing-again/)

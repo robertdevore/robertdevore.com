@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 You know those moments in your life where you step back and look around, knowing that things are about to change? Yeah, I'm having one of those moments right now. I've wrote a lot of code in my lifetime and customized other WordPress plugins in the past, but today marks a special moment in history, for me at least, because I am officially releasing my first WordPress plugin.
 
 ## Leafly Reviews WordPress plugin
@@ -55,14 +53,8 @@ Without the open source projects below, this plugin would have never came togeth
 
 Thank you for taking the time to read this entire release post. Right now, the plugin is going to sit while it gets tested out by various dispensaries in order to find any bugs that need fixed. I've also got plans in the future to add an option for the user to select the amount of time that passes before the cache refreshes itself, as well as a couple of other enhancements. Want to contribute to the plugin? Head over to the [Github repository](http://github.com/deviodigital/leafly-reviews-wordpress-plugin) and submit any issues you find or pull requests. Your contributions are both welcomed and appreciated.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [WP Dispensary](/wp-dispensary/)
-
-**Older:** [Focus](/focus/)

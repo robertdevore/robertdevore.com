@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 ## _How disciplined developers ship faster, adapt smarter, and lead with code_
 
 You don’t need permission. You don’t need a bloated roadmap or a management playbook. 
@@ -106,14 +104,8 @@ Use XP as a foundation – but adapt it to how _you_ lead.
 
 Extreme Programming isn't a relic of the past - it's a foundational method waiting to be rediscovered by a new generation of leaders who care about speed, clarity, and impact. **If you believe that leadership is earned through execution, XP gives you a framework to prove it.** Lead with code. [Build what matters](/do-less-deliver-more/). And never stop shipping 🤘
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
-
-## Continue reading
-
-**Newer:** [Plan. Prompt. Publish. A Practical Guide to Creating Beautifully Useful Content with AI](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/)
-
-**Older:** [WordPress Plugin Security Is a Joke, and You’re the Punchline](/wordpress-plugin-security-is-a-joke-and-youre-the-punchline/)

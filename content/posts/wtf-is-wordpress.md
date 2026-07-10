@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 The soundtrack for this blog post is the Ted Dibiase Million Dollar Man Theme Song ([youtube](https://www.youtube.com/watch?v=2_JTzEppKy8))
 
 WordPress – real name, no gimmicks 🙄
@@ -225,14 +223,8 @@ WordPress is complicated, but it’s worth fighting for.
 
 _Featured Image by Naji Habib from Pixabay_
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing the User Login Status Plugin for WordPress](/introducing-the-user-login-status-plugin-for-wordpress/)
-
-**Older:** [Introducing the Phlush Permalinks WordPress Plugin](/introducing-the-phlush-permalinks-wordpress-plugin/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m excited to introduce my latest plugin 👀 **[Media Copyright Scanner](https://github.com/robertdevore/media-copyright-scanner/)**.
 
 This free tool is crafted to assist website owners, content managers, and developers in identifying potentially copyrighted images within their WordPress® Media Libraries.
@@ -113,14 +111,8 @@ Download the **Media Copyright Scanner** plugin [from GitHub](https://github.com
 
 Thank you for your continued support, and I look forward to hearing how this tool helps you 🙏
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Metadata Import/Export for Yoast SEO](/introducing-metadata-import-export-for-yoast-seo/)
-
-**Older:** [Introducing Bluesky Feed for WordPress®](/introducing-bluesky-feed-for-wordpress/)

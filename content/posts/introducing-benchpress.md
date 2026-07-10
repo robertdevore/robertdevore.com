@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m pumped to announce the release of **BenchPress** , a free WordPress® plugin designed to help developers identify performance bottlenecks in our code and optimize for speed! 
 
 [BenchPress](https://github.com/robertdevore/benchpress) provides an easy way to measure the impact of various PHP operations, WordPress® queries, and database interactions – all from within the WordPress® dashboard.
@@ -79,14 +77,8 @@ BenchPress provides a clear, convenient way to measure and improve performance w
 
 **Get it on[GitHub](https://github.com/robertdevore/benchpress)** and see how BenchPress can take your WordPress® performance to the next level!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Content Restriction for WordPress®](/introducing-content-restriction-for-wordpress/)
-
-**Older:** [Introducing Widget Usage Tracker for Elementor](/introducing-widget-usage-tracker-for-elementor/)

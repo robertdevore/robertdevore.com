@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 If you run an agency – whether it’s maintenance, web development, marketing, branding, or anything in between – you probably think security is _someone else’s_ problem.
 
 _Spoiler alert: it’s yours._
@@ -154,14 +152,8 @@ A security audit isn’t an **extra expense** – it’s an **investment in keep
 
 If you actually give a shit about your clients and your own business, **[get a security audit today](/security-audits-for-wordpress/)** – before you’re the next agency scrambling to recover from a preventable disaster.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [I’m freelancing again](/im-freelancing-again/)
-
-**Older:** [Introducing an experimental new plugin: Email Designer for WooCommerce®](/introducing-an-experimental-new-plugin-email-designer-for-woocommerce/)

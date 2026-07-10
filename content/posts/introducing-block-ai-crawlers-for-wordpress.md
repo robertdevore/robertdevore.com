@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m excited to announce the release of **[Block AI Crawlers](https://github.com/robertdevore/block-ai-crawlers)** , a new WordPress plugin designed to give website owners control over how AI crawlers interact with their site.
 
 This lightweight, user-friendly plugin makes it simple to block 75+ known AI crawlers, directly from your WordPress® dashboard.
@@ -92,14 +90,8 @@ Whether you’re a blogger, a business owner, or a developer, this plugin is a s
 
 Download **[Block AI Crawlers](https://github.com/robertdevore/block-ai-crawlers)** today and take back control of your content!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Broken Image Scanner](/introducing-broken-image-scanner/)
-
-**Older:** [How to Block Website Tracking Data in WooCommerce®](/how-to-block-website-tracking-data-in-woocommerce/)

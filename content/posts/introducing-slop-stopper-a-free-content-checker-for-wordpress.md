@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 You ever read an article and just _know_ it was written by ChatGPT? You know, the ones where you don’t even have to check.
 
 The second you see **“delve into the intricacies”** or **“tapestry of experiences”** , you know you’re looking at AI-generated slop.
@@ -89,14 +87,8 @@ Stop AI slop before it starts. Download [Slop Stopper](/projects/slop-stopper/) 
 
 Your readers will thank you. 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Rethinking Keyword Research in the Age of AI](/rethinking-keyword-research-in-the-age-of-ai/)
-
-**Older:** [Introducing Dispensary Details for WooCommerce®](/introducing-dispensary-details-for-woocommerce/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Since late last year I've been hard at work on various development projects. While I've spent time blogging about each of them here, I haven't updated the posts with new details about each of the projects. This post is aiming to do that.
 
 ## WP Dispensary
@@ -44,14 +42,8 @@ The next thing I'll be spending my time working on is the blog at WP Dispensary.
 
 I'm social on [Twitter](http://www.twitter.com/deviorobert) and [Instagram](http://www.instagram.com/deviorobert). I'm also actively coding on [Github](https://www.github.com/robertdevore).
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Health Benefits of Cannabis](/cannabis-health-benefits/)
-
-**Older:** [Making up for lost time](/making-up-for-lost-time/)

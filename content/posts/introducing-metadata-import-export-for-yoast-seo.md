@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Today I’m really happy to release this new free plugin for the WordPress® and [Yoast SEO](https://yoast.com/) communities 💪💯
 
 The [Metadata Import/Export for Yoast](https://github.com/robertdevore/metadata-import-export-for-yoast/) plugin is designed to empower SEO’s and content managers who use Yoast SEO by streamlining the process of managing metadata across WordPress® sites.
@@ -124,14 +122,8 @@ I want to extend my gratitude to the WordPress community and all the SEOs who ha
 
 Your dedication to making the web more accessible and information-rich fuels innovations like this 🤘💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Purchase Orders for WooCommerce® (free)](/introducing-purchase-orders-for-woocommerce-free/)
-
-**Older:** [Introducing Media Copyright Scanner](/introducing-media-copyright-scanner/)

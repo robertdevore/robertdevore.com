@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m excited to announce the release of ANOTHER new free WordPress® plugin for 💪💯
 
 The free **[Module Usage Tracker for WP Bakery](https://github.com/robertdevore/module-usage-tracker-for-wp-bakery)** plugin is a new tool for anyone looking to get a closer view of how WP Bakery modules are being used across a WordPress® site. 
@@ -65,14 +63,8 @@ To get started, simply download the plugin from the [Module Usage Tracker for WP
 
 The **Module Tracker** will appear in the WordPress admin menu, ready to provide you with actionable insights that you and your team need 🚀
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Brands for WooCommerce® (free)](/introducing-brands-for-woocommerce-free/)
-
-**Older:** [Just Released: Customer Loyalty for WooCommerce® v2.0.0!](/customer-loyalty-for-woocommerce-v2/)

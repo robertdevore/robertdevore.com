@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Today I’m happy to announce the official release of the free **Gift Cards for WooCommerce®** plugin! 
 
 This plugin seamlessly integrates gift card functionality into your WooCommerce® store, letting you to enhance customer experience, boost sales, and grow brand loyalty.
@@ -187,14 +185,8 @@ Your feedback is invaluable!
 
 If you run into any issues or have suggestions for improvements, please open an issue on our [GitHub repository](https://github.com/robertdevore/gift-cards-for-woocommerce/issues) or reach out via the [Contact](/contact/) page.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Widget Usage Tracker for Elementor](/introducing-widget-usage-tracker-for-elementor/)
-
-**Older:** [Release Notes: Back In Stock Notifications for WooCommerce® (free) v1.0.1](/release-notes-back-in-stock-notifications-for-woocommerce-free-v1-0-1/)

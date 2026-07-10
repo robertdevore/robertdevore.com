@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Talk about a **December to Remember** , amirite? 😂💪💯
 
 In November of 2024 I started releasing free WordPress® and WooCommerce® plugins, and I liked the way it felt. 
@@ -269,14 +267,8 @@ Thank you to everyone who participated in the December to Remember with me, if i
 
 I appreciate you all 🙏
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Honoring Jesse Petersen with the Revival of “Stealth Login Page”](/honoring-jesse-petersen-with-the-revival-of-stealth-login-page/)
-
-**Older:** [Reusable Flask Error Handling: A Step-by-Step Guide to Modular HTTP Error Responses](/reusable-flask-error-handling-a-step-by-step-guide-to-modular-http-error-responses/)

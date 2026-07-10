@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 There's now been 7 days in the books for me working full time on WP Dispensary and I want to take a little bit of time to talk about what I've been up to.
 
 ## What's been done
@@ -28,14 +26,8 @@ Some things take time, so I started this first week off knowing that I could get
 
 Happy as fuck. ![](/assets/legacy-images/happy_as_fuck.webp) It was a long week, but highly enjoyable. Looking forward to the rest of this 90 day grind to see where everything ends up! Thanks for following along. I hope you go build something great today too ??
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Dispensary Details for WooCommerce](/woocommerce-dispensary-details-plugin/)
-
-**Older:** [Going all in with WP Dispensary](/going-all-in-with-wp-dispensary/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Another day, another plugin release 💪 
 
 I’m happy to launch **[Widget Usage Tracker for Elementor](https://github.com/robertdevore/widget-usage-tracker-for-elementor)** , a WordPress® plugin designed to help you monitor and analyze the usage of Elementor widgets across your website. 
@@ -148,14 +146,8 @@ Whether you encounter a bug, have a feature request, or want to contribute code,
   * **Contribute:** Fork the repository, make your changes, and submit a pull request.
   * **Support:** Contact me through [robertdevore.com](/) for additional assistance as needed.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing BenchPress: Performance Benchmarks for WordPress®](/introducing-benchpress/)
-
-**Older:** [Introducing Gift Cards for WooCommerce® (free)](/introducing-gift-cards-for-woocommerce-free/)

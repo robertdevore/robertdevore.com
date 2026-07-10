@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 I recently built and released a new plugin on **WP Dispensary** that works 100% without [WP Dispensary](https://www.wpdispensary.com).
 
 > "But didn't you just jump in [full time](/going-all-in-with-wp-dispensary/) to build WP Dispensary? Why create something that doesn't work with it?"
@@ -28,14 +26,8 @@ What it does is simple; add in custom taxonomies and metaboxes for a variety of 
 
 I've really found a lot of power in simplicity lately. ![](/assets/legacy-images/magic_giphy.webp)via [giphy](https://www.giphy.com) Cutting out the negative people, places and things, leaving only an intense [focus](/focus/) on one specific goal has been great. This plugin is just a byproduct of that. Enjoy ?? Check out the **Dispensary Details for WooCommerce** [product page](https://www.wpdispensary.com/downloads/dispensary-details-for-woocommerce) for more information and purchasing details.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [WP Dispensary: 2 years after the launch](/two-years-building-wp-dispensary/)
-
-**Older:** [7 days full time at WP Dispensary](/7-days-full-time-wp-dispensary/)

@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 If you're typing out a brand-new prompt every time you sit down to write, you're wasting time - and likely getting inconsistent results. This post fixes that. Because the secret to writing faster, better content with AI isn't just knowing _what_ to prompt… It's building a system of _how_ you prompt - once. Then reusing it forever.
 
 ![](/assets/legacy-images/why_modular_prompts_matter_1024x683.webp)
@@ -190,14 +188,8 @@ The best prompts aren't long for no reason. They're _modular_. Build it once and
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-**Older:** [How to teach AI to match your voice](/how-to-teach-ai-to-match-your-voice/)

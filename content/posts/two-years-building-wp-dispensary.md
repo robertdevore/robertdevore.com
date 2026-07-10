@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Over the last two years, the [WP Dispensary](https://www.wpdispensary.com/) WordPress plugin has changed my entire life. In these last two years, **WP Dispensary** has gone from being just a "thing" I built to a thing that powers hundreds of websites for cannabis businesses around the world. It's also become my[full time job](/going-all-in-with-wp-dispensary/), giving me the ability to leave 10+ years of freelancing behind. I'd like to look back over these last two years, what **WP Dispensary** has done and where I plan on pushing it in the future.
 
 ## How it all started
@@ -69,14 +67,8 @@ Year three will also include the launch of the [Marijuana Laws HQ](http://mariju
 
 That secret project will be the main focus in 2018, along with continued add-on and theme updates - plus a couple of other things that I'm sure I'll blog about when the time comes. Looking back, I'm extremely proud of where the last two years brought me. I'm also extremely excited to see what the next two years will bring me!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [? hue.js](/hue-js/)
-
-**Older:** [Dispensary Details for WooCommerce](/woocommerce-dispensary-details-plugin/)

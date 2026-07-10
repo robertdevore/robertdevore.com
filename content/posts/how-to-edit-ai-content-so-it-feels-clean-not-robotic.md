@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 You let AI write your first draft. Smart move. But now you're reading it back … and something’s off. It’s not wrong. It’s just _soulless._ Technically solid, and emotionally sterile. It says things, but it doesn’t _say_ anything. That’s because AI can generate content - but it can’t give it life. That’s your job. This is where you stop being a prompt engineer and start being a real editor. The kind who doesn’t just clean up grammar - but injects rhythm, edge, and intent. The kind who makes words _hit._ Let’s turn that lifeless draft into something only _you_ could’ve written.
 
 ![Why AI content often feels robotic](/assets/legacy-images/why_ai_content_often_feels_robotic_1024x683.webp)
@@ -132,14 +130,8 @@ AI gives you structure. You give it soul. Don’t just edit - elevate. Shape eac
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to Build Modular Prompts That Save You Hours Per Week](/how-to-build-modular-prompts-that-save-you-hours-per-week/)
-
-## Continue reading
-
-**Newer:** [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
-
-**Older:** [How to Build Modular Prompts That Save You Hours Per Week](/how-to-build-modular-prompts-that-save-you-hours-per-week/)

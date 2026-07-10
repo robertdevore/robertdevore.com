@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 You published your first post.
 
 Then your second.
@@ -238,14 +236,8 @@ Plan the wheel. Prompt the engine. Publish with rhythm.
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
 - [How to Build Modular Prompts That Save You Hours Per Week](/how-to-build-modular-prompts-that-save-you-hours-per-week/)
-
-## Continue reading
-
-**Newer:** [Introducing: DB Version Control for WordPress](/db-version-control-wordpress-plugin/)
-
-**Older:** [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)

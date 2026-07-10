@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 I’m thrilled to announce the release of my latest WordPress plugin, **[Vertical Gallery Product Display for WooCommerce®](https://github.com/robertdevore/vertical-gallery-product-display)**. 
 
 This plugin is designed to enhance the shopping experience by transforming the WooCommerce® product gallery into a sleek vertical layout, with customization options to place the gallery on the left or right side of the main product image.
@@ -92,14 +90,8 @@ If you enjoy the plugin, I’d love to hear your feedback.
 
 And if you’re a developer, let’s have a conversation about building better, fairer tools for the WooCommerce® community.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing IMG A11Y](/introducing-img-a11y/)
-
-**Older:** [Introducing Site Vitals for WordPress®](/introducing-site-vitals-for-wordpress/)

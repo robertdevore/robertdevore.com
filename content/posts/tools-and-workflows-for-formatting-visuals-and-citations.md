@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 You wrote the draft and on your first read-through, it hits.
 
 But now it’s sitting there like a great idea in sweatpants – unstyled and unfinished.
@@ -213,14 +211,8 @@ AI got you the draft. Your edit dresses it up. This step makes it _look good_. B
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
 - [How to Build Modular Prompts That Save You Hours Per Week](/how-to-build-modular-prompts-that-save-you-hours-per-week/)
-
-## Continue reading
-
-**Newer:** [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
-
-**Older:** [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)

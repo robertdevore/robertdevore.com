@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 If you develop WordPress plugins and _haven’t_ had a third-party [security audit](/security-audits-for-wordpress/), **you’re playing a dangerous fucking game**.
 
 I get it. You write solid code. You test your features. You’re confident in your work. 
@@ -145,14 +143,8 @@ So, what’s it gonna be?
 
 Your move.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Pattern Pal: AI-Powered Patterns for WordPress®](/introducing-pattern-pal-ai-powered-patterns-for-wordpress/)
-
-**Older:** [Introducing Digg This: A social sharing plugin for WordPress®](/introducing-digg-this-a-social-sharing-plugin-for-wordpress/)

@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 Most people ask AI to "sound more like me" - then get frustrated when it doesn't. But here's the truth: AI can't match your voice if you don't know what your voice actually sounds like. You don't need branding decks or tone-of-voice documents. You need examples: Contrast & Clarity. And a system that turns "make it sound like me" into something the AI can _actually learn from_. It’s a pattern - built from choices you make over and over again. Tone, rhythm, phrasing, emphasis. The AI doesn’t need your energy. It needs your blueprint.
 
 ![Why AI struggles with voice](/assets/legacy-images/why_ai_struggles_with_voice_1024x683.webp)
@@ -142,14 +140,8 @@ AI won't magically "find your voice." But it _will_ amplify it - if you teach it
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [How to Build Modular Prompts That Save You Hours Per Week](/how-to-build-modular-prompts-that-save-you-hours-per-week/)
-
-**Older:** [Introducing automattic.css – An open source CSS Utility Framework](/introducing-automattic-css-an-open-source-css-utility-framework/)

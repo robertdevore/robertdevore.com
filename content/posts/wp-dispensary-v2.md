@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 It is now less than 2 weeks until I release **version 2.0** of[**WP Dispensary**](https://www.wordpress.org/plugins/wp-dispensary). And if you're not looking at a calendar, yes, the release date is 4/20 ? After working on this release, I took a step back and realized that it's been a hell of a journey to get here. From it's humble beginnings when it was [first released](https://www.wpdispensary.com/welcome-to-wp-dispensary/) in November 2015, to last September when [I left freelancing](/going-all-in-with-wp-dispensary/) and started working on it full time, I'm still just as proud at every milestone [WP Dispensary](https://www.wpdispensary.com) hits. The release of **version 2.0** will be no different. Before pushing this update out to the world, I wanted to take time to outline some of the changes and new features you can expect.
 
 ## Rebuilt Settings Page
@@ -44,14 +42,8 @@ This release will also feature a lot of code optimization and increases to the o
 
 I've been testing the code on various installs locally, but I'd love to have some outside eyes take a look at it and see if there's any bugs or ways to enhance the plugin further that I'm missing. Want to help beta test? Get in touch!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Back to Basics](/back-to-basics/)
-
-**Older:** [Set Featured Images Programmatically in WordPress](/set-featured-images-programatically-wordpress/)

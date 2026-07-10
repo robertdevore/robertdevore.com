@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Most AI tools are bad at memory - I mean, _bad-bad_. You come up with a strong prompt, you use it, and it works. Then it's gone. Lost in the sidebar, buried in a thread, or locked into one app's context window. And when you switch tools - from ChatGPT to DeepSeek to Claude - you're back to square one. I got tired of that. So I came up with my own solution: I use [TextExpander](https://textexpander.com) to store the prompts I actually reuse. If you haven't heard of it before, **TextExpander** lets you instantly insert your most-used phrases with custom shortcuts, making your typing faster, more consistent, and easily shareable across your whole team. And they talk about [automation](https://textexpander.com/category/elevating-work/automation) a lot. Since that is one of my keywords for they year ([ref](https://x.com/deviorobert/status/1881616859021414509)), it's fitting to talk about how I use TE for AI automation 🤖 I spend zero time digging around in docs or getting jammed up mid-flow trying to remember where I stored the one I need. Just a few keystrokes to drop in the right prompt, no matter what AI I'm talking to. Here's why that works - and four of the exact snippets I keep in my stack.
 
 ## Why I Keep My Prompts Outside the AI
@@ -88,14 +86,8 @@ And the less time you spend repeating yourself, the more time you spend shipping
 
 Need more help writing better content with the help of AI? Check out the [Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing: Markdown Comments for WordPress®](/introducing-markdown-comments-for-wordpress/)
-
-**Older:** [Introducing: DB Version Control for WordPress](/db-version-control-wordpress-plugin/)

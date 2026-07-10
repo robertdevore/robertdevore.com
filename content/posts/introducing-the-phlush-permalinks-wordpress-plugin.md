@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Another day, another free WordPress plugin release 🚀💪
 
 ![Phlush Permalinks toilet with a chain coming out of it in a nice looking bathroom](/assets/legacy-images/phlush_permalinks_featured_image.webp)
@@ -92,14 +90,8 @@ If you want to remove an action (e.g., you don’t want permalink flushing to oc
 
 ``` function custom_phlush_remove_category_action( $actions ) { // Removing the 'edit_category' action to prevent permalink flush on category edit unset( $actions['edit_category'] ); return $actions; } add_filter( 'phlush_permalinks_available_actions', 'custom_phlush_remove_category_action' ); ```
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [WTF is WordPress?](/wtf-is-wordpress/)
-
-**Older:** [Introducing BoostBox: The 1st WordPress popup builder for the core editor](/boostbox-wordpress-popup-builder-for-the-core-editor/)

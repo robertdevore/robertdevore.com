@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m excited to introduce **[Pattern Pal](https://github.com/robertdevore/pattern-pal/)** , a new free WordPress® plugin that leverages OpenAI to generate custom block patterns right inside the WordPress® editor! 
 
 Whether you’re a content creator, designer, or developer, this plugin streamlines the process of building structured block layouts with minimal effort.
@@ -98,14 +96,8 @@ If you have suggestions, feel free to contribute or open an issue on GitHub.
 
 Give [Pattern Pal](https://github.com/robertdevore/pattern-pal/) a try and let me know what you think! 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [BoostBox: Free Popups That Work, Pro Popups That Convert](/boostbox-free-popups-that-work-pro-popups-that-convert/)
-
-**Older:** [Why WordPress Plugin Developers Need Security Audits](/why-wordpress-plugin-developers-need-security-audits/)

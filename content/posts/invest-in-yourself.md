@@ -12,8 +12,6 @@ categories: ["Field Notes"]
 tags: ["Essays"]
 ---
 
-[Field Notes](/category/field-notes/) · [Essays](/tag/essays/)
-
 When it comes to building something that you want to turn into a business and earn a living from, there's a lot of paths to success. Sometimes you go viral because one specific person tweeted you. Other times there's 3-4 years of hard work behind the scenes before a coordinated launch effort. Maybe you're the [guy](http://www.twitter.com/garyvee) who spent 18 months doing daily videos about wine before you got your breakthrough moment. Your path is going to be different than everyone before you and everyone after you. That's the beauty of building a business. Nobody else is going to do it like you can do it. Be uniquely you, and never stop improving yourself and your position. Investing in yourself is the most important investment you'll ever make, and investing the right amount of time, energy and money can be the difference between a failed business and an absolute success.
 
 ## Cash Investments
@@ -56,12 +54,8 @@ Sometimes you get muddled with all of the details and never actually get your bu
 
 Investing in yourself is great, and it helps you to feel more confident about your business and yourself as a business owner. But don't overspend. You don't want to end up broke, scrambling to keep the lights on and food on your table while your business is barely off the ground. Trust me, it's not a great position to be in. Save! Save! Save! Whatever profit you receive, put a percentage of it away and never touch it. That's your emergency funds and should only be used in times of great need. Starting a business is rough, and the added pressure of not knowing how you're going to pay your rent will only distract you from your main goals even more than you already may be. Don't let yourself get into that spot. Work hard, be nice to people and save as much as possible. Then, and only then should you invest cash. Until then, work the plan and sweat your ass off!
 
-## Related writing
+## Related Reading
 
-
-
-## Continue reading
-
-**Newer:** [Twitter Marketing](/twitter-marketing/)
-
-**Older:** [CannaBiz](/cannabiz/)
+- [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
+- [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
+- [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)

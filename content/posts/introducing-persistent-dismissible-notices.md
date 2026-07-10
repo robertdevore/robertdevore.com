@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m excited to announce the release of my new free WordPress® plugin, **[Persistent Dismissible Notices](https://github.com/robertdevore/persistent-dismissible-notices)** , designed to solve a long-standing annoyance in the WordPress admin experience. 
 
 If you’ve ever been frustrated by repeatedly dismissing the same admin notices, this plugin ensures that once dismissed, they stay dismissed across sessions for logged-in users.
@@ -111,14 +109,8 @@ Feel free to share your ideas via [GitHub issues](https://github.com/robertdevor
 
 [Download Persistent Dismissible Notices](https://github.com/robertdevore/persistent-dismissible-notices/) and try it out today!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Maintenance Mode for WordPress®](/introducing-maintenance-mode-for-wordpress/)
-
-**Older:** [Introducing Test Orders for WooCommerce®](/introducing-test-orders-for-woocommerce/)

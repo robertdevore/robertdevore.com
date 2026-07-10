@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 The concept of not getting what I want right now, without having to wait, has been completely lost on me. I'm eager for the results, and a lot of the time, I lose any patience that's required in order to get the results I want. _I blame it on my childhood._ Not because I was handed anything with a silver spoon, because anybody who knows me can tell you that my childhood was the exact opposite of that. But what I did have as a child, and still do as an adult, is the ability to quickly pick things up and learn them. I participated in sports growing up, drew, wrote poetry and worked on computers. No matter what I did, I learned quickly. The bad thing is that this has bled over into my work life as an adult. I can pick up a new piece of software, or technical skills needed to complete a task, like learning about API's when building the [Leafly Reviews plugin](/leafly-reviews-wordpress-plugin/) or releasing [version 1.1](http://www.wpdispensary.com/wp-dispensary-version-1-1/) of the [WP Dispensary plugin](/wp-dispensary/) with API integration. The time it takes for me to catch on is low, so I tend to look at everything in my life the same way. If I **can 't** pick it up and learn it quickly, I get frustrated and move on. If I **can** pick it up and learn it quickly, I get bored and move on. Learning how to manage this has been rough, but it's something I'm growing into every day.
 
 ## Expecting the unexpected
@@ -32,14 +30,8 @@ We've all heard the _" nothing happens overnight"_ statements, and see the debun
 
 I believe that mixing the patience required to succeed, with the right amount of hustle is a winning combination. Only time will tell.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Slackedd](/slackedd/)
-
-**Older:** [WP Dispensary](/wp-dispensary/)

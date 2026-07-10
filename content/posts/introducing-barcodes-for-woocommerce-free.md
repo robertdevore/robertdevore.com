@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 I’m thrilled to announce the release of [**Barcodes for WooCommerce®**](https://github.com/robertdevore/barcodes-for-woocommerce/) , a free plugin I’ve developed to make managing WooCommerce® stores more efficient.
 
 By integrating QR code functionality, this tool simplifies how you manage orders and products, while also enhancing your customers’ experience.
@@ -148,14 +146,8 @@ This is just the beginning, and I’m excited to hear your thoughts and feedback
 
 Thank you for your support–I look forward to seeing how this plugin helps your WooCommerce store thrive!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Bulk Stock Management for WooCommerce® (free)](/introducing-bulk-stock-management-for-woocommerce-free/)
-
-**Older:** [Introducing Brands for WooCommerce® (free)](/introducing-brands-for-woocommerce-free/)

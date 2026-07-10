@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Let’s talk plugin distribution.
 
 Hosting your plugins on GitHub provides powerful benefits such as version control, collaboration, and easy sharing.
@@ -160,14 +158,8 @@ This makes sure that users can download and install your plugin without encounte
   2. Navigate to the **“Releases”** section.
   3. Upload your `.zip` file to the release.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [How to Stop Your Plugins & Themes from Being Used on WordPress.com Hosting](/how-to-stop-your-plugins-themes-from-being-used-on-wordpress-com-hosting/)
-
-**Older:** [Introducing HPOS Compatibility Scanner for WooCommerce® (free)](/introducing-hpos-compatibility-scanner-for-woocommerce-free/)

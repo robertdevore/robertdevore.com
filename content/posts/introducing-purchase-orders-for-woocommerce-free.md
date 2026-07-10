@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Welcome to week 4 of the [#WooWednesday](https://twitter.com/deviorobert/status/1854107085786747313) plugin series!
 
 Today we’ve got the **[Purchase Orders for WooCommerce®](https://github.com/robertdevore/purchase-orders-for-woocommerce)** plugin which is a simple, free, and functional alternative to Woo’s $49/year offering. 
@@ -92,14 +90,8 @@ With **[Purchase Orders for WooCommerce®](https://github.com/robertdevore/purch
 
 Sometimes, simplicity is the best feature.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Table Block Enhancer for WordPress®](/introducing-table-block-enhancer-for-wordpress/)
-
-**Older:** [Introducing Metadata Import/Export for Yoast SEO](/introducing-metadata-import-export-for-yoast-seo/)

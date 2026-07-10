@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Today I’m happy to announce the release of **User Login Status** , a WordPress plugin designed to help administrators easily monitor user activity and manage user sessions with ease.
 
 This plugin comes with a couple key features that allow you to quickly identify which users are logged in and take action by logging them out en-masse if needed.
@@ -121,14 +119,8 @@ Get the **User Login Status** plugin today and start managing user sessions more
 
 [View on GitHub](https://github.com/robertdevore/user-login-status)
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Gallery Modals: Enhance Your WordPress® Galleries with Stunning Popups!](/introducing-gallery-modals-enhance-your-wordpress-galleries-with-stunning-popups/)
-
-**Older:** [WTF is WordPress?](/wtf-is-wordpress/)

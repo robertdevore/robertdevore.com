@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 It’s WooWednesday again, and I’m happy to introduce **[Bulk Stock Management for WooCommerce®](https://github.com/robertdevore/bulk-stock-management-for-woocommerce)** – a free plugin designed to simplify your stock management workflow.
 
 Whether you’re managing hundreds of products or just a few, this WooCommerce® plugin streamlines the process, giving you time back to focus on growing your business.
@@ -110,14 +108,8 @@ Here’s to smarter stock management and more productive WooCommerce stores.
 
 See you next #WooWednesday!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Stats for WordPress®](/introducing-stats-for-wordpress/)
-
-**Older:** [Introducing Barcodes for WooCommerce® (free)](/introducing-barcodes-for-woocommerce-free/)

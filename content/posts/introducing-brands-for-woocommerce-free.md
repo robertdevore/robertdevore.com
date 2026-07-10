@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Just a few days ago, WooCommerce® [officially added](https://developer.woocommerce.com/2024/11/11/woocommerce-9-4-supercharging-the-product-collection-block-more/#h-brands-added-with-feature-flag) a **brands integration** as a feature flag option, available by default some time in December.
 
 However, this late addition of the brands functionality in Woo Core and the continued sale of the Pro version has left many in the WooCommerce® community seeking an immediate, cost-free solution to meet their branding needs.
@@ -112,14 +110,8 @@ And as Woo turns on their Brands solution by default (whenever that actually hap
 
 P.S. Make sure you’re following me on Twitter, because the **[December to Remember](https://twitter.com/deviorobert/status/1857099894701301990)** isn’t just a catchy name 🔥💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Barcodes for WooCommerce® (free)](/introducing-barcodes-for-woocommerce-free/)
-
-**Older:** [Introducing the Module Usage Tracker for WP Bakery](/introducing-module-usage-tracker-for-wp-bakery/)

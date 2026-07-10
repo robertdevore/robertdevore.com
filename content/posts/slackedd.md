@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Towards the end of last year, I [tweeted](https://twitter.com/deviorobert/status/674927533943582720) that I was working on something with the Easy Digital Downloads payment success function, and today I am able to share the fruits of that labor.
 
 ## Slackedd WordPress plugin
@@ -54,14 +52,8 @@ You can download the Slackedd WordPress plugin via [Github](https://github.com/d
 
 Want to contribute to the plugin? Head over to the [Github repository](https://github.com/deviodigital/Slackedd) and submit any issues you find or pull requests. Your contributions are both welcomed and appreciated.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Making up for lost time](/making-up-for-lost-time/)
-
-**Older:** [Patience](/patience/)

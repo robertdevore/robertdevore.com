@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 After 20+ years of wrestling with WordPress and PHP, [I’ve had enough](/goodbye-wordpress-a-eulogy/).
 
 If you’ve been writing PHP for years – wrangling WordPress® sites, duct-taping functions together, or shipping WooCommerce hacks – this is for you.
@@ -209,14 +207,8 @@ I’d love to feature your project and show other developers what’s possible w
 
 The cage door is open. Time to walk through it.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-**Older:** [WordPress & WooCommerce plugins I will no longer maintain](/wordpress-woocommerce-plugins-i-will-no-longer-maintain/)

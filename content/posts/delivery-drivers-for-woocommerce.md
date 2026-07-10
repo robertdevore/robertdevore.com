@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Today I am happy to announce the release of my newest open source plugin, [Delivery Drivers for WooCommerce](https://www.wordpress.org/plugins/delivery-drivers-for-woocommerce). ![Delivery Drivers for WooCommerce logo](/assets/legacy-images/ddwc_logo.webp) As you can probably guess by the name, it's a plugin for WooCommerce that adds functionality for businesses who offer delivery and would like greater control over the entire process. Part of the reason that I built this plugin is because of a client need via [WP Dispensary](https://www.wpdispensary.com), but I did not want to pigeonhole it as another [dispensary plugin](https://www.wordpress.org/plugins/wp-dispensary). Since there's many businesses that offer delivery beyond just the cannabis industry, I knew this plugin would be better built as it's own separate entity. And that's what this blog post is about - the release of the Delivery Drivers for WooCommerce plugin, and what you can expect when using it.
 
 ## Delivery Businesses & WooCommerce
@@ -66,14 +64,8 @@ I'm happy to announce that you can get the Pro version of the Delivery Drivers f
 
 You can download the [Delivery Drivers for WooCommerce](https://www.wordpress.org/plugins/delivery-drivers-for-woocommerce) plugin from the official WordPress plugin directory, or by searching for "**Delivery Drivers** " in the WordPress dashboard under `Plugins -> Add New`.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Going all in: One year later](/going-all-in-one-year-later/)
-
-**Older:** [Thank You WordPress](/thank-you-wordpress/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Pushing your product online is about to get a lot easier. Today I am releasing my newest WordPress theme, **Peddle** , into the wild. It's a free WordPress theme that fully integrates with the[Easy Digital Downloads](http://www.easydigitaldownloads.com) plugin, which lets you (surprise, surprise) sell your digital products online through your own website. Why the name **Peddle**? I chose the name Peddle for two reasons. First, because Easy Digital Downloads abbreviates itself as EDD, and I wanted a theme name that had EDD in it. Second, because of the definition of the word Peddle and how well it fits the theme of an online store.
 
 > to deal out, distribute, or dispense - [Dictionary](http://dictionary.reference.com/browse/peddle)
@@ -44,14 +42,8 @@ Without the open source projects below, this theme would have never came togethe
 
 Thank you for taking the time to read this entire release post. The future of Peddle is actually pretty bright. I've got plans on integration support for a bunch of the add-ons that EDD offers, giving you the ability to extend your shop further and not worry about how things may look, because it's already taken care of for you 🙂 If you find any bugs or have feature requests, make sure you leave a comment below, or head over to the [Github repository](http://github.com/deviodigital/peddle/). For now, take the Peddle theme for a [test drive](http://www.deviodigital.com/demo/peddle/), download it ([Github Repository](http://github.com/deviodigital/peddle/) * [direct download](http://github.com/deviodigital/peddle/archive/master.zip)), and let me know how you like it.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Focus](/focus/)
-
-**Older:** [MNML](/mnml-free-minimalist-wordpress-theme/)

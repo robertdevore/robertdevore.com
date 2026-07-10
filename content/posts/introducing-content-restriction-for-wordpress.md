@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m excited to announce the launch of my 6th new free plugin in the last 11 days 🚀
 
 **Content Restriction for WordPress®** , a sophisticatedly simple solution for managing content visibility on your WordPress® site. 
@@ -96,14 +94,8 @@ Check out the [GitHub repository](https://github.com/robertdevore/content-restri
 
 Thank you for your support, and I’m forward to seeing how Content Restriction for WordPress® helps you create secure, role-based content experiences for your users 🤘💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Markdown Exporter for WordPress®](/introducing-markdown-exporter-for-wordpress/)
-
-**Older:** [Introducing BenchPress: Performance Benchmarks for WordPress®](/introducing-benchpress/)

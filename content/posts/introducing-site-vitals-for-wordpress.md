@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m thrilled to introduce [Site Vitals for WordPress®](https://github.com/robertdevore/site-vitals-for-wordpress) – a free plugin designed to help you monitor, evaluate, and improve key aspects of your WordPress® website’s health.
 
 From performance and security to SEO, UX, and content management, **Site Vitals for WordPress®** provides comprehensive checks and actionable recommendations, all in one convenient dashboard.
@@ -141,14 +139,8 @@ By consolidating multiple checks into one dashboard and providing actionable rec
 
 Try it out, and let me know what you think!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Vertical Gallery Product Display for WooCommerce®](/introducing-vertical-gallery-product-display-for-woocommerce/)
-
-**Older:** [Introducing Associated Taxonomies for WordPress®](/introducing-associated-taxonomies-for-wordpress/)

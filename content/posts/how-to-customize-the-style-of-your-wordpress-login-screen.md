@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 This post is going to show you how to add a few small code snippets to change the appearance of the WordPress login screen.
 
 We’ll walk through the process of changing the default WordPress logo to your own using the `login_headertext` filter that was added in WordPress 5.2
@@ -116,14 +114,8 @@ Hopefully this article helped you get a better looking login screen for your web
 
 ![](/assets/legacy-images/bob_ross_glad_you_could_join_me_today.webp)
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [The past, present and future of WP Dispensary](/the-past-present-and-future-of-wp-dispensary/)
-
-**Older:** [Going all in: One year later](/going-all-in-one-year-later/)

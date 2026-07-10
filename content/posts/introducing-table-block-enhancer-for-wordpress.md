@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Today I’m happy to announce the release of a new free plugin for WordPress® called **[Table Block Enhancer](https://github.com/robertdevore/table-block-enhancer/)** 🚀
 
 This WordPress® plugin designed to supercharge the default WordPress® Table block, which is lacking in features at the moment.
@@ -119,14 +117,8 @@ I believe it fills a vital need for more dynamic and interactive tables within t
 
 Go ahead and [download the plugin](https://github.com/robertdevore/table-block-enhancer/), give it a try, and let me know what you think 🙏💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Media File Versioning for WordPress®](/introducing-media-file-versioning-for-wordpress/)
-
-**Older:** [Introducing Purchase Orders for WooCommerce® (free)](/introducing-purchase-orders-for-woocommerce-free/)

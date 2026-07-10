@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 One question I've been asking myself lately is, _how productive can you really claim to be if you 're not seeing results from your work_? Being motivated is great, and finding yourself putting a lot of rubber to the road is even better, but it doesn't mean shit if you're not focused. I've been learning that the hard way.
 
 > Don't mistake movement for achievement. Being busy isn't shit, because you could run in circles for hours and still get nowhere. ✊💯 \-- Robert DeVore (@deviorobert) [October 4, 2015](https://twitter.com/deviorobert/status/650707523570409472?ref_src=twsrc%5Etfw)
@@ -36,14 +34,8 @@ Learning how to put the blinders on and let the extra bullshit go, be it tools a
 
 The words "full stack developer" get thrown around a lot lately. If you look at job listings, I bet that 8 out of 10 times you'll see these words in the description. While it can be great to be skilled in multiple languages, look at who's asking for it as a job requirement - businesses looking to hire employees. But that's not what I want to be, and I highly doubt you want to work 40 hours a week for someone else either. So how can we ensure that we're as successful as possible when it comes to our own personal goals and dreams? Laser-like focus. The deeper you dive into one tool or technology, the stronger your abilities become, and in turn you are able to position yourself as an expert with in the specific field. When you become an expert, your stock rises and the ability to charge more money for your services becomes easier. You'll also open yourself up to additional opportunities like writing a book, building a course to teach others how to do what you are an expert at, and so on. You can't do those things when you're just another cog in the machine. I mean, you could, but your chances of success are much lower. That's just not acceptable to me, so I'm putting my full force into one specific task and working as hard as humanly possible to become an expert and find the success I know that I deserve. … and it all starts with _focus_.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Leafly Reviews](/leafly-reviews-wordpress-plugin/)
-
-**Older:** [Peddle](/peddle-free-wordpress-theme-for-easy-digital-downloads/)

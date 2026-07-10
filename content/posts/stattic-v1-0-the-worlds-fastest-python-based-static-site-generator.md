@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Over the last few months, I’ve gone all-in on Python. Not just because it's powerful - but because it’s accessible. I've been [building tools](/5-python-scripts-for-osint-and-pentesting/), [writing tutorials](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/), dropping full [cipher projects](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/), and even releasing a full [Python course](https://python.robertdevore.com) specifically designed to help PHP and WordPress® developers make the leap. Because I’m not just trying to hand people a tool. I want to teach you how to wield it, too. That’s what [Stattic](https://stattic.site) is about: giving devs control again - with no lock-in, no unnecessary functionality, and no noise. Just fast, secure, clean builds every time. And now? Stattic v1.0 is here! It's the **fastest Python static site generator in the world** - and the **second fastest SSG overall** , right behind Hugo. Brag? Hell yeah. I’m proud of it. 😎
 
 _This claim is based on[dat](https://ssg-build-performance-tests.netlify.app/)[a](https://ssg-build-performance-tests.netlify.app/) from [CSS Tricks](https://css-tricks.com/comparing-static-site-generator-build-times/) in 2020. I will be looking to conduct additional tests to solidify the current numbers._
@@ -119,14 +117,8 @@ This is `v1.0`, and it’s just getting started.
 
 I am looking for feedback and contributors, so if you want to help Stattic grow, please reach out 🤘
 
-## Related writing
+## Related Reading
 
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
 - [I Just Launched a Python Course for PHP Developers](/i-just-launched-a-python-course-for-php-developers/)
-
-## Continue reading
-
-**Newer:** [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
-
-**Older:** [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I’m excited to announce the release of my latest free plugin, **[Bluesky Feed for WordPress®](https://github.com/robertdevore/bluesky-feed-for-wordpress)** 🚀
 
 This is a free WordPress plugin designed to integrate your Bluesky feed into your WordPress® powered website.
@@ -122,14 +120,8 @@ If you have suggestions for new features or run into any issues, I’d love to h
 
 You can reach out via the [contact page](/contact/) or the [GitHub repository](https://github.com/robertdevore/bluesky-feed-for-wordpress/).
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Media Copyright Scanner](/introducing-media-copyright-scanner/)
-
-**Older:** [Introducing Stats for WordPress®](/introducing-stats-for-wordpress/)

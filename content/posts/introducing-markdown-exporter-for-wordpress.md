@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 This month has been a whirlwind of development and releases, and today continues that tradition.
 
 I’m happy to proudly release my **7th free plugin** this month 🔥 
@@ -131,14 +129,8 @@ Explore more at [stattic.site](https://stattic.site/) and stay connected through
 
 And stay tuned, because there’s much more in store 💪💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Just Released: Customer Loyalty for WooCommerce® v2.0.0!](/customer-loyalty-for-woocommerce-v2/)
-
-**Older:** [Introducing Content Restriction for WordPress®](/introducing-content-restriction-for-wordpress/)

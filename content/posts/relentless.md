@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 **I will hold $1,000,000 in my hands.** Bold statement, right? Well, if fortune favors the bold, I plan on cashing in on it. I understand that [overnight success](https://therisetothetop.com/davids-blog/myth-of-overnight-success/) doesn't mean that tomorrow morning I'll wake up and be rich. I've been building websites for almost 2 decades. I've been releasing open source code for a little over a year. I've been working on [WP Dispensary](https://www.wpdispensary.com) for a little less than a year. But I've known where I want to get to (that $1M cash in hand) for my whole life. There's been a lot of ups and downs throughout the years, and many lessons learned. It's now time to get a grip, buckle down and really put things into overdrive. The plan is simple; work at a relentless pace, focused on constant improvements no matter how small, and never let up on the gas.
 
 > Think in years, plan in months, work in days. 🙌💯💯💯 \-- Robert DeVore (@deviorobert) [May 23, 2016](https://twitter.com/deviorobert/status/734743180982128640?ref_src=twsrc%5Etfw)
@@ -46,14 +44,8 @@ This is an area of my life that I've neglected more than I'd like to admit. Sure
 
 That sums up my views when it comes to my personal life and my business life. As long as I'm making focused moves towards all of my goals, I'll get to where I want to be in life. With all that said, it's time to get back to the grind. See you at the top!
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Organized Chaos](/organized-chaos/)
-
-**Older:** [Chapters for Authors](/chapters-for-authors-wordpress-plugin/)

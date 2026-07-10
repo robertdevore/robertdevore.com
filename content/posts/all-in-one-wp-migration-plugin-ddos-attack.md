@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 While doing some vulnerability research for WordPress plugins myself and my clients use, I came across a plugin with 5M+ active installs that can be used in DDoS attacks by non-authenticated users.
 
 > Let me preface this to say that the plugin itself is not vulnerable to a hack AFAIK, but has a flaw (IMO) that allows non-authenticated users to trigger full site backups without any limitations.
@@ -96,14 +94,8 @@ But depending on the rest of your website’s setup, you may just be playing wit
 
 ![](/assets/legacy-images/better_safe_than_sorry.webp)
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Improve CLS scores by dynamically setting image width and height](/improve-cls-scores-by-dynamically-setting-image-width-and-height/)
-
-**Older:** [5 Python Scripts for OSINT and Pentesting](/5-python-scripts-for-osint-and-pentesting/)

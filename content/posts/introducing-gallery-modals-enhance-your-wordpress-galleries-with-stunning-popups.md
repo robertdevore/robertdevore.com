@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 I am happy to release **Gallery Modals** , a new free WordPress® plugin designed to transform your WordPress® galleries into immersive, interactive experiences.
 
 If you’ve ever wanted to give your site’s images that extra touch of elegance and functionality, this is the plugin you’ve been waiting for!
@@ -85,14 +83,8 @@ This release is just the beginning. I’m committed to continuously improving Ga
 
 I believe in creating tools that not only meet but exceed your expectations, and [Gallery Modals](https://github.com/robertdevore/gallery-modals/) is no different.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Back In Stock Notifications for WooCommerce®](/introducing-back-in-stock-notifications-for-woocommerce/)
-
-**Older:** [Introducing the User Login Status Plugin for WordPress](/introducing-the-user-login-status-plugin-for-wordpress/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 The WordPress® community has always been defined by its people – the contributors, developers, and advocates who have shaped the ecosystem into what it is today.
 
 Among these individuals, [Jesse Petersen](https://www.jessepetersen.com/) stood out as a shining example of generosity, kindness, and technical expertise. 
@@ -88,14 +86,8 @@ This plugin represents the power of that community, reminding us that even as co
 
 Thank you, Jesse, for everything you gave to WordPress®. This one’s for you. 🙏❤️
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [How to Block Website Tracking Data in WooCommerce®](/how-to-block-website-tracking-data-in-woocommerce/)
-
-**Older:** [December 2024: A Retrospective](/december-2024-a-retrospective/)

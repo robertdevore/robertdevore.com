@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 In an effort to help the code below potentially find new homes, I've compiled all of the free WordPress and WooCommerce plugins I've released. These will all be archived in GitHub eventually, and the [Projects](/projects) page on this website will be updated soon to reflect new projects outside of WordPress®. If you liked any of these, or wished you had created them, now's your chance to fork them and keep them alive 🤘
 
 **UPDATE:** On 06/18/2025, WebDevStudios [adopted](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/) 20 of the WordPress® plugins listed below 🔥
@@ -112,14 +110,8 @@ On this site I’ll still be posting about [Extreme Leadership](/tag/extreme-lea
 
 Same flow, different focus 💪💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [I Just Launched a Python Course for PHP Developers](/i-just-launched-a-python-course-for-php-developers/)
-
-**Older:** [WP Townhall 13: The Debate Kevin Geary Doesn’t Want You to See](/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see/)

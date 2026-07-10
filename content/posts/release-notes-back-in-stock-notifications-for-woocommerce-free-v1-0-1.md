@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 I’m happy to announce the release of **Back In Stock Notifications for WooCommerce® (free) v1.0.1**! 
 
 This release focuses on improving the plugin’s performance, especially for sites that manage large volumes of waitlisted customers or exporting significant data. 
@@ -75,14 +73,8 @@ I’m thankful for every user of the plugins I build and I am always here to mak
 
 So please [reach out](/contact/) if you have feedback or suggestions for further improvements, I appreciate it all 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Gift Cards for WooCommerce® (free)](/introducing-gift-cards-for-woocommerce-free/)
-
-**Older:** [Introducing Back In Stock Notifications for WooCommerce®](/introducing-back-in-stock-notifications-for-woocommerce/)

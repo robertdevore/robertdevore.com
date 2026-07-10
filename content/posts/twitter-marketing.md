@@ -12,8 +12,6 @@ categories: ["Engineering Archive"]
 tags: ["Archive"]
 ---
 
-[Engineering Archive](/category/engineering-archive/) · [Archive](/tag/archive/)
-
 When building your digital marketing strategy, social media websites like Twitter are usually at the top of the list. I mean, with over [300 million active users](http://www.statista.com/statistics/282087/number-of-monthly-active-twitter-users/) on Twitter, you'd be hard pressed to find a marketing blog that doesn't recommend Twitter marketing tips, and for good reason. But how can you supercharge your marketing efforts on Twitter and reach even a small percentage of those users? Hopefully by the end of this article you'll have a better understanding of what works on Twitter and how you can use the right marketing mix to build a solid brand on the social media giant.
 
 ## Twitter Advanced Search Tips
@@ -53,13 +51,8 @@ It's been said a lot, but needs repeating once more - 650+ million! people [acti
 
 As with anything else in life, when you're marketing on social media, don't be an asshole. Don't spam or come off as someone who's just looking out for self. Like everything in life, the more you give, the better you become. Hopefully these twitter marketing tips give you some ideas on how to better your business and grow your brand with Twitter.
 
-## Related writing
+## Related Reading
 
 - [Organized Chaos](/organized-chaos/)
 - [Making up for lost time](/making-up-for-lost-time/)
-
-## Continue reading
-
-**Newer:** [Chapters for Authors](/chapters-for-authors-wordpress-plugin/)
-
-**Older:** [Invest in Yourself](/invest-in-yourself/)
+- [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)

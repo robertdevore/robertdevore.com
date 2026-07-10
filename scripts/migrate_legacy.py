@@ -148,14 +148,16 @@ def legacy_entry(path: Path, route: str, date: str, legacy: Path) -> Entry:
 def add_navigation(posts: list[Entry]) -> None:
     ordered = sorted(posts, key=lambda x: (x.date, x.route), reverse=True); groups = defaultdict(list)
     for entry in ordered: groups[entry.categories[0]].append(entry)
-    for i, entry in enumerate(ordered):
+    for entry in ordered:
         related = [x for x in groups[entry.categories[0]] if x is not entry][:3]
-        tax = " · ".join([f"[{x}](/category/{slug(x)}/)" for x in entry.categories] + [f"[{x}](/tag/{slug(x)}/)" for x in entry.tags])
+        if len(related) < 3:
+            for candidate in ordered:
+                if candidate is not entry and candidate not in related:
+                    related.append(candidate)
+                if len(related) == 3:
+                    break
         related_md = "\n".join(f"- [{x.title}](/%s/)" % x.route for x in related)
-        sequence = []
-        if i: sequence.append(f"**Newer:** [{ordered[i-1].title}](/%s/)" % ordered[i-1].route)
-        if i + 1 < len(ordered): sequence.append(f"**Older:** [{ordered[i+1].title}](/%s/)" % ordered[i+1].route)
-        entry.body = f"{tax}\n\n{entry.body}\n\n## Related writing\n\n{related_md}\n\n## Continue reading\n\n" + "\n\n".join(sequence)
+        entry.body = f"{entry.body}\n\n## Related Reading\n\n{related_md}"
 
 def write(entry: Entry, path: Path) -> None:
     meta = {"title": entry.title, "description": entry.description, "custom_url": entry.route, "author": "Robert DeVore", "date": entry.date, "canonical": f"{SITE}/{entry.route}/", "template": entry.template, "nav_hide": True}
@@ -169,7 +171,7 @@ def archives(posts: list[Entry], content: Path) -> None:
         for entry in posts:
             for term in getattr(entry, attr): groups[term].append(entry)
         for term, entries in groups.items():
-            items = "\n".join(f"- {x.date} — [{x.title}](/%s/)" % x.route for x in sorted(entries, key=lambda y: y.date, reverse=True))
+            items = "\n".join(f"- {x.date} [{x.title}](/%s/)" % x.route for x in sorted(entries, key=lambda y: y.date, reverse=True))
             archive = Entry(f"{kind}-archive", slug(term), term, max(x.date for x in entries), f"Writing filed under {term}.", f"## Articles\n\n{items}", template="archive")
             write(archive, content / kind / f"{slug(term)}.md")
 

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 It's amazing what you can come up with randomly over the weekend while doing a [dozen](https://www.wpdispensary.com/downloads/dispensary-top-sellers/) other [things](https://www.wpdispensary.com/100-free-marijuana-stock-photos/) ? Case in point - [Chapters for Authors](https://wordpress.org/plugins/chapters-for-authors/) ? This is a new plugin I built from an idea I got when I [read a tweet](https://twitter.com/themotherofcode/status/780061617698533376) from Ines van Essen, who is building a plugin for bloggers to gamify their blogging.
 
 > I'm building a thing. It's scary, which is why I am writing about it. Also, I want to pick your brain. <https://t.co/w2Z1ErzeLs> \-- Ines 🇺🇦 (@motherofcode) [September 25, 2016](https://twitter.com/motherofcode/status/780061617698533376?ref_src=twsrc%5Etfw)
@@ -48,14 +46,8 @@ First, I would like to thank Ines for building a plugin for building something a
 
 I'll be actively developing this plugin over [on Github](https://github.com/deviodigital/chapters-for-authors), so feel free to submit code or [open issues](https://github.com/deviodigital/chapters-for-authors/issues). **There is a also paid version of this plugin in the works.** I am not set on a date yet because there's a couple features I want to make sure I'm getting 100% right. It is definitely coming though and if the build speed for the free plugin is any indication, I see it happening sooner rather than later. I mean, NaNoWriMo is coming up really soon 🙂
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Relentless](/relentless/)
-
-**Older:** [Twitter Marketing](/twitter-marketing/)

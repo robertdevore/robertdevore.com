@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Another release. Another step forward.
 
 **[Stattic](https://stattic.site) v0.3.0** isn’t a flashy overhaul – it’s a focused upgrade that makes the core tighter, the output cleaner, and the tooling smarter.
@@ -85,14 +83,8 @@ And this is just v0.3.0. We’re only getting started 💪💯
 
 👉 [See full changelog on GitHub](https://github.com/getstattic/stattic/releases)
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [What Makes Content Beautifully Useful?](/what-makes-content-beautifully-useful/)
-
-**Older:** [Plan. Prompt. Publish. A Practical Guide to Creating Beautifully Useful Content with AI](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/)

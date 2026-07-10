@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 While working on WordPress performance optimization for myself and for my clients, I’ve come across an issue that repeatedly affected CLS scores in a negative way.
 
 Luckily for myself (and now you, too), I created a fix that has helped reduced CLS when rouge images without explicit width and height attributes are the offenders.
@@ -116,14 +114,8 @@ Feel free to leave a comment, [tweet me](https://twitter.com/deviorobert) about 
 
 ![](/assets/legacy-images/go_on_git_randy_marsh.webp)
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing BoostBox: The 1st WordPress popup builder for the core editor](/boostbox-wordpress-popup-builder-for-the-core-editor/)
-
-**Older:** [WordPress plugin with 5M+ active installs can be utilized in DDoS attacks](/all-in-one-wp-migration-plugin-ddos-attack/)

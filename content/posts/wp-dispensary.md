@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Within the last few months I have been developing this plugin from the ground up. I've ensured that when the product was released, there would be a great use for it, and a demand for more solutions like it. With a market that is [29 states strong](http://medicalmarijuana.procon.org/view.resource.php?resourceID=000881) right now, and more states positioned to legalize medical marijuana as well as recreational marijuana over the next 5-10 years, I want to cater to this growing industry and provide the professional websites that dispensary owners deserve. ![](/assets/legacy-images/banner_772x250.webp)
 
 ## Professional dispensary websites.
@@ -44,14 +42,8 @@ You can download the WP Dispensary WordPress plugin via the [WordPress plugin di
 
 Head over to the [Github repository](https://github.com/deviodigital/wp-dispensary) to submit any issues & pull requests. Your contributions are both welcomed and appreciated ??
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Patience](/patience/)
-
-**Older:** [Leafly Reviews](/leafly-reviews-wordpress-plugin/)

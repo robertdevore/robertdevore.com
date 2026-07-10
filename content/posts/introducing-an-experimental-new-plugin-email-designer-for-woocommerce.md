@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 WooCommerce emails have always been a pain point for store owners looking to create beautifully branded transactional emails without diving deep into custom PHP templates. 
 
 While WooCommerce [recently improved](https://developer.woocommerce.com/2025/01/22/woocommerce-9-7-pre-release-updates/) its email customizer settings, they completely dropped the ball (in my opinion) by not modernizing with Gutenberg blocks as others in the community [had hoped](https://github.com/woocommerce/woocommerce/discussions/52897).
@@ -96,14 +94,8 @@ Let’s work together to create a modern solution that brings WooCommerce® emai
 
 Drop a comment, open an issue on GitHub, or find me on [Twitter/X](https://x.com/deviorobert) to discuss the future of WooCommerce® email design. 🚀
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Stop Gambling With Client Trust: Why Skipping a Security Audit Is a Risk You Can’t Afford](/stop-gambling-with-client-trust-why-skipping-a-security-audit-is-a-risk-you-cant-afford/)
-
-**Older:** [BoostBox: Free Popups That Work, Pro Popups That Convert](/boostbox-free-popups-that-work-pro-popups-that-convert/)

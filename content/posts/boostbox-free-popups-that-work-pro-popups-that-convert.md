@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Popups are **fucking powerful** – when they don’t suck.
 
 The problem? Most popup plugins are bloated, slow, and designed by people who clearly hate [web performance](/page-speed-optimization/).
@@ -128,14 +126,8 @@ If you want a **fast, simple, no-bullshit** popup plugin that works **inside Wor
 
 🚀 **Get[BoostBox](/projects/boostbox/) for free today** – and when you’re ready to **turn your popups into a conversion machine,[go Pro](https://deviodigital.com/product/boostbox-pro/).**
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing an experimental new plugin: Email Designer for WooCommerce®](/introducing-an-experimental-new-plugin-email-designer-for-woocommerce/)
-
-**Older:** [Introducing Pattern Pal: AI-Powered Patterns for WordPress®](/introducing-pattern-pal-ai-powered-patterns-for-wordpress/)

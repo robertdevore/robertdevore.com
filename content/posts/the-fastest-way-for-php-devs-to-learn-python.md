@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 So you’ve been writing PHP for years, maybe shipping WordPress® sites, WooCommerce® stores, or custom plugins. 
 
 Now you’re stepping into the Python world – maybe because you found [Stattic](https://stattic.site/) and realized you don’t need a bloated CMS to build a fast, modern site.
@@ -201,14 +199,8 @@ With tools like [Stattic](https://stattic.site) and templating via Jinja2, you�
 
 [Check out the course](https://python.robertdevore.com/), and welcome to the wonderful world of Python 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [I Just Launched a Python Course for PHP Developers](/i-just-launched-a-python-course-for-php-developers/)
-
-## Continue reading
-
-**Newer:** [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
-
-**Older:** [I Just Launched a Python Course for PHP Developers](/i-just-launched-a-python-course-for-php-developers/)

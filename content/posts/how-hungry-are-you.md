@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 This question changed everything.
 
 I was in the middle of writing a blog post titled “Hitting pause”, outlining how I was going to be pushing back the [CannaBiz Software](https://cannabiz.pro) launch and focus my efforts elsewhere.
@@ -96,14 +94,8 @@ In the meantime, lets eat.
 
 ![](/assets/legacy-images/giphy_733.webp)
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Creating my own cipher code](/creating-my-own-cipher-code/)
-
-**Older:** [The past, present and future of WP Dispensary](/the-past-present-and-future-of-wp-dispensary/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 The tools we rely on to manage our websites need to reflect our values, both professionally and personally.
 
 Recently, Jetpack, a popular WordPress plugin, has [changed its usage restrictions](https://misophoniafoundation.com/freemium-to-extortion-how-jetpacks-policy-change-hurts-nonprofits-like-ours/), requiring non-profits to pay for features like stats that were once free.
@@ -109,14 +107,8 @@ It’s a small step toward ensuring that we all have the tools to succeed online
 
 Let me know what you think in the comments and on [Twitter](https://x.com/deviorobert) and [Bluesky](https://bsky.app/profile/robertdevore.com) 🤘💯
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Bluesky Feed for WordPress®](/introducing-bluesky-feed-for-wordpress/)
-
-**Older:** [Introducing Bulk Stock Management for WooCommerce® (free)](/introducing-bulk-stock-management-for-woocommerce-free/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 Today I am super excited to introduce the release of my newest **free** plugin – **[Back In Stock Notifications](https://github.com/robertdevore/back-in-stock-notifications/)** 🚀
 
 This is a 100% free plugin for WooCommerce® that lets your customers stay connected with products they love while providing you with meaningful insights into product demand.
@@ -129,14 +127,8 @@ If you have feedback or feature requests, I’d love to hear from you!
 
 Reach out any time through my contact page or by opening a GitHub issue 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Release Notes: Back In Stock Notifications for WooCommerce® (free) v1.0.1](/release-notes-back-in-stock-notifications-for-woocommerce-free-v1-0-1/)
-
-**Older:** [Introducing Gallery Modals: Enhance Your WordPress® Galleries with Stunning Popups!](/introducing-gallery-modals-enhance-your-wordpress-galleries-with-stunning-popups/)

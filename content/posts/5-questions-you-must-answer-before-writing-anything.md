@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 You know the biggest problem with what people are publishing today?
 
 Most people treat AI like a vending machine.
@@ -161,14 +159,8 @@ You’ll write like someone who actually has something to say.
 
 _This article is part of the[Plan. Prompt. Publish.](/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/) series._
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [Introducing the Prompts Library – A Playground for AI Creativity](/introducing-the-prompts-library-a-playground-for-ai-creativity/)
-
-**Older:** [What Makes Content Beautifully Useful?](/what-makes-content-beautifully-useful/)

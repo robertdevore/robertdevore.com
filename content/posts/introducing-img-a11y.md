@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Today marks the release of **IMG A11Y** , a free WordPress® plugin designed to make image accessibility compliance easier than ever. 
 
 I created [IMG A11Y](https://github.com/robertdevore/img-a11y) to help WordPress users address one of the most important aspects of accessibility: ensuring all images have proper alt text or are marked as decorative.
@@ -73,14 +71,8 @@ Download the plugin today and start building a more inclusive web experience.
 
 For more information or to download the plugin, visit the [IMG A11Y GitHub repository](https://github.com/robertdevore/img-a11y). If you have feedback or feature requests, feel free to reach out via the contact page on my website.
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Shipping Multiple Addresses for WooCommerce® (free)](/introducing-shipping-multiple-addresses-for-woocommerce-free/)
-
-**Older:** [Introducing Vertical Gallery Product Display for WooCommerce®](/introducing-vertical-gallery-product-display-for-woocommerce/)

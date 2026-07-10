@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 Nature is mans best medicine, even when those who benefit off of sick people tell you otherwise. Within the marijuana plant there are two main properties, cannabidiol (CBD) — which works without the 'high' effect - and tetrahydrocannabinol (THC) - which is more known for its psychoactive properties. When it comes to the cannabis plant as a whole, there are countless medical benefits, and with today being 4/20, I want to cover a few cannabis facts that are less known in an attempt to help educate you, and in turn help you educate others.
 
 ## Medical studies on the effects of cannabis
@@ -48,14 +46,8 @@ Still not convinced that there are seriously awesome medical benefits to the can
 
 For those who don't know, I built the WordPress plugin, [WP Dispensary](http://www.wpdispensary.com/), which is a menu management plugin for dispensaries. Today I released version 1.4. For more information, check out the [release notes](http://www.wpdispensary.com/wp-dispensary-version-1-4/). I also recently built and released an add-on for WPD called Dispensary Coupons, which lets you - you guessed it - easily add coupons for your menu. You can read the release notes for that [here](http://www.wpdispensary.com/dispensary-coupons-wordpress-plugin/).
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
-
-## Continue reading
-
-**Newer:** [Devio Digital](/devio-digital/)
-
-**Older:** [Recent project updates](/my-development-projects/)

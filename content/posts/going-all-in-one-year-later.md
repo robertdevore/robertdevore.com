@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 On this day last year I [went all in](/going-all-in-with-wp-dispensary/) with WP Dispensary, leaving behind 10+ years of full time freelancing. It was one of the most exciting times in my life, both professionally and personally. I felt a huge weight lifted off my shoulders when I was able to stop freelancing and focus full time on my own product. Since then, a lot has happened, both professionally and personally. I wanted to take some time today to reflect on the last year, talking about the things I've done, the things I've gone through and the things I'm working towards in this next year.
 
 ## I've learned a lot in the last year
@@ -70,14 +68,8 @@ Come follow along and watch as I transform my life in 90 days ??
 
 And I'm also still freelancing, so [get in touch](/contact/) if you think I'd be a good fit for your next project ?
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [How to customize the style of your WordPress login screen](/how-to-customize-the-style-of-your-wordpress-login-screen/)
-
-**Older:** [Delivery Drivers for WooCommerce](/delivery-drivers-for-woocommerce/)

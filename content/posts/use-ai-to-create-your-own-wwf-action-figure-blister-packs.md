@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 The best there is, the best there was, and the best there ever will be 😎
 
 I just released an AI prompt to turn your headshot into it’s own [WWF action figure blister pack](https://wwf.robertdevore.com)!
@@ -89,14 +87,8 @@ Let’s make the timeline feel like a 90s toy aisle.
 
 Let’s get weird 😎
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [Celebrating GAAD with IMG A11Y v1.1.0](/celebrating-gaad-with-img-a11y-v1-1-0/)
-
-**Older:** [Say Goodbye to WordPress](/say-goodbye-to-wordpress/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Markdown ALL THE THINGS 🔥
 
 I built this plugin because I couldn’t stand how unnatural it felt to write HTML or plain text in WordPress comments.
@@ -90,14 +88,8 @@ You can grab the plugin here:
 
 Try it out, leave a comment (in Markdown, of course), and let me know what you think 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Why I’m Launching Devio Chat – And Letting You in Early](/why-im-launching-devio-chat-and-letting-you-in-early/)
-
-**Older:** [How I Use TextExpander to Reuse My Best AI Prompts](/how-i-use-textexpander-to-reuse-my-best-ai-prompts/)

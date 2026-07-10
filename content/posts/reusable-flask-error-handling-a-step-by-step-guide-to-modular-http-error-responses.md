@@ -12,8 +12,6 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-[Developer Tools](/category/developer-tools/) · [Engineering](/tag/engineering/)
-
 I don’t know about you, but in code and in real life, I hate repeating myself 🤦‍♂️
 
 And after building the [Savage Scanner](https://savage.robertdevore.com) and [Vuln Search](https://vuln.robertdevore.com) apps, I realized quickly that I’ll be creating a _lot_ of the same code for my Flask projects.
@@ -85,14 +83,8 @@ This approach ensures consistency and user-friendliness across projects, not to 
 
 Like this article? Share this setup to help others improve their Flask apps!
 
-## Related writing
+## Related Reading
 
 - [Zero Cool CLI – A Hacker’s Terminal from 1995](/zero-cool-cli-a-hackers-terminal-from-1995/)
 - [Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/)
 - [I Built a Python Stego-Cipher Tool (And You Can Have It)](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/)
-
-## Continue reading
-
-**Newer:** [December 2024: A Retrospective](/december-2024-a-retrospective/)
-
-**Older:** [Introducing SEO for WordPress®](/introducing-seo-for-wordpress/)

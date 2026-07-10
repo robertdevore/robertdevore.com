@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 Today is [Global Accessibility Awareness Day (GAAD)](https://accessibility.day/), and I’m celebrating the only way I know how: shipping code that actually helps.
 
 I pledged time with [Equalize Digital](https://equalizedigital.com/gaad2025/) to focus my time on the [IMG A11Y](/projects/img-a11y/) plugin, and that’s exactly what I did.
@@ -103,14 +101,8 @@ View the [IMG A11Y project page](/projects/img-a11y/) and download it from there
 
 _Released with purpose. Built for inclusion._
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [WordPress Plugin Security Is a Joke, and You’re the Punchline](/wordpress-plugin-security-is-a-joke-and-youre-the-punchline/)
-
-**Older:** [Use AI to create your own WWF Action Figure Blister Packs](/use-ai-to-create-your-own-wwf-action-figure-blister-packs/)

@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/) · [WooCommerce](/tag/woocommerce/)
-
 At the end of 2019, I made a big shift – I took a full-time job for the first time in nearly 15 years.
 
 It was right before my first kid was born, and just a few months later, COVID hit.
@@ -139,14 +137,8 @@ I spend a lot of time in the WordPress® world, but that’s not the only thing 
 
 Looking forward to seeing what we can build together. 🤘
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Dispensary Details for WooCommerce®](/introducing-dispensary-details-for-woocommerce/)
-
-**Older:** [Stop Gambling With Client Trust: Why Skipping a Security Audit Is a Risk You Can’t Afford](/stop-gambling-with-client-trust-why-skipping-a-security-audit-is-a-risk-you-cant-afford/)

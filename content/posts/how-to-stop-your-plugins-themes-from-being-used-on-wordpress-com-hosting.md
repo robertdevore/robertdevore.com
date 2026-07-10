@@ -12,8 +12,6 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-[WordPress Archive](/category/wordpress-archive/) · [WordPress](/tag/wordpress/)
-
 In recent months, the WordPress® community has faced increasing challenges stemming from nuclear decisions made by Automattic’s CEO, Matthew Charles Mullenweg.
 
 During WordCamp US 2024, Mullenweg launched what he referred to as a “nuclear” war against WP Engine – a dick move that showed everyone what type of person was really in control of WordPress®.
@@ -108,14 +106,8 @@ You can drop it into any plugin with minimal modifications, simply updating the 
 
 BRB, I got [a LOT of plugins](/wordpress-and-woocommerce-plugins/) to update 😎
 
-## Related writing
+## Related Reading
 
 - [Stattic v1.0: The World’s Fastest Python-based Static Site Generator](/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/)
 - [Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios](/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/)
 - [The Fastest Way for PHP Devs to Learn Python](/the-fastest-way-for-php-devs-to-learn-python/)
-
-## Continue reading
-
-**Newer:** [Introducing Delete Inactive Users](/introducing-delete-inactive-users/)
-
-**Older:** [Host Your WordPress Plugins on GitHub and Automate Plugin Packaging](/host-your-wordpress-plugins-on-github-and-automate-plugin-packaging/)

@@ -12,8 +12,6 @@ categories: ["AI & Content Systems"]
 tags: ["AI"]
 ---
 
-[AI & Content Systems](/category/ai-content-systems/) · [AI](/tag/ai/)
-
 Most people think keyword research means opening up [Ahrefs](https://ahrefs.com/), dumping out a spreadsheet, and calling it a day.
 
 That’s not strategy – that’s _inventory_.
@@ -156,14 +154,8 @@ And yes, it takes more work than exporting a CSV and calling it a day. But that�
 
 It’s worth it.
 
-## Related writing
+## Related Reading
 
 - [How to build a content engine that scales with you](/how-to-build-a-content-engine-that-scales-with-you/)
 - [Tools and Workflows for Formatting, Visuals, and Citations](/tools-and-workflows-for-formatting-visuals-and-citations/)
 - [How to edit AI content so it feels clean, not robotic](/how-to-edit-ai-content-so-it-feels-clean-not-robotic/)
-
-## Continue reading
-
-**Newer:** [Introducing Projects for WordPress®: A Better Way to Showcase Your Work](/introducing-projects-for-wordpress-a-better-way-to-showcase-your-work/)
-
-**Older:** [Introducing Slop Stopper: A free content checker for WordPress®](/introducing-slop-stopper-a-free-content-checker-for-wordpress/)
