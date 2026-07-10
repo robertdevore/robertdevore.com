@@ -1,0 +1,19 @@
+site_url: https://robertdevore.com
+site_title: Robert DeVore
+site_tagline: Software systems, developer tools, agentic workflows, and technical writing.
+output: output
+content: content
+templates: templates
+assets: assets
+blog_slug: blog
+posts_at_root: true
+posts_per_page: 12
+sort_by: date
+fonts: [Inter, Inter]
+robots: public
+llms: public
+watch: false
+minify: true
+download_remote_images: false
+no_index: false
+no_aux: false
