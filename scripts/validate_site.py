@@ -52,6 +52,15 @@ for path in html_files:
 for value, paths in titles.items():
     if value and len(paths) > 1 and not all("/page/" in p or p.startswith("page/") for p in paths): warnings.append(f"duplicate title: {value} ({len(paths)})")
 
+for path in sorted(root.rglob("*.css")):
+    rel = path.relative_to(root)
+    for raw_url in re.findall(r"url\(([^)]+)\)", path.read_text(errors="ignore")):
+        url = raw_url.strip().strip("\"'")
+        if not url or url.startswith(("data:", "http:", "https:", "#")): continue
+        target = (path.parent / url.split("?", 1)[0].split("#", 1)[0]).resolve()
+        if not target.is_relative_to(root) or not target.exists():
+            errors.append(f"{rel}: missing CSS asset {url}")
+
 required = ["index.html", "blog/index.html", "page/2/index.html", "about/index.html", "contact/index.html", "projects/index.html", "category/developer-tools/index.html", "tag/engineering/index.html", "404.html", "feed/index.xml", "sitemap.xml", "robots.txt", "llms.txt"]
 for item in required:
     if not (root / item).exists(): errors.append(f"missing required output: {item}")
