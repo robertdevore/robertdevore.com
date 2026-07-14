@@ -6,6 +6,60 @@
     link.addEventListener("click", function () { var menu = link.closest("details"); if (menu) menu.removeAttribute("open"); });
   });
 
+  document.querySelectorAll(".listing-card-image-link").forEach(function (link) {
+    var card = link.closest(".listing-card");
+    var title = card ? card.querySelector(".listing-card-title") : null;
+    if (title) link.setAttribute("aria-label", "Open " + title.textContent.trim());
+  });
+
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var glyphs = "█▓▒░<>/\\#[]{}=+*01";
+    document.querySelectorAll(".signal-title,.section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2").forEach(function (title, titleIndex) {
+      var original = (title.getAttribute("data-text") || title.textContent).trim();
+      if (!original) return;
+      title.setAttribute("aria-label", original);
+      title.setAttribute("data-scrambling", "true");
+      title.textContent = "";
+      var started = performance.now() + titleIndex * 80;
+      var duration = 680 + Math.min(420, original.length * 12);
+      var glitchSteps = [
+        { x: 10, skew: -2 },
+        { x: -13, skew: 2 },
+        { x: 7, skew: -1 },
+        { x: 0, skew: 0 }
+      ];
+      function glitch(step) {
+        if (step >= glitchSteps.length) {
+          title.style.transform = "";
+          return;
+        }
+        title.style.transform = "translateX(" + glitchSteps[step].x + "px) skewX(" + glitchSteps[step].skew + "deg)";
+        window.setTimeout(function () { glitch(step + 1); }, 70);
+      }
+      function tick(now) {
+        if (now < started) {
+          window.requestAnimationFrame(tick);
+          return;
+        }
+        var progress = Math.min(1, (now - started) / duration);
+        var resolved = Math.floor(progress * original.length);
+        var frame = Math.floor((now - started) / 36);
+        title.textContent = original.split("").map(function (char, index) {
+          if (char === " " || index < resolved) return char;
+          return glyphs[(index + frame + Math.floor(progress * glyphs.length)) % glyphs.length];
+        }).join("");
+        if (progress < 1) {
+          window.requestAnimationFrame(tick);
+        } else {
+          title.textContent = original;
+          title.removeAttribute("data-scrambling");
+          glitch(0);
+        }
+      }
+      window.requestAnimationFrame(tick);
+    });
+  }
+
   document.querySelectorAll(".article-content,.page-content").forEach(function (content) {
     var used = {};
     var headings = Array.from(content.querySelectorAll("h2,h3"));

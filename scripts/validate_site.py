@@ -100,7 +100,7 @@ for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
     if f"https://robertdevore.com/projects/{slug}/" not in llms: errors.append(f"llms.txt missing project {slug}")
 
 site_css = (root / "assets/css/site.css").read_text(errors="ignore")
-for contract in ("-webkit-text-stroke:3px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
+for contract in ("-webkit-text-stroke:8px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
     if contract not in site_css: errors.append(f"site CSS missing requested contract {contract}")
 
 print(f"Validated {len(html_files)} primary HTML routes")
