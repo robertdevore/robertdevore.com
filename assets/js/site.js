@@ -12,52 +12,57 @@
     if (title) link.setAttribute("aria-label", "Open " + title.textContent.trim());
   });
 
-  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    var glyphs = "█▓▒░<>/\\#[]{}=+*01";
-    document.querySelectorAll(".signal-title,.section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2").forEach(function (title, titleIndex) {
+  var termTargets = {
+    "ai": "/tag/ai/",
+    "essays": "/tag/essays/",
+    "engineering": "/tag/engineering/",
+    "wordpress": "/tag/wordpress/",
+    "wordpress archive": "/tag/wordpress/",
+    "woocommerce": "/tag/woocommerce/"
+  };
+  document.querySelectorAll(".listing-card-tags .tag,.article-terms .tag").forEach(function (tag) {
+    var label = tag.textContent.trim();
+    var key = label.toLowerCase();
+    var href = termTargets[key];
+    if (!href || tag.tagName === "A") return;
+    var link = document.createElement("a");
+    link.className = tag.className;
+    link.href = href;
+    link.textContent = key === "wordpress archive" ? "WordPress" : label;
+    tag.replaceWith(link);
+  });
+
+  if (window.ScrambleDecode && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var titles = document.querySelectorAll(".signal-title,.section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2");
+    function runTitle(title) {
       var original = (title.getAttribute("data-text") || title.textContent).trim();
       if (!original) return;
+      if (title.hasAttribute("data-scramble-complete")) return;
       title.setAttribute("aria-label", original);
       title.setAttribute("data-scrambling", "true");
       title.textContent = "";
-      var started = performance.now() + titleIndex * 80;
-      var duration = 680 + Math.min(420, original.length * 12);
-      var glitchSteps = [
-        { x: 10, skew: -2 },
-        { x: -13, skew: 2 },
-        { x: 7, skew: -1 },
-        { x: 0, skew: 0 }
-      ];
-      function glitch(step) {
-        if (step >= glitchSteps.length) {
-          title.style.transform = "";
-          return;
-        }
-        title.style.transform = "translateX(" + glitchSteps[step].x + "px) skewX(" + glitchSteps[step].skew + "deg)";
-        window.setTimeout(function () { glitch(step + 1); }, 70);
-      }
-      function tick(now) {
-        if (now < started) {
-          window.requestAnimationFrame(tick);
-          return;
-        }
-        var progress = Math.min(1, (now - started) / duration);
-        var resolved = Math.floor(progress * original.length);
-        var frame = Math.floor((now - started) / 36);
-        title.textContent = original.split("").map(function (char, index) {
-          if (char === " " || index < resolved) return char;
-          return glyphs[(index + frame + Math.floor(progress * glyphs.length)) % glyphs.length];
-        }).join("");
-        if (progress < 1) {
-          window.requestAnimationFrame(tick);
-        } else {
-          title.textContent = original;
-          title.removeAttribute("data-scrambling");
-          glitch(0);
-        }
-      }
-      window.requestAnimationFrame(tick);
-    });
+      title.setAttribute("data-scramble-complete", "true");
+      window.ScrambleDecode.scramble(title, {
+        text: original,
+        duration: 680 + Math.min(420, original.length * 12),
+        pool: "█▓▒░<>/\\#[]{}=+*01"
+      }).finished.then(function () {
+        title.textContent = original;
+        title.removeAttribute("data-scrambling");
+      });
+    }
+    if ("IntersectionObserver" in window) {
+      var titleObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          titleObserver.unobserve(entry.target);
+          runTitle(entry.target);
+        });
+      }, { rootMargin: "0px 0px -12% 0px", threshold: 0.25 });
+      titles.forEach(function (title) { titleObserver.observe(title); });
+    } else {
+      titles.forEach(runTitle);
+    }
   }
 
   document.querySelectorAll(".article-content,.page-content").forEach(function (content) {
