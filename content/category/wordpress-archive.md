@@ -1,6 +1,6 @@
 ---
-title: "WordPress Archive"
-description: "Writing filed under WordPress Archive."
+title: "WordPress"
+description: "Writing filed under WordPress."
 custom_url: "wordpress-archive"
 author: "Robert DeVore"
 date: "2025-06-20"

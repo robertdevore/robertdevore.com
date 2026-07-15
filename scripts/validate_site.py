@@ -83,8 +83,8 @@ for item in required:
     if not (root / item).exists(): errors.append(f"missing required output: {item}")
 
 home = BeautifulSoup((root / "index.html").read_text(errors="ignore"), "html.parser")
-transmission = home.select_one("#writing .section-index")
-if not transmission or transmission.get_text(" ", strip=True) != "03 / Transmission log": errors.append("homepage transmission label includes pagination or is missing")
+writing_label = home.select_one("#writing .section-index")
+if not writing_label or writing_label.get_text(" ", strip=True) != "04 / Writing": errors.append("homepage writing label includes pagination or is missing")
 footer = home.select_one(".site-footer")
 if not footer or "© 1985-2026 Robert DeVore." not in footer.get_text(" ", strip=True): errors.append("footer copyright is incorrect")
 for href in ("https://x.com/deviorobert", "https://github.com/robertdevore"):
