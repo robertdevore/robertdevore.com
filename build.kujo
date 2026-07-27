@@ -2985,11 +2985,13 @@ func write_retired_page_redirects(output_dir) {
 		"/mvp-app-build/ / 301",
 		"/nextjs-development/ / 301",
 		"/page-speed-optimization/ / 301",
-		"/portfolio/ / 301",
-		"/react-native-development/ / 301",
-		"/security-audit/ / 301",
-		"/wordpress-development/ / 301"
-	]
+			"/portfolio/ / 301",
+			"/react-native-development/ / 301",
+			"/security-audit/ / 301",
+			"/wordpress-development/ / 301",
+			"/contact-new/ /contact/ 301",
+			"/free-ai-tools/ /projects/ 301"
+		]
 	write_file(path_join(output_dir, "_redirects"), join(redirects, "\n") + "\n")
 }
 

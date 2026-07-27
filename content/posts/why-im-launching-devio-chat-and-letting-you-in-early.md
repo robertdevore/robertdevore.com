@@ -121,7 +121,7 @@ It means you’ll be able to use it wherever you are:
 
 
 
-Your creative process isn’t desktop-only, and neither should your [AI tools](/free-ai-tools/).
+Your creative process isn’t desktop-only, and neither should your [projects](/projects/).
 
 ![Devio Chat light mode sneak preview](/assets/legacy-images/devio_chat_presale_featuerd_image_light_robertdevore.webp)
 
