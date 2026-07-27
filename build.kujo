@@ -2944,6 +2944,20 @@ func copy_assets(settings) {
 	}
 }
 
+func write_retired_page_redirects(output_dir) {
+	redirects := [
+		"/laravel-development/ / 301",
+		"/mvp-app-build/ / 301",
+		"/nextjs-development/ / 301",
+		"/page-speed-optimization/ / 301",
+		"/portfolio/ / 301",
+		"/react-native-development/ / 301",
+		"/security-audit/ / 301",
+		"/wordpress-development/ / 301"
+	]
+	write_file(path_join(output_dir, "_redirects"), join(redirects, "\n") + "\n")
+}
+
 func build_site(settings) {
 	build_start := performance_now()
 	output_dir := settings["output"]
@@ -2981,6 +2995,7 @@ func build_site(settings) {
 		}
 		favicon_svg := "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\"><rect width=\"64\" height=\"64\" rx=\"12\" fill=\"#0f172a\"/><text x=\"32\" y=\"43\" font-family=\"system-ui, sans-serif\" font-size=\"36\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">" + xml_escape(favicon_initial) + "</text></svg>\n"
 		write_file(path_join(output_dir, "favicon.svg"), favicon_svg)
+		write_retired_page_redirects(output_dir)
 
 		# Write a post-file manifest once. Sharded workers read this instead of
 		# re-listing the (potentially huge) posts directory, which avoids both
@@ -3752,7 +3767,7 @@ func build_site(settings) {
 
 	if !settings["no_index"] {
 		featured_posts_cards := ""
-		featured_posts_limit := 3
+		featured_posts_limit := 4
 		featured_idx := 0
 		loop {
 			if featured_idx >= total_posts || featured_idx >= featured_posts_limit {
