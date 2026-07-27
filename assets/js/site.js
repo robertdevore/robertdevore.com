@@ -33,7 +33,7 @@
   });
 
   if (window.ScrambleDecode && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    var titles = document.querySelectorAll(".signal-title,.section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2");
+    var titles = document.querySelectorAll(".signal-title,.section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2,.flagship-panel h3,.home-focus .sk-card h3,.home-principles h3,.project-secondary h3,.article-related-grid .listing-card a,.clarity-grid h2,.about-timeline h2,.tools-section h2,.tools-feature h3");
     function runTitle(title) {
       var original = (title.getAttribute("data-text") || title.textContent).trim();
       if (!original) return;
@@ -66,6 +66,40 @@
   }
 
   document.querySelectorAll(".article-content,.page-content").forEach(function (content) {
+    var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        var parent = node.parentElement;
+        if (!parent || /^(A|CODE|PRE|SCRIPT|STYLE|TEXTAREA)$/i.test(parent.tagName)) return NodeFilter.FILTER_REJECT;
+        return /_[^_\n]+_/.test(node.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+    textNodes.forEach(function (node) {
+      var fragment = document.createDocumentFragment();
+      var parts = node.nodeValue.split(/(_[^_\n]+_)/g);
+      parts.forEach(function (part) {
+        if (/^_[^_\n]+_$/.test(part)) {
+          var em = document.createElement("em");
+          em.textContent = part.slice(1, -1);
+          fragment.append(em);
+        } else if (part) {
+          fragment.append(document.createTextNode(part));
+        }
+      });
+      node.parentNode.replaceChild(fragment, node);
+    });
+
+    Array.from(content.querySelectorAll("p")).forEach(function (paragraph) {
+      var text = paragraph.textContent.trim();
+      if (!/^(git clone https:\/\/github\.com\/robertdevore\/zero-cool-cli|cd zero-cool-cli|\.\/install\.sh|zero-cool zero-cool --profile)$/.test(text)) return;
+      var pre = document.createElement("pre");
+      var code = document.createElement("code");
+      code.textContent = text;
+      pre.append(code);
+      paragraph.replaceWith(pre);
+    });
+
     var used = {};
     var headings = Array.from(content.querySelectorAll("h2,h3"));
     var relatedHeading = content.classList.contains("article-content") ? headings.find(function (heading) {
