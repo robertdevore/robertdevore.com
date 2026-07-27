@@ -1004,9 +1004,32 @@ func taxonomy_terms_html(terms) {
 
 		term := terms[term_idx]
 		term_idx := term_idx + 1
-		html := html + "<span class=\"tag\">" + xml_escape(term) + "</span>"
+		href := taxonomy_term_href(term)
+		safe_term := xml_escape(term)
+		if len(href) > 0 {
+			html := html + "<a class=\"tag\" href=\"" + href + "\">" + safe_term + "</a>"
+		} else {
+			html := html + "<span class=\"tag\">" + safe_term + "</span>"
+		}
 	}
 	return html
+}
+
+func taxonomy_term_href(term) {
+	slug := clean_slug(term)
+	if slug == "wordpress-archive" {
+		return "/tag/wordpress/"
+	}
+	if slug == "developer-tools" {
+		return "/tag/engineering/"
+	}
+	if slug == "ai-content-systems" {
+		return "/tag/ai/"
+	}
+	if slug == "ai" || slug == "essays" || slug == "engineering" || slug == "wordpress" || slug == "woocommerce" {
+		return "/tag/" + slug + "/"
+	}
+	return ""
 }
 
 func taxonomy_label(taxonomy_name) {
@@ -1163,7 +1186,13 @@ func tags_html(tags) {
 
 		tag := tags[tag_idx]
 		tag_idx := tag_idx + 1
-		html := html + "<span class=\"tag\">" + html_escape(tag) + "</span>"
+		href := taxonomy_term_href(tag)
+		safe_tag := html_escape(tag)
+		if len(href) > 0 {
+			html := html + "<a class=\"tag\" href=\"" + href + "\">" + safe_tag + "</a>"
+		} else {
+			html := html + "<span class=\"tag\">" + safe_tag + "</span>"
+		}
 	}
 	return html
 }
@@ -2208,8 +2237,14 @@ func listing_card_tags_html(terms) {
 		if count >= 3 {
 			break
 		}
-		safe_term := html_escape(to_string(term))
-		html := html + "<span class=\"tag listing-tag\">" + safe_term + "</span>"
+		term_text := to_string(term)
+		safe_term := html_escape(term_text)
+		href := taxonomy_term_href(term_text)
+		if len(href) > 0 {
+			html := html + "<a class=\"tag listing-tag\" href=\"" + href + "\">" + safe_term + "</a>"
+		} else {
+			html := html + "<span class=\"tag listing-tag\">" + safe_term + "</span>"
+		}
 		count := count + 1
 	}
 	return html
