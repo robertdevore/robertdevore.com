@@ -36,13 +36,13 @@ But I don’t store my workflow in the tools. I store it in the layer _above_ th
 
 These are a few real-world snippets I trigger on repeat across my writing, plugin dev, and image generation work.
 
-### 1\. ;rdimg – Cyberpunk Image Prompt Profile
+### 1. ;rdimg – Cyberpunk Image Prompt Profile
 
 ``` Create an image that follows the included JSON style guide, and depicts "[DESCRIPTION_HERE]" - for a blog post I'm publishing, using the default 16:9 aspect ratio. Do NOT include text in the image. ## JSON [ADD_JSON_CODE_HERE] ``` 
 
 **When I use it** : For blog post illustrations, visual ads, and landing page graphics that feel raw and real – not stock and stale. Every time I generate a new concept image, this style layer stays the same.
 
-### 2\. ;chatscript – WordPress Plugin Standards Prompt
+### 2. ;chatscript – WordPress Plugin Standards Prompt
 
 ``` Can you write me a script in [CODE_LANG] that [DOES_THIS]? The code should be clean, well documented and also include a breakdown of the script so I can have a better understanding of how it works. ``` 
 
@@ -50,11 +50,11 @@ These are a few real-world snippets I trigger on repeat across my writing, plugi
 
 ### 3 ;bookreview – Strategic Book Breakdown
 
-``` Give me a strategic breakdown of [Book Title] by [Author]. I want: 1\. The core ideas and mental models (in plain language). 2\. Specific marketing and business takeaways I can apply. 3\. Key quotes or passages that hit hard. 4\. A breakdown of any frameworks, systems, or formulas mentioned. 5\. A list of actionable steps I can take based on the book — tailored to [insert your business type / industry / goals]. Make it punchy, practical, and focused on leverage. ``` 
+``` Give me a strategic breakdown of [Book Title] by [Author]. I want: 1. The core ideas and mental models (in plain language). 2. Specific marketing and business takeaways I can apply. 3. Key quotes or passages that hit hard. 4. A breakdown of any frameworks, systems, or formulas mentioned. 5. A list of actionable steps I can take based on the book — tailored to [insert your business type / industry / goals]. Make it punchy, practical, and focused on leverage. ``` 
 
 **When I use it** : For times when I want to extract a quick overview of a business book before I purchase it, or for generating ideas for content by reviewing the analysis to review and write about.
 
-### 4\. ;articleseo – AI SEO Generation Prompt
+### 4. ;articleseo – AI SEO Generation Prompt
 
 ``` write me a SEO keyword, title and description based on the following article content: ``` [BLOG_POST_CONTENT] ``` ``` 
 

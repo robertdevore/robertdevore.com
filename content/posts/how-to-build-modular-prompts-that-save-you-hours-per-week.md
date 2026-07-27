@@ -50,7 +50,7 @@ This keeps your prompting flexible _and_ repeatable.
 
 ## The 5 Modules That Belong in Every Writer’s Kit
 
-### 1\. **Tone Module**
+### 1. **Tone Module**
 
 This is your emotional steering wheel.
 
@@ -66,7 +66,7 @@ Examples:
 
 `Use a tone that is [insert tone module]`
 
-### 2\. **Structure Module**
+### 2. **Structure Module**
 
 Tells AI how to organize the post – so your ideas land cleanly.
 
@@ -82,7 +82,7 @@ Examples:
 
 `Structure the piece like this: [insert structure module]`
 
-### 3\. **Intent Module**
+### 3. **Intent Module**
 
 Defines the _why_ behind the piece – what change you want in the reader.
 
@@ -98,7 +98,7 @@ Examples:
 
 `The goal of this piece is to [insert intent module]`
 
-### 4\. **Voice Module**
+### 4. **Voice Module**
 
 This is your fingerprint.
 
@@ -112,7 +112,7 @@ Once you’ve trained your voice profile (see this article on [voice training wi
 
 `Use my voice module: [insert voice module]`
 
-### 5\. **Format Module**
+### 5. **Format Module**
 
 Optional, but powerful. Controls visual structure, post length, or platform rules.
 

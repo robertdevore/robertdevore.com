@@ -33,7 +33,7 @@ Here’s a rundown of what makes [Content Restriction for WordPress®](https://g
 
 ### How to Use Content Restriction for WordPress®
 
-#### 1\. Setting Up Global Restrictions
+#### 1. Setting Up Global Restrictions
 
 From your WordPress dashboard, navigate to **Settings > Content Restriction**.
 
@@ -43,7 +43,7 @@ Save your settings, and your content is secured!
 
 ![Restrict Content metabox for the Content Restriction for WordPress® plugin](/assets/legacy-images/content_restriction_for_wordpress_metabox_settings.webp)
 
-#### 2\. Applying Individual Restrictions
+#### 2. Applying Individual Restrictions
 
 You can also set custom restrictions for specific posts and pages.
 

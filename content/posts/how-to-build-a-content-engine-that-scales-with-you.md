@@ -58,7 +58,7 @@ The best engines create their own fuel.
 
 Here’s how:
 
-### 1\. Start With a Core Format
+### 1. Start With a Core Format
 
 Choose a repeatable piece that you can produce **every week** :
 
@@ -70,7 +70,7 @@ Choose a repeatable piece that you can produce **every week** :
 
 Something that becomes the **engine** – everything else spins off it.
 
-### 2\. Spin It Into Derivatives
+### 2. Spin It Into Derivatives
 
 From that core, extract:
 
@@ -85,7 +85,7 @@ Use a template. Or better yet – build one.
 
 💡 **Pro Tip:** Set up a checklist inside Notion, Trello, or your tool of choice so you’re never starting from scratch.
 
-### 3\. Feed the Next Cycle
+### 3. Feed the Next Cycle
 
 Every piece should:
 
@@ -109,7 +109,7 @@ But you’re not – you’re a human being (right?).
 
 Here’s how to build one that _actually scales with your life._
 
-### 1\. Start With Your Capacity
+### 1. Start With Your Capacity
 
 Can you do one post per week? One every two?
 
@@ -117,7 +117,7 @@ Great. That’s the _truth._ Build from that.
 
 Not what looks good on a team’s whiteboard – what you can actually sustain solo.
 
-### 2\. Plan Around Energy, Not Just Time
+### 2. Plan Around Energy, Not Just Time
 
 Batch creative work when you’re sharp.
 
@@ -125,7 +125,7 @@ Save formatting, visuals, and polish for your low-focus days.
 
 💡 **Pro Tip:** Use your calendar to block recurring “modes” – ideation, writing, editing – not just output dates.
 
-### 3\. Leave Room for Serendipity
+### 3. Leave Room for Serendipity
 
 Every slot doesn’t have to be filled in advance.
 
@@ -141,7 +141,7 @@ You don’t scale by doing more. You scale by **delegating better**. Or put anot
 
 That’s where AI comes in.
 
-### 1\. Use It for Idea Generation
+### 1. Use It for Idea Generation
 
 Prompt it weekly:
 
@@ -149,7 +149,7 @@ Prompt it weekly:
 
 Then _filter ruthlessly._
 
-### 2\. Use It to Structure, Not Write
+### 2. Use It to Structure, Not Write
 
 Outlines? Gold.
 
@@ -161,7 +161,7 @@ Ask it to scaffold:
 
 Then _you_ fill in the meat.
 
-### 3\. Use It to Repurpose
+### 3. Use It to Repurpose
 
 Once you’ve got the core piece:
 
@@ -177,7 +177,7 @@ Every blank page is a tax on your brain.
 
 Templates remove that tax.
 
-### 1\. Writing Templates
+### 1. Writing Templates
 
 Create layouts for:
 
@@ -187,7 +187,7 @@ Create layouts for:
 
 
 
-### 2\. Design Templates
+### 2. Design Templates
 
 Standardize:
 
@@ -199,7 +199,7 @@ Standardize:
 
 Use Figma, Canva, or even AI image tools with a [consistent prompt style](https://prompts.robertdevore.com).
 
-### 3\. Workflow Templates
+### 3. Workflow Templates
 
 Build checklists for:
 

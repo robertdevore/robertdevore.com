@@ -42,7 +42,7 @@ The new version isn’t just a rewrite – it’s an evolution of an idea.
 
 Here’s what it does now:
 
-### 1\. **Encrypts Messages with Quote-Based Scrambling**
+### 1. **Encrypts Messages with Quote-Based Scrambling**
 
 You feed it a quote and a secret message.
 
@@ -54,11 +54,11 @@ You get a blob of beautiful nonsense like this:
 
 Only someone with the **original quote** can decode it.
 
-### 2\. **Decrypts Messages Cleanly**
+### 2. **Decrypts Messages Cleanly**
 
 Give the tool the cipher and the original quote, and it’ll extract your secret programmatically.
 
-### 3\. **Hides Encrypted Messages in Images**
+### 3. **Hides Encrypted Messages in Images**
 
 You can now embed the cipher into a **PNG image file** using [steganography](https://www.kaspersky.com/resource-center/definitions/what-is-steganography).
 
@@ -68,7 +68,7 @@ Even better – it warns you if you try to use lossy formats like JPEG or WebP (
 
 Smart defaults so you don’t shoot yourself in the foot.
 
-### 4\. **Command-Line Interface Included**
+### 4. **Command-Line Interface Included**
 
 Encrypt, decrypt, embed, extract, and debug right from within your terminal.
 

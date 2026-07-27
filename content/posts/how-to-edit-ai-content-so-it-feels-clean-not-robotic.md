@@ -29,7 +29,7 @@ AI doesn’t write the _best_ next wordm just the most predictable one. It’s n
 
 Here’s the exact process I use every time I refine AI-written drafts.
 
-### 1\. Cut the Fat
+### 1. Cut the Fat
 
 First, eliminate filler:
 
@@ -43,7 +43,7 @@ Don’t be polite. Be clear.
 
 💡 Tip: Read it out loud. If you stumble or get bored, cut it.
 
-### 2\. Break the Pattern
+### 2. Break the Pattern
 
 AI loves symmetry. Humans don’t.
 
@@ -57,7 +57,7 @@ Add friction to create flow.
 
 💡 Tip: Anywhere it feels too smooth, add a pause or surprise.
 
-### 3\. Add Specificity
+### 3. Add Specificity
 
 Replace generalities with examples:
 
@@ -70,7 +70,7 @@ Specifics don’t just clarify – they _build trust_.
 
 💡 Tip: Pretend you’re writing to one person. Make it feel like a DM, not a whitepaper.
 
-### 4\. Sharpen the Voice
+### 4. Sharpen the Voice
 
 This is where your tone shows up:
 
@@ -84,7 +84,7 @@ Ask: does this _sound like me_?
 
 💡 Tip: Drop in one line only _you_ would say. That’s your anchor.
 
-### 5\. Trim the Ending
+### 5. Trim the Ending
 
 AI doesn’t know when to stop.
 

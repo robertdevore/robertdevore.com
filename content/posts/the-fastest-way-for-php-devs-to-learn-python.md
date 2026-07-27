@@ -22,7 +22,7 @@ PHP and Python aren’t as different as they look. Once you ditch the dollar sig
 
 Here are **10 code-level similarities** that’ll help you feel right at home.
 
-## 1\. Variables Are Loosely Typed and Dynamically Assigned
+## 1. Variables Are Loosely Typed and Dynamically Assigned
 
 **PHP** :
 
@@ -36,7 +36,7 @@ Both languages let you assign variables without declaring types up front.
 
 It’s all dynamic.
 
-## 2\. Functions Work the Same
+## 2. Functions Work the Same
 
 **PHP** :
 
@@ -50,7 +50,7 @@ Same logic applies here. The parameters go in the parentheses and then you retur
 
 Python uses `def` and f-strings for interpolation.
 
-## 3\. Associative Arrays = Dictionaries
+## 3. Associative Arrays = Dictionaries
 
 **PHP** :
 
@@ -68,7 +68,7 @@ Both languages support key/value data structures.
 
 If you’re using modern PHP with `[]`, the transition to Python’s `dict` syntax is especially easy.
 
-## 4\. Control Structures Feel Familiar
+## 4. Control Structures Feel Familiar
 
 **PHP** :
 
@@ -86,7 +86,7 @@ PHP supports both curly braces and `:` syntax with `endif`, `endforeach`, etc.
 
 Python relies on indentation and colons.
 
-## 5\. Loops Are Straightforward
+## 5. Loops Are Straightforward
 
 **PHP** :
 
@@ -100,7 +100,7 @@ Looping through arrays/lists is nearly identical in logic.
 
 You simply iterate over items and do something with each of them.
 
-## 6\. String Concatenation Works as Expected
+## 6. String Concatenation Works as Expected
 
 **PHP** :
 
@@ -114,7 +114,7 @@ The dot becomes a plus in Python. Or you can skip it altogether with an f-string
 
 ``` full = f"{first} {last}" ``` 
 
-## 7\. Truthy Logic Is Nearly Identical
+## 7. Truthy Logic Is Nearly Identical
 
 **PHP** :
 
@@ -126,7 +126,7 @@ The dot becomes a plus in Python. Or you can skip it altogether with an f-string
 
 Falsy values like empty arrays, strings, `null`/`None`, and zero behave the same in conditionals.
 
-## 8\. You Can Organize Code Into Reusable Modules
+## 8. You Can Organize Code Into Reusable Modules
 
 **PHP** :
 
@@ -140,7 +140,7 @@ PHP uses `include` and `require`; Python uses `import` and `from`.
 
 Both let you reuse and organize code into separate files.
 
-## 9\. Object-Oriented Programming Is Available (and Optional)
+## 9. Object-Oriented Programming Is Available (and Optional)
 
 **PHP** :
 
@@ -154,7 +154,7 @@ If you’ve written classes in PHP, Python’s version will feel familiar.
 
 Constructors, properties, and methods behave the same in both languages.
 
-## 10\. Ternary Syntax Exists and Is Readable
+## 10. Ternary Syntax Exists and Is Readable
 
 **PHP** :
 

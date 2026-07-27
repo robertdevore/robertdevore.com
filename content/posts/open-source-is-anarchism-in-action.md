@@ -40,19 +40,19 @@ Hardwired defaults for how real work gets done without hierarchy, without gateke
 
 Built for work without hierarchy, gatekeepers, and permission from capital.
 
-### 1\. Voluntary Cooperation
+### 1. Voluntary Cooperation
 
 No one’s dangling a paycheck. No middle managers and no clocks to punch. Just people showing up because they give a shit. That’s not charity – that’s tactical solidarity.
 
-### 2\. Decentralized Power
+### 2. Decentralized Power
 
 There’s just a network of contributors pushing change from every direction – shipping code, forking power structures, and routing around bureaucracy. Anarchists call it horizontalism. Open source just calls it standard operating procedure.
 
-### 3\. Transparent Accountability
+### 3. Transparent Accountability
 
 Every commit is public. Every mistake is timestamped along with a username. There’s no PR team to clean things up – just the raw history, visible to anyone who cares enough to look.
 
-### 4\. Ownership Without Control
+### 4. Ownership Without Control
 
 The code isn’t owned, it’s earned. Not by a simple title or trademark, but by contribution. 
 

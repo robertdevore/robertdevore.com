@@ -118,7 +118,7 @@ Together, they make content worth remembering – and worth sharing.
 
 Copy and paste this into ChatGPT before publishing any post:
 
-``` Act as a brutally honest editor. I’m about to publish the following content: ``` [PASTE YOUR DRAFT] ``` # Tell me: 1\. What part feels generic or overdone? 2\. Where does the momentum drop? 3\. What's the actual *point* of this post — and does it come through clearly? 4\. What's the sharpest sentence? What's the weakest? Keep it tight. No BS. Treat this like I'm paying you $1,000 for a 60-second gut check. ``` 
+``` Act as a brutally honest editor. I’m about to publish the following content: ``` [PASTE YOUR DRAFT] ``` # Tell me: 1. What part feels generic or overdone? 2. Where does the momentum drop? 3. What's the actual *point* of this post — and does it come through clearly? 4. What's the sharpest sentence? What's the weakest? Keep it tight. No BS. Treat this like I'm paying you $1,000 for a 60-second gut check. ``` 
 
 Treat this like a weapon, not a worksheet. 
 

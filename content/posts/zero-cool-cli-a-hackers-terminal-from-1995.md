@@ -73,13 +73,16 @@ The installation is dead simple:
 
   1. **Clone the repository**
 
-``` git clone https://github.com/robertdevore/zero-cool-cli cd zero-cool-cli ``` 
+    git clone https://github.com/robertdevore/zero-cool-cli
+    cd zero-cool-cli
+
   2. **Install globally**
 
-``` ./install.sh ``` 
+    ./install.sh
+
   3. **Start hacking**
 
-``` zero-cool zero-cool --profile ``` 
+    zero-cool zero-cool --profile
 
 That’s it. Now you have access to all the commands from anywhere in your terminal.
 
@@ -156,7 +159,7 @@ You can grab the CLI here:
 
 Install it, hack the planet, and let me know what you think.
 
-And remember – _“This is our world now… the world of the electron and the switch, the beauty of the baud.”_
+And remember – *“This is our world now… the world of the electron and the switch, the beauty of the baud.”*
 
 ## Related Reading
 

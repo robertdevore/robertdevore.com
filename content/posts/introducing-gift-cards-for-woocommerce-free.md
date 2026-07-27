@@ -22,7 +22,7 @@ The new free **[Gift Cards for WooCommerce®](https://github.com/robertdevore/gi
 
 ## Key Features
 
-### 1\. **Admin Management Dashboard**
+### 1. **Admin Management Dashboard**
 
   * **Create, Edit, and Delete Gift Cards:** Easily manage your gift cards from the WooCommerce® admin panel.
   * **Comprehensive Gift Cards List:** View all gift cards with details like code, balance, recipient email, issuance date, and expiration date.
@@ -30,21 +30,21 @@ The new free **[Gift Cards for WooCommerce®](https://github.com/robertdevore/gi
 
 ![](/assets/legacy-images/gift_cards_for_woocommerce_activity_log_1024x985.webp)Gift Cards For WooCommerce® Activity Log
 
-### 2\. **Bulk Import and Export**
+### 2. **Bulk Import and Export**
 
   * **CSV Import:** Streamline the process of adding multiple gift cards by importing them through a CSV file.
   * **CSV Export:** Export all gift card data for backup or migration purposes with ease.
 
 
 
-### 3\. **Product Integration**
+### 3. **Product Integration**
 
   * **Mark Products as Gift Cards:** Designate any WooCommerce® product as a gift card, allowing customers to purchase them directly.
   * **Gift Card Variations:** Automatically generate predefined gift card amounts (e.g., $25, $50, $100) as product variations for enhanced customer choice.
 
 ![](/assets/legacy-images/gift_cards_for_woocommerce_email_example_1024x520.webp)
 
-### 4\. **Customer Experience Enhancements**
+### 4. **Customer Experience Enhancements**
 
   * **Personalized Messages:** Allow customers to add personalized messages when sending gift cards.
   * **Email Delivery:** Option to send gift cards directly via email, ensuring timely and secure delivery.
@@ -52,7 +52,7 @@ The new free **[Gift Cards for WooCommerce®](https://github.com/robertdevore/gi
 
 ![](/assets/legacy-images/gift_cards_for_woocommerce_my_accoutn_page_1024x668.webp)Easily view your gift card balance & active cards
 
-### 5\. **Automated Email Notifications**
+### 5. **Automated Email Notifications**
 
   * **Gift Card Delivery Emails:** Schedule and send automated emails upon gift card issuance or on the specified delivery date.
   * **Expiration Reminders:** Configure and send reminder emails to customers before a gift card expires, encouraging them to utilize their gift cards.
@@ -65,13 +65,13 @@ Setting up **[Gift Cards for WooCommerce®](https://github.com/robertdevore/gift
 
 Follow these steps to install and activate the plugin:
 
-### 1\. **Download the Plugin**
+### 1. **Download the Plugin**
 
   * **From GitHub:** Visit our [GitHub repository](https://github.com/robertdevore/gift-cards-for-woocommerce) and download the latest release as a `.zip` file.
 
 
 
-### 2\. **Upload and Activate**
+### 2. **Upload and Activate**
 
   * **Upload Plugin:**
     * Navigate to your WordPress dashboard.
@@ -84,7 +84,7 @@ Follow these steps to install and activate the plugin:
 
 
 
-### 3\. **Initial Setup**
+### 3. **Initial Setup**
 
   * Upon activation, the plugin will create necessary database tables to store gift card data and activity logs.
   * Navigate to `WooCommerce` > `Gift Cards` to access the plugin’s admin interface.

@@ -28,7 +28,7 @@ These plugins often force users to navigate complex interfaces or rely on third-
 
 ### **Why Maintenance Mode for WordPress® Stands Out**
 
-#### 1\. **Native WordPress® Experience**
+#### 1. **Native WordPress® Experience**
 
 Unlike other plugins, [Maintenance Mode for WordPress®](https://github.com/robertdevore/maintenance-mode-for-wordpress/) fully embraces the **Gutenberg editor**.
 
@@ -36,7 +36,7 @@ Your maintenance pages are custom post types built directly with the WordPress®
 
 No clunky page builders, no learning curves – just the tools you use every day to create content.
 
-#### 2\. **No Bloat, Just Focus**
+#### 2. **No Bloat, Just Focus**
 
 This plugin is laser-focused on solving a single problem: putting your site into maintenance mode or coming soon mode.
 
@@ -44,7 +44,7 @@ There are no unnecessary features, no upsells, and no distractions.
 
 The plugin respects your WordPress® environment by staying lightweight and straightforward.
 
-#### 3\. **Total Control**
+#### 3. **Total Control**
 
 Whether you’re planning a quick update, launching a new site, or performing ongoing work, [Maintenance Mode for WordPress®](https://github.com/robertdevore/maintenance-mode-for-wordpress/) lets you:
 

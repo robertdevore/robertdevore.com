@@ -12,11 +12,11 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
-## _How disciplined developers ship faster, adapt smarter, and lead with code_
+## *How disciplined developers ship faster, adapt smarter, and lead with code*
 
 You don’t need permission. You don’t need a bloated roadmap or a management playbook. 
 
-You need clarity, decisiveness, and the ability to turn ideas into working software … _fast_.
+You need clarity, decisiveness, and the ability to turn ideas into working software … *fast*.
 
 **Extreme Programming (XP)** is a software development methodology built around exactly that. 
 
@@ -61,17 +61,25 @@ XP’s strengths map directly to the mindset of an Extreme Leader:
 
 
 
-It’s not about being aggressive – it’s about being intentional. Every [Extreme Programming](https://www.agilealliance.org/glossary/xp/) practice exists to help you move faster _without_ breaking things. It gives your intensity a structure.
+It’s not about being aggressive – it’s about being intentional. Every [Extreme Programming](https://www.agilealliance.org/glossary/xp/) practice exists to help you move faster *without* breaking things. It gives your intensity a structure.
 
 ![](/assets/legacy-images/core_extreme_programming_principles_1024x683.webp)
 
 ### Core XP Principles That Map to Leadership
 
-**1\. Ship Relentlessly**  
-Short iterations and fast feedback mean you never drift too far from what matters. Leaders don’t build in silence - they ship, learn, and adjust. **2\. Clarity Over Cleverness**  
-XP values simple, readable code. Leadership means enabling others to follow, not just impressing them. **3\. Build for Change**  
-The best leaders don’t fear change - they build systems ready for it. XP’s emphasis on modular code and frequent refactoring supports this. **4. Feedback is Oxygen**  
-XP encourages feedback at every level: from code, from customers, and from the system itself. Good leaders crave reality checks. **5\. Ruthless Simplicity**  
+1. **Ship Relentlessly**  
+Short iterations and fast feedback mean you never drift too far from what matters. Leaders don’t build in silence - they ship, learn, and adjust.
+
+2. **Clarity Over Cleverness**  
+XP values simple, readable code. Leadership means enabling others to follow, not just impressing them.
+
+3. **Build for Change**  
+The best leaders don’t fear change - they build systems ready for it. XP’s emphasis on modular code and frequent refactoring supports this.
+
+4. **Feedback is Oxygen**  
+XP encourages feedback at every level: from code, from customers, and from the system itself. Good leaders crave reality checks.
+
+5. **Ruthless Simplicity**  
 XP strips away what's unnecessary. Leadership is often about subtraction: fewer features, fewer blockers, fewer delays.
 
 ![](/assets/legacy-images/xp_practices_to_adopt_1024x683.webp)
@@ -96,7 +104,7 @@ XP is flexible. The goal is **results** , not dogma. Some parts may not fit ever
 
 
 
-Use XP as a foundation – but adapt it to how _you_ lead.
+Use XP as a foundation – but adapt it to how *you* lead.
 
 ![](/assets/legacy-images/extreme_progamming_final_thoughts_1024x683.webp)
 

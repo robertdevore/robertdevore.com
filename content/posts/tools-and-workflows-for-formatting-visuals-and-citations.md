@@ -50,7 +50,7 @@ But you _do_ need to help the reader breathe easier.
 
 Here’s how to format content so people actually finish reading it:
 
-### 1\. Use a Visual Hierarchy
+### 1. Use a Visual Hierarchy
 
   * Headers every 200-300 words
   * Subheadings to split ideas
@@ -65,7 +65,7 @@ Put it in their face.
 
 💡 **Pro Tip:** Use tools that let you write in Markdown to format as you write, like [Dillinger](https://dillinger.io/) or [StackEdit](https://stackedit.io/).
 
-### 2\. Add Section Breaks
+### 2. Add Section Breaks
 
 A single wall of text? Feels like a chore.
 
@@ -92,7 +92,7 @@ Don’t.
 
 Here’s how to make visuals _work_ :
 
-### 1\. Illustrate the Idea
+### 1. Illustrate the Idea
 
 If the section is abstract – add a visual that grounds it.
 
@@ -109,7 +109,7 @@ Or prompt AI directly:
 
 > “Generate an image of a messy first draft transforming into a polished, glowing final article – use a gritty cyberpunk paint style.”
 
-### 2\. Caption with Purpose
+### 2. Caption with Purpose
 
 Every image should come with context – not decoration.
 
@@ -123,7 +123,7 @@ _“This is what happens when you don’t trim AI filler – corporate sludge ov
 
 💡 **Pro Tip:** Use a consistent image style for brand memory. (Like my signature neon/cyberpunk palette.)
 
-### 3\. Compress Like a Pro
+### 3. Compress Like a Pro
 
 You want fast load times. Not a 4MB PNG choking your page speed.
 
@@ -149,7 +149,7 @@ But if you’re making claims – back them up.
 
 Here’s how to cite like a pro:
 
-### 1\. Link Inline – Not as Footnotes
+### 1. Link Inline – Not as Footnotes
 
 Don’t wait until the bottom of the post.
 
@@ -157,7 +157,7 @@ Link sources _right when you make the point._
 
 > “Studies show 70% of AI-generated content gets trimmed down before publishing” → [link to source]
 
-### 2\. Build a Mini Source Snippet
+### 2. Build a Mini Source Snippet
 
 If you use certain stats or sources _often_ , make a reusable chunk.
 
@@ -169,7 +169,7 @@ Example:
 
 Save it in your snippets app or notes tool.
 
-### 3\. Let AI Hunt Sources (Then Verify)
+### 3. Let AI Hunt Sources (Then Verify)
 
 Use ChatGPT or Claude to **find source leads** – but _never_ copy them blindly.
 

@@ -34,7 +34,7 @@ That’s where [Shipping Multiple Addresses for WooCommerce®](https://github.co
 
 This plugin is loaded with features to handle the complexity of multi-address shipping seamlessly:
 
-### 1\. **Address Management**
+### 1. **Address Management**
 
 Customers can save and manage multiple shipping addresses directly from their account dashboard.
 
@@ -42,27 +42,27 @@ This makes checkout quicker and more convenient for repeat orders.
 
 ![Shipping Multiple Addresses for WooCommerce® \(free\) - Duplicate Cart](/assets/legacy-images/shipping_multiple_addresses_for_woocommerce_duplicate_cart_1024x772.webp)
 
-### 2\. **Cart Duplication**
+### 2. **Cart Duplication**
 
 Need the same item shipped to multiple locations?
 
 With the “Duplicate Cart” button, you can easily replicate cart items.
 
-### 3\. **Custom Delivery Options**
+### 3. **Custom Delivery Options**
 
 Customers can add delivery notes and select a preferred delivery date for each shipment. These details are saved with the order and accessible to the store admin.
 
-### 4\. **Automatic Order Splitting**
+### 4. **Automatic Order Splitting**
 
 The plugin automatically splits orders into sub-orders based on assigned addresses, making fulfillment and tracking a breeze.
 
-### 5\. **Email Notifications**
+### 5. **Email Notifications**
 
 Get custom notifications for split and partial orders to keep customers informed every step of the way.
 
 ![Shipping Multiple Addresses for WooCommerce® \(free\) - Admin Settings](/assets/legacy-images/shipping_multiple_addresses_for_woocommerce_admin_settings_969x1024.webp)
 
-### 6\. **Admin-Friendly Tools**
+### 6. **Admin-Friendly Tools**
 
 Admins can:
 

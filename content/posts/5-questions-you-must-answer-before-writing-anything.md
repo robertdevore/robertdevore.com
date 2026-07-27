@@ -65,7 +65,7 @@ Skip them, and you’ll waste hours chasing a point you never fully defined.
 
 Here’s how to lock in your target before you ever touch the keyboard:
 
-### 1\. Who is this for – _really_?
+### 1. Who is this for – _really_?
 
 Not a persona. A real person with a real problem.
 
@@ -75,7 +75,7 @@ Know what she’s scrolling through. Know what she’s tired of seeing. Know wha
 
 Because if you try to write for everyone, you’ll resonate with no one.
 
-### 2\. What problem are they actively trying to solve?
+### 2. What problem are they actively trying to solve?
 
 This is the ignition switch. No pain = no attention.
 
@@ -85,7 +85,7 @@ What’s in their way? What’s keeping them stuck? What’s the thing they keep
 
 If your content doesn’t feel like a relief or a breakthrough, it’s just more homework.
 
-### 3\. What belief needs to be broken?
+### 3. What belief needs to be broken?
 
 The best content doesn’t just inform. It reframes.
 
@@ -95,7 +95,7 @@ Expose it. Challenge it. Replace it with something better.
 
 That shift is what makes your content memorable – and shareable.
 
-### 4\. What do you want them to do next?
+### 4. What do you want them to do next?
 
 You’re not just writing for clicks. You’re writing to create _motion._
 
@@ -105,7 +105,7 @@ Think action, not just awareness. Book a call. Audit their site. Shift their str
 
 Directionless content is dead content.
 
-### 5\. What’s the sharpest thing you can say?
+### 5. What’s the sharpest thing you can say?
 
 You don’t need 1,000 words to make a point.
 
@@ -133,7 +133,7 @@ Because once you can answer these clearly, prompting gets 10x easier – and 100
 
 Copy/paste this into ChatGPT before your actual content prompt to sharpen the direction:
 
-``` You are my AI writing assistant. Before generating content, I want you to ask me the following five questions. Don't write anything until I've answered them: 1\. Who is this content *really* for? 2\. What problem are they actively trying to solve? 3\. What belief needs to be broken? 4\. What do I want them to do after reading? 5\. What's the sharpest thing I could say here? Once I've answered, use those answers to guide your tone, structure, and focus. Your job is to help me create content that's clear, punchy, and impossible to ignore. ``` 
+``` You are my AI writing assistant. Before generating content, I want you to ask me the following five questions. Don't write anything until I've answered them: 1. Who is this content *really* for? 2. What problem are they actively trying to solve? 3. What belief needs to be broken? 4. What do I want them to do after reading? 5. What's the sharpest thing I could say here? Once I've answered, use those answers to guide your tone, structure, and focus. Your job is to help me create content that's clear, punchy, and impossible to ignore. ``` 
 
 This is how you stop writing filler and start writing fire 🔥
 

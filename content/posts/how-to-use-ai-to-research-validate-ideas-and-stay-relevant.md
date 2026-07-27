@@ -43,7 +43,7 @@ It can:
 
 So let’s walk through how to make that happen – fast.
 
-## 1\. Use AI to Eavesdrop, Not Echo
+## 1. Use AI to Eavesdrop, Not Echo
 
 Stop asking for generic content ideas.
 
@@ -59,7 +59,7 @@ You want pain points, not platitudes.
 
 That’s what gives your content teeth.
 
-## 2\. Validate the Angle Before You Commit
+## 2. Validate the Angle Before You Commit
 
 Most ideas sound fine in your head.
 
@@ -76,7 +76,7 @@ Because if AI can tear it apart, so will your audience.
 
 Better to fix it now than publish something forgettable later.
 
-## 3\. Surface What’s Missing in the Conversation
+## 3. Surface What’s Missing in the Conversation
 
 Want your content to stand out?
 
@@ -94,7 +94,7 @@ Now you’re looking for the **white space** – the angle nobody else is claimi
 
 That’s your opportunity.
 
-## 4\. Zoom Out Before You Zoom In
+## 4. Zoom Out Before You Zoom In
 
 Good content doesn’t just answer a question – it places that answer in a _bigger context_.
 
@@ -106,7 +106,7 @@ Use AI to help you widen the lens:
 
 Now your content has _weight_. It shows up like a signal, not just another listicle.
 
-## 5\. Get Out of Your Own Feed
+## 5. Get Out of Your Own Feed
 
 The biggest risk in using AI for research?
 

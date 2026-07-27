@@ -66,7 +66,7 @@ This plugin lets you control each table individually. You can enable or disable 
 
 Getting started with Table Block Enhancer is straightforward. Here’s a step-by-step guide to help you enhance your tables.
 
-### 1\. Installation
+### 1. Installation
 
   * **Download the Plugin:**
     * Get the plugin from the [GitHub repository](https://github.com/robertdevore/table-block-enhancer/).
@@ -77,7 +77,7 @@ Getting started with Table Block Enhancer is straightforward. Here’s a step-by
 
 
 
-### 2\. Adding a Table
+### 2. Adding a Table
 
   * **Create a New Post or Page:**
     * Go to **Posts » Add New** or **Pages » Add New**.
@@ -88,7 +88,7 @@ Getting started with Table Block Enhancer is straightforward. Here’s a step-by
 
 
 
-### 3\. Configuring Table Enhancer Settings
+### 3. Configuring Table Enhancer Settings
 
   * **Select the Table Block:**
     * Click on your table to select it.
@@ -100,7 +100,7 @@ Getting started with Table Block Enhancer is straightforward. Here’s a step-by
 
 
 
-### 4\. Publishing and Viewing Your Enhanced Table
+### 4. Publishing and Viewing Your Enhanced Table
 
   * **Publish or Update:**
     * Once you’re satisfied with your table and settings, click **Publish** or **Update**.

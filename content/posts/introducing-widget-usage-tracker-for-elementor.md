@@ -28,27 +28,27 @@ With this plugin, you can identify the most frequently used widgets, streamline 
 
 ## Key Features
 
-### 1\. **Comprehensive Tracking**
+### 1. **Comprehensive Tracking**
 
 Automatically tracks every Elementor widget used on your site, providing real-time usage counts. Gain a clear understanding of which widgets are most popular and which ones are underutilized.
 
-### 2\. **Detailed Insights**
+### 2. **Detailed Insights**
 
 View detailed information about where each widget is used, including direct links to the specific pages or posts. This feature helps you manage content more effectively and make informed decisions about widget usage.
 
-### 3\. **User-Friendly Interface**
+### 3. **User-Friendly Interface**
 
 The plugin integrates seamlessly into your WordPress admin dashboard, offering an intuitive interface with sortable tables and interactive modals. Easily navigate through your widget data without any technical hassle.
 
-### 4\. **Automatic Updates**
+### 4. **Automatic Updates**
 
 Stay up-to-date with the latest features and security patches. The integrated update checker ensures that your plugin remains current, providing a smooth and secure experience.
 
-### 5\. **Localization Ready**
+### 5. **Localization Ready**
 
 Fully translatable, allowing you to use the plugin in your preferred language. Expand your site’s reach by catering to a diverse audience.
 
-### 6\. **Optimized Performance**
+### 6. **Optimized Performance**
 
 Efficiently stores widget usage data in custom database tables, ensuring quick access and minimal impact on your site’s performance.
 

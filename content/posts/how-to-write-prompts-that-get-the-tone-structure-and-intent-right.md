@@ -66,7 +66,7 @@ When you don’t set the direction, AI picks the path of least resistance – an
 
 If you want AI to write in your voice, hit your goals, and actually help your audience – your prompt needs to lock in **three things** :
 
-### 1\. Tone: _How should this feel?_
+### 1. Tone: _How should this feel?_
 
 Tone is the personality of the piece. It’s what makes it sound _like you_ – not like a marketing intern at a tech startup trying to be helpful.
 
@@ -82,7 +82,7 @@ Or:
 
 That one decision instantly changes the reader’s experience.
 
-### 2\. Structure: _What shape should this take?_
+### 2. Structure: _What shape should this take?_
 
 Content fails more from _confusion_ than from _bad ideas_.  
 Structure is what lets your insight land.
@@ -103,7 +103,7 @@ Or:
 
 Now you’ve given the AI a skeleton to build around – not just a blank page.
 
-### 3\. Intent: _What’s the takeaway?_
+### 3. Intent: _What’s the takeaway?_
 
 Most prompts don’t define the **outcome** – and that’s a huge miss.
 

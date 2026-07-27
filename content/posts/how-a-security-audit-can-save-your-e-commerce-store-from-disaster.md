@@ -30,7 +30,7 @@ Let’s break down some of the reason’s why skipping out on security is like p
 
 ![WordPress Security Fortress animated image](/assets/legacy-images/generated_image_1738205855.webp)
 
-## 1\. **You Are a Target, Even If You Think You Aren’t**
+## 1. **You Are a Target, Even If You Think You Aren’t**
 
 Maybe you’re thinking, _“Why would hackers care about my little Shopify/WooCommerce/Magento store? I’m not Amazon.”_
 
@@ -49,7 +49,7 @@ If your store has:
 
 Then congratulations! You’ve just been selected as the next victim in a cybercriminal’s “get-rich-quick” scheme.
 
-## 2\. **One Breach Can Wreck Your Reputation (Forever)**
+## 2. **One Breach Can Wreck Your Reputation (Forever)**
 
 Imagine you’re a customer. You buy something from a store.
 
@@ -67,7 +67,7 @@ Even if you fix the issue, your name ends up on **security blogs, forums, and Go
 
 Good luck explaining to new customers why your site was once flagged as dangerous.
 
-## 3\. **Chargebacks, Fines, and Lawsuits – Oh My!**
+## 3. **Chargebacks, Fines, and Lawsuits – Oh My!**
 
 If a hacker gets into your store and starts messing with customer transactions, here’s what’s coming:
 
@@ -81,7 +81,7 @@ This isn’t just about losing money from sales.
 
 It’s about **getting hit with unexpected financial gut punches** that can take months (or years) to recover from.
 
-## 4\. **Hackers Can Hijack Your Site (Without You Even Knowing)**
+## 4. **Hackers Can Hijack Your Site (Without You Even Knowing)**
 
 Some attacks are loud and obvious – like a defaced homepage or stolen customer accounts.
 
@@ -97,7 +97,7 @@ Here’s how hackers silently profit off insecure e-commerce stores:
 
 This is why [security audits](/security-audits-for-wordpress/) matter – because **by the time you notice something is wrong, it’s already too late.**
 
-## 5\. **A Security Audit Costs Less Than a Breach**
+## 5. **A Security Audit Costs Less Than a Breach**
 
 Let’s talk numbers.
 
@@ -110,7 +110,7 @@ Think of it like insurance: you either pay for **prevention** or you pay for **d
 
 One is predictable. The other is an expensive, chaotic mess (that is entirely avoidable).
 
-## 6\. **Google Will Punish You for Being Insecure**
+## 6. **Google Will Punish You for Being Insecure**
 
 Google **hates** insecure websites (don’t we all).
 
@@ -124,7 +124,7 @@ If your store is flagged as dangerous, here’s what happens:
 
 Which means? **Even if you fix your site, you’re fighting an uphill battle to regain visibility.**
 
-## 7\. **A Security Audit Finds the Holes Before Hackers Do**
+## 7. **A Security Audit Finds the Holes Before Hackers Do**
 
 A proper security audit does a deep dive into your store, checking for:
 

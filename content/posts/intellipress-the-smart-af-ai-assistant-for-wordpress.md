@@ -52,21 +52,21 @@ Instead of juggling 20 different tools to write, optimize, and design your conte
 
 ## **How It Works (AKA: How It Saves Your Ass)**
 
-### **1\. Write Content Without the Pain**
+### **1. Write Content Without the Pain**
 
 Tell [IntelliPress](https://intellipress.robertdevore.com/) what you need, and boom – you’ve got a fully optimized article, product page, or landing page **in seconds**. 
 
 No writer’s block. No fluff. Just **good, usable content** that doesn’t sound like a robot wrote it.
 
-### **2\. SEO Without the Guesswork**
+### **2. SEO Without the Guesswork**
 
 You don’t need to be an SEO specialist – IntelliPress **suggests keywords, optimizes headings, and helps with internal categorization** , so your content actually ranks instead of rotting in search engine limbo.
 
-### **3\. AI-Generated Images That Don’t Suck**
+### **3. AI-Generated Images That Don’t Suck**
 
 Stock photos are expensive, and AI image tools are a pain in the ass. IntelliPress **creates unique, high-quality images** for your posts in one click.
 
-### **4\. Turn Words into Audio**
+### **4. Turn Words into Audio**
 
 Because some people don’t like reading. Let your audience **listen to your posts** as AI-generated audio (or, hell, start a podcast with much less effort).
 

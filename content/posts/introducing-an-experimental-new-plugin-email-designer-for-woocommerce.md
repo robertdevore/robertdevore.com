@@ -43,7 +43,7 @@ Instead of manually editing WooCommerce’s email template files, you can now de
 
 As excited as I am about this initial release, there are still **some major limitations** that I’m actively working on solving:
 
-### 1\. **Lack of Blocks for Order Details**
+### 1. **Lack of Blocks for Order Details**
 
 From what I can find, WooCommerce® doesn’t currently provide a way to insert order details using Gutenberg blocks, even though it’s [mentioned on this page](https://developer.woocommerce.com/docs/blocks-reference/#order-summary-woocommerce-order-confirmation-summary). 
 
@@ -53,7 +53,7 @@ This means I had to create **shortcodes** for now.
 
 I know this isn’t the ideal solution, and I’d love to explore a more seamless block-based approach in the future.
 
-### 2\. **Custom CSS Challenges**
+### 2. **Custom CSS Challenges**
 
 The block editor provides a lot of styling flexibility, but **WooCommerce® emails don’t handle block-generated CSS well**. Specifically:
 
@@ -62,7 +62,7 @@ The block editor provides a lot of styling flexibility, but **WooCommerce® emai
 
 
 
-### 3\. **WooCommerce’s Lack of Gutenberg Adoption**
+### 3. **WooCommerce’s Lack of Gutenberg Adoption**
 
 Despite WooCommerce being a flagship project in the WordPress® ecosystem, their approach to email customization still **doesn’t leverage the core block editor**.
 

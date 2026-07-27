@@ -30,7 +30,7 @@ Let’s start with why BoostBox (free) kicks ass.
 
 ![](/assets/legacy-images/ollie_theme_boostbox_popup_plugin_example_1.webp)BoostBox with the Ollie theme
 
-## 1\. It Works Inside the WordPress® Editor, Like It Fucking Should
+## 1. It Works Inside the WordPress® Editor, Like It Fucking Should
 
 You know what’s stupid?
 
@@ -48,7 +48,7 @@ Just **build popups the same way you build content** – because you shouldn’t
 
 ![](/assets/legacy-images/boostbox_pro_rubberband_animation_example.webp)BoostBox Pro Rubberband Animation
 
-## 2\. Smart Popups, Not Annoying Popups
+## 2. Smart Popups, Not Annoying Popups
 
 Popups work best when they show up at the **right time** – not when they randomly piss off your visitors. BoostBox (free) gives you solid trigger options:
 
@@ -67,7 +67,7 @@ Basically, the **Pro version makes popups smarter** – which means better conve
 
 ![](/assets/legacy-images/powder_theme_boostbox_popup_plugin_example_2.webp)BoostBox with the Powder theme
 
-## **3\. Design It However the Hell You Want**
+## **3. Design It However the Hell You Want**
 
 Most popup plugins give you **ugly-ass templates** and expect you to deal with it.
 
@@ -79,7 +79,7 @@ BoostBox **lets you design popups exactly the way you want** – because it’s 
 
 🔓 **Want your popups to pop (literally)?** **[BoostBox Pro](https://deviodigital.com/product/boostbox-pro/)** adds **animations like shake, wiggle, rubber-band, flip, and swing.** Because sometimes a little movement catches the eye just enough to boost conversions.
 
-## 4\. Fast as Fuck
+## 4. Fast as Fuck
 
 Most popup plugins **wreck your site speed** by loading external scripts, tracking pixels, and other garbage that Google hates.
 
@@ -93,7 +93,7 @@ Your popups **shouldn’t slow down your website** – BoostBox makes sure they 
 
 ![BoostBox Pro - Swing Animation GIF](/assets/legacy-images/boostbox_pro_swing_animation_example.webp)BoostBox Pro Swing Animation
 
-## **5\. Free Forever (But Pro Takes It to the Next Level)**
+## **5. Free Forever (But Pro Takes It to the Next Level)**
 
 Here’s the deal: BoostBox **gives you everything you need to create simple, high-quality popups** for free.
 

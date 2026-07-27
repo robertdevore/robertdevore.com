@@ -44,13 +44,13 @@ It’s simple, efficient, and fits seamlessly into the WordPress workflow.
 
 ## Key Features
 
-### 1\. **Version Control for Media Files**
+### 1. **Version Control for Media Files**
 
 Upload a new file, and the plugin automatically saves the old one as a previous version. 
 
 Each version is stored with its upload date and time for easy reference.
 
-### 2\. **Admin-Friendly Meta Box**
+### 2. **Admin-Friendly Meta Box**
 
 Each media file gets a **Media Versioning** meta box in the Media Library:
 
@@ -60,13 +60,13 @@ Each media file gets a **Media Versioning** meta box in the Media Library:
 
 
 
-### 3\. **Shortcode for Front-End Display**
+### 3. **Shortcode for Front-End Display**
 
 Want to display file versions on your site? Use the `[mfv id="123"]` shortcode to list the current and previous versions of any media file. 
 
 Perfect for client areas, team collaboration pages, or documentation sites.
 
-### 4\. **Seamless Integration**
+### 4. **Seamless Integration**
 
 The plugin integrates effortlessly into the WordPress® admin UI, adding minimal overhead and maintaining WordPress’s native user experience.
 

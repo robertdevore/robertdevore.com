@@ -30,37 +30,37 @@ In this release, I focused on refining the user experience, boosting performance
 
 Here are the highlights:
 
-**1\. GitHub Update Support**
+**1. GitHub Update Support**
 
   * The plugin now serves updates directly from GitHub, meaning faster and more reliable updates. This change also keeps you more connected to the latest features and improvements as they’re released without relying on the personal website of an ego-maniac.
 
 
 
-**2\. Enhanced Logging Functionality**
+**2. Enhanced Logging Functionality**
 
   * A new helper function `clwc_insert_loyalty_log_entry` has been introduced, along with a dedicated database table for logging (`clwc_loyalty_log`). This allows more precise tracking of points activities, which can be viewed and managed from the admin panel.
 
 ![Customer Loyalty and Rewards for WooCommerce® - Log settings](/assets/legacy-images/customer_loyalty_and_rewards_for_woocommerce_log_settings_scaled.webp)
 
-**3\. Redesigned My Account Loyalty & Rewards Tab**
+**3. Redesigned My Account Loyalty & Rewards Tab**
 
   * I’ve refreshed the layout of the **My Account** tab where customers can view and redeem points. The tab now features an updated icon, improved HTML structure, and more intuitive redeem functionality, creating a seamless experience for your shoppers.
 
 ![Customer Loyalty and Rewards for WooCommerce® - My Account - Rewards tab](/assets/legacy-images/customer_loyalty_and_rewards_for_woocommerce_my_account_rewards_tab_1024x705.webp)Redeem points and auto-refresh page for seamless integration
 
-**4\. Improved AJAX and Frontend Performance**
+**4. Improved AJAX and Frontend Performance**
 
   * The points redemption feature on the My Account page now includes enhanced AJAX callbacks. This makes for smoother, faster interactions and a more satisfying user experience overall.
 
 ![](/assets/legacy-images/customer_loyalty_and_rewards_for_woocommerce_rewards_card_settings_scaled.webp)
 
-**5\. Revamped Admin Settings Panel**
+**5. Revamped Admin Settings Panel**
 
   * The admin settings have been given a complete makeover! With a polished UI, updated CSS styling, and an enhanced image upload modal, managing loyalty settings is now more intuitive and visually appealing. Text strings throughout the settings page have also been updated for clarity.
 
 ![Customer Loyalty and Rewards for WooCommerce® - Loyalty Points settings](/assets/legacy-images/customer_loyalty_and_rewards_for_woocommerce_loyalty_points_settings_scaled.webp)
 
-**6\. Flexible Points Triggers**
+**6. Flexible Points Triggers**
 
   * Points triggers have been optimized to give you more control over when and how customers earn points. Settings related to customer registration and other points triggers are now easier to manage, providing you with a robust and customizable points system.
 

@@ -22,7 +22,7 @@ With these optimizations, you’ll experience faster processing and smoother ope
 
 ## Key Updates in v1.0.1
 
-### 1\. Optimized Notification Handling in `bisn_notify_waitlist_on_restock`
+### 1. Optimized Notification Handling in `bisn_notify_waitlist_on_restock`
 
 One of the main enhancements in this release is a performance-focused update to the `bisn_notify_waitlist_on_restock` function. 
 
@@ -38,7 +38,7 @@ By sending emails in batches, the system reduces server load, minimizes the risk
 
 This change is seamless for the end-user, allowing your notifications to be sent while also reducing strain on server resources.
 
-### 2\. Improved CSV Export with Batching in `bisn_export_csv`
+### 2. Improved CSV Export with Batching in `bisn_export_csv`
 
 Similarly, I have also optimized the CSV export functionality to handle large data exports more efficiently.
 

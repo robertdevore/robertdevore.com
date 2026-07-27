@@ -28,7 +28,7 @@ Let's say you're a sharp, opinionated dev who writes like you talk - no filter, 
 
 Here’s the framework that works – whether you’ve written one tweet or 100 blog posts.
 
-### 1\. Give It Real Voice Samples (Not Just Vibes)
+### 1. Give It Real Voice Samples (Not Just Vibes)
 
 Start by feeding ChatGPT a few pieces of content that _actually_ sound like you.
 
@@ -44,7 +44,7 @@ That alone will beat 99% of what people do.
 
 But we’re not done.
 
-### 2\. Ask It to Describe Your Voice – Then Edit the Description
+### 2. Ask It to Describe Your Voice – Then Edit the Description
 
 Once it gives you a breakdown, don’t just accept it.
 
@@ -57,7 +57,7 @@ This becomes your **voice profile**.
 
 Think of it like a filter – one you can apply to every future prompt.
 
-### 3\. Create a “Sound Like Me” Prompt Wrapper
+### 3. Create a “Sound Like Me” Prompt Wrapper
 
 Now we systematize it.
 
@@ -69,7 +69,7 @@ Example:
 
 You can modify that depending on the project. But the core tone stays consistent.
 
-### 4\. Run a Voice Check – Every Time
+### 4. Run a Voice Check – Every Time
 
 Before you publish anything, test it against your own fingerprint.
 
@@ -81,7 +81,7 @@ You’ll catch the weak spots before your audience does.
 
 Because tone drift is real – especially with longer drafts.
 
-### 5\. Fine-Tune With Contrast
+### 5. Fine-Tune With Contrast
 
 Still not landing?
 
