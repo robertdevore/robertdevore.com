@@ -1,0 +1,73 @@
+name: "Fix homepage focus, principles, writing, and closing statement"
+goal: "Apply the requested homepage copy and layout corrections, restore three recent writing cards, add a visual treatment to the closing statement, and capture reproducible proof artifacts for review."
+id: "7f9f4c62-8e1c-4e75-a62e-fb4d6d7f1d62"
+status: "ready"
+version: "0.1.0"
+created_at: "2026-08-07T00:00:00Z"
+priority: "high"
+background: "The homepage has several copy and alignment inconsistencies, its writing preview is empty in generated output, and the closing statement lacks a visual surface. The work must remain portable and be evidenced through Spec, build validation, Lens before/after recordings, and RunLedger receipts."
+scope: "Update the homepage template and site-specific CSS, correct the featured-post generation contract so the homepage shows three recent posts, add deterministic homepage assertions, and capture before/after Lens screenshots and video recordings plus a RunLedger report."
+non_goals:
+  - "Changing vendored SiteKit or Kujo SSG artifacts."
+  - "Publishing or deploying the website."
+  - "Rewriting unrelated article or project content."
+relevant_systems:
+  - "Kujo Spec"
+  - "Kujo SSG"
+  - "Kujo Lens"
+  - "Kujo RunLedger"
+likely_files:
+  - "templates/page-home.html"
+  - "assets/css/site.css"
+  - "build.kujo"
+  - "scripts/verify_homepage.py"
+  - "qa/lens/specs/home.json"
+  - "qa/lens/flows/kujo-homepage-review.json"
+acceptance_criteria:
+  - "The 01 / Flagship focus identity contains only the section index, without the KUJO/01 signal or Kujo heading, and the flagship section index remains on one line at the same structural level as 02 / Selected systems."
+  - "The flagship layout has no border-block-start and renders its rule on the border-block-end instead."
+  - "The flagship title text uses the same content width as the selected-systems title text."
+  - "The selected systems card title reads RepoRadar with no space."
+  - "The leadership principle reads Pressure-test the ecosystem or equivalent non-person-directed wording."
+  - "The context principle reads Systems should explain the assumptions, input, output, and failures without vocal explanations being required."
+  - "The generated homepage writing section contains exactly three recent post cards, ordered newest first, with working article links."
+  - "The 05 / Closing statement section has an intentional visual background treatment that remains readable on desktop and mobile."
+  - "The generated homepage passes repository validation, homepage structural checks, and Lens assertions without horizontal overflow or console errors."
+  - "A reviewable proof bundle records the Spec, before/after Lens screenshots and videos, Lens reports, generated-output checks, and a completed RunLedger receipt/report."
+eval_requirements:
+  - description: "The task contract validates in strict mode."
+    check_type: "command_succeeds"
+    params:
+      command: "spec validate specs/homepage-fixes-2026-08-07.spec.yml --strict"
+  - description: "The generated site passes repository validation."
+    check_type: "command_succeeds"
+    params:
+      command: "python3 scripts/validate_site.py output"
+  - description: "The generated homepage satisfies the requested structure and copy contract."
+    check_type: "command_succeeds"
+    params:
+      command: "python3 scripts/verify_homepage.py output"
+  - description: "The proof directory contains the human-reviewable run record."
+    check_type: "directory_contains_files"
+    params:
+      path: "reports/proof/homepage-fixes-2026-08-07"
+risks:
+  - "workspace-dependencies.json is ahead of the checked-out Kujo, SSG, and SiteKit revisions; verification must use the available local runtime without syncing vendored artifacts."
+  - "Lens accessibility and link checks may surface pre-existing findings unrelated to this homepage change; the proof bundle must preserve their exact status."
+dependencies:
+  - "Available local Kujo runtime and generated static output."
+  - "Lens local Chromium bridge."
+  - "Python dependencies pinned in requirements.txt."
+review_expectations:
+  - "Review the generated homepage, the exact three writing cards, closing background, and both Lens recordings/reports."
+  - "Review the RunLedger JSON and markdown report for the recorded commands, verdict, and repository state."
+human_approval_points:
+  - "Human review is required before any publish or deploy action."
+tags:
+  - "homepage"
+  - "copy"
+  - "layout"
+  - "writing"
+  - "lens"
+  - "runledger"
+  - "proof"
