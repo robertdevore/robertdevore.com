@@ -1,0 +1,53 @@
+{
+  "changed_files": [
+    "assets/css/site.css",
+    "build.kujo",
+    "scripts/verify_homepage.py",
+    "templates/page-home.html",
+    ".runledger/runs/2026-08-07-codex-fix-homepage-focus-principles-writing-and-closing-statement-001.json",
+    "docs/specs/homepage-fixes-2026-08-07.md",
+    "qa/lens/flows/homepage-fixes-review.json",
+    "reports/proof/homepage-fixes-2026-08-07/prompt.md",
+    "specs/homepage-fixes-2026-08-07.spec.yml"
+  ],
+  "commands": [],
+  "cost": {
+    "cache_cost": null,
+    "currency": "USD",
+    "input_cost": null,
+    "output_cost": null,
+    "total_cost": null
+  },
+  "created_at": "2026-08-07T15:55:03Z",
+  "end_commit": "9a6a76f6384349002bc62402f097908d0f2e5abf",
+  "followups": [],
+  "git_dirty_end": true,
+  "git_dirty_start": true,
+  "id": "2026-08-07-codex-fix-homepage-focus-principles-writing-and-closing-statement-001",
+  "model": "codex",
+  "notes": [
+    {
+      "at": "2026-08-07T16:18:08Z",
+      "text": "Spec strict validation passed; homepage structural verifier and repository site validator passed; Lens before and after flows and homepage check passed. Full portable build remains blocked by declared workspace revision/hash drift, so verification used a reduced temporary content/assets build for the generated review output."
+    },
+    {
+      "at": "2026-08-07T16:19:21Z",
+      "text": "Implementation commits: d2d43c6 and dff5af2; proof bundle commit: 299a3b8."
+    }
+  ],
+  "prompt_file": "reports/proof/homepage-fixes-2026-08-07/prompt.md",
+  "provider": "openai",
+  "repo_path": "/Users/robertdevore/2026/robertdevore.com",
+  "start_commit": "9a6a76f6384349002bc62402f097908d0f2e5abf",
+  "status": "partial",
+  "task_name": "Fix homepage focus, principles, writing, and closing statement",
+  "tests": [],
+  "updated_at": "2026-08-07T15:55:03Z",
+  "usage": {
+    "cache_read_tokens": null,
+    "cache_write_tokens": null,
+    "input_tokens": null,
+    "output_tokens": null
+  },
+  "verdict": "Homepage fixes are implemented and targeted generated-output, structural, Lens, Spec, and proof checks passed. Full repository build verification is partial because workspace-dependencies.json does not match the live Kujo/SSG/SiteKit checkouts and the full current build did not complete within the available verification window."
+}
