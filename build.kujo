@@ -3804,7 +3804,7 @@ func build_site(settings) {
 
 	if !settings["no_index"] {
 		featured_posts_cards := ""
-		featured_posts_limit := 4
+		featured_posts_limit := 3
 		featured_idx := 0
 		loop {
 			if featured_idx >= total_posts || featured_idx >= featured_posts_limit {
