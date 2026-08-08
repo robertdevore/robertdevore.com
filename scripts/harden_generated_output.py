@@ -73,6 +73,23 @@ def main() -> int:
         )
         return 1
 
+    home_path = output / "index.html"
+    home_html = home_path.read_text(encoding="utf-8")
+    home_placeholders = len(FOREVER_FORWARD_CARD_PLACEHOLDER.findall(home_html))
+    home_html, home_replacements = FOREVER_FORWARD_CARD_IMAGE.subn(
+        r'\1<span class="listing-card-image-placeholder" aria-hidden="true"></span>\2',
+        home_html,
+    )
+    home_cards = home_placeholders + home_replacements
+    if home_cards > 1:
+        print(
+            "Generated-output hardening refused: duplicate Forever Forward cards on homepage",
+            file=sys.stderr,
+        )
+        return 1
+    if home_replacements == 1:
+        home_path.write_text(home_html, encoding="utf-8")
+
     feed_path = output / "feed/index.xml"
     if not feed_path.is_file():
         print(f"Generated-output hardening refused: missing {feed_path}", file=sys.stderr)
@@ -101,6 +118,7 @@ def main() -> int:
 
     print(
         f"Hardened {aliases} redirect aliases, {writing_cards} writing card, "
+        f"{home_cards} homepage card, "
         "and RSS discovery metadata."
     )
     return 0

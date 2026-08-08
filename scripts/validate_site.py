@@ -239,6 +239,12 @@ elif forever_writing_media.select_one("img"):
 elif not forever_writing_media.select_one(".listing-card-image-placeholder"):
     errors.append("Writing index Forever Forward card is missing its standard placeholder")
 
+forever_home_media = home.select_one('.listing-card-image-link[href="/forever-forward/"]')
+if forever_home_media and forever_home_media.select_one("img"):
+    errors.append("Homepage Writing section displays the Forever Forward social image")
+elif forever_home_media and not forever_home_media.select_one(".listing-card-image-placeholder"):
+    errors.append("Homepage Forever Forward card is missing its standard placeholder")
+
 about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
 if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):
     errors.append("about page still includes a removed box section")
