@@ -17,6 +17,8 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory output
 
 `./scripts/sync_dependencies.sh --dry-run` lists its pinned writes without changing files. Run the command with no arguments to update the vendored SSG/SiteKit artifacts, then use `--check` to verify their hashes. `scripts/build.sh` resolves the pinned Kujo binary through the manifest and refuses to build if the runtime revision does not match.
 
+Pushes to `main` deploy through [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml). The workflow builds the pinned Kujo runtime, generates and validates `output/`, and publishes that artifact directly to GitHub Pages without Jekyll.
+
 Authored sources live in `content/`, `templates/`, and `assets/`. `output/` is generated and must not be edited or committed. Dependency distribution files are intentionally synced into `assets/css/sitekit/`, `assets/fonts/`, and `build.kujo` so the published site remains self-contained.
 
 See [docs/dependencies.md](docs/dependencies.md), [docs/architecture.md](docs/architecture.md), [docs/content-migration.csv](docs/content-migration.csv), and [docs/verification.md](docs/verification.md).
