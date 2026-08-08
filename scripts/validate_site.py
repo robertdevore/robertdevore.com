@@ -82,6 +82,16 @@ required = ["index.html", "blog/index.html", "page/2/index.html", "about/index.h
 for item in required:
     if not (root / item).exists(): errors.append(f"missing required output: {item}")
 
+removed_devio_slug = "why-im-launching-devio-chat-and-letting-you-in-early"
+if (root / removed_devio_slug).exists():
+    errors.append("removed Devio Chat article route still exists")
+for path in html_files:
+    if removed_devio_slug in path.read_text(errors="ignore"):
+        errors.append(f"{path.relative_to(root)}: still links to the removed Devio Chat article")
+for item in ("feed/index.xml", "sitemap.xml", "llms.txt"):
+    if removed_devio_slug in (root / item).read_text(errors="ignore"):
+        errors.append(f"{item}: still includes the removed Devio Chat article")
+
 home = BeautifulSoup((root / "index.html").read_text(errors="ignore"), "html.parser")
 writing_label = home.select_one("#writing .section-index")
 if not writing_label or writing_label.get_text(" ", strip=True) != "04 / Writing": errors.append("homepage writing label includes pagination or is missing")
@@ -114,6 +124,9 @@ for label, href in (
 kujo = BeautifulSoup((root / "projects/kujo/index.html").read_text(errors="ignore"), "html.parser")
 if "Kujo 1.0 is released." not in kujo.get_text(" ", strip=True):
     errors.append("Kujo project boundary does not describe the 1.0 release")
+kujo_site_link = kujo.select_one('.project-landing a[href="https://kujolang.ai"]')
+if not kujo_site_link or kujo_site_link.get("target") != "_blank" or set(kujo_site_link.get("rel", [])) != {"noopener", "noreferrer"}:
+    errors.append("Kujo project introduction is missing the safe new-window kujolang.ai link")
 
 about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
 if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):

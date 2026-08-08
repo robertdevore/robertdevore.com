@@ -3,12 +3,10 @@ title: "Kujo"
 description: "The programming language and ecosystem at the center of Robert DeVore's current systems work."
 author: "Robert DeVore"
 date: "2026-07-10"
-template: "project"
+template: "kujo"
 tags: ["Language", "Runtime", "Open source"]
 excerpt: "A programming language and ecosystem built for clear, local, inspectable software workflows."
 ---
-Kujo is a Rust-built, VM-first programming language for AI-native software, local-first automation, agentic workflows, and application scripting. It is designed for work where deterministic behavior, native capabilities, and practical ergonomics need to coexist.
-
 ## Why Kujo exists
 
 Automation languages often force a choice between small scripts and dependable systems. Kujo keeps the scripting loop direct while making files, processes, network access, databases, async work, crypto, AI operations, and security capabilities explicit.
