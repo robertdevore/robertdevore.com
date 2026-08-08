@@ -35,6 +35,27 @@ for path in html_files:
     if len(ids) != len(set(ids)): errors.append(f"{rel}: duplicate id")
     for image in soup.find_all("img"):
         if "alt" not in image.attrs: errors.append(f"{rel}: image without alt")
+    critical_css = soup.select_one("style[data-critical-css]")
+    stylesheet_preload = soup.select_one('link[rel="preload"][as="style"]')
+    if not critical_css or "build:critical-css" in critical_css.get_text():
+        errors.append(f"{rel}: generated critical CSS is missing")
+    if not stylesheet_preload or "assets/css/site.bundle.css?v=1.0.1" not in stylesheet_preload.get("href", ""):
+        errors.append(f"{rel}: expected the async v1.0.1 stylesheet bundle")
+    hero = soup.select_one(".signal-hero")
+    if hero:
+        hero_image = hero.select_one("picture.signal-hero__field > img")
+        hero_source = hero.select_one('picture.signal-hero__field > source[media="(max-width: 48rem)"]')
+        if not hero_image or not hero_source:
+            errors.append(f"{rel}: hero art is not discoverable picture markup")
+        elif (
+            hero_image.get("fetchpriority") != "high"
+            or hero_image.get("loading") != "eager"
+            or not hero_image.get("width")
+            or not hero_image.get("height")
+            or "?v=1.0.1" not in hero_image.get("src", "")
+            or "?v=1.0.1" not in hero_source.get("srcset", "")
+        ):
+            errors.append(f"{rel}: hero LCP image lacks eager high-priority dimensions")
     for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
         try: json.loads(script.string or "")
         except json.JSONDecodeError: errors.append(f"{rel}: invalid JSON-LD")
@@ -74,7 +95,8 @@ for path in sorted(root.rglob("*.css")):
     for raw_url in re.findall(r"url\(([^)]+)\)", path.read_text(errors="ignore")):
         url = raw_url.strip().strip("\"'")
         if not url or url.startswith(("data:", "http:", "https:", "#")): continue
-        target = (path.parent / url.split("?", 1)[0].split("#", 1)[0]).resolve()
+        clean_url = url.split("?", 1)[0].split("#", 1)[0]
+        target = (root / clean_url.lstrip("/")).resolve() if clean_url.startswith("/") else (path.parent / clean_url).resolve()
         if not target.is_relative_to(root) or not target.exists():
             errors.append(f"{rel}: missing CSS asset {url}")
 
@@ -147,7 +169,7 @@ if "## Projects" not in llms or "[Projects index](https://robertdevore.com/proje
 for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
     if f"https://robertdevore.com/projects/{slug}/" not in llms: errors.append(f"llms.txt missing project {slug}")
 
-site_css = (root / "assets/css/site.css").read_text(errors="ignore")
+site_css = (root / "assets/css/site.bundle.css").read_text(errors="ignore")
 for contract in ("-webkit-text-stroke:8px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
     if contract not in site_css: errors.append(f"site CSS missing requested contract {contract}")
 for contract in (".leap-callout{max-inline-size:93ch", "font-size:1rem;text-align:center}", ".home-closing{position:relative;isolation:isolate;overflow:hidden}", ".timeline-list{inline-size:100%;max-inline-size:none", ".timeline-list li{max-inline-size:none", ".archive-list{max-inline-size:var(--sk-size-content-xl)}", ".archive-list li{max-inline-size:none", ".project-link-bank__eyebrow{color:var(--sk-color-gray-200)}", ".article-related-grid,.project-feature__panel,.project-secondary__grid,.project-landing ul"):

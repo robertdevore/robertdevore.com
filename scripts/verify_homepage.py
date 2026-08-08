@@ -16,7 +16,7 @@ def fail(message: str) -> None:
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else "output").resolve()
 home_path = root / "index.html"
-css_path = root / "assets/css/site.css"
+css_path = root / "assets/css/site.bundle.css"
 if not home_path.is_file():
     fail(f"missing generated homepage: {home_path}")
 if not css_path.is_file():
@@ -67,6 +67,13 @@ if len(writing_cards) != 3:
     fail(f"homepage writing section must contain exactly three recent posts, found {len(writing_cards)}")
 if not home.select_one(".home-closing"):
     fail("homepage closing statement is missing")
+hero_image = home.select_one('.signal-hero picture.signal-hero__field img[fetchpriority="high"][loading="eager"]')
+if not hero_image or hero_image.get("src") != "/assets/art/signal-a-1920.webp?v=1.0.1":
+    fail("homepage hero image is not eagerly discoverable at high priority")
+if not home.select_one('style[data-critical-css]'):
+    fail("homepage is missing inline critical CSS")
+if not home.select_one('link[rel="preload"][as="style"][href$="site.bundle.css?v=1.0.1"]'):
+    fail("homepage must preload the complete stylesheet bundle asynchronously")
 
 css = css_path.read_text(errors="ignore")
 required_css = (
