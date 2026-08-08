@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
@@ -10,6 +11,16 @@ from pathlib import Path
 SITE_URL = "https://robertdevore.com"
 FEED_URL = f"{SITE_URL}/feed/index.xml"
 ATOM_NAMESPACE = "http://www.w3.org/2005/Atom"
+FOREVER_FORWARD_CARD_IMAGE = re.compile(
+    r'(<a class="listing-card-image-link" href="/forever-forward/">)'
+    r'<img\b[^>]*class="listing-card-image"[^>]*>'
+    r'(</a>)'
+)
+FOREVER_FORWARD_CARD_PLACEHOLDER = re.compile(
+    r'<a class="listing-card-image-link" href="/forever-forward/">'
+    r'<span class="listing-card-image-placeholder" aria-hidden="true"></span>'
+    r'</a>'
+)
 
 
 def main() -> int:
@@ -34,6 +45,33 @@ def main() -> int:
             html = html.replace(marker, "<title>Redirecting | Robert DeVore</title>" + marker)
             path.write_text(html, encoding="utf-8")
             aliases += 1
+
+    writing_cards = 0
+    blog_root = output / "blog"
+    for path in sorted(blog_root.rglob("index.html")):
+        html = path.read_text(encoding="utf-8")
+        existing_placeholders = len(FOREVER_FORWARD_CARD_PLACEHOLDER.findall(html))
+        html, replacements = FOREVER_FORWARD_CARD_IMAGE.subn(
+            r'\1<span class="listing-card-image-placeholder" aria-hidden="true"></span>\2',
+            html,
+        )
+        card_count = existing_placeholders + replacements
+        if card_count > 1:
+            print(
+                f"Generated-output hardening refused: duplicate Forever Forward cards in {path.relative_to(output)}",
+                file=sys.stderr,
+            )
+            return 1
+        if replacements == 1:
+            path.write_text(html, encoding="utf-8")
+        writing_cards += card_count
+
+    if writing_cards != 1:
+        print(
+            f"Generated-output hardening refused: expected one Forever Forward writing card, found {writing_cards}",
+            file=sys.stderr,
+        )
+        return 1
 
     feed_path = output / "feed/index.xml"
     if not feed_path.is_file():
@@ -61,7 +99,10 @@ def main() -> int:
         feed = feed.replace(encoded, entity)
     feed_path.write_text(feed, encoding="utf-8")
 
-    print(f"Hardened {aliases} redirect aliases and RSS discovery metadata.")
+    print(
+        f"Hardened {aliases} redirect aliases, {writing_cards} writing card, "
+        "and RSS discovery metadata."
+    )
     return 0
 
 

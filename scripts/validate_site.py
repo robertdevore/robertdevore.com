@@ -230,6 +230,15 @@ else:
     if parsed_forever_og.netloc != "robertdevore.com" or not route_exists(parsed_forever_og.path):
         errors.append(f"Forever Forward social image is not a local production asset: {forever_og_url}")
 
+writing = BeautifulSoup((root / "blog/index.html").read_text(errors="ignore"), "html.parser")
+forever_writing_media = writing.select_one('.listing-card-image-link[href="/forever-forward/"]')
+if not forever_writing_media:
+    errors.append("Writing index is missing the Forever Forward card media placeholder")
+elif forever_writing_media.select_one("img"):
+    errors.append("Writing index displays the Forever Forward social image")
+elif not forever_writing_media.select_one(".listing-card-image-placeholder"):
+    errors.append("Writing index Forever Forward card is missing its standard placeholder")
+
 about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
 if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):
     errors.append("about page still includes a removed box section")
