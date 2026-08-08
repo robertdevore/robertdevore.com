@@ -2,7 +2,7 @@
 
 Robert DeVore's personal publishing site, built with [Kujo SSG](https://github.com/kujolang/ssg) and [SiteKit](https://github.com/kujolang/site-kit).
 
-Current site release: **v1.0.1**.
+Current site release: **v1.0.2**.
 
 ## Local build
 
@@ -15,6 +15,7 @@ python3 scripts/workspace.py doctor --json
 python3 scripts/bundle_css.py --check
 ./scripts/build.sh
 python3 scripts/validate_site.py output
+npx --yes vnu-jar@26.8.6 --errors-only --skip-non-html output
 python3 -m http.server 4173 --bind 127.0.0.1 --directory output
 ```
 
@@ -24,6 +25,6 @@ Pushes to `main` deploy through [`.github/workflows/deploy-pages.yml`](.github/w
 
 Authored sources live in `content/`, `templates/`, and `assets/`. `output/` is generated and must not be edited or committed. Dependency distribution files are intentionally synced into `assets/css/sitekit/`, `assets/fonts/`, and `build.kujo` so the published site remains self-contained.
 
-The release stylesheet at `assets/css/site.bundle.css` combines the pinned SiteKit layers and `assets/css/site.css` into one request. The generated `assets/css/site.critical.css` keeps the initial viewport styled while that complete bundle loads asynchronously. After changing CSS or `VERSION`, regenerate both with `python3 scripts/bundle_css.py`; builds reject stale bundles and inject the critical CSS into generated HTML.
+The release stylesheet at `assets/css/site.bundle.css` combines the pinned SiteKit layers and `assets/css/site.css` into one request. The generated `assets/css/site.critical.css` keeps the initial viewport styled while that complete bundle loads asynchronously. After changing CSS or `VERSION`, regenerate both with `python3 scripts/bundle_css.py`; builds reject stale bundles and inject the critical CSS into generated HTML. The build also hardens redirect aliases and RSS metadata before validation. The pinned Nu Html Checker command is the full HTML5 conformance gate used in CI.
 
 See [docs/dependencies.md](docs/dependencies.md), [docs/architecture.md](docs/architecture.md), [docs/content-migration.csv](docs/content-migration.csv), and [docs/verification.md](docs/verification.md).
