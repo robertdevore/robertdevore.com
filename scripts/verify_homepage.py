@@ -68,9 +68,9 @@ if len(writing_cards) != 3:
     fail(f"homepage writing section must contain exactly three recent posts, found {len(writing_cards)}")
 if not home.select_one(".home-closing"):
     fail("homepage closing statement is missing")
-hero_image = home.select_one('.signal-hero picture.signal-hero__field img[fetchpriority="high"][loading="eager"]')
+hero_image = home.select_one('.signal-hero picture.signal-hero__field img[loading="eager"]')
 if not hero_image or hero_image.get("src") != f"/assets/art/signal-a-1920.webp?v={release_version}":
-    fail("homepage hero image is not eagerly discoverable at high priority")
+    fail("homepage hero image is not eagerly discoverable with intrinsic dimensions")
 if not home.select_one('style[data-critical-css]'):
     fail("homepage is missing inline critical CSS")
 if not home.select_one(f'link[rel="preload"][as="style"][href$="site.bundle.css?v={release_version}"]'):

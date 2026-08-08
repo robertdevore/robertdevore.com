@@ -55,14 +55,19 @@ for path in html_files:
         if not hero_image or not hero_source:
             errors.append(f"{rel}: hero art is not discoverable picture markup")
         elif (
-            hero_image.get("fetchpriority") != "high"
-            or hero_image.get("loading") != "eager"
+            hero_image.get("loading") != "eager"
             or not hero_image.get("width")
             or not hero_image.get("height")
             or f"?v={release_version}" not in hero_image.get("src", "")
             or f"?v={release_version}" not in hero_source.get("srcset", "")
         ):
-            errors.append(f"{rel}: hero LCP image lacks eager high-priority dimensions")
+            errors.append(f"{rel}: hero LCP image lacks eager intrinsic dimensions")
+        if hero.select_one("picture[aria-hidden]"):
+            errors.append(f"{rel}: decorative picture uses validator-incompatible aria-hidden")
+        if hero_source and (hero_source.has_attr("width") or hero_source.has_attr("height")):
+            errors.append(f"{rel}: responsive source uses validator-incompatible dimensions")
+        if hero_image and hero_image.has_attr("fetchpriority"):
+            errors.append(f"{rel}: hero image uses validator-incompatible fetchpriority")
     for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
         try: json.loads(script.string or "")
         except json.JSONDecodeError: errors.append(f"{rel}: invalid JSON-LD")
@@ -175,6 +180,7 @@ for href in ("https://x.com/deviorobert", "https://github.com/robertdevore"):
 
 contact = BeautifulSoup((root / "contact/index.html").read_text(errors="ignore"), "html.parser")
 if len(contact.select("form[data-contact-form] label")) != 5: errors.append("contact form fields are incomplete")
+if contact.select_one("input[inputmode]"): errors.append("contact form uses a legacy-validator compatibility warning attribute")
 if contact.select_one('.page-content a[href="https://github.com/robertdevore"]'):
     errors.append("contact content still includes the removed GitHub link")
 
@@ -200,6 +206,10 @@ if "Kujo 1.0 is released." not in kujo.get_text(" ", strip=True):
 kujo_site_link = kujo.select_one('.project-landing a[href="https://kujolang.ai"]')
 if not kujo_site_link or kujo_site_link.get("target") != "_blank" or set(kujo_site_link.get("rel", [])) != {"noopener", "noreferrer"}:
     errors.append("Kujo project introduction is missing the safe new-window kujolang.ai link")
+for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
+    project = BeautifulSoup((root / f"projects/{slug}/index.html").read_text(errors="ignore"), "html.parser")
+    if project.select_one("main.project-page > article"):
+        errors.append(f"project {slug} uses an outer article that triggers a legacy-validator heading warning")
 
 about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
 if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):
@@ -222,6 +232,11 @@ for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
 
 site_css = (root / "assets/css/site.bundle.css").read_text(errors="ignore")
 if "paint-order:" in site_css: errors.append("site CSS contains paint-order, which fails the Nu HTML/CSS checker")
+if "@layer" in site_css: errors.append("site CSS contains cascade layers that would lose to the inline compatibility shell")
+critical_source = (root / "assets/css/site.critical.css").read_text(errors="ignore")
+for unsupported in ("@layer", "paint-order:", "translate:", "var(", "clamp(", "color-mix("):
+    if unsupported in critical_source:
+        errors.append(f"critical CSS contains HTML5-validator-incompatible syntax: {unsupported}")
 for contract in ("-webkit-text-stroke:8px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
     if contract not in site_css: errors.append(f"site CSS missing requested contract {contract}")
 for contract in (".leap-callout{max-inline-size:93ch", "font-size:1rem;text-align:center}", ".home-closing{position:relative;isolation:isolate;overflow:hidden}", ".timeline-list{inline-size:100%;max-inline-size:none", ".timeline-list li{max-inline-size:none", ".archive-list{max-inline-size:var(--sk-size-content-xl)}", ".archive-list li{max-inline-size:none", ".project-link-bank__eyebrow{color:var(--sk-color-gray-200)}", ".article-related-grid,.project-feature__panel,.project-secondary__grid,.project-landing ul"):

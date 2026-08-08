@@ -3,12 +3,14 @@
 
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 MARKER = "/* build:critical-css */"
+STYLE_PATTERN = re.compile(r'<style data-critical-css>.*?</style>', re.DOTALL)
 
 
 def main() -> int:
@@ -30,13 +32,18 @@ def main() -> int:
         marker_count = html.count(expected)
         if marker_count == 0 and "site.bundle.css" not in html:
             continue
-        if marker_count != 1:
+        style_count = len(STYLE_PATTERN.findall(html))
+        if marker_count == 1:
+            updated = html.replace(expected, replacement)
+        elif marker_count == 0 and style_count == 1:
+            updated = STYLE_PATTERN.sub(replacement, html, count=1)
+        else:
             print(
-                f"Critical CSS injection refused: expected one marker in {path.relative_to(output)}",
+                f"Critical CSS injection refused: expected one critical style in {path.relative_to(output)}",
                 file=sys.stderr,
             )
             return 1
-        path.write_text(html.replace(expected, replacement), encoding="utf-8")
+        path.write_text(updated, encoding="utf-8")
         changed += 1
     print(f"Inlined critical CSS into {changed} generated HTML files.")
     return 0
