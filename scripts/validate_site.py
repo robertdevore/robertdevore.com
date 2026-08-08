@@ -99,6 +99,17 @@ projects = BeautifulSoup((root / "projects/index.html").read_text(errors="ignore
 snips = next((article for article in projects.select(".project-secondary article") if article.find("h3") and article.find("h3").get_text(" ", strip=True) == "Snips"), None)
 if not snips or "without losing the required context" not in snips.get_text(" ", strip=True):
     errors.append("projects page Snips description is incorrect")
+active_system_titles = [heading.get_text(" ", strip=True) for heading in projects.select(".project-secondary h3")]
+if active_system_titles != ["Strata", "Snips", "RepoRadar"]:
+    errors.append(f"projects active-system titles are incorrect: {active_system_titles}")
+tool_links = {link.get_text(" ", strip=True): link.get("href") for link in projects.select(".project-link-bank__columns a")}
+for removed_tool in ("Repo Radar", "Agent Skills", "PlaneWatch", "AI Agents", "Learn Chess", "Content Creator", "Don't Break The Chain"):
+    if removed_tool in tool_links: errors.append(f"projects tool archive still includes removed tool {removed_tool}")
+for label, href in (
+    ("Paperclip Goal Issues", "https://github.com/robertdevore/paperclip-goal-issues"),
+    ("Paperclip Starred Issues", "https://github.com/robertdevore/paperclip-starred-issues"),
+):
+    if tool_links.get(label) != href: errors.append(f"projects tool archive is missing {label}")
 
 kujo = BeautifulSoup((root / "projects/kujo/index.html").read_text(errors="ignore"), "html.parser")
 if "Kujo 1.0 is released." not in kujo.get_text(" ", strip=True):
@@ -126,7 +137,7 @@ for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
 site_css = (root / "assets/css/site.css").read_text(errors="ignore")
 for contract in ("-webkit-text-stroke:8px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
     if contract not in site_css: errors.append(f"site CSS missing requested contract {contract}")
-for contract in (".leap-callout{max-inline-size:93ch", "font-size:1rem;text-align:center}", ".home-closing{position:relative;isolation:isolate;overflow:hidden}", ".timeline-list{inline-size:100%;max-inline-size:none", ".timeline-list li{max-inline-size:none"):
+for contract in (".leap-callout{max-inline-size:93ch", "font-size:1rem;text-align:center}", ".home-closing{position:relative;isolation:isolate;overflow:hidden}", ".timeline-list{inline-size:100%;max-inline-size:none", ".timeline-list li{max-inline-size:none", ".archive-list{max-inline-size:var(--sk-size-content-xl)}", ".archive-list li{max-inline-size:none", ".project-link-bank__eyebrow{color:var(--sk-color-gray-200)}", ".article-related-grid,.project-feature__panel,.project-secondary__grid,.project-landing ul"):
     if contract not in site_css: errors.append(f"site CSS missing current review contract {contract}")
 
 print(f"Validated {len(html_files)} primary HTML routes")

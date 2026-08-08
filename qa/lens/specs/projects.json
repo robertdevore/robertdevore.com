@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/projects/" },
+  "title": { "contains": "Projects" },
+  "text": { "contains": ["RepoRadar", "Paperclip Goal Issues", "Paperclip Starred Issues"] },
+  "selectors": { "exists": ["main"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

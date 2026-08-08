@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/tag/wordpress/" },
+  "title": { "contains": "WordPress" },
+  "text": { "contains": ["Articles", "Stattic v1.0: The World’s Fastest Python-based Static Site Generator"] },
+  "selectors": { "exists": ["main"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

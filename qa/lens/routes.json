@@ -29,6 +29,16 @@
       "spec": "qa/lens/specs/about.json"
     },
     {
+      "id": "projects",
+      "path": "/projects/",
+      "spec": "qa/lens/specs/projects.json"
+    },
+    {
+      "id": "tag-wordpress",
+      "path": "/tag/wordpress/",
+      "spec": "qa/lens/specs/tag-wordpress.json"
+    },
+    {
       "id": "contact",
       "path": "/contact/",
       "spec": "qa/lens/specs/contact.json"
