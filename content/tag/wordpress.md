@@ -18,7 +18,6 @@ nav_hide: true
 - 2025-06-10 [WordPress & WooCommerce plugins I will no longer maintain](/wordpress-woocommerce-plugins-i-will-no-longer-maintain/)
 - 2025-06-09 [WP Townhall 13: The Debate Kevin Geary Doesn’t Want You to See](/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see/)
 - 2025-06-09 [Goodbye WordPress: A Eulogy](/goodbye-wordpress-a-eulogy/)
-- 2025-06-07 [Why I’m Launching Devio Chat – And Letting You in Early](/why-im-launching-devio-chat-and-letting-you-in-early/)
 - 2025-06-05 [Introducing: Markdown Comments for WordPress®](/introducing-markdown-comments-for-wordpress/)
 - 2025-05-29 [How I Use TextExpander to Reuse My Best AI Prompts](/how-i-use-textexpander-to-reuse-my-best-ai-prompts/)
 - 2025-05-28 [Introducing: DB Version Control for WordPress](/db-version-control-wordpress-plugin/)

@@ -134,7 +134,7 @@ It’s fast as fuck and it’s going places, if you haven’t heard.
 
 And it’s powered by a mindset WordPress® will never have – people over profits, always.
 
-My attention will now be on building [Stattic](https://stattic.site), and also launching **[Devio Chat](/why-im-launching-devio-chat-and-letting-you-in-early/)** – a tool built for creators, devs, and business owners who want better workflows with AI.
+My attention will now be on building [Stattic](https://stattic.site), and also launching **[Devio Chat](https://devio.chat)** – a tool built for creators, devs, and business owners who want better workflows with AI.
 
 It’s what I actually need, so I’m building it for myself first. 
 
