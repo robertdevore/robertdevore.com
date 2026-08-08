@@ -47,7 +47,7 @@ if identity.select(".card-signal, h2, h3, .flagship-content, .project-feature__a
 if flagship.select_one(".flagship-panel"):
     fail("legacy flagship-panel markup is still present")
 
-if home.select_one("#flagship-title").get_text(" ", strip=True) != "Language, runtime, and local software workflows.":
+if home.select_one("#flagship-title").get_text(" ", strip=True) != "Language, runtime, and local software workflows":
     fail("flagship title copy is incorrect")
 if home.select_one("#systems-title").get_text(" ", strip=True) != "Tools with a visible operating record.":
     fail("selected systems title copy is incorrect")
@@ -81,6 +81,7 @@ required_css = (
     '@font-face{font-family:"Departure Mono"',
     ".home-page h1,.home-page h2,.home-page h3,.home-page h4{font-family:var(--sk-font-mono)",
     ".home-page .home-flagship,.home-page .home-focus,.home-page .home-principles,.home-page .writing-index,.home-page .home-closing{font-family:var(--sk-font-mono)",
+    ".home-page>.signal-hero .signal-title::before{content:attr(data-text);position:absolute;z-index:-1;inset:0;color:transparent;-webkit-text-stroke:8px var(--sk-color-white)",
     ".flagship-layout{display:grid",
     "border-block-end:var(--sk-border-1) solid var(--sk-border-default)",
     ".flagship-content h2",

@@ -197,8 +197,16 @@ for removed_tool in ("Repo Radar", "Agent Skills", "PlaneWatch", "AI Agents", "L
 for label, href in (
     ("Paperclip Goal Issues", "https://github.com/robertdevore/paperclip-goal-issues"),
     ("Paperclip Starred Issues", "https://github.com/robertdevore/paperclip-starred-issues"),
+    ("HolySheet", "https://github.com/robertdevore/holy-sheet"),
+    ("TreasureTrail", "https://github.com/robertdevore/treasure-trail"),
+    ("LaravelCMS", "https://github.com/robertdevore/laravel-cms"),
+    ("Prompts Library", "https://prompts.robertdevore.com"),
+    ("Learn Python", "https://python.robertdevore.com"),
 ):
     if tool_links.get(label) != href: errors.append(f"projects tool archive is missing {label}")
+tool_order = [link.get_text(" ", strip=True) for link in projects.select(".project-link-bank__columns a")]
+if tool_order[:3] != ["Snips", "Paperclip Goal Issues", "Paperclip Starred Issues"]:
+    errors.append(f"projects tool archive does not place the Paperclip tools after Snips: {tool_order[:3]}")
 
 kujo = BeautifulSoup((root / "projects/kujo/index.html").read_text(errors="ignore"), "html.parser")
 if "Kujo 1.0 is released." not in kujo.get_text(" ", strip=True):
@@ -210,6 +218,17 @@ for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
     project = BeautifulSoup((root / f"projects/{slug}/index.html").read_text(errors="ignore"), "html.parser")
     if project.select_one("main.project-page > article"):
         errors.append(f"project {slug} uses an outer article that triggers a legacy-validator heading warning")
+
+forever_forward = BeautifulSoup((root / "forever-forward/index.html").read_text(errors="ignore"), "html.parser")
+forever_og = forever_forward.select_one('meta[property="og:image"]')
+forever_twitter = forever_forward.select_one('meta[name="twitter:image"]')
+forever_og_url = forever_og.get("content", "") if forever_og else ""
+if not forever_og_url or not forever_twitter or forever_twitter.get("content") != forever_og_url:
+    errors.append("Forever Forward is missing matching Open Graph and Twitter social images")
+else:
+    parsed_forever_og = urlparse(forever_og_url)
+    if parsed_forever_og.netloc != "robertdevore.com" or not route_exists(parsed_forever_og.path):
+        errors.append(f"Forever Forward social image is not a local production asset: {forever_og_url}")
 
 about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
 if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):
@@ -239,6 +258,11 @@ for unsupported in ("@layer", "paint-order:", "translate:", "var(", "clamp(", "c
         errors.append(f"critical CSS contains HTML5-validator-incompatible syntax: {unsupported}")
 for contract in ("-webkit-text-stroke:8px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
     if contract not in site_css: errors.append(f"site CSS missing requested contract {contract}")
+home_title_rule = re.search(r"\.home-page>\.signal-hero \.signal-title\{([^}]*)\}", site_css)
+if not home_title_rule or "-webkit-text-stroke" in home_title_rule.group(1):
+    errors.append("homepage hero title applies its stroke inside the live text fill")
+if ".home-page>.signal-hero .signal-title::before{content:attr(data-text);position:absolute;z-index:-1;inset:0;color:transparent;-webkit-text-stroke:8px" not in site_css:
+    errors.append("homepage hero title is missing its outside-only stroke layer")
 for contract in (".leap-callout{max-inline-size:93ch", "font-size:1rem;text-align:center}", ".home-closing{position:relative;isolation:isolate;overflow:hidden}", ".timeline-list{inline-size:100%;max-inline-size:none", ".timeline-list li{max-inline-size:none", ".archive-list{max-inline-size:var(--sk-size-content-xl)}", ".archive-list li{max-inline-size:none", ".project-link-bank__eyebrow{color:var(--sk-color-gray-200)}", ".article-related-grid,.project-feature__panel,.project-secondary__grid,.project-landing ul"):
     if contract not in site_css: errors.append(f"site CSS missing current review contract {contract}")
 

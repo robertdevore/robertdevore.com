@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/forever-forward/" },
+  "title": { "contains": "Forever Forward" },
+  "text": { "contains": ["Forever Forward", "The Jidoka Files"] },
+  "selectors": { "exists": ["main", "meta[property='og:image']", "meta[name='twitter:image']"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}
