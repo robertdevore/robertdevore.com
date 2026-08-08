@@ -1,0 +1,19 @@
+{
+  "name": "Homepage fixes review",
+  "description": "Capture the corrected homepage focus, principles, writing cards, and closing statement for human review.",
+  "url": "http://127.0.0.1:4183/",
+  "viewports": ["desktop", "mobile"],
+  "timeout_seconds": 30,
+  "steps": [
+    { "visit": "http://127.0.0.1:4183/" },
+    { "scroll": { "selector": "#flagship-title" } },
+    { "assert_selector": "#flagship-title" },
+    { "assert_not_selector": ".flagship-identity .card-signal" },
+    { "assert_not_selector": ".flagship-identity h3" },
+    { "assert_text": "RepoRadar" },
+    { "assert_text": "Pressure-test the ecosystem" },
+    { "assert_text": "Systems should explain the assumptions, input, output, and failures without vocal explanations being required." },
+    { "screenshot": { "name": "homepage-fixes" } },
+    { "assert_no_console_errors": true }
+  ]
+}

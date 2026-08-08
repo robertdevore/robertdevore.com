@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/about/" },
+  "title": { "contains": "About" },
+  "text": { "contains": ["Through-line", "Field Notes", "Projects", "Contact"] },
+  "selectors": { "exists": ["main", ".about-overview", ".timeline-list", ".about-proof"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

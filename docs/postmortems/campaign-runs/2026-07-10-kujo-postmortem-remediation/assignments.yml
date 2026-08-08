@@ -1,0 +1,33 @@
+assignments:
+  - lane: planning-and-architecture
+    role: Chief of Staff / Spec Writer / Systems Architect
+    role_file_read: true
+    scope: Define bounded acceptance criteria and repository ownership from the postmortem.
+    inputs: [postmortem packet, target scripts, SSG implementation]
+    status: complete
+    handoff_target: execution lanes
+    stop_condition: Explicit file-level scopes and verification gates are established.
+  - lane: target-portability
+    role: Tooling Developer
+    role_file_read: true
+    scope: Replace absolute-path target workflow with a manifest, doctor, portable sync, declared validation dependency, and documentation.
+    inputs: [SITE-001, SITE-002, AGENT-001]
+    status: complete
+    handoff_target: QA Lead
+    stop_condition: Scoped target changes and focused checks are complete, or an external dependency decision blocks work.
+  - lane: ssg-hardening
+    role: Core Developer
+    role_file_read: true
+    scope: Implement feasible delimiter-aware frontmatter and local featured-image containment with tests and docs reconciliation.
+    inputs: [SSG-001, SSG-003, SSG-007]
+    status: complete
+    handoff_target: Security Reviewer / QA Lead
+    stop_condition: Scoped changes have focused contracts or a runtime limitation blocks safe implementation.
+  - lane: visual-release-receipts
+    role: Visual QA Agent
+    role_file_read: true
+    scope: Add and execute a deterministic local visual/accessibility receipt workflow for representative target routes.
+    inputs: [QA-001, kujo-lens-workflows]
+    status: complete
+    handoff_target: Release Verifier
+    stop_condition: Receipt artifacts and status are produced, or local browser tooling blocks execution.

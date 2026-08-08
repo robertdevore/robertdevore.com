@@ -1,0 +1,16 @@
+{
+  "name": "Kujo homepage flagship review",
+  "description": "Capture the homepage before and after the Kujo flagship section for human visual review.",
+  "url": "http://127.0.0.1:4183/",
+  "viewports": ["desktop", "mobile"],
+  "timeout_seconds": 30,
+  "steps": [
+    { "visit": "http://127.0.0.1:4183/" },
+    { "screenshot": { "name": "home-top" } },
+    { "scroll": { "selector": "#flagship-title" } },
+    { "assert_selector": "#flagship-title" },
+    { "assert_text": "Kujo" },
+    { "screenshot": { "name": "kujo-flagship" } },
+    { "assert_no_console_errors": true }
+  ]
+}

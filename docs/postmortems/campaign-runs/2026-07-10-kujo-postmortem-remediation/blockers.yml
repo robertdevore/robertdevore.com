@@ -1,0 +1,21 @@
+blockers:
+  - id: B-001
+    item: QA-001 release receipt
+    status: open
+    owner: Frontend Developer
+    reason: The homepage has serious color-contrast and link-name violations in both tested viewports.
+  - id: B-002
+    item: SSG-002 remote fetch policy
+    status: open
+    owner: SSG/runtime maintainers
+    reason: A reviewed destination-resolution and redirect-revalidation policy is still required.
+  - id: B-003
+    item: SSG-004 and SSG-005
+    status: open
+    owner: SSG maintainers
+    reason: Native taxonomy and watch mode are broader P1 product features.
+  - id: B-004
+    item: ShipCheck gate
+    status: open
+    owner: target maintainer
+    reason: The generic repository gate requires explicit tests, version metadata, and a changelog.

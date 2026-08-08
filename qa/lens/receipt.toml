@@ -1,0 +1,11 @@
+# QA-001 local browser receipt configuration. Route expectations are versioned
+# separately in routes.json and qa/lens/specs/*.json.
+fail_on = "error"
+timeout = 30
+viewports = ["desktop", "mobile"]
+max_concurrency = 1
+settle_ms = 400
+check_links = true
+max_links = 50
+accessibility = true
+a11y_tags = ["wcag2a", "wcag2aa"]

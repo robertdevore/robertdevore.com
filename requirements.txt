@@ -1,0 +1,2 @@
+# Required by scripts/validate_site.py and scripts/migrate_legacy.py.
+beautifulsoup4==4.14.3

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "python": {
+    "minimum_version": "3.10"
+  },
+  "runtime": {
+    "name": "Kujo",
+    "repository": "https://github.com/kujolang/kujo",
+    "revision": "48b677e8e999161a348c06cfbc7761dc52b2e5e0",
+    "version": "1.0.0",
+    "path": "../Kujolang/kujo-repos/kujo",
+    "environment": "KUJO_ROOT",
+    "binary": "target/release/kujo"
+  },
+  "sources": {
+    "ssg": {
+      "name": "Kujo SSG",
+      "repository": "https://github.com/kujolang/ssg",
+      "revision": "a09a5341b2f050dcb8afc66b900b56eabb484d1b",
+      "path": "../Kujolang/kujo-repos/ssg",
+      "environment": "SSG_ROOT"
+    },
+    "sitekit": {
+      "name": "SiteKit",
+      "repository": "https://github.com/kujolang/site-kit",
+      "revision": "ca3e1d490aa4e2751f7dd9c12396d66347cf88af",
+      "path": "../Kujolang/kujo-repos/site-kit",
+      "environment": "SITEKIT_ROOT"
+    }
+  },
+  "artifacts": [
+    {"source": "ssg:build.kujo", "destination": "build.kujo", "source_sha256": "2b27df592292b094751a67275efadcc811d8add84f6430b78e9c6a6f3621a7d6", "sha256": "2b27df592292b094751a67275efadcc811d8add84f6430b78e9c6a6f3621a7d6"},
+    {"source": "sitekit:css/reset.css", "destination": "assets/css/sitekit/reset.css", "source_sha256": "e61e93dfeb15b276d0a43cff763c7632375978d2a2c714f7b3b0fd4e09241634", "sha256": "e61e93dfeb15b276d0a43cff763c7632375978d2a2c714f7b3b0fd4e09241634"},
+    {"source": "sitekit:css/generated/tokens.css", "destination": "assets/css/sitekit/tokens.css", "source_sha256": "777f8276552c6eaebdf619ecacd49987ba33257f3eaf7f36d1ce0a65985e757e", "sha256": "777f8276552c6eaebdf619ecacd49987ba33257f3eaf7f36d1ce0a65985e757e"},
+    {"source": "sitekit:css/generated/themes.css", "destination": "assets/css/sitekit/themes.css", "source_sha256": "70c394fa9df80023c6d818a80cb644bfd5295cfeaf6fd81c98ee0963f8e623a1", "sha256": "70c394fa9df80023c6d818a80cb644bfd5295cfeaf6fd81c98ee0963f8e623a1"},
+    {"source": "sitekit:css/base.css", "destination": "assets/css/sitekit/base.css", "source_sha256": "d8e8eeee91f34668dee1a26577e8894f7c7f2c43584035261c9af101bcd12460", "sha256": "c35997c6b46bf03232f2229e37dbdbcae54f0578f59109eab8f6d00a76461807", "transform": "rewrite_sitekit_font_paths"},
+    {"source": "sitekit:css/generated/components.css", "destination": "assets/css/sitekit/components.css", "source_sha256": "e9e6106b831805a257f222c0565e8d7d92c6e875085ce43099416914bfb77efe", "sha256": "e9e6106b831805a257f222c0565e8d7d92c6e875085ce43099416914bfb77efe"},
+    {"source": "sitekit:css/utilities.css", "destination": "assets/css/sitekit/utilities.css", "source_sha256": "6f44d7d23b6be1dd7429fd98e850ce018df95dc610c7a37fe5e1ba66fc0d5656", "sha256": "6f44d7d23b6be1dd7429fd98e850ce018df95dc610c7a37fe5e1ba66fc0d5656"},
+    {"source": "sitekit:fonts/DepartureMono-Regular.woff2", "destination": "assets/fonts/DepartureMono-Regular.woff2", "source_sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb", "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb"},
+    {"source": "sitekit:fonts/DepartureMono-Regular.woff", "destination": "assets/fonts/DepartureMono-Regular.woff", "source_sha256": "8ede4e8a40475d440389d1bb44201bd3067129a62c718158921b111ceb52fca5", "sha256": "8ede4e8a40475d440389d1bb44201bd3067129a62c718158921b111ceb52fca5"},
+    {"source": "sitekit:fonts/DepartureMono-LICENSE.txt", "destination": "assets/fonts/DepartureMono-LICENSE.txt", "source_sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83", "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83"},
+    {"source": "ssg:assets/fonts/inter-latin-400.woff2", "destination": "assets/fonts/inter-latin-400.woff2", "source_sha256": "e06f6b1bc553aaea4e4668023ed0ab0a147129c3107f511bc7d03d361b0ae085", "sha256": "e06f6b1bc553aaea4e4668023ed0ab0a147129c3107f511bc7d03d361b0ae085"},
+    {"source": "ssg:assets/fonts/inter-latin-700.woff2", "destination": "assets/fonts/inter-latin-700.woff2", "source_sha256": "fa888127b6da015b65569f0351f3b5c391ad928904951f1c20e9f8462a8d95ea", "sha256": "fa888127b6da015b65569f0351f3b5c391ad928904951f1c20e9f8462a8d95ea"}
+  ]
+}

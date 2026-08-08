@@ -1,0 +1,63 @@
+tasks:
+  - id: SITE-001
+    acceptance: Build and sync have no absolute path defaults; doctor reports missing or mismatched prerequisites; dependency provenance is recorded.
+    owner: target-portability
+    status: complete
+  - id: SITE-002
+    acceptance: BeautifulSoup validation dependency has a reproducible declaration and documented invocation.
+    owner: target-portability
+    status: complete
+  - id: SSG-001
+    acceptance: Local featured-image candidates cannot escape approved roots; normal approved paths remain supported.
+    owner: ssg-hardening
+    status: complete
+  - id: SSG-003
+    acceptance: Only delimiter lines define frontmatter; literal dashes in body/frontmatter survive.
+    owner: ssg-hardening
+    status: complete
+  - id: SSG-007
+    acceptance: Historic parity/roadmap status is reconciled without deleting history.
+    owner: ssg-hardening
+    status: complete
+  - id: QA-001
+    acceptance: Representative local routes produce versioned visual/a11y report and screenshots.
+    owner: visual-release-receipts
+    status: in_progress
+    note: Receipt mechanism is complete; the first receipt found release-blocking home-page accessibility defects.
+  - id: SSG-002
+    acceptance: Remote fetch policy rejects private destinations and revalidates redirects.
+    owner: commander
+    status: deferred
+    blocker: Requires network/IP primitives and security design beyond a safe bounded patch.
+  - id: SSG-004
+    acceptance: Native taxonomy archives.
+    owner: commander
+    status: deferred
+    blocker: Broad P1 architecture feature.
+  - id: SSG-005
+    acceptance: Watch/dev workflow.
+    owner: commander
+    status: deferred
+    blocker: Broad P1 runtime/CLI feature.
+*** Add File: /Users/robertdevore/2026/robertdevore.com/docs/postmortems/campaign-runs/2026-07-10-kujo-postmortem-remediation/decisions.yml
+decisions:
+  - id: D-001
+    decision: Prioritize portable target workflow, two safe SSG P0 hardenings, and a local visual/a11y receipt.
+    rationale: They are independently testable and directly close P0/P1 postmortem gaps.
+    evidence: docs/postmortems/robertdevore-site-build-action-backlog.md
+  - id: D-002
+    decision: Defer remote-fetch SSRF policy, taxonomy archives, watch mode, and a SiteKit distribution redesign.
+    rationale: Each needs wider cross-repository design or runtime support than this bounded remediation permits.
+    evidence: action backlog sizing and role stop conditions
+*** Add File: /Users/robertdevore/2026/robertdevore.com/docs/postmortems/campaign-runs/2026-07-10-kujo-postmortem-remediation/blockers.yml
+blockers:
+  - id: B-001
+    item: SSG-002 remote fetch policy
+    status: open
+    owner: SSG/runtime maintainers
+    reason: Needs a reviewed destination-resolution and redirect-revalidation policy.
+  - id: B-002
+    item: SSG-004 and SSG-005
+    status: open
+    owner: SSG maintainers
+    reason: Native taxonomy and watch mode are broader P1 product features.

@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/projects/kujo/" },
+  "title": { "contains": "Kujo" },
+  "text": { "contains": ["Kujo 1.0 is released.", "cargo build"] },
+  "selectors": { "exists": ["main", ".project-landing figure.sk-code-block code.language-text", ".project-landing a[href='https://kujolang.ai'][target='_blank'][rel~='noopener'][rel~='noreferrer']"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

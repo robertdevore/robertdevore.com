@@ -1,0 +1,9 @@
+{
+  "url": { "path_contains": "/category/engineering-archive/" },
+  "title": { "contains": "Engineering Archive" },
+  "text": { "contains": ["Engineering Archive"] },
+  "selectors": { "exists": ["main"] },
+  "console": { "no_errors": true },
+  "network": { "no_5xx": true },
+  "layout": { "no_horizontal_overflow": true }
+}

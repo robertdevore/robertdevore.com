@@ -1,0 +1,53 @@
+name: "Refine Kujo homepage flagship section"
+goal: "Reorganize the homepage Kujo flagship section so its single title, supporting subtitle, and calls to action sit together on the right while the section identity remains on the left, and enforce the Departure Mono face for homepage titles, project names, boxes, and major section surfaces."
+id: "c980d5c9-349d-4696-8228-74faa60220b6"
+status: "ready"
+version: "0.1.0"
+created_at: "2026-08-06T14:59:39Z"
+priority: "high"
+background: "The current homepage flagship markup separates the Kujo heading/subtitle from its identity and actions, making the focus area harder to scan. The site already ships Departure Mono as the mono token but does not consistently apply it to homepage headings and large boxed surfaces."
+scope: "Update templates/page-home.html and the site-specific homepage CSS in assets/css/site.css; add deterministic homepage structure and typography checks; capture a Lens desktop/mobile artifact with before/after visual comparison."
+non_goals:
+  - "Changing homepage copy, routes, project links, or the global SiteKit/vendor artifacts."
+  - "Changing the body copy font or applying a new font asset."
+  - "Publishing or deploying the site."
+acceptance_criteria:
+  - "The homepage Kujo flagship section has one right-hand content block containing the single h2 title, its subtitle paragraph, and both project action buttons."
+  - "The left-hand flagship identity contains the section index, Kujo signal, and Kujo name without duplicating the flagship title or subtitle."
+  - "The flagship layout remains two-column on desktop and collapses to one readable column at the existing responsive breakpoint."
+  - "Homepage h1-h4 title/name elements and the flagship, selected-system cards, and operating-principle boxes explicitly use var(--sk-font-mono), which resolves to Departure Mono."
+  - "The generated homepage contains the new flagship structure, has no horizontal overflow, and preserves the Kujo project and source links."
+  - "A Lens artifact records desktop and mobile screenshots, reports the homepage assertions, and includes a before/after visual comparison."
+eval_requirements:
+  - description: "The task contract validates in strict mode."
+    check_type: "command_succeeds"
+    params:
+      command: "spec validate specs/kujo-homepage-flagship.spec.yml --strict"
+  - description: "The generated site passes the repository structural validator."
+    check_type: "command_succeeds"
+    params:
+      command: "python3 scripts/validate_site.py output"
+  - description: "The generated homepage satisfies its structural and mono typography contract."
+    check_type: "command_succeeds"
+    params:
+      command: "python3 scripts/verify_homepage.py output"
+  - description: "A Lens run directory is available for human visual review."
+    check_type: "directory_contains_files"
+    params:
+      path: ".lens/runs"
+risks:
+  - "The repository dependency lock currently reports a Kujo revision mismatch; build verification may require using the available local runtime without syncing vendored artifacts."
+  - "The existing full Lens receipt has historical accessibility findings outside this focused homepage layout change."
+dependencies:
+  - "Local Kujo runtime and generated static output."
+  - "Lens v0.9.0 with its local Chromium bridge."
+review_expectations:
+  - "Review the Lens HTML report and desktop/mobile screenshots, then inspect the CSS font contract and the generated homepage structure."
+human_approval_points:
+  - "Human review is required before any publish or deploy action."
+tags:
+  - "homepage"
+  - "kujo"
+  - "typography"
+  - "lens"
+  - "visual-qa"

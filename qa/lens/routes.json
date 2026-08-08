@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "receipt": "QA-001 representative local visual and accessibility coverage",
+  "viewports": ["desktop", "mobile"],
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "spec": "qa/lens/specs/home.json"
+    },
+    {
+      "id": "long-post",
+      "path": "/tools-and-workflows-for-formatting-visuals-and-citations/",
+      "spec": "qa/lens/specs/long-post.json"
+    },
+    {
+      "id": "archive",
+      "path": "/category/engineering-archive/",
+      "spec": "qa/lens/specs/archive.json"
+    },
+    {
+      "id": "project",
+      "path": "/projects/kujo/",
+      "spec": "qa/lens/specs/project.json"
+    },
+    {
+      "id": "about",
+      "path": "/about/",
+      "spec": "qa/lens/specs/about.json"
+    },
+    {
+      "id": "projects",
+      "path": "/projects/",
+      "spec": "qa/lens/specs/projects.json"
+    },
+    {
+      "id": "tag-wordpress",
+      "path": "/tag/wordpress/",
+      "spec": "qa/lens/specs/tag-wordpress.json"
+    },
+    {
+      "id": "contact",
+      "path": "/contact/",
+      "spec": "qa/lens/specs/contact.json"
+    },
+    {
+      "id": "not-found",
+      "path": "/404.html",
+      "spec": "qa/lens/specs/not-found.json",
+      "fallback_path": "/qa-receipt-route-does-not-exist/",
+      "fallback_text": "This route did not resolve."
+    }
+  ]
+}
