@@ -10,7 +10,7 @@ nav_hide: true
 excerpt: "I have been mostly quiet online for the last year. A lot of life fit inside the quiet silence. Most importantly, I gave myself room to think."
 categories: ["Developer Tools"]
 tags: ["AI", "Engineering"]
-featured_image: "/assets/social/forever-forward.png"
+featured_image: "/assets/social/forever-forward-social.png"
 ---
 
 I have been mostly quiet online for the last year.

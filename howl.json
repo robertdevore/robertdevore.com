@@ -2,7 +2,7 @@
   "project": {
     "name": "RobertDeVore.com",
     "tagline": "Systems, tools, and writing for work that has to hold up.",
-    "url": "https://robertdevore.com"
+    "url": ""
   },
   "theme": {
     "name": "signal",
@@ -12,13 +12,12 @@
     {
       "id": "forever-forward",
       "title": "Forever Forward",
-      "tagline": "A return to public writing and the beginning of The Jidoka Files.",
+      "tagline": "A return to public writing, and the beginning of the Kujo programming language",
       "file": "content/posts/forever-forward.md",
       "language": "markdown",
       "concepts": ["Kujo", "Jidoka", "AI-native development"],
-      "caption": "Forever Forward: a return to public writing and the beginning of The Jidoka Files.",
+      "caption": "Forever Forward: a return to public writing, and the beginning of the Kujo programming language.",
       "cta": "Read the field note.",
-      "url": "robertdevore.com/forever-forward/",
       "variant": "social",
       "label": "The Jidoka Files",
       "background_image": "assets/social/forever-forward-background.webp",
