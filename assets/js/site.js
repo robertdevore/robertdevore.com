@@ -35,9 +35,14 @@
   if (window.ScrambleDecode && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     var titles = document.querySelectorAll(".signal-title,.section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2,.project-link-bank__columns a,.flagship-panel h3,.home-focus .sk-card h3,.home-principles h3,.project-secondary h3,.article-related-grid .listing-card a,.clarity-grid h2,.about-map h3,.about-timeline h2,.about-proof h3");
     function runTitle(title) {
-      var original = (title.getAttribute("data-text") || title.textContent).trim();
-      if (!original) return;
       if (title.hasAttribute("data-scramble-complete")) return;
+      var headingAnchor = title.querySelector(":scope > .heading-anchor");
+      if (headingAnchor) headingAnchor.remove();
+      var original = (title.getAttribute("data-text") || title.textContent).trim();
+      if (!original) {
+        if (headingAnchor) title.append(headingAnchor);
+        return;
+      }
       title.setAttribute("aria-label", original);
       title.setAttribute("data-scrambling", "true");
       title.textContent = "";
@@ -48,6 +53,7 @@
         pool: "█▓▒░<>/\\#[]{}=+*01"
       }).finished.then(function () {
         title.textContent = original;
+        if (headingAnchor) title.append(" ", headingAnchor);
         title.removeAttribute("data-scrambling");
       });
     }
@@ -91,6 +97,31 @@
     });
 
     Array.from(content.querySelectorAll("p")).forEach(function (paragraph) {
+      var fence = paragraph.textContent.trim().match(/^```([a-z0-9_-]*)$/i);
+      if (!fence) return;
+      var codeLines = [];
+      var cursor = paragraph.nextElementSibling;
+      while (cursor && cursor.tagName === "P" && cursor.textContent.trim() !== "```") {
+        codeLines.push(cursor.textContent);
+        cursor = cursor.nextElementSibling;
+      }
+      if (!cursor || cursor.tagName !== "P" || cursor.textContent.trim() !== "```") return;
+      var pre = document.createElement("pre");
+      var code = document.createElement("code");
+      if (fence[1]) code.className = "language-" + fence[1].toLowerCase();
+      code.textContent = codeLines.join("\n");
+      pre.append(code);
+      var current = paragraph.nextElementSibling;
+      while (current && current !== cursor) {
+        var next = current.nextElementSibling;
+        current.remove();
+        current = next;
+      }
+      cursor.remove();
+      paragraph.replaceWith(pre);
+    });
+
+    Array.from(content.querySelectorAll("p")).forEach(function (paragraph) {
       var text = paragraph.textContent.trim();
       if (!/^(git clone https:\/\/github\.com\/robertdevore\/zero-cool-cli|cd zero-cool-cli|\.\/install\.sh|zero-cool zero-cool --profile)$/.test(text)) return;
       var pre = document.createElement("pre");
@@ -122,6 +153,7 @@
     }
     var tocHeadings = headings.filter(function (heading) { return heading !== relatedHeading; });
     tocHeadings.forEach(function (heading) {
+      if (heading.hasAttribute("data-no-heading-anchor")) return;
       var base = heading.textContent.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "section";
       var id = base, index = 2;
       while (used[id] || document.getElementById(id)) id = base + "-" + index++;
@@ -138,6 +170,7 @@
   });
 
   document.querySelectorAll(".article-content pre,.page-content pre").forEach(function (pre) {
+    pre.tabIndex = 0;
     var figure = document.createElement("figure"); figure.className = "sk-code-block"; pre.parentNode.insertBefore(figure, pre); figure.append(pre);
     if (!navigator.clipboard) return;
     var caption = document.createElement("figcaption"), label = document.createElement("span"), button = document.createElement("button"), status = document.createElement("span");

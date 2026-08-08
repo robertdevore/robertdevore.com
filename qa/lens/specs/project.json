@@ -1,8 +1,8 @@
 {
-  "url": { "path_contains": "/projects/lens/" },
-  "title": { "contains": "Lens" },
-  "text": { "contains": ["Lens"] },
-  "selectors": { "exists": ["main"] },
+  "url": { "path_contains": "/projects/kujo/" },
+  "title": { "contains": "Kujo" },
+  "text": { "contains": ["Kujo 1.0 is released.", "cargo build"] },
+  "selectors": { "exists": ["main", ".project-landing figure.sk-code-block code.language-text"] },
   "console": { "no_errors": true },
   "network": { "no_5xx": true },
   "layout": { "no_horizontal_overflow": true }

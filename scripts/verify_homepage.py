@@ -56,8 +56,12 @@ if not home.find(string=lambda value: value and "RepoRadar" in value):
     fail("selected systems is missing RepoRadar label")
 if not home.find(string=lambda value: value and "Pressure-test the ecosystem" in value):
     fail("leadership principle copy is incorrect")
+if not home.find(string=lambda value: value and "Records and receipts" in value):
+    fail("records and receipts principle copy is incorrect")
 if not home.find(string=lambda value: value and "Systems should explain the assumptions, input, output, and failures without vocal explanations being required." in value):
     fail("context principle copy is incorrect")
+if not home.find(string=lambda value: value and "without losing the required context" in value):
+    fail("Snips description copy is incorrect")
 writing_cards = home.select("#writing .listing-card")
 if len(writing_cards) != 3:
     fail(f"homepage writing section must contain exactly three recent posts, found {len(writing_cards)}")
@@ -72,6 +76,9 @@ required_css = (
     ".flagship-layout{display:grid",
     "border-block-end:var(--sk-border-1) solid var(--sk-border-default)",
     ".flagship-content h2",
+    ".leap-callout{max-inline-size:93ch",
+    "font-size:1rem;text-align:center}",
+    ".home-closing{position:relative;isolation:isolate;overflow:hidden}",
 )
 for contract in required_css:
     if contract not in css:

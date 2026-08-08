@@ -92,6 +92,30 @@ for href in ("https://x.com/deviorobert", "https://github.com/robertdevore"):
 
 contact = BeautifulSoup((root / "contact/index.html").read_text(errors="ignore"), "html.parser")
 if len(contact.select("form[data-contact-form] label")) != 5: errors.append("contact form fields are incomplete")
+if contact.select_one('.page-content a[href="https://github.com/robertdevore"]'):
+    errors.append("contact content still includes the removed GitHub link")
+
+projects = BeautifulSoup((root / "projects/index.html").read_text(errors="ignore"), "html.parser")
+snips = next((article for article in projects.select(".project-secondary article") if article.find("h3") and article.find("h3").get_text(" ", strip=True) == "Snips"), None)
+if not snips or "without losing the required context" not in snips.get_text(" ", strip=True):
+    errors.append("projects page Snips description is incorrect")
+
+kujo = BeautifulSoup((root / "projects/kujo/index.html").read_text(errors="ignore"), "html.parser")
+if "Kujo 1.0 is released." not in kujo.get_text(" ", strip=True):
+    errors.append("Kujo project boundary does not describe the 1.0 release")
+
+about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
+if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):
+    errors.append("about page still includes a removed box section")
+if any(heading.get_text(" ", strip=True) == "Where the work shows up" for heading in about.find_all("h2")):
+    errors.append("about page still includes the removed selected-surfaces heading")
+about_proof_titles = [heading.get_text(" ", strip=True) for heading in about.select(".about-proof h3")]
+if about_proof_titles != ["Field Notes", "Projects", "Contact"]:
+    errors.append(f"about selected surfaces are incorrect or out of order: {about_proof_titles}")
+if any(not heading.has_attr("data-no-heading-anchor") for heading in about.select(".about-proof h3")):
+    errors.append("about selected-surface titles do not suppress heading anchors")
+if not about.select_one(".about-timeline h2") or about.select_one(".about-timeline h2").get_text(" ", strip=True) != "Through-line":
+    errors.append("about timeline heading is missing")
 
 llms = (root / "llms.txt").read_text(errors="ignore")
 if "## Projects" not in llms or "[Projects index](https://robertdevore.com/projects/)" not in llms:
@@ -102,6 +126,8 @@ for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
 site_css = (root / "assets/css/site.css").read_text(errors="ignore")
 for contract in ("-webkit-text-stroke:8px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
     if contract not in site_css: errors.append(f"site CSS missing requested contract {contract}")
+for contract in (".leap-callout{max-inline-size:93ch", "font-size:1rem;text-align:center}", ".home-closing{position:relative;isolation:isolate;overflow:hidden}", ".timeline-list{inline-size:100%;max-inline-size:none", ".timeline-list li{max-inline-size:none"):
+    if contract not in site_css: errors.append(f"site CSS missing current review contract {contract}")
 
 print(f"Validated {len(html_files)} primary HTML routes")
 print(f"Warnings: {len(warnings)}")

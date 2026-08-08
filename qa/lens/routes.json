@@ -20,8 +20,13 @@
     },
     {
       "id": "project",
-      "path": "/projects/lens/",
+      "path": "/projects/kujo/",
       "spec": "qa/lens/specs/project.json"
+    },
+    {
+      "id": "about",
+      "path": "/about/",
+      "spec": "qa/lens/specs/about.json"
     },
     {
       "id": "contact",
