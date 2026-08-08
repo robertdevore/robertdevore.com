@@ -4,7 +4,7 @@ description: "Writing filed under Engineering."
 custom_url: "engineering"
 author: "Robert DeVore"
 date: "2025-07-03"
-canonical: "https://robertdevore.com/engineering/"
+canonical: "https://robertdevore.com/tag/engineering/"
 template: "archive"
 nav_hide: true
 ---

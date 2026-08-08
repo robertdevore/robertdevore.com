@@ -18,7 +18,7 @@ Another release. Another step forward.
 
 Here’s what’s new (and why it matters):
 
-### 📦 `llms.txt` Generator
+## 📦 `llms.txt` Generator
 
 Large Language Models are scraping the web, and now Stattic gives you a way to tell them what you want indexed – or not. 
 
@@ -26,19 +26,19 @@ The new `llms.txt` generator works just like `robots.txt` but is designed specif
 
 One flag, one file, full control.
 
-### 🧹 9 Methods Deleted
+## 🧹 9 Methods Deleted
 
 Stattic isn’t bloating over time. It’s getting leaner.
 
 We ripped out 9 internal methods from the core class that were dead weight. Less code, fewer bugs, faster reads.
 
-### ⚡ GIF Optimization (Without the Lag)
+## ⚡ GIF Optimization (Without the Lag)
 
 Animated GIFs are now handled with `gif2webp` for drastically improved conversion speed. No `gif2webp` installed? We fall back to Pillow. No headaches either way.
 
 It’s fast. It works. Move on.
 
-### 📑 Sort by Front Matter `order`
+## 📑 Sort by Front Matter `order`
 
 You can now manually control the order of your posts using the `order` field in the front matter:
 
@@ -46,7 +46,7 @@ You can now manually control the order of your posts using the `order` field in 
 
 Want to build a course? A walkthrough? A mini-series? This gives you the power to dictate flow, not just rely on dates.
 
-### 🏠 Smarter Index + Blog Routing
+## 🏠 Smarter Index + Blog Routing
 
   * If you define a custom home page, Stattic won’t overwrite it.
   * If you _don’t_ include a blog template, `/blog/` now redirects to the home page.
@@ -55,7 +55,7 @@ Want to build a course? A walkthrough? A mini-series? This gives you the power t
 
 This solves the weird edge cases and makes things Just Work™ with less config.
 
-### 🔗 Misc Fixes & Cleanup
+## 🔗 Misc Fixes & Cleanup
 
   * Broken contact link on the demo page? Fixed.
   * `render_template()` now always includes `site_url` and lets you override `relative_path` cleanly.

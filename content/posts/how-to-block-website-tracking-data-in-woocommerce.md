@@ -22,7 +22,7 @@ With [**Tracking Blocker for WooCommerce**](https://github.com/robertdevore/trac
 
 Thank you to [Sybre Waaijer](https://x.com/SybreWaaijer) for originally [bringing this to everyone’s attention](https://x.com/SybreWaaijer/status/1875230654054752374) on social media 🤘
 
-### Why Does This Plugin Matter?
+## Why Does This Plugin Matter?
 
 In an ecosystem like WordPress®, transparency and freedom of choice are paramount. Yet, many users remain unaware of the data their sites are sending to WooCommerce.
 
@@ -34,35 +34,35 @@ In an ecosystem like WordPress®, transparency and freedom of choice are paramou
 
 
 
-### How It Works
+## How It Works
 
 **Tracking Blocker for WooCommerce** takes a no-compromises approach to stop WooCommerce® tracking requests:
 
-#### Blocks Outbound Requests
+### Blocks Outbound Requests
 
 The plugin intercepts HTTP requests to `tracking.woocommerce.com/v1/` and effectively stops them dead in their tracks.
 
-#### Logs Blocked Requests
+### Logs Blocked Requests
 
 For transparency, the plugin logs the original request URL and payload to your WordPress® debug log. You’ll know exactly what data WooCommerce® was trying to send.
 
-#### Minimal and Efficient
+### Minimal and Efficient
 
 The plugin runs silently in the background and doesn’t affect other WooCommerce® functionality.
 
 ![Macho Man - Bonesaw - 3 minutes of Playtime GIF](/assets/legacy-images/macho_man_randy_savage_bonesaw.webp)
 
-### How to Use It?
+## How to Use It?
 
 It’s simple – activate the plugin, and it works out of the box. No settings, no hassle, just peace of mind.
 
-#### Debugging Example
+### Debugging Example
 
 Here’s what you’ll see in your logs when a request is blocked:
 
 ``` [03-Jan-2025 19:40:00 UTC] Blocked outbound request to: https://tracking.woocommerce.com/v1/[03-Jan-2025 19:40:00 UTC] Original data sent: { "event": "activated", "site": "https://example.com", "timestamp": "1672455600", "data": { "woocommerce_version": "8.2.1", "php_version": "8.1.12" } } ``` 
 
-### Release Features (v1.0.0)
+## Release Features (v1.0.0)
 
   * **Outbound Blocking** : Stops all requests to WooCommerce’s tracking endpoint.
   * **Logging** : Logs blocked URLs and data payloads for transparency.
@@ -71,23 +71,23 @@ Here’s what you’ll see in your logs when a request is blocked:
 
 
 
-### Why Use Tracking Blocker for WooCommerce®?
+## Why Use Tracking Blocker for WooCommerce®?
 
-#### Protect Your Privacy
+### Protect Your Privacy
 
 Block outbound telemetry and ensure that your data stays yours.
 
-#### Keep WooCommerce Functionality Intact
+### Keep WooCommerce Functionality Intact
 
 This plugin only affects tracking requests. Everything else in WooCommerce® works as expected.
 
-#### Transparency for Developers
+### Transparency for Developers
 
 Want to know what WooCommerce® is tracking? You can see the data payload in your debug logs.
 
 ![Macho Man - I'm thinking I'm hearing voices GIF](/assets/legacy-images/macho_man_hearing_voices.webp)
 
-### How to Get Started?
+## How to Get Started?
 
   1. **Download and Install** : 
      * Get the plugin from the [GitHub repository](https://github.com/robertdevore/tracking-blocker-for-woocommerce/).
@@ -99,7 +99,7 @@ Want to know what WooCommerce® is tracking? You can see the data payload in you
 
 
 
-### Taking a Stand for Transparency
+## Taking a Stand for Transparency
 
 We’re not just blocking tracking; we’re promoting a culture of transparency and respect within the WordPress® ecosystem. Developers and site owners deserve the freedom to choose what data is shared and with whom.
 

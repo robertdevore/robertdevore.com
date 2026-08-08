@@ -18,7 +18,7 @@ This plugin is designed to enhance the shopping experience by transforming the W
 
 ![Vertical Gallery Product Display for WooCommerce®](/assets/legacy-images/vertical_gallery_product_display_for_woocommerce_example.webp)
 
-### Why Build This Plugin?
+## Why Build This Plugin?
 
 The idea for this plugin came from observing how product galleries are presented in WooCommerce® stores. 
 
@@ -40,7 +40,7 @@ It’s my way of giving back to the WordPress® community and helping WooCommerc
 
 ![vertical-gallery-product-display-for-woocommerce-settings](/assets/legacy-images/vertical_gallery_product_display_for_woocommerce_settings.webp)
 
-### How to Use Vertical Gallery Product Display
+## How to Use Vertical Gallery Product Display
 
 Getting started with this plugin is straightforward:
 
@@ -54,7 +54,7 @@ Getting started with this plugin is straightforward:
 
 
 
-### Behind the Scenes: Building a Plugin Like This
+## Behind the Scenes: Building a Plugin Like This
 
 For those curious about how this plugin works, it uses WordPress® hooks and actions to integrate seamlessly with WooCommerce®. 
 
@@ -68,7 +68,7 @@ If you’re a developer, here’s a breakdown of the tools and techniques used:
 
 
 
-### Why Free Matters
+## Why Free Matters
 
 The decision to release this plugin for free isn’t just about standing out; it’s about values. 
 
@@ -80,7 +80,7 @@ By releasing this plugin for free, I hope to inspire other developers to reconsi
 
 ![Snoop - Hogan - WWE GIF](/assets/legacy-images/snoop_hulk_hogan.webp)
 
-### Get it on GitHub
+## Get it on GitHub
 
 Ready to improve your WooCommerce product pages? 
 

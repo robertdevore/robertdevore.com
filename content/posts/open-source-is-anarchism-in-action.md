@@ -26,7 +26,7 @@ You won’t find anarchism in slogans or protests.
 
 You’ll find it in codebases, in forks that rewrite the rules, in pull requests that bypass permission and go straight to action.
 
-### And it’s working.
+## And it’s working.
 
 ![Open Source is Anarchism in Action](/assets/legacy-images/open_source_anarchism_photo_1_1024x683.webp)
 

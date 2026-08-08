@@ -32,7 +32,7 @@ This is also a reminder (to myself and maybe others) that even if you walk away 
 
 These plugins will live on, evolve, and help people – just as they were meant to.
 
-### Here are the plugins WebDevStudios now maintains:
+## Here are the plugins WebDevStudios now maintains:
 
   * [Slop Stopper](https://github.com/robertdevore/slop-stopper)
   * [Bluesky Feed for WordPress®](https://github.com/robertdevore/bluesky-feed-for-wordpress)

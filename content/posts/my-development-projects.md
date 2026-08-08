@@ -38,7 +38,7 @@ My first official WordPress plugin accepted into the repository was Leafly Revie
 
 The next thing I'll be spending my time working on is the blog at WP Dispensary. I've been releasing [free marijuana stock photography](http://www.wpdispensary.com/25-free-marijuana-stock-photos/) recently, and have plans on writing content for dispensary owners to build better marketing strategies, better websites, and better businesses as a whole. I also am working on the official launch of the Devio Digital website. The focus has changed a bit from what I originally had it set up for (showcasing my open source projects). There's an example of what's to come on Twitter ([@DevioDigital](http://www.twitter.com/deviodigital)). Other than that, everything is still full steams ahead into Spring. I said all of that, to say this - I hope you're making the most of your time and building things that excite you. We all deserve to be happy. Do things that put a smile on your face. Life is too short for bullshit.
 
-#### Keep in touch
+## Keep in touch
 
 I'm social on [Twitter](http://www.twitter.com/deviorobert) and [Instagram](http://www.instagram.com/deviorobert). I'm also actively coding on [Github](https://www.github.com/robertdevore).
 

@@ -47,6 +47,7 @@ jobs:
           ./scripts/build.sh
           python3 scripts/validate_site.py output
           python3 scripts/verify_homepage.py output
+          ./scripts/validate_html.sh output
           cp CNAME output/CNAME
           touch output/.nojekyll
 

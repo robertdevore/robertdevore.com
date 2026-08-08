@@ -4,7 +4,7 @@ description: "Writing filed under Archive."
 custom_url: "archive"
 author: "Robert DeVore"
 date: "2016-12-20"
-canonical: "https://robertdevore.com/archive/"
+canonical: "https://robertdevore.com/tag/archive/"
 template: "archive"
 nav_hide: true
 ---

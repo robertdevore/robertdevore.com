@@ -14,7 +14,7 @@ tags: ["WordPress"]
 
 Today I’m releasing **v0.1.0 of[automattic.css](https://github.com/robertdevore/automattic-css/)** – a new utility-first CSS framework inspired by the structure and philosophy of Automatic.css, but with a twist: it’s lean, builder-agnostic, and open to the community from day one.
 
-### Why I Built It
+## Why I Built It
 
 I’ve worked with CSS frameworks long enough to know what bloats fast. 
 
@@ -22,7 +22,7 @@ And [automattic.css](https://github.com/robertdevore/automattic-css/) starts int
 
 It’s not trying to be Tailwind. It’s not locked into WordPress builders. It’s meant to be **yours to extend**.
 
-### Plus, a bit of backstory
+## Plus, a bit of backstory
 
 Let’s just say this project didn’t start in a vacuum.
 

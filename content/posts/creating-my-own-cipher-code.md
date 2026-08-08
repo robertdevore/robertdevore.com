@@ -46,7 +46,7 @@ The quotes used should be changed out with each communication and the language t
 
 So without knowing the language used and the quote that’s being randomized, it’d be hard for a random person to decipher.
 
-### Example Use Case:
+## Example Use Case:
 
 Steve and Anna need to communicate privately. 
 

@@ -38,7 +38,7 @@ html{scroll-behavior:smooth;scrollbar-gutter:stable}body{overflow-x:hidden;backg
 .home-page>.signal-hero{place-items:center;min-block-size:clamp(34rem,calc(100vh - 4.5rem),56rem);border:0;background:var(--sk-color-black)}
 .home-page>.signal-hero .signal-hero__field img{block-size:100%;object-position:center}
 .home-page>.signal-hero .signal-hero__inner{display:grid;justify-items:center;padding-block:clamp(var(--sk-space-16),10vh,var(--sk-space-24));text-align:center}
-.home-page>.signal-hero .signal-title{inline-size:min(18ch,100%);margin-inline:auto;padding:0;background:transparent;color:var(--sk-color-black);-webkit-text-stroke:8px var(--sk-color-white);paint-order:stroke fill;overflow-wrap:anywhere}
+.home-page>.signal-hero .signal-title{inline-size:min(18ch,100%);margin-inline:auto;padding:0;background:transparent;color:var(--sk-color-black);-webkit-text-stroke:8px var(--sk-color-white);overflow-wrap:anywhere}
 .home-page>.signal-hero .signal-kicker,.home-page>.signal-hero .signal-lede{margin-inline:auto;padding:.18em .35em;background:color-mix(in srgb,var(--sk-color-white) 90%,transparent);color:var(--sk-color-black)}
 .home-page>.signal-hero .signal-actions{justify-content:center}
 .home-page .section-heading{padding-block-end:0;border-block-end:0}

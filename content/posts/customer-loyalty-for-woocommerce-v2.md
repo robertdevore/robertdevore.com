@@ -24,7 +24,7 @@ Here’s what’s new, plus a sneak peek at what’s coming in 2025! 🚀
 
 * * *
 
-#### What’s New in Version 2.0.0
+## What’s New in Version 2.0.0
 
 In this release, I focused on refining the user experience, boosting performance, and laying the groundwork for more dynamic features. 
 
@@ -68,7 +68,7 @@ Here are the highlights:
 
 * * *
 
-#### How to Use Customer Loyalty for WooCommerce
+## How to Use Customer Loyalty for WooCommerce
 
   1. **Install and Activate the Plugin** : Download the plugin from [GitHub](https://github.com/deviodigital/customer-loyalty-for-woocommerce) and install it on your WooCommerce store. Once activated, a new **Loyalty & Rewards** section will appear in your WooCommerce settings.
   2. **Configure Points Settings** : Head to the plugin’s settings panel, where you can: 
@@ -82,7 +82,7 @@ Here are the highlights:
 
 * * *
 
-#### What to Expect in 2025
+## What to Expect in 2025
 
 This release is just the beginning! Here’s a preview of some features I’m working on for next year:
 

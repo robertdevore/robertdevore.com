@@ -4,7 +4,7 @@ description: "Writing filed under Developer Tools."
 custom_url: "developer-tools"
 author: "Robert DeVore"
 date: "2025-07-03"
-canonical: "https://robertdevore.com/developer-tools/"
+canonical: "https://robertdevore.com/category/developer-tools/"
 template: "archive"
 nav_hide: true
 ---

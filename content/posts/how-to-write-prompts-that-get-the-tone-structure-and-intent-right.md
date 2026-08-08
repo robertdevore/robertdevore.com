@@ -18,7 +18,7 @@ That moment of disappointment usually comes from a mismatch between what you _me
 
 And that gap can make even the smartest AI feel like it’s speaking a different language.
 
-### Why This Matters
+## Why This Matters
 
 The biggest misconception about prompting is that it’s just about telling the AI what _to write_ – topic in, post out. But that’s not how great content gets made.
 

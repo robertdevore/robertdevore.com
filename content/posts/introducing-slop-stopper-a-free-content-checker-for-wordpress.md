@@ -22,7 +22,7 @@ The problem is, this shit is everywhere now.
 
 ![SPOILER ALERT - THEY DON'T - GIF](/assets/legacy-images/spoiler_alert_they_dont.webp)
 
-### **The AI Content Apocalypse is Here**
+## **The AI Content Apocalypse is Here**
 
 Back in my day (yup), low-effort content farms used to be easy to spot, because they were created with **article spinners** (told you I was old).
 
@@ -50,7 +50,7 @@ I got tired of this, so I built a solution.
 
 ![](/assets/legacy-images/slop_stopper.webp)
 
-### **Meet Slop Stopper: The AI Slop Bouncer for Your Blog**
+## **Meet Slop Stopper: The AI Slop Bouncer for Your Blog**
 
 [Slop Stopper](/projects/slop-stopper/) is a free **WordPress® plugin that flags AI-generated bullshit before it gets published**.
 
@@ -67,7 +67,7 @@ It’s like having a built-in **bullshit detector** for your blog.
 
 ![I CALL BULLSHIT - GIF](/assets/legacy-images/i_call_bullshit.webp)
 
-### **Why You Need This Plugin Yesterday**
+## **Why You Need This Plugin Yesterday**
 
 AI content isn’t going away. 
 
@@ -81,7 +81,7 @@ If you run a blog, you need this. Unless you _want_ your site to look like a Cha
 
 ![Slop Stopper - Flagged Posts settings page table display](/assets/legacy-images/slop_stopper_settings_table.webp)
 
-### **Download Slop Stopper Now**
+## **Download Slop Stopper Now**
 
 Stop AI slop before it starts. Download [Slop Stopper](/projects/slop-stopper/) and save yourself.
 

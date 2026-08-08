@@ -26,9 +26,9 @@ These plugins often force users to navigate complex interfaces or rely on third-
 
 ![Snoop Dogg GIF - they all know the dogg. They know what I stand for, they know wha I'm about and they know what I stand for.](/assets/legacy-images/snoop_what_im_about.webp)
 
-### **Why Maintenance Mode for WordPress® Stands Out**
+## **Why Maintenance Mode for WordPress® Stands Out**
 
-#### 1. **Native WordPress® Experience**
+### 1. **Native WordPress® Experience**
 
 Unlike other plugins, [Maintenance Mode for WordPress®](https://github.com/robertdevore/maintenance-mode-for-wordpress/) fully embraces the **Gutenberg editor**.
 
@@ -36,7 +36,7 @@ Your maintenance pages are custom post types built directly with the WordPress®
 
 No clunky page builders, no learning curves – just the tools you use every day to create content.
 
-#### 2. **No Bloat, Just Focus**
+### 2. **No Bloat, Just Focus**
 
 This plugin is laser-focused on solving a single problem: putting your site into maintenance mode or coming soon mode.
 
@@ -44,7 +44,7 @@ There are no unnecessary features, no upsells, and no distractions.
 
 The plugin respects your WordPress® environment by staying lightweight and straightforward.
 
-#### 3. **Total Control**
+### 3. **Total Control**
 
 Whether you’re planning a quick update, launching a new site, or performing ongoing work, [Maintenance Mode for WordPress®](https://github.com/robertdevore/maintenance-mode-for-wordpress/) lets you:
 
@@ -54,7 +54,7 @@ Whether you’re planning a quick update, launching a new site, or performing on
 
 ![Maintenance Mode for WordPress® -  Pages](/assets/legacy-images/maintenance_mode_for_wordpress_pages.webp)
 
-### **How It Works**
+## **How It Works**
 
   * Upon activation, the plugin creates a new custom post type: **Maintenance Pages**.
   * You can create and design as many maintenance pages as you need using the block editor.
@@ -73,7 +73,7 @@ Whether you’re planning a quick update, launching a new site, or performing on
 
 ![Maintenance Mode for WordPress® - Settings](/assets/legacy-images/maintenance_mode_for_wordpress_settings.webp)
 
-### **Customization for Developers**
+## **Customization for Developers**
 
 I built this plugin with developers in mind:
 

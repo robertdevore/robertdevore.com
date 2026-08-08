@@ -18,7 +18,7 @@ This plugin aims to fill a gap that has been glaringly obvious since HPOS became
 
 ![HPOS Compatibility Scanner for WooCommerce® - scan results ](/assets/legacy-images/hpos_compatibility_scanner_for_woocommerce_scan_results_1.webp)
 
-### Why This Plugin?
+## Why This Plugin?
 
 When WooCommerce introduced HPOS over a year ago, it promised faster performance and a modernized architecture.
 
@@ -36,7 +36,7 @@ That’s it. No details, no actionable steps.
 
 For a feature as impactful as HPOS, this lack of clarity is frustrating – and it’s left many in the WooCommerce® community scrambling to diagnose compatibility issues.
 
-### What Does HPOS Compatibility Scanner Do?
+## What Does HPOS Compatibility Scanner Do?
 
 [HPOS Compatibility Scanner](https://github.com/robertdevore/hpos-compatibility-scanner) changes that.
 
@@ -50,7 +50,7 @@ It’s an actionable, developer focused solution designed to:
 
 ![HPOS Compatibility Scanner - scan results](/assets/legacy-images/hpos_compatibility_scanner_for_woocommerce_scan_results_2_948x1024.webp)Example scan results
 
-### Why Should WooCommerce® Have Built This?
+## Why Should WooCommerce® Have Built This?
 
 Let’s be honest; this is a tool WooCommerce® should have provided from the start.
 
@@ -58,7 +58,7 @@ Transitioning an entire ecosystem to a new architecture is no small feat, and de
 
 [HPOS Compatibility Scanner](https://github.com/robertdevore/hpos-compatibility-scanner) exists because the WooCommerce® community needed it, and I’m proud to contribute a solution.
 
-### How to Use HPOS Compatibility Scanner
+## How to Use HPOS Compatibility Scanner
 
 The plugin integrates seamlessly with the WordPress® admin interface. Here’s how to get started:
 
@@ -70,7 +70,7 @@ The plugin integrates seamlessly with the WordPress® admin interface. Here’s 
 
 You can even export the results as a CSV for collaborative debugging with your team.
 
-### What’s Next?
+## What’s Next?
 
 This is just the beginning.
 
@@ -80,7 +80,7 @@ I’m always looking for ways to improve the tool, so feedback from the communit
 
 ![Snoop Dogg - Smiling GIF](/assets/legacy-images/snoop_smiling.webp)
 
-### Get Involved
+## Get Involved
 
 I built this plugin to solve a pain point that I’ve felt personally, and I’m sure I’m not alone.
 

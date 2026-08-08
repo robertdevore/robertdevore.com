@@ -36,7 +36,7 @@ Here’s an example of what you can do with the updated login screen style for W
 
 ![](/assets/legacy-images/cannabiz_login_screen_wp_dispensary.webp)
 
-### Using the new filter added in WP v5.2
+## Using the new filter added in WP v5.2
 
 You can find the `logo_headertext` filter in the **wp-login.php** file in your website’s root directory.
 
@@ -46,7 +46,7 @@ We’ll be looking for this bit of code below.
 
 You can also view the full **wp-login.php** file on Github at the following [link](https://github.com/WordPress/WordPress/blob/master/wp-login.php). 
 
-### Adding your logo with a custom filter
+## Adding your logo with a custom filter
 
 Now that we found the filter, let’s add some code to change out the WordPress logo and replace it with an image of our own.
 

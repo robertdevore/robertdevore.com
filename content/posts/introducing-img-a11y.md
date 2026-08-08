@@ -18,7 +18,7 @@ I created [IMG A11Y](https://github.com/robertdevore/img-a11y) to help WordPress
 
 ![IMG A11Y - Overview](/assets/legacy-images/img_a11y_settings.webp)
 
-#### Key Features
+## Key Features
 
 IMG A11Y is packed with functionality aimed at simplifying and enhancing accessibility efforts:
 
@@ -37,13 +37,13 @@ The plugin seamlessly integrates with WordPress, working with both editors, the 
 
 ![IMG A11Y - Publishing failed](/assets/legacy-images/img_a11y_publishing_failed_1024x672.webp)
 
-#### Why I Built IMG A11Y
+## Why I Built IMG A11Y
 
 Accessibility matters. Whether you’re running a personal blog or managing a large website, creating accessible content ensures that everyone can engage with your site. 
 
 I wanted to develop a tool that simplifies accessibility for WordPress® users, especially when it comes to managing images.
 
-#### How to Get Started
+## How to Get Started
 
 Getting started is simple:
 
@@ -53,7 +53,7 @@ Getting started is simple:
 
 
 
-#### What’s Next for IMG A11Y
+## What’s Next for IMG A11Y
 
 While this release provides powerful tools for image accessibility, I’m already planning future enhancements, including:
 
@@ -63,7 +63,7 @@ While this release provides powerful tools for image accessibility, I’m alread
 
 ![Snoop Dancing - GIF](/assets/legacy-images/snoop_dancing_2.webp)
 
-#### Try IMG A11Y Today
+## Try IMG A11Y Today
 
 Accessibility isn’t optional—it’s essential. With IMG A11Y, managing image accessibility on your WordPress site is now easier, faster, and more effective. 
 

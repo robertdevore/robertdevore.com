@@ -18,7 +18,7 @@ Whether you’re managing hundreds of products or just a few, this WooCommerce®
 
 ![Bulk Stock Management for WooCommerce® \(free\) - Stock Management](/assets/legacy-images/bulk_stock_management_for_woocommerce_stock_management_scaled.webp)
 
-### Why I Built This Plugin
+## Why I Built This Plugin
 
 First things first, this is another “premium” solution that WooCommerce sells, but should 100% be a free feature built into Woo Core.
 
@@ -32,35 +32,35 @@ So, I decided to build **Bulk Stock Management for WooCommerce®** to address th
 
 It’s my way of giving back to the WooCommerce community and equipping store owners with free tools to make stock management less of a pain in the ass.
 
-### Key Features
+## Key Features
 
 Here’s what makes this plugin a game-changer for WooCommerce stores:
 
-#### ⚡ Bulk Stock Management
+### ⚡ Bulk Stock Management
 
 Easily update stock levels for multiple products at once. Use bulk actions for common tasks like marking items as “In Stock” or allowing backorders.
 
-#### 📊 Stock Reporting
+### 📊 Stock Reporting
 
 Generate detailed stock reports in just a few clicks. Export them as CSV files with customizable columns, tailored to your specific needs.
 
-#### 🛠️ AJAX-Powered Interface
+### 🛠️ AJAX-Powered Interface
 
 Enjoy a modern and intuitive experience with modal pop-ups for editing product stock, all powered by AJAX for seamless interaction without page reloads.
 
 ![Bulk Stock Management for WooCommerce® \(free\) - Stock Reports](/assets/legacy-images/bulk_stock_management_for_woocommerce_stock_reports.webp)
 
-#### 🔍 Out-of-Stock Insights
+### 🔍 Out-of-Stock Insights
 
 Get a clear view of which products are out of stock and manage them directly from the admin dashboard.
 
-#### 🎛️ Customizable Settings
+### 🎛️ Customizable Settings
 
 Take control of your workflow with options to enable reporting, define default filters, and adjust report columns to suit your business.
 
 ![Bulk Stock Management for WooCommerce® \(free\) - Settings](/assets/legacy-images/bulk_stock_management_for_woocommerce_stock_settings.webp)
 
-### How to Get Started
+## How to Get Started
 
   1. **Download the Plugin** : [Get it on GitHub](https://github.com/robertdevore/bulk-stock-management-for-woocommerce).
   2. **Install and Activate** : Upload the ZIP file via your WordPress® dashboard.
@@ -68,7 +68,7 @@ Take control of your workflow with options to enable reporting, define default f
 
 
 
-### What’s Next?
+## What’s Next?
 
 This is just the beginning! Here’s some of what I’m planning for future updates:
 
@@ -82,7 +82,7 @@ Got suggestions? I’d love to hear them! Drop me a message or [submit an issue 
 
 ![](/assets/legacy-images/brainscan_bow_gif.webp)
 
-### Special Thanks
+## Special Thanks
 
 A big shoutout to the WooCommerce® community for inspiring this project. 
 
@@ -90,7 +90,7 @@ Your public feedback about the Woo solution helped shape the development of this
 
 And of course, thank you to everyone who supports independent developers like me 💪💯
 
-### Join the Conversation
+## Join the Conversation
 
 Let’s keep the #WooWednesday momentum going! 
 
@@ -100,7 +100,7 @@ Share your thoughts, feedback, and success stories using the hashtag **#WooWedne
 
 * * *
 
-### Download Now
+## Download Now
 
 [Bulk Stock Management for WooCommerce®](https://github.com/robertdevore/bulk-stock-management-for-woocommerce)
 

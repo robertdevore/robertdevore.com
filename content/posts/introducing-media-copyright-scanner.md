@@ -24,21 +24,21 @@ The [Media Copyright Scanner](https://github.com/robertdevore/media-copyright-sc
 
 Here’s how it can benefit you:
 
-### Comprehensive Scanning
+## Comprehensive Scanning
 
   * **Thorough Analysis** : Scans filenames, titles, alt text, and descriptions of your media files.
   * **Detects Common Patterns** : Identifies images from well-known stock image providers such as Getty Images, Shutterstock, iStockPhoto, and many more (50+)
 
 
 
-### User-Friendly Interface
+## User-Friendly Interface
 
   * **Seamless Integration** : Accessible via the WordPress admin area under the Media menu.
   * **Easy to Use** : Start scans with a single click and monitor progress through a visual progress bar.
 
 
 
-### Actionable Results
+## Actionable Results
 
   * **Detailed Reporting** : Provides a list of media items that may require your attention, including details like Media ID, Filename, Title Text, Alt Text, Description, and Identified Source.
   * **Flag Safe Images** : Allows you to mark images you know are compliant as safe, excluding them from future scans.
@@ -46,7 +46,7 @@ Here’s how it can benefit you:
 
 
 
-### Customizable and Extensible
+## Customizable and Extensible
 
   * **Custom Patterns** : Add or modify scanning patterns using filters to suit your specific needs.
   * **Adjustable Batch Processing** : Modify the batch size to optimize performance based on your Media Library size.

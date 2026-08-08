@@ -4,7 +4,7 @@ description: "Writing filed under Essays."
 custom_url: "essays"
 author: "Robert DeVore"
 date: "2016-06-21"
-canonical: "https://robertdevore.com/essays/"
+canonical: "https://robertdevore.com/tag/essays/"
 template: "archive"
 nav_hide: true
 ---

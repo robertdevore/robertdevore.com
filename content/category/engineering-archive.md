@@ -4,7 +4,7 @@ description: "Writing filed under Engineering Archive."
 custom_url: "engineering-archive"
 author: "Robert DeVore"
 date: "2016-12-20"
-canonical: "https://robertdevore.com/engineering-archive/"
+canonical: "https://robertdevore.com/category/engineering-archive/"
 template: "archive"
 nav_hide: true
 ---

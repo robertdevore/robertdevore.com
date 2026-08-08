@@ -72,7 +72,7 @@ Here’s why **[Purchase Orders for WooCommerce®](https://github.com/robertdevo
 
 ![Purchase Orders for WooCommerce - Order admin page](/assets/legacy-images/purchase_orders_for_woocommerce_order_admin_view.webp)Order admin page
 
-#### **What’s Next?**
+## **What’s Next?**
 
 This plugin is designed to make WooCommerce® a bit better without extra costs. 
 
@@ -82,7 +82,7 @@ While it works great as-is, I’m open to feature requests and feedback. If ther
 
 ![Hulk Hogan making a money gesture and pointing at Macho Man - GIF image](/assets/legacy-images/macho_man_money.webp)
 
-#### **Final Thoughts**
+## **Final Thoughts**
 
 WooCommerce® is a great platform, but not everything needs a premium price tag. 
 

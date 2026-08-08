@@ -26,7 +26,7 @@ The more middle relays that Tor has, the faster it goes, making it more likely t
 
 For those of you who don't know, Digital Ocean is a SSD cloud server host that lets you _spin up_ a droplet in 55 seconds. By using the following sign up link (my affiliate link), you get a **$10 credit** , which means you'll be able to set up a server for your Tor relay without even having to come out of your pocket for the first two months. [Sign up to Digital Ocean](/recommends/digitalocean) ![digital-ocean-tor-relay-tutorial-1](/assets/legacy-images/digital_ocean_tor_relay_tutorial_1.webp) Getting your account set up is fairly straight forward. Create an account on their [home page](/recommends/digitalocean), add your credit card information for billing, and you're ready to start setting up your first droplet. ![The screen you see once your Digital Ocean account is set up](/assets/legacy-images/digital_ocean_tor_relay_tutorial_2.webp)The screen you see once your Digital Ocean account is set up
 
-#### Creating your Droplet
+### Creating your Droplet
 
 Once you've signed up for Digital Ocean and have added in your billing information, you'll now be creating your first Droplet. Don't worry if you have never done something like this before, Digital Ocean makes the process a breeze. Once you click the Create Droplet button, you'll be taken to a page where you need to add your Droplet name and select what kind of server you want to run. ![digital-ocean-tor-relay-tutorial-3](/assets/legacy-images/digital_ocean_tor_relay_tutorial_3.webp)
 
@@ -59,7 +59,7 @@ Once you've saved the file, you'll need to run the following: `service reload to
 
 There's a lot of documentation out there on how to set up Tor Relays, but in order to do this through Digital Ocean, I had to hack together some of these how-to's from various sources in order to get it to run right. The process took me a little longer than I would have liked, but overall it wasn't too bad, and now that I've got a Tor relay set up, and the process is documented, I'm going to go back and set up another relay soon.
 
-#### Thank You's
+### Thank You's
 
 The links below were a big help for me getting this process together, and I doubt I would have been able to get this all sorted out without their help.
 

@@ -18,7 +18,7 @@ I pledged time with [Equalize Digital](https://equalizedigital.com/gaad2025/) to
 
 But first, before we talk about the code, let’s talk about GAAD.
 
-### What is GAAD?
+## What is GAAD?
 
 GAAD is a worldwide effort to get people talking, thinking, and doing more about digital accessibility – for the over one **billion people** living with disabilities.
 
@@ -32,11 +32,11 @@ If you care about the open web, you should care about accessibility.
 
 Full stop.
 
-### IMG A11Y v1.1.0 – Small Changes, Big Impact
+## IMG A11Y v1.1.0 – Small Changes, Big Impact
 
 To honor GAAD, I’m releasing version **1.1.0** of [IMG A11Y](/projects/img-a11y), my plugin dedicated to improving image accessibility in WordPress.
 
-#### 🚫 Removed A11Y Options for Non-Image Media
+### 🚫 Removed A11Y Options for Non-Image Media
 
 In earlier versions, IMG A11Y would show accessibility options for media types like PDFs and other non-image files.
 
@@ -44,7 +44,7 @@ That caused confusion – because those settings don’t apply.
 
 In 1.1.0, they’re gone. Thank you [@dknauss](https://github.com/robertdevore/img-a11y/issues/3) for raising the issue 🤘
 
-#### 🔍 Elementor Support Added
+### 🔍 Elementor Support Added
 
 Gutenberg? Checked.
 
@@ -56,7 +56,7 @@ As of 1.1.0, IMG A11Y now **scans Elementor builder content** for images missing
 
 Same enforcement, new editor. No excuses.
 
-### Why This Matters
+## Why This Matters
 
 Missing `alt` tags might not break a layout, but they **break the experience** for screen reader users.
 
@@ -70,7 +70,7 @@ It’s about designing for the edges so that **everyone** can use what we build.
 
 And it starts with the basics – like making sure your images are described properly.
 
-### Why I’m Doing This
+## Why I’m Doing This
 
 I’m not trying to win awards. I’m trying to write software that doesn’t leave people behind.
 
@@ -82,7 +82,7 @@ This plugin helps fill that gap.
 
 And today, GAAD is a reminder to take that responsibility seriously.
 
-### How You Can Help
+## How You Can Help
 
   * Install and use IMG A11Y. It’s free.
   * Add alt tags to your media library.

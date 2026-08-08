@@ -26,7 +26,7 @@ Then, in a truly pathetic move, he uploaded a different video and labeled _that_
 
 That’s not [leadership](/tag/extreme-leadership/). That’s insecurity in action.
 
-### Why It Matters
+## Why It Matters
 
 This isn’t just about me. 
 

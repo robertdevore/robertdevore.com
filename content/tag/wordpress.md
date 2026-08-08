@@ -4,7 +4,7 @@ description: "Writing filed under WordPress."
 custom_url: "wordpress"
 author: "Robert DeVore"
 date: "2025-06-20"
-canonical: "https://robertdevore.com/wordpress/"
+canonical: "https://robertdevore.com/tag/wordpress/"
 template: "archive"
 nav_hide: true
 ---

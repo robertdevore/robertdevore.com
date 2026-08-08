@@ -22,7 +22,7 @@ With the flexibility to restrict content based on user roles, post types, and ev
 
 Here’s a rundown of what makes [Content Restriction for WordPress®](https://github.com/robertdevore/content-restriction-for-wordpress/) a must-have for WordPress® administrators looking to fine-tune content access:
 
-### Key Features
+## Key Features
 
   * **Role-Based Content Restriction** : Set the minimum user role required to access specific content. Choose to restrict your content globally by post type or taxonomy term, or apply restrictions at the individual post/page level.
   * **Automatic Redirection** : Unauthorized users who attempt to access restricted content will be redirected to the login page. This feature creates a streamlined user experience while simultaneously protecting your content.
@@ -31,9 +31,9 @@ Here’s a rundown of what makes [Content Restriction for WordPress®](https://g
 
 
 
-### How to Use Content Restriction for WordPress®
+## How to Use Content Restriction for WordPress®
 
-#### 1. Setting Up Global Restrictions
+### 1. Setting Up Global Restrictions
 
 From your WordPress dashboard, navigate to **Settings > Content Restriction**.
 
@@ -43,7 +43,7 @@ Save your settings, and your content is secured!
 
 ![Restrict Content metabox for the Content Restriction for WordPress® plugin](/assets/legacy-images/content_restriction_for_wordpress_metabox_settings.webp)
 
-#### 2. Applying Individual Restrictions
+### 2. Applying Individual Restrictions
 
 You can also set custom restrictions for specific posts and pages.
 
@@ -51,7 +51,7 @@ In the editor, look for the **Restrict Content** metabox, where you can enable r
 
 Publish or update your post, and only the users with the correct role will see it.
 
-### Filters and Developer Customization
+## Filters and Developer Customization
 
 I’ve designed the plugin to be highly customizable, offering developers several filters to adjust restriction messages for different scenarios, including the REST API and RSS feeds. 
 
@@ -65,13 +65,13 @@ Here are a few examples:
 
 These filters make it easy to align the plugin’s behavior with your brand voice and UX requirements.
 
-### Installation and Getting Started
+## Installation and Getting Started
 
 To get started, download the plugin from the [GitHub repository](https://github.com/robertdevore/content-restriction-for-wordpress/), install it on your WordPress® site, and activate it. 
 
 Full installation instructions and setup details are available in the plugin’s documentation.
 
-### FAQs
+## FAQs
 
 **Q: Does this plugin support custom post types and taxonomies?**  
 A: Absolutely! Content Restriction for WordPress® works with all public custom post types and taxonomies registered in WordPress.
@@ -84,7 +84,7 @@ A: You can choose to hide restricted content or display a restriction message in
 
 ![We got this shit on lock GIF](/assets/legacy-images/we_got_this_shit_on_lock.webp)
 
-### Future plans
+## Future plans
 
 I welcome any thoughts and ideas from the community on ways this plugin could be better! 
 

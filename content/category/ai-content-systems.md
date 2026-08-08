@@ -4,7 +4,7 @@ description: "Writing filed under AI & Content Systems."
 custom_url: "ai-content-systems"
 author: "Robert DeVore"
 date: "2025-05-27"
-canonical: "https://robertdevore.com/ai-content-systems/"
+canonical: "https://robertdevore.com/category/ai-content-systems/"
 template: "archive"
 nav_hide: true
 ---

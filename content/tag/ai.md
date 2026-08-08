@@ -4,7 +4,7 @@ description: "Writing filed under AI."
 custom_url: "ai"
 author: "Robert DeVore"
 date: "2025-05-27"
-canonical: "https://robertdevore.com/ai/"
+canonical: "https://robertdevore.com/tag/ai/"
 template: "archive"
 nav_hide: true
 ---

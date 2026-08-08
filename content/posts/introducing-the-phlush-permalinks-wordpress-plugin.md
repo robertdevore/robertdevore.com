@@ -22,7 +22,7 @@ Are you tired of manually flushing your permalinks every time you make structura
 
 Whether you’re updating post types, changing taxonomies, or performing other site management tasks, Phlush Permalinks makes sure that your permalink structure is always up to date.
 
-### **Why Permalinks Matter:**
+## **Why Permalinks Matter:**
 
 WordPress permalinks are the URLs that lead to your content. 
 
@@ -34,7 +34,7 @@ Without this, users may find broken links, and search engines might not be able 
 
 ![](/assets/legacy-images/friday_pops_spraying_air_freshener.webp)
 
-### **Key Features of Phlush Permalinks:**
+## **Key Features of Phlush Permalinks:**
 
   1. **Automated Flushing at Custom Intervals** : The plugin integrates seamlessly with WordPress’s cron system, allowing you to set automatic flushes at intervals that suit your site’s needs.
   2. **Trigger Flushing on Key Actions** : In addition to scheduled flushing, Phlush Permalinks allows you to define specific actions that trigger a permalink flush. Whether you’re updating post types, publishing new content, or making other structural changes, the plugin makes sure that your permalinks are always up to date.
@@ -42,7 +42,7 @@ Without this, users may find broken links, and search engines might not be able 
 
 ![](/assets/legacy-images/phlush_permalinks_settings_screenshot_1024x553.webp)
 
-### **How It Works**
+## **How It Works**
 
 Upon activation, Phlush Permalinks schedules a cron job that flushes permalinks at a user-defined interval. 
 
@@ -56,7 +56,7 @@ By automating this process, Phlush Permalinks saves you time and ensures that yo
 
 This can improve your SEO, prevent 404 errors, and enhance the overall user experience on your site.
 
-### **Getting Started**
+## **Getting Started**
 
 To install and use the Phlush Permalinks plugin, follow these steps:
 
@@ -68,11 +68,11 @@ To install and use the Phlush Permalinks plugin, follow these steps:
 
 [Download from WordPress](https://wordpress.org/plugins/phlush-permalinks/)
 
-### Looking to extend the plugin and add your own actions?
+## Looking to extend the plugin and add your own actions?
 
 Included functionality provides developers like yourself with the ability to extend or modify this set of actions through the **`phlush_permalinks_available_actions`** filter.
 
-#### Example 1: Adding Custom Actions
+### Example 1: Adding Custom Actions
 
 Let’s say you want to add a custom action that triggers a permalink flush when a custom post type `event` is saved. You can hook into the filter like this:
 
@@ -84,7 +84,7 @@ In this example:
 
 
 
-#### Example 2: Removing Actions
+### Example 2: Removing Actions
 
 If you want to remove an action (e.g., you don’t want permalink flushing to occur when a category is edited), you can do it like this:
 

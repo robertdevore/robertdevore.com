@@ -24,7 +24,7 @@ This free WordPress® plugin provides everything you need for effective on-site 
 
 ![](/assets/legacy-images/seo_for_wordpress_metabox_settings.webp)
 
-### Why Another SEO Plugin?
+## Why Another SEO Plugin?
 
 Many of the currently available options are overly complex, introducing features that are irrelevant to most users, while some feel like elaborate funnels to sell premium services.
 
@@ -40,18 +40,18 @@ Here’s what makes it stand out:
 
 ![SEO for WordPress® - Settings - General](/assets/legacy-images/seo_for_wordpress_settings_general.webp)
 
-### What You Can Do with SEO for WordPress
+## What You Can Do with SEO for WordPress
 
 **[SEO for WordPress®](https://github.com/robertdevore/seo-for-wordpress)** offers a complete suite of tools to help you optimize your site without hassle.
 
-#### General Settings
+### General Settings
 
   * Set your **website name** , **tagline** , and **title separator** for better control of how your pages appear in search results.
   * Customize **social media Open Graph tags** , including titles, descriptions, and images, to ensure your content looks great when shared.
 
 
 
-#### Advanced Settings
+### Advanced Settings
 
   * **Metadata Removal** : Remove unnecessary metadata from your `<head>` section, including REST API links, shortlinks, and oEmbed links.
   * **Breadcrumbs** : Add breadcrumbs with customizable separators and styling options to improve navigation and search engine visibility.
@@ -61,7 +61,7 @@ Here’s what makes it stand out:
 
 ![SEO for WordPress® - Settings - Advanced](/assets/legacy-images/seo_for_wordpress_settings_advanced_scaled.webp)
 
-#### SEO Metabox
+### SEO Metabox
 
 For individual posts, pages, and custom post types, you can:
 
@@ -71,13 +71,13 @@ For individual posts, pages, and custom post types, you can:
 
 
 
-#### Archive Meta Fields
+### Archive Meta Fields
 
 Customize meta titles, descriptions, and images for categories, tags, and custom taxonomies. You can also configure noindex and nofollow settings for each archive.
 
 ![Snoop Dogg - Let's go GIF](/assets/legacy-images/snoop_lets_go.webp)
 
-### Getting Started
+## Getting Started
 
 Using **[SEO for WordPress®](https://github.com/robertdevore/seo-for-wordpress)** is as easy as installing the plugin and configuring your settings:
 
@@ -90,7 +90,7 @@ Using **[SEO for WordPress®](https://github.com/robertdevore/seo-for-wordpress)
 
 With everything in place, your site will be optimized for search engines while maintaining its performance and simplicity.
 
-### What’s Coming Next?
+## What’s Coming Next?
 
 The first release of **SEO for WordPress®** focuses on essential features, but this is just the beginning.
 
@@ -104,7 +104,7 @@ Here’s a glimpse of what’s in the pipeline:
 
 But I don’t want to decide this alone.
 
-### Built for the Community
+## Built for the Community
 
 This plugin was built with the idea that SEO should be accessible and useful for everyone.
 
@@ -114,7 +114,7 @@ What features would make this plugin even better? What challenges do you face wi
 
 Let’s make **SEO for WordPress** a truly community-driven project.
 
-### How to Get Involved
+## How to Get Involved
 
   * **Share Your Ideas** : Drop a comment here or open an issue on the [GitHub repository](https://github.com/robertdevore/seo-for-wordpress).
   * **Contribute Code** : Developers are welcome to submit pull requests for new features or bug fixes.
@@ -122,7 +122,7 @@ Let’s make **SEO for WordPress** a truly community-driven project.
 
 ![Snoop Dogg - Dancing in seat GIF](/assets/legacy-images/snoop_dancing_1.webp)
 
-### Let’s Build Something Great
+## Let’s Build Something Great
 
 [SEO for WordPress®](https://github.com/robertdevore/seo-for-wordpress) isn’t just another plugin – it’s a commitment to putting users first.
 
@@ -136,7 +136,7 @@ Let me know in the comments below or reach out on [Twitter](https://twitter.com/
 
 Here’s to a better, simpler SEO experience – one that’s built for all of us.
 
-**Download[SEO for WordPress®](http://SEO for WordPress® - General Settings) today** and start optimizing your site the right way!
+**Download [SEO for WordPress®](https://github.com/robertdevore/seo-for-wordpress) today** and start optimizing your site the right way!
 
 ## Related Reading
 

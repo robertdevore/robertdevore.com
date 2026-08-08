@@ -20,7 +20,7 @@ For instance, I applied this fix to a few images on a website recently and took 
 
 ![](/assets/legacy-images/cls_scores_gtmetrix_example_1024x425.webp)GTMetrix score history – CLS is the green line 👀
 
-### What’s CLS, Anyway?
+## What’s CLS, Anyway?
 
 For those who aren’t sure what CLS is, it’s one of Google’s [Core Web Vitals](https://support.google.com/webmasters/answer/9205520?hl=en) metrics, and measures the visual stability of your web page. 
 

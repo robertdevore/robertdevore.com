@@ -4,7 +4,7 @@ description: "Writing filed under WooCommerce."
 custom_url: "woocommerce"
 author: "Robert DeVore"
 date: "2025-06-18"
-canonical: "https://robertdevore.com/woocommerce/"
+canonical: "https://robertdevore.com/tag/woocommerce/"
 template: "archive"
 nav_hide: true
 ---

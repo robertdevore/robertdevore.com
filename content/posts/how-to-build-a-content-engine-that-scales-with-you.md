@@ -32,7 +32,7 @@ And that system needs to scale with _you._ Your schedule, skillset and ambition.
 
 Let’s map it out.
 
-### Why You Burn Out Without a Content System
+## Why You Burn Out Without a Content System
 
 Great content isn’t just about good ideas.
 
