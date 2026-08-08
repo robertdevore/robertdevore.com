@@ -21,6 +21,12 @@ FOREVER_FORWARD_CARD_PLACEHOLDER = re.compile(
     r'<span class="listing-card-image-placeholder" aria-hidden="true"></span>'
     r'</a>'
 )
+RELATIVE_404_ASSET = re.compile(
+    r'(?P<attribute>href|src)="(?P<path>'
+    r'favicon\.svg|feed/index\.xml|assets/css/site\.bundle\.css\?v=[^"]+|'
+    r'assets/js/(?:vendor/scramble-decode|site)\.js\?v=[^"]+'
+    r')"'
+)
 
 
 def main() -> int:
@@ -90,6 +96,34 @@ def main() -> int:
     if home_replacements == 1:
         home_path.write_text(home_html, encoding="utf-8")
 
+    not_found_path = output / "404.html"
+    if not not_found_path.is_file():
+        print(f"Generated-output hardening refused: missing {not_found_path}", file=sys.stderr)
+        return 1
+    not_found_html = not_found_path.read_text(encoding="utf-8")
+    not_found_html, not_found_assets = RELATIVE_404_ASSET.subn(
+        lambda match: f'{match.group("attribute")}="/{match.group("path")}"',
+        not_found_html,
+    )
+    if RELATIVE_404_ASSET.search(not_found_html):
+        print("Generated-output hardening refused: relative 404 assets remain", file=sys.stderr)
+        return 1
+    for expected in (
+        'href="/favicon.svg"',
+        'href="/feed/index.xml"',
+        'href="/assets/css/site.bundle.css?',
+        'src="/assets/js/vendor/scramble-decode.js?',
+        'src="/assets/js/site.js?',
+    ):
+        if expected not in not_found_html:
+            print(
+                f"Generated-output hardening refused: 404 page is missing {expected}",
+                file=sys.stderr,
+            )
+            return 1
+    if not_found_assets:
+        not_found_path.write_text(not_found_html, encoding="utf-8")
+
     feed_path = output / "feed/index.xml"
     if not feed_path.is_file():
         print(f"Generated-output hardening refused: missing {feed_path}", file=sys.stderr)
@@ -118,7 +152,7 @@ def main() -> int:
 
     print(
         f"Hardened {aliases} redirect aliases, {writing_cards} writing card, "
-        f"{home_cards} homepage card, "
+        f"{home_cards} homepage card, {not_found_assets} nested-route 404 assets, "
         "and RSS discovery metadata."
     )
     return 0

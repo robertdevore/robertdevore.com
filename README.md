@@ -2,7 +2,7 @@
 
 Robert DeVore's personal publishing site, built with [Kujo SSG](https://github.com/kujolang/ssg) and [SiteKit](https://github.com/kujolang/site-kit).
 
-Current site release: **v1.0.4**.
+Current site release: **v1.0.5**.
 
 ## Local build
 

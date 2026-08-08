@@ -178,6 +178,19 @@ if not footer or "© 1985-2026 Robert DeVore." not in footer.get_text(" ", strip
 for href in ("https://x.com/deviorobert", "https://github.com/robertdevore"):
     if not footer or not footer.select_one(f'a[href="{href}"]'): errors.append(f"footer missing social link {href}")
 
+not_found = BeautifulSoup((root / "404.html").read_text(errors="ignore"), "html.parser")
+for selector, expected in (
+    ('link[rel="icon"]', "/favicon.svg"),
+    ('link[type="application/rss+xml"]', "/feed/index.xml"),
+    ('link[rel="preload"][as="style"]', f"/assets/css/site.bundle.css?v={release_version}"),
+    ('script[src*="scramble-decode.js"]', f"/assets/js/vendor/scramble-decode.js?v={release_version}"),
+    ('script[src$="site.js?v=' + release_version + '"]', f"/assets/js/site.js?v={release_version}"),
+):
+    node = not_found.select_one(selector)
+    attribute = "src" if selector.startswith("script") else "href"
+    if not node or node.get(attribute) != expected:
+        errors.append(f"404 page must use root-absolute asset URL {expected}")
+
 contact = BeautifulSoup((root / "contact/index.html").read_text(errors="ignore"), "html.parser")
 if len(contact.select("form[data-contact-form] label")) != 5: errors.append("contact form fields are incomplete")
 if contact.select_one("input[inputmode]"): errors.append("contact form uses a legacy-validator compatibility warning attribute")
@@ -271,7 +284,7 @@ critical_source = (root / "assets/css/site.critical.css").read_text(errors="igno
 for unsupported in ("@layer", "paint-order:", "translate:", "var(", "clamp(", "color-mix("):
     if unsupported in critical_source:
         errors.append(f"critical CSS contains HTML5-validator-incompatible syntax: {unsupported}")
-for contract in ("-webkit-text-stroke:8px", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
+for contract in ("-webkit-text-stroke:8px", "body{min-block-size:100vh;display:flex;flex-direction:column", "main{min-block-size:60vh;flex:1 0 auto}", ".home-page .section-heading", ".site-header{position:sticky", ".article-related-grid", ".about-page .page-content h2", ".contact-page .page-content h2", ".site-footer{border:0"):
     if contract not in site_css: errors.append(f"site CSS missing requested contract {contract}")
 home_title_rule = re.search(r"\.home-page>\.signal-hero \.signal-title\{([^}]*)\}", site_css)
 if not home_title_rule or "-webkit-text-stroke" in home_title_rule.group(1):

@@ -3,7 +3,7 @@
 @font-face{font-family:"Inter";src:url("../fonts/inter-latin-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
 @layer theme{:root{--sk-font-sans:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--rd-red:var(--sk-color-red-600);--rd-paper:var(--sk-color-paper);--rd-measure:72ch}}
 @layer base{
-html{scroll-behavior:smooth;scrollbar-gutter:stable}body{overflow-x:hidden;background:var(--rd-paper);font-family:var(--sk-font-sans);font-size:clamp(1rem,.96rem + .18vw,1.08rem)}main{min-block-size:60vh}::selection{background:var(--rd-red);color:var(--sk-color-white)}a{text-decoration-thickness:var(--sk-border-1)}a:hover{text-decoration-thickness:var(--sk-border-2)}img{block-size:auto}
+html{scroll-behavior:smooth;scrollbar-gutter:stable}body{min-block-size:100vh;display:flex;flex-direction:column;overflow-x:hidden;background:var(--rd-paper);font-family:var(--sk-font-sans);font-size:clamp(1rem,.96rem + .18vw,1.08rem)}main{min-block-size:60vh;flex:1 0 auto}::selection{background:var(--rd-red);color:var(--sk-color-white)}a{text-decoration-thickness:var(--sk-border-1)}a:hover{text-decoration-thickness:var(--sk-border-2)}img{block-size:auto}
 }
 @layer components{
 .sk-skip-link{position:fixed;inset:var(--sk-space-2) auto auto var(--sk-space-2);z-index:var(--sk-z-toast);translate:0 -160%}.sk-skip-link:focus{translate:0}

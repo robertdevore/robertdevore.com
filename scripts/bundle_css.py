@@ -31,7 +31,8 @@ LEGACY_CRITICAL_CSS = """
 @font-face{font-family:"Inter";src:url("/assets/fonts/inter-latin-700.woff2?v={version}") format("woff2");font-weight:700;font-style:normal;font-display:swap}
 html{box-sizing:border-box;text-size-adjust:100%}
 *,*::before,*::after{box-sizing:inherit}
-body{margin:0;min-height:100vh;background:#fff;color:#111;font-family:"Inter",Arial,sans-serif;line-height:1.5}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:#fff;color:#111;font-family:"Inter",Arial,sans-serif;line-height:1.5}
+main{flex:1 0 auto}
 img,svg,video{display:block;max-width:100%}
 a{text-underline-offset:.2em}
 .site-header a,.signal-hero a{color:#111}
