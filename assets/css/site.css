@@ -61,8 +61,9 @@ html{scroll-behavior:smooth;scrollbar-gutter:stable}body{overflow-x:hidden;backg
 .article-related-grid .listing-card a::before{content:"Related";color:var(--rd-red);font-size:var(--sk-type-size-xs);font-weight:var(--sk-type-weight-regular);letter-spacing:.08em;text-transform:uppercase}
 .article-related-grid .listing-card a{font-family:var(--sk-font-mono);letter-spacing:0}
 
+.archive-list{max-inline-size:var(--sk-size-content-xl)}
 .archive-list ul{margin:0;padding:0;border-block-start:var(--sk-border-1) solid var(--sk-border-default);list-style:none}
-.archive-list li{display:grid;grid-template-columns:8rem minmax(0,1fr);align-items:start;gap:var(--sk-space-4);padding-block:var(--sk-space-4);border-block-end:0;color:var(--sk-text-muted);font-size:var(--sk-type-size-xs)}
+.archive-list li{max-inline-size:none;display:grid;grid-template-columns:8rem minmax(0,1fr);align-items:start;gap:var(--sk-space-4);padding-block:var(--sk-space-4);border-block-end:0;color:var(--sk-text-muted);font-size:var(--sk-type-size-xs)}
 .archive-list li a{display:block;min-inline-size:0;max-inline-size:100%;color:var(--sk-text-primary);font-size:var(--sk-type-size-md);line-height:var(--sk-type-line-normal);overflow-wrap:anywhere}
 
 .about-page .page-content h2,.contact-page .page-content h2{padding-block-start:0;border-block-start:0}
@@ -103,6 +104,7 @@ html{scroll-behavior:smooth;scrollbar-gutter:stable}body{overflow-x:hidden;backg
 .project-feature{padding-block:clamp(var(--sk-space-12),9vw,var(--sk-space-24))}
 .project-feature__panel{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1fr);gap:clamp(var(--sk-space-8),6vw,var(--sk-space-16));align-items:end;border-block-start:0;border-block-end:0;padding-block:clamp(var(--sk-space-8),7vw,var(--sk-space-16))}
 .project-feature__meta,.project-secondary__eyebrow,.project-link-bank__eyebrow{color:var(--rd-red);font-family:var(--sk-font-mono);font-size:var(--sk-type-size-xs);letter-spacing:.1em;text-transform:uppercase}
+.project-link-bank__eyebrow{color:var(--sk-color-gray-200)}
 .project-feature h2{font-family:var(--sk-font-mono);font-size:clamp(var(--sk-type-size-3xl),6vw,var(--sk-type-size-5xl));letter-spacing:0}.project-feature p{max-inline-size:62ch;color:var(--sk-text-secondary);font-size:clamp(var(--sk-type-size-md),2vw,var(--sk-type-size-xl));line-height:var(--sk-type-line-normal)}
 .project-feature__actions{display:flex;flex-wrap:wrap;gap:var(--sk-space-3);margin-block-start:var(--sk-space-6)}
 .project-secondary{padding-block:clamp(var(--sk-space-12),8vw,var(--sk-space-20));background:var(--sk-surface-subtle)}
@@ -121,5 +123,5 @@ html{scroll-behavior:smooth;scrollbar-gutter:stable}body{overflow-x:hidden;backg
 .footer-social a{inline-size:var(--sk-size-control-md);block-size:var(--sk-size-control-md);display:grid;place-items:center;color:var(--sk-text-primary)}
 .footer-social svg{inline-size:1.35rem;block-size:1.35rem;fill:currentColor}
 
-@media(max-width:48rem){.home-page>.signal-hero .signal-hero__field{background-position:center;background-size:cover}.contact-layout,.about-overview,.tools-overview{grid-template-columns:1fr;gap:var(--sk-space-8)}.article-related-grid,.project-landing ul,.home-principles .project-grid,.clarity-grid,.about-proof,.tools-feature,.about-map{grid-template-columns:1fr}.clarity-grid article{border-inline-end:0;border-block-end:var(--sk-border-1) solid var(--sk-color-gray-700)}.timeline-list li{grid-template-columns:1fr}.site-footer .sk-footer__inner{grid-template-columns:1fr;justify-items:center;text-align:center}.site-footer small,.footer-social{justify-self:center}}
+@media(max-width:48rem){.home-page>.signal-hero .signal-hero__field{background-position:center;background-size:cover}.contact-layout,.about-overview,.tools-overview{grid-template-columns:1fr;gap:var(--sk-space-8)}.article-related-grid,.project-feature__panel,.project-secondary__grid,.project-landing ul,.home-principles .project-grid,.clarity-grid,.about-proof,.tools-feature,.about-map{grid-template-columns:1fr}.clarity-grid article{border-inline-end:0;border-block-end:var(--sk-border-1) solid var(--sk-color-gray-700)}.timeline-list li{grid-template-columns:1fr}.site-footer .sk-footer__inner{grid-template-columns:1fr;justify-items:center;text-align:center}.site-footer small,.footer-social{justify-self:center}}
 @media(forced-colors:active){.home-page>.signal-hero .signal-title{-webkit-text-stroke:0}.home-page>.signal-hero .signal-kicker,.home-page>.signal-hero .signal-lede{background:Canvas;color:CanvasText}}
