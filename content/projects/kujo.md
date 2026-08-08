@@ -31,6 +31,6 @@ cargo build
 
 ## Current boundary
 
-Kujo is usable from source and staged as a pre-tag 1.0.0 release candidate. The repository deliberately separates implemented runtime capability from final tag, artifact publication, and environment-specific production proof.
+Kujo 1.0 is released. The VM-first language and runtime, source build, tagged artifacts, documented CLI contracts, and release gates now define the stable supported baseline, while environment-specific production proof and future ecosystem expansion remain ongoing work.
 
 [Explore the Kujo repository on GitHub ↗](https://github.com/kujolang/kujo)

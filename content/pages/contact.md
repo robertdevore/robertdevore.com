@@ -19,5 +19,3 @@ A short note with the problem, constraints, relevant links, and the kind of resp
 - Programming languages, runtimes, package workflows, developer infrastructure, and static publishing.
 - Workflow orchestration, evaluation, retrieval, telemetry, memory, approvals, and evidence boundaries.
 - Open-source collaboration, technical writing, ecosystem connections, and practical feedback.
-
-[GitHub](https://github.com/robertdevore)
