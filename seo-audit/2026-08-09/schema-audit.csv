@@ -1,0 +1,358 @@
+phase,url,schema_types,json_ld_blocks,valid_json,visible_match,google_rich_result_eligible,issues,recommended_action
+baseline,https://robertdevore.com/,Organization; WebSite,1,True,True,site-name only,,retain and validate
+baseline,https://robertdevore.com/5-python-scripts-for-osint-and-pentesting/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/5-questions-you-must-answer-before-writing-anything/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/5-things-i-learned-building-my-first-gutenberg-blocks-plugin/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/7-days-full-time-wp-dispensary/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/about/,Organization; WebSite,1,True,True,none identified,,retain and validate
+baseline,https://robertdevore.com/all-in-one-wp-migration-plugin-ddos-attack/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/back-to-basics/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/blog/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/10/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/11/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/12/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/2/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/3/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/4/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/5/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/6/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/7/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/8/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/blog/page/9/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/boostbox-free-popups-that-work-pro-popups-that-convert/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/boostbox-wordpress-popup-builder-for-the-core-editor/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/cannabis-health-benefits/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/cannabiz/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/category/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/category/ai-content-systems/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/category/developer-tools/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/category/engineering-archive/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/category/field-notes/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/category/wordpress-archive/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/celebrating-gaad-with-img-a11y-v1-1-0/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/chapters-for-authors-wordpress-plugin/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/clean-blog-free-wordpress-theme/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/contact/,Organization; WebSite,1,True,True,none identified,,retain and validate
+baseline,https://robertdevore.com/creating-my-own-cipher-code/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/customer-loyalty-for-woocommerce-v2/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/db-version-control-wordpress-plugin/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/december-2024-a-retrospective/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/delivery-drivers-for-woocommerce/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/devio-digital/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/dispensary-wordpress-plugins-2017/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/do-less-deliver-more/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/docupress-documentation-plugin-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/dont-shoot-the-messenger-choose-courage-over-convenience/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/extreme-programming-for-extreme-leaders/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/focus/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/forever-forward/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/going-all-in-one-year-later/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/going-all-in-with-wp-dispensary/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/goodbye-wordpress-a-eulogy/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/hello-2017/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/hello-plugin-pal-your-ai-powered-plugin-generator-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/honoring-jesse-petersen-with-the-revival-of-stealth-login-page/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/host-your-wordpress-plugins-on-github-and-automate-plugin-packaging/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-a-security-audit-can-save-your-e-commerce-store-from-disaster/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-hungry-are-you/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-i-use-textexpander-to-reuse-my-best-ai-prompts/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-block-website-tracking-data-in-woocommerce/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-build-a-content-engine-that-scales-with-you/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-build-modular-prompts-that-save-you-hours-per-week/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-customize-the-style-of-your-wordpress-login-screen/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-edit-ai-content-so-it-feels-clean-not-robotic/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-stop-your-plugins-themes-from-being-used-on-wordpress-com-hosting/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-teach-ai-to-match-your-voice/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-use-ai-to-research-validate-ideas-and-stay-relevant/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/how-to-write-prompts-that-get-the-tone-structure-and-intent-right/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/hue-js/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/i-built-a-python-stego-cipher-tool-and-you-can-have-it/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/i-just-launched-a-python-course-for-php-developers/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/im-freelancing-again/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/improve-cls-scores-by-dynamically-setting-image-width-and-height/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/intellipress-the-smart-af-ai-assistant-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-an-experimental-new-plugin-email-designer-for-woocommerce/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-associated-taxonomies-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-automattic-css-an-open-source-css-utility-framework/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-back-in-stock-notifications-for-woocommerce/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-barcodes-for-woocommerce-free/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-benchpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-block-ai-crawlers-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-bluesky-feed-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-brands-for-woocommerce-free/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-broken-image-scanner/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-bulk-stock-management-for-woocommerce-free/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-content-restriction-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-delete-inactive-users/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-digg-this-a-social-sharing-plugin-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-dispensary-details-for-woocommerce/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-gallery-modals-enhance-your-wordpress-galleries-with-stunning-popups/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-gift-cards-for-woocommerce-free/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-hpos-compatibility-scanner-for-woocommerce-free/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-img-a11y/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-intellipress-the-smart-ai-assistant-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-maintenance-mode-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-markdown-comments-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-markdown-exporter-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-media-copyright-scanner/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-media-file-versioning-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-metadata-import-export-for-yoast-seo/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-module-usage-tracker-for-wp-bakery/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-pattern-pal-ai-powered-patterns-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-persistent-dismissible-notices/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-projects-for-wordpress-a-better-way-to-showcase-your-work/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-purchase-orders-for-woocommerce-free/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-seo-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-shipping-multiple-addresses-for-woocommerce-free/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-site-vitals-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-slop-stopper-a-free-content-checker-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-stats-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-table-block-enhancer-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-test-orders-for-woocommerce/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-the-phlush-permalinks-wordpress-plugin/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-the-prompts-library-a-playground-for-ai-creativity/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-the-user-login-status-plugin-for-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-vertical-gallery-product-display-for-woocommerce/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/introducing-widget-usage-tracker-for-elementor/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/invest-in-yourself/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/leafly-reviews-wordpress-plugin/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/leap-the-code-of-extreme-leadership/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/making-up-for-lost-time/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/mnml-free-minimalist-wordpress-theme/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/my-brothers-keeper-sons-of-anarchy-fanfiction/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/my-development-projects/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/open-source-is-anarchism-in-action/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/organized-chaos/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/page/10/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/11/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/12/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/2/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/3/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/4/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/5/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/6/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/7/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/8/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/page/9/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/patience/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/peddle-free-wordpress-theme-for-easy-digital-downloads/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/projects/,Organization; WebSite,1,True,True,none identified,,retain and validate
+baseline,https://robertdevore.com/projects/agents-sdk/,BlogPosting; Organization; Person,1,True,False,Article,project represented as BlogPosting,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/projects/dispatch/,BlogPosting; Organization; Person,1,True,False,Article,project represented as BlogPosting,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/projects/kujo/,BlogPosting; Organization; Person,1,True,False,Article,project represented as BlogPosting,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/projects/lens/,BlogPosting; Organization; Person,1,True,False,Article,project represented as BlogPosting,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/projects/sitekit/,BlogPosting; Organization; Person,1,True,False,Article,project represented as BlogPosting,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/projects/ssg/,BlogPosting; Organization; Person,1,True,False,Article,project represented as BlogPosting,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/release-notes-back-in-stock-notifications-for-woocommerce-free-v1-0-1/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/relentless/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/rethinking-keyword-research-in-the-age-of-ai/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/reusable-flask-error-handling-a-step-by-step-guide-to-modular-http-error-responses/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/run-a-tor-relay/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/say-goodbye-to-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/set-featured-images-programatically-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/slackedd/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/stattic-v0-3-0-release-llms-txt-faster-gifs-leaner-core-and-smarter-routing/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/stop-gambling-with-client-trust-why-skipping-a-security-audit-is-a-risk-you-cant-afford/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/tag/,Organization; WebSite,1,True,False,none identified,listing represented as WebSite,"use page-type-appropriate, visible, factual schema"
+baseline,https://robertdevore.com/tag/ai/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/tag/archive/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/tag/engineering/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/tag/essays/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/tag/woocommerce/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/tag/wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/thank-you-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/the-fastest-way-for-php-devs-to-learn-python/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/the-past-present-and-future-of-wp-dispensary/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/tools-and-workflows-for-formatting-visuals-and-citations/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/twitter-marketing/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/two-years-building-wp-dispensary/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/use-ai-to-create-your-own-wwf-action-figure-blister-packs/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/what-makes-content-beautifully-useful/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/why-wordpress-plugin-developers-need-security-audits/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/woocommerce-dispensary-details-plugin/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/wordpress-custom-post-types-code-snippets/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/wordpress-plugin-security-is-a-joke-and-youre-the-punchline/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/wordpress-woocommerce-plugins-i-will-no-longer-maintain/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/wp-dispensary-v2/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/wp-dispensary/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/wtf-is-wordpress/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+baseline,https://robertdevore.com/zero-cool-cli-a-hackers-terminal-from-1995/,BlogPosting; Organization; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/,Person; WebSite,1,True,True,site-name only,,retain and validate
+after,https://robertdevore.com/5-python-scripts-for-osint-and-pentesting/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/5-questions-you-must-answer-before-writing-anything/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/5-things-i-learned-building-my-first-gutenberg-blocks-plugin/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/7-days-full-time-wp-dispensary/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/about/,AboutPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/all-in-one-wp-migration-plugin-ddos-attack/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/back-to-basics/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/blog/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/10/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/11/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/12/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/2/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/3/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/4/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/5/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/6/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/7/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/8/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/blog/page/9/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/boostbox-free-popups-that-work-pro-popups-that-convert/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/boostbox-wordpress-popup-builder-for-the-core-editor/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/cannabis-health-benefits/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/cannabiz/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/category/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/category/ai-content-systems/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/category/developer-tools/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/category/engineering-archive/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/category/field-notes/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/category/wordpress-archive/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/celebrating-gaad-with-img-a11y-v1-1-0/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/chapters-for-authors-wordpress-plugin/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/clean-blog-free-wordpress-theme/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/contact/,ContactPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/creating-my-own-cipher-code/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/customer-loyalty-for-woocommerce-v2/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/db-version-control-wordpress-plugin/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/december-2024-a-retrospective/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/delivery-drivers-for-woocommerce/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/devio-digital/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/dispensary-wordpress-plugins-2017/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/do-less-deliver-more/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/docupress-documentation-plugin-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/dont-shoot-the-messenger-choose-courage-over-convenience/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/extreme-programming-for-extreme-leaders/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/focus/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/forever-forward/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/going-all-in-one-year-later/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/going-all-in-with-wp-dispensary/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/goodbye-wordpress-a-eulogy/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/hello-2017/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/hello-plugin-pal-your-ai-powered-plugin-generator-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/honoring-jesse-petersen-with-the-revival-of-stealth-login-page/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/host-your-wordpress-plugins-on-github-and-automate-plugin-packaging/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-a-security-audit-can-save-your-e-commerce-store-from-disaster/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-hungry-are-you/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-i-use-textexpander-to-reuse-my-best-ai-prompts/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-block-website-tracking-data-in-woocommerce/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-build-a-content-engine-that-scales-with-you/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-build-modular-prompts-that-save-you-hours-per-week/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-customize-the-style-of-your-wordpress-login-screen/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-edit-ai-content-so-it-feels-clean-not-robotic/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-stop-your-plugins-themes-from-being-used-on-wordpress-com-hosting/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-teach-ai-to-match-your-voice/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-use-ai-to-research-validate-ideas-and-stay-relevant/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/how-to-write-prompts-that-get-the-tone-structure-and-intent-right/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/hue-js/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/i-built-a-python-stego-cipher-tool-and-you-can-have-it/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/i-just-launched-a-python-course-for-php-developers/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/im-freelancing-again/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/improve-cls-scores-by-dynamically-setting-image-width-and-height/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/intellipress-the-smart-af-ai-assistant-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-an-experimental-new-plugin-email-designer-for-woocommerce/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-associated-taxonomies-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-automattic-css-an-open-source-css-utility-framework/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-back-in-stock-notifications-for-woocommerce/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-barcodes-for-woocommerce-free/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-benchpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-block-ai-crawlers-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-bluesky-feed-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-brands-for-woocommerce-free/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-broken-image-scanner/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-bulk-stock-management-for-woocommerce-free/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-content-restriction-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-delete-inactive-users/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-digg-this-a-social-sharing-plugin-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-dispensary-details-for-woocommerce/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-gallery-modals-enhance-your-wordpress-galleries-with-stunning-popups/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-gift-cards-for-woocommerce-free/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-hpos-compatibility-scanner-for-woocommerce-free/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-img-a11y/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-intellipress-the-smart-ai-assistant-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-maintenance-mode-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-markdown-comments-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-markdown-exporter-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-media-copyright-scanner/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-media-file-versioning-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-metadata-import-export-for-yoast-seo/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-module-usage-tracker-for-wp-bakery/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-pattern-pal-ai-powered-patterns-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-persistent-dismissible-notices/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-projects-for-wordpress-a-better-way-to-showcase-your-work/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-purchase-orders-for-woocommerce-free/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-seo-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-shipping-multiple-addresses-for-woocommerce-free/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-site-vitals-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-slop-stopper-a-free-content-checker-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-stats-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-table-block-enhancer-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-test-orders-for-woocommerce/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-the-phlush-permalinks-wordpress-plugin/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-the-prompts-library-a-playground-for-ai-creativity/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-the-user-login-status-plugin-for-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-vertical-gallery-product-display-for-woocommerce/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/introducing-widget-usage-tracker-for-elementor/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/invest-in-yourself/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/leafly-reviews-wordpress-plugin/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/leap-the-code-of-extreme-leadership/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/making-up-for-lost-time/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/mnml-free-minimalist-wordpress-theme/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/my-brothers-keeper-sons-of-anarchy-fanfiction/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/my-development-projects/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/open-source-is-anarchism-in-action/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/organized-chaos/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/patience/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/peddle-free-wordpress-theme-for-easy-digital-downloads/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/projects/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/projects/agents-sdk/,BreadcrumbList; ListItem; Person; SoftwareSourceCode,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/projects/dispatch/,BreadcrumbList; ListItem; Person; SoftwareSourceCode,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/projects/kujo/,BreadcrumbList; ListItem; Person; SoftwareSourceCode,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/projects/lens/,BreadcrumbList; ListItem; Person; SoftwareSourceCode,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/projects/sitekit/,BreadcrumbList; ListItem; Person; SoftwareSourceCode,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/projects/ssg/,BreadcrumbList; ListItem; Person; SoftwareSourceCode,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/release-notes-back-in-stock-notifications-for-woocommerce-free-v1-0-1/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/relentless/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/rethinking-keyword-research-in-the-age-of-ai/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/reusable-flask-error-handling-a-step-by-step-guide-to-modular-http-error-responses/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/run-a-tor-relay/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/say-goodbye-to-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/set-featured-images-programatically-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/slackedd/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/stattic-v0-3-0-release-llms-txt-faster-gifs-leaner-core-and-smarter-routing/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/stop-gambling-with-client-trust-why-skipping-a-security-audit-is-a-risk-you-cant-afford/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/tag/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/tag/ai/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/tag/archive/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/tag/engineering/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/tag/essays/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/tag/woocommerce/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/tag/wordpress/,CollectionPage; Person,1,True,True,none identified,,retain and validate
+after,https://robertdevore.com/thank-you-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/the-fastest-way-for-php-devs-to-learn-python/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/the-past-present-and-future-of-wp-dispensary/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/tools-and-workflows-for-formatting-visuals-and-citations/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/twitter-marketing/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/two-years-building-wp-dispensary/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/use-ai-to-create-your-own-wwf-action-figure-blister-packs/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/what-makes-content-beautifully-useful/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/why-wordpress-plugin-developers-need-security-audits/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/woocommerce-dispensary-details-plugin/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/wordpress-custom-post-types-code-snippets/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/wordpress-plugin-security-is-a-joke-and-youre-the-punchline/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/wordpress-woocommerce-plugins-i-will-no-longer-maintain/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/wp-dispensary-v2/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/wp-dispensary/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/wtf-is-wordpress/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate
+after,https://robertdevore.com/zero-cool-cli-a-hackers-terminal-from-1995/,BlogPosting; BreadcrumbList; ListItem; Person,1,True,True,Article,,retain and validate

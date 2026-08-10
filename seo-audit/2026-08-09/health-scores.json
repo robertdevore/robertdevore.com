@@ -1,0 +1,37 @@
+{
+  "audit_date": "2026-08-09",
+  "disclaimer": "Internal trend heuristics only; not official scores from a search or AI platform.",
+  "seo_health": {
+    "baseline": 67,
+    "after": 92,
+    "weights": {
+      "crawlability_indexability": 20,
+      "metadata_serp_representation": 15,
+      "information_architecture_internal_linking": 15,
+      "content_quality_currentness": 15,
+      "structured_data": 10,
+      "performance_core_web_vitals_evidence": 10,
+      "media": 5,
+      "authority_trust": 5,
+      "ai_search_readiness": 5
+    }
+  },
+  "ai_search_readiness": {
+    "baseline": 66,
+    "after": 82,
+    "weights": {
+      "search_crawler_access": 15,
+      "indexability": 10,
+      "information_entity_clarity": 10,
+      "source_attribution_authorship": 10,
+      "original_citable_information": 15,
+      "semantic_structured_data": 10,
+      "internal_topic_relationships": 10,
+      "freshness": 5,
+      "technical_media_readiness": 5,
+      "measured_ai_visibility": 10
+    },
+    "measured_ai_visibility_points": 0,
+    "measured_ai_visibility_status": "NOT AVAILABLE — DATA ACCESS REQUIRED"
+  }
+}

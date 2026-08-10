@@ -1,0 +1,7 @@
+audit_date,agent,purpose,production_http_status,robots_policy,accessibility_issue,source
+2026-08-09,Googlebot,Google Search,200,"User-agent: * / Allow: /",none,https://developers.google.com/search/docs/crawling-indexing/robots/intro
+2026-08-09,Bingbot,Bing Search,200,"User-agent: * / Allow: /",none,https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a
+2026-08-09,OAI-SearchBot,ChatGPT Search,200,"User-agent: * / Allow: /",none,https://help.openai.com/en/articles/12627856-publishers-and-developers-faq
+2026-08-09,GPTBot,OpenAI model training,200,"User-agent: * / Allow: /",none,"https://platform.openai.com/docs/bots; policy choice only—not a search-ranking requirement"
+2026-08-09,PerplexityBot,Perplexity search indexing,200,"User-agent: * / Allow: /",none,https://docs.perplexity.ai/docs/resources/perplexity-crawlers
+2026-08-09,Perplexity-User,Perplexity user-requested retrieval,200,"User-agent: * / Allow: /",none,https://docs.perplexity.ai/docs/resources/perplexity-crawlers

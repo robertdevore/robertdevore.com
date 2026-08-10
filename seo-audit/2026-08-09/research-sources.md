@@ -1,0 +1,13 @@
+# Current search and AI-discovery guidance
+
+Research date: 2026-08-09. First-party documentation was preferred. These sources informed the audit and recommendations; none is treated as a guarantee of rankings or citations.
+
+- [Google: Top ways to ensure your content performs well in Google's AI experiences](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — confirms that normal SEO foundations, unique first-hand value, crawlable internal links, and clear structure apply; no special AI schema or content fragmentation is required; Google currently ignores `llms.txt`.
+- [Google Search Central: Generative AI performance reporting](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports) — establishes the dedicated Search Console reporting that should be collected when property access is available.
+- [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide), [canonical guidance](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls), [snippet guidance](https://developers.google.com/search/docs/appearance/snippet), [sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), and [site-name structured data guidance](https://developers.google.com/search/docs/appearance/site-names) — used for crawl, duplication, metadata, sitemap, and schema decisions.
+- [OpenAI publishers and developers FAQ](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq) — distinguishes OAI-SearchBot search discovery from GPTBot training controls and documents `utm_source=chatgpt.com` referrals.
+- [Perplexity crawler documentation](https://docs.perplexity.ai/docs/resources/perplexity-crawlers) — distinguishes PerplexityBot from user-triggered Perplexity-User access and documents crawler verification/WAF considerations.
+- [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a) and [IndexNow documentation](https://www.indexnow.org/documentation) — used for Bing crawling and optional change-notification recommendations.
+- [Schema.org](https://schema.org/) — vocabulary reference for factual `WebSite`, `Person`, `CollectionPage`, `AboutPage`, `ContactPage`, `BlogPosting`, `SoftwareSourceCode`, and `BreadcrumbList` markup.
+
+Experimental features were kept in proportion: the existing `llms.txt` remains a useful interoperability artifact, but this audit makes no claim that it improves Google rankings or AI citations. IndexNow was not added because the current low-frequency static deployment already publishes a sitemap and no production key/deployment integration was authorized or needed to repair a defect.
