@@ -31,7 +31,7 @@ Audit date: 2026-08-09. “After” means the final generated repository artifac
 | Static meta-refresh aliases | 183 | 172 | -11 duplicate root-pagination aliases removed; retained aliases remain a host limitation |
 | Search/AI crawler accessibility issues | 0 | 0 | All six tested agents received 200; policy unchanged |
 | P0 critical findings | 0 | 0 | 0 |
-| P1 affected-page findings | 19 | 1 | 18 orphans resolved; production `www` hostname remains |
+| P1 affected-page findings | 19 | 1 | 18 orphans resolved; production `www` remained at audit completion and was resolved on 2026-08-10 |
 | Internal SEO health score | 67/100 | 92/100 | +25 |
 | AI Search Readiness | 66/100 | 82/100 | +16; visibility remains unmeasured |
 

@@ -2,9 +2,9 @@
 
 Audit date: 2026-08-09.
 
-## P1 — `www` hostname returns HTTP 521
+## Resolved 2026-08-10 — `www` hostname HTTP 521
 
-`https://robertdevore.com/` returns 200 and `http://robertdevore.com/` redirects to it. `http://www.robertdevore.com/` redirects to `https://www.robertdevore.com/`, which returned Cloudflare 521 on repeated checks. This can strand old links and split hostname signals. Correct the Cloudflare/DNS/origin configuration, then make both HTTP variants and HTTPS `www` issue one-hop permanent redirects to `https://robertdevore.com/`. This cannot be repaired safely from the site repository.
+During the audit, `https://www.robertdevore.com/` returned Cloudflare 521 because its proxied DNS record targeted a stale origin. On 2026-08-10 the record was replaced with a proxied CNAME to `robertdevore.com`, and Cloudflare Redirect Rules were deployed for both HTTP and HTTPS `www`. Root, nested-path, and query-string checks now issue one 301 to the equivalent HTTPS apex URL and finish with HTTP 200. See `post-audit-fixes.md`.
 
 ## P2 — historical third-party link debt
 
@@ -14,9 +14,9 @@ The after crawl observed 153 failing external-link instances representing 106 un
 
 Google Search Console (including Generative AI performance), Bing Webmaster Tools, analytics/server logs, CrUX/RUM, and independent AI-answer platform access were unavailable. Organic clicks/impressions/CTR/position, index coverage, crawl stats, conversions, referrals, AI citations, and field CWV/INP remain **NOT AVAILABLE — DATA ACCESS REQUIRED**. See `data-availability.md`.
 
-## P2 — production deployment and recrawl are pending
+## Resolved 2026-08-09 — production deployment
 
-The final artifact is validated locally, but the production probes and search samples describe the site before these commits are deployed and reprocessed. Deployment is expected from the normal push-to-`main` workflow; verify the workflow and production routes after it completes.
+GitHub Pages deployment run `31344727328` completed successfully for commit `8abc08d`. Production sitemap, robots, `llms.txt`, project, taxonomy, pagination, schema, asset-version, and removed-route checks passed. Search-engine reprocessing and outcome measurement still require the external data and elapsed windows described above.
 
 ## P3 — eight destinations are four clicks deep
 

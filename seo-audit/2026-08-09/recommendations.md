@@ -3,7 +3,7 @@
 ## Immediate after deployment
 
 1. Confirm the GitHub Pages workflow passes and sample production homepage, blog pagination, taxonomy indexes, all six project records, sitemap, robots, feed, `llms.txt`, and representative historical posts.
-2. Fix the `www` Cloudflare/DNS path and verify one-hop permanent redirects for all hostname/protocol variants.
+2. **Completed 2026-08-10:** corrected the `www` Cloudflare/DNS path and verified one-hop permanent redirects for all hostname/protocol variants, including nested paths and query strings.
 3. Submit or inspect the sitemap in Google Search Console and Bing Webmaster Tools. Inspect the removed `/page/N/` URLs and key project URLs; request recrawl only where platform guidance supports it.
 4. Connect Search Console, Bing Webmaster Tools, and privacy-appropriate analytics/log access to the next audit. Preserve the pre/post deployment date as an annotation.
 

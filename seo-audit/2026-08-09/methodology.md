@@ -33,7 +33,7 @@ This is a trend heuristic, not a Google score. The 100 points are: crawlability/
 
 | Category | Weight | Baseline | After | Evidence basis |
 | --- | ---: | ---: | ---: | --- |
-| Crawlability/indexability | 20 | 16 | 19 | Canonicals/sitemap existed; duplicate indexable pagination, orphan pages, broken links, and `www` failure reduced to the external `www` issue. |
+| Crawlability/indexability | 20 | 16 | 19 | Canonicals/sitemap existed; duplicate indexable pagination, orphan pages, broken links, and `www` failure reduced to the external `www` issue. That final hostname issue was resolved post-audit on 2026-08-10. |
 | Metadata/SERP representation | 15 | 9 | 15 | Duplicate archive metadata, legacy keywords, and invalid large-card selection resolved. |
 | Architecture/internal linking | 15 | 8 | 14 | 18 orphans and 28 broken internal targets reduced to zero; eight pages remain four clicks deep. |
 | Content quality/currentness | 15 | 12 | 12 | Strong first-hand archive; historical third-party link/currentness debt remains. |

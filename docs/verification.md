@@ -31,7 +31,7 @@ The command rebuilds the static output, serves it only on an available `127.0.0.
 
 - The dated SEO audit under `seo-audit/2026-08-09/` records third-party destinations in historical articles that returned 4xx/5xx or network failures. Those links require human context and replacement-source review; they were not rewritten to unrelated destinations.
 - Search Console, Bing Webmaster Tools, analytics, and independent AI-answer-platform data were not available during the audit, so traffic, query, indexing, generative-search, referral, and citation outcomes remain explicitly unmeasured.
-- The production `www` hostname returned HTTP 521 during the audit while the apex hostname returned 200. DNS/CDN correction is outside this repository.
+- The production `www` hostname returned HTTP 521 during the audit while the apex hostname returned 200. The stale Cloudflare DNS origin and HTTP/HTTPS redirect rules were corrected on 2026-08-10; all hostname/protocol variants now issue one 301 to the equivalent HTTPS apex URL.
 - Ten retained legacy/service pages contain claims that need Robert's review before they should be treated as current.
 - Historical media is intentionally preserved and dominates repository size. A later editorial pass can retire or recompress individual assets without changing routes.
 - The supplied article concept was used as direction, not copied pixel-for-pixel.
