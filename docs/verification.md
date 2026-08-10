@@ -4,9 +4,9 @@
 
 - `npm run build && npm run lint && npm run snapshot` in SiteKit — 85 components validated; snapshot generated.
 - `KUJO_BIN=... bash scripts/run_ci_checks.sh` in Kujo SSG — CLI contracts, generated contracts, build, HTML validation, and custom-collection `llms.txt` coverage passed.
-- `./scripts/build.sh` — 137 posts, two pages, custom collections, redirects, and auxiliary outputs generated with the pinned Kujo runtime.
-- `python3 scripts/validate_site.py output` — 184 primary routes checked; titles, descriptions, canonicals, sitemap parity, RSS self-discovery, robots directives, heading order, one-H1 structure, unique IDs, alt attributes, JSON-LD, assets, article taxonomy/related-reading contracts, project landing pages, contact form, footer, and `llms.txt` collection coverage validated; passed with 77 preserved historical-link warnings.
-- `npx --yes vnu-jar@26.8.6 --format json --stdout --skip-non-html output` — all 366 generated HTML documents passed the pinned Nu Html Checker with zero errors, warnings, or informational findings; `./scripts/validate_html.sh output` enforces the error-level release gate.
+- `./scripts/build.sh` — 138 posts, two pages, custom collections, aliases, and auxiliary outputs generated with the pinned Kujo runtime; 11 duplicate root-level pagination pages were removed from the final artifact.
+- `python3 scripts/validate_site.py output` — 174 primary HTML routes checked; titles, descriptions, canonicals, sitemap parity, RSS self-discovery, robots directives, heading order, one-H1 structure, unique IDs, alt attributes and intrinsic dimensions, page-type JSON-LD, assets, article taxonomy/related-reading contracts, project landing pages, contact form, footer, and `llms.txt` collection coverage validated; passed with zero warnings.
+- `./scripts/validate_html.sh output` — the complete generated artifact passed the pinned Nu Html Checker error-level gate.
 - `https://html5.validator.nu/?out=json` source validation — all nine representative QA routes returned zero messages: home, long article, category archive, project detail, About, projects index, tag archive, contact, and 404. The inline critical shell avoids the legacy CSS syntax and responsive-image attributes rejected by that validator while the complete stylesheet remains external.
 - `python3 scripts/run_visual_receipt.py` — QA-001 passed all nine representative routes at desktop and mobile viewports with no error-level findings.
 - Browser QA at 1440px and 375–390px — homepage, representative article, category archive, project landing page, about, and contact rendered with one H1, a main landmark, and no horizontal overflow. It also verified the sticky translucent header, centered/outlined home hero, separator removal, three-card related reading, two-column archive alignment, heading-rule removal, responsive contact form, white footer, and mobile stacking.
@@ -29,7 +29,9 @@ The command rebuilds the static output, serves it only on an available `127.0.0.
 
 ## Known limitations and human review
 
-- 73 links inside historical articles point to old project, tag, chapter, recommendation, `/wp-content/`, or image routes that were already absent from the current public inventory. They are preserved and reported, not fabricated.
+- The dated SEO audit under `seo-audit/2026-08-09/` records third-party destinations in historical articles that returned 4xx/5xx or network failures. Those links require human context and replacement-source review; they were not rewritten to unrelated destinations.
+- Search Console, Bing Webmaster Tools, analytics, and independent AI-answer-platform data were not available during the audit, so traffic, query, indexing, generative-search, referral, and citation outcomes remain explicitly unmeasured.
+- The production `www` hostname returned HTTP 521 during the audit while the apex hostname returned 200. DNS/CDN correction is outside this repository.
 - Ten retained legacy/service pages contain claims that need Robert's review before they should be treated as current.
 - Historical media is intentionally preserved and dominates repository size. A later editorial pass can retire or recompress individual assets without changing routes.
 - The supplied article concept was used as direction, not copied pixel-for-pixel.

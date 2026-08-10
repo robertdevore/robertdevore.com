@@ -28,7 +28,7 @@ I’ve given 20 years to WordPress® – freely, relentlessly, and without expec
 
 In the last year alone, I shipped over 50 plugins. 
 
-Tools like **[BenchPress](/projects/benchpress/)** and **[DB Version Control](/projects/db-version-control/)** that solve real problems and pushed the envelope. 
+Tools like **[BenchPress](https://github.com/robertdevore/benchpress)** and **[DB Version Control](https://github.com/robertdevore/db-version-control/)** that solve real problems and pushed the envelope.
 
 And how did the community respond?
 
@@ -96,7 +96,7 @@ You want dev adoption?
 
 Maybe start with working docs and a functioning repo.
 
-Maybe talk to the guy who [auto-forked WordPress®](https://notmatt.press) months ago, wrote a plugin to [stop data from being sent to Woo](/how-to-block-website-tracking-data-in-woocommerce/), [stopped plugins from being used](https://packagist.org/packages/robertdevore/wpcom-check) on wordpress.com and built a plugin to [help devs self-host their plugins](/projects/projects-for-wordpress/) directly in their WordPress sites.
+Maybe talk to the guy who [auto-forked WordPress®](https://notmatt.press) months ago, wrote a plugin to [stop data from being sent to Woo](/how-to-block-website-tracking-data-in-woocommerce/), [stopped plugins from being used](https://packagist.org/packages/robertdevore/wpcom-check) on wordpress.com and built a plugin to [help devs self-host their plugins](https://github.com/robertdevore/projects-for-wordpress/) directly in their WordPress sites.
 
 I raised real questions. Here they are:
 
@@ -156,7 +156,7 @@ Matt can have it all.
 
 Because honestly, no one else in the ecosystem seems capable of taking it from him. 
 
-Not with the kind of [extreme leadership](/tag/extreme-leadership/) it requires.
+Not with the kind of [extreme leadership](/leap-the-code-of-extreme-leadership/) it requires.
 
 Which is sad when you think about it, because Matt really ain’t shit either.
 

@@ -40,7 +40,7 @@ On the front end of your website, the plugin adds a new "Delivery Drivers" tab t
 
 ### Order status management by your drivers
 
-Once your driver clicks the ID number they'd like to view order details for, they are displayed with another page, like in the screenshot below. ![Driver Dashboard Order Edit - Delivery Drivers for WooCommerce](/assets/legacy-images/ddwc_screenshot_4.webp) This page shows basic order details, along with a list of items in the order, the delivery address and Google map of the location, plus order status management.
+Once your driver clicks the ID number they'd like to view order details for, they are shown a page with basic order details, a list of items in the order, the delivery address and Google map of the location, plus order status management.
 
 ### Order Status management
 

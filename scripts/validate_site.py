@@ -33,6 +33,11 @@ for path in html_files:
     if not title: errors.append(f"{rel}: missing title")
     if not desc or not desc.get("content", "").strip(): errors.append(f"{rel}: missing description")
     if path.name != "404.html" and not canonical: errors.append(f"{rel}: missing canonical")
+    if soup.select_one('meta[name="keywords"]'): errors.append(f"{rel}: legacy meta keywords are present")
+    twitter_card = soup.select_one('meta[name="twitter:card"]')
+    twitter_image = soup.select_one('meta[name="twitter:image"]')
+    if twitter_card and twitter_card.get("content") == "summary_large_image" and not twitter_image:
+        errors.append(f"{rel}: large Twitter card is missing an image")
     if canonical and path.name != "404.html": canonical_urls.add(canonical.get("href", ""))
     titles.setdefault(title, []).append(str(rel))
     if desc: descriptions.setdefault(desc.get("content", ""), []).append(str(rel))
@@ -40,14 +45,17 @@ for path in html_files:
     if len(ids) != len(set(ids)): errors.append(f"{rel}: duplicate id")
     for image in soup.find_all("img"):
         if "alt" not in image.attrs: errors.append(f"{rel}: image without alt")
+        src = image.get("src", "")
+        if src.startswith("/") and route_exists(src) and (not image.get("width") or not image.get("height")):
+            errors.append(f"{rel}: local image lacks intrinsic dimensions: {src}")
     if soup.select_one("div[aria-label]"):
         errors.append(f"{rel}: generic div uses aria-label without an allowed role")
     critical_css = soup.select_one("style[data-critical-css]")
-    stylesheet_preload = soup.select_one('link[rel="preload"][as="style"]')
+    stylesheet = soup.select_one('link[rel="stylesheet"]')
     if not critical_css or "build:critical-css" in critical_css.get_text():
         errors.append(f"{rel}: generated critical CSS is missing")
-    if not stylesheet_preload or f"assets/css/site.bundle.css?v={release_version}" not in stylesheet_preload.get("href", ""):
-        errors.append(f"{rel}: expected the async v{release_version} stylesheet bundle")
+    if not stylesheet or f"assets/css/site.bundle.css?v={release_version}" not in stylesheet.get("href", ""):
+        errors.append(f"{rel}: expected the render-blocking v{release_version} stylesheet bundle")
     hero = soup.select_one(".signal-hero")
     if hero:
         hero_image = hero.select_one("picture.signal-hero__field > img")
@@ -120,9 +128,10 @@ for path in sorted(root.rglob("*.css")):
         if not target.is_relative_to(root) or not target.exists():
             errors.append(f"{rel}: missing CSS asset {url}")
 
-required = ["index.html", "blog/index.html", "page/2/index.html", "about/index.html", "contact/index.html", "projects/index.html", "category/developer-tools/index.html", "tag/engineering/index.html", "404.html", "feed/index.xml", "sitemap.xml", "robots.txt", "llms.txt"]
+required = ["index.html", "blog/index.html", "blog/page/2/index.html", "about/index.html", "contact/index.html", "projects/index.html", "category/developer-tools/index.html", "tag/engineering/index.html", "404.html", "feed/index.xml", "sitemap.xml", "robots.txt", "llms.txt"]
 for item in required:
     if not (root / item).exists(): errors.append(f"missing required output: {item}")
+if (root / "page").exists(): errors.append("duplicate root pagination routes remain in generated output")
 
 for path in all_html_files:
     soup = BeautifulSoup(path.read_text(errors="ignore"), "html.parser")
@@ -182,7 +191,7 @@ not_found = BeautifulSoup((root / "404.html").read_text(errors="ignore"), "html.
 for selector, expected in (
     ('link[rel="icon"]', "/favicon.svg"),
     ('link[type="application/rss+xml"]', "/feed/index.xml"),
-    ('link[rel="preload"][as="style"]', f"/assets/css/site.bundle.css?v={release_version}"),
+    ('link[rel="stylesheet"]', f"/assets/css/site.bundle.css?v={release_version}"),
     ('script[src*="scramble-decode.js"]', f"/assets/js/vendor/scramble-decode.js?v={release_version}"),
     ('script[src$="site.js?v=' + release_version + '"]', f"/assets/js/site.js?v={release_version}"),
 ):
@@ -204,6 +213,9 @@ if not snips or "without losing the required context" not in snips.get_text(" ",
 active_system_titles = [heading.get_text(" ", strip=True) for heading in projects.select(".project-secondary h3")]
 if active_system_titles != ["Strata", "Snips", "RepoRadar"]:
     errors.append(f"projects active-system titles are incorrect: {active_system_titles}")
+for slug in ("agents-sdk", "dispatch", "lens", "sitekit", "ssg"):
+    if not projects.select_one(f'.project-ecosystem a[href="/projects/{slug}/"]'):
+        errors.append(f"projects page does not link to project record {slug}")
 tool_links = {link.get_text(" ", strip=True): link.get("href") for link in projects.select(".project-link-bank__columns a")}
 for removed_tool in ("Repo Radar", "Agent Skills", "PlaneWatch", "AI Agents", "Learn Chess", "Content Creator", "Don't Break The Chain"):
     if removed_tool in tool_links: errors.append(f"projects tool archive still includes removed tool {removed_tool}")
@@ -212,7 +224,6 @@ for label, href in (
     ("Paperclip Starred Issues", "https://github.com/robertdevore/paperclip-starred-issues"),
     ("HolySheet", "https://github.com/robertdevore/holy-sheet"),
     ("TreasureTrail", "https://github.com/robertdevore/treasure-trail"),
-    ("LaravelCMS", "https://github.com/robertdevore/laravel-cms"),
     ("Prompts Library", "https://prompts.robertdevore.com"),
     ("Learn Python", "https://python.robertdevore.com"),
 ):

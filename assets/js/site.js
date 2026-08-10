@@ -33,7 +33,7 @@
   });
 
   if (window.ScrambleDecode && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    var titles = document.querySelectorAll(".signal-title,.section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2,.project-link-bank__columns a,.flagship-panel h3,.home-focus .sk-card h3,.home-principles h3,.project-secondary h3,.article-related-grid .listing-card a,.clarity-grid h2,.about-map h3,.about-timeline h2,.about-proof h3");
+    var titles = document.querySelectorAll(".section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2,.project-link-bank__columns a,.flagship-panel h3,.home-focus .sk-card h3,.home-principles h3,.project-secondary h3,.article-related-grid .listing-card a,.clarity-grid h2,.about-map h3,.about-timeline h2,.about-proof h3");
     function runTitle(title) {
       if (title.hasAttribute("data-scramble-complete")) return;
       var headingAnchor = title.querySelector(":scope > .heading-anchor");

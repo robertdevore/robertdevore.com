@@ -12,7 +12,7 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
-Back in 2018, I built **[Dispensary Details for WooCommerce®](/projects/dispensary-details-for-woocommerce/)** to solve a problem: 
+Back in 2018, I built **[Dispensary Details for WooCommerce®](https://github.com/getCannaBiz/dispensary-details-for-woocommerce)** to solve a problem:
 
 WooCommerce® lacked the essential cannabis-specific product details that dispensaries needed. Lab results, strain information, effects, and medical benefits – none of it was natively supported.
 
@@ -32,7 +32,7 @@ So rather than let it collect dust, I decided to release it for free.
 
 Dispensaries running WooCommerce® often struggle to provide customers with the detailed information they need to make informed purchases. 
 
-**[Dispensary Details for WooCommerce®](/projects/dispensary-details-for-woocommerce/)** solves this by adding cannabis-specific product fields and custom taxonomies to enhance product listings.
+**[Dispensary Details for WooCommerce®](https://github.com/getCannaBiz/dispensary-details-for-woocommerce)** solves this by adding cannabis-specific product fields and custom taxonomies to enhance product listings.
 
 ### **Product-Specific Enhancements**
 
@@ -70,7 +70,7 @@ The cannabis space is still one of the most **heavily restricted markets** for s
 
 Payment processors shut down accounts, advertising is nearly impossible, and closed-source platforms force businesses into rigid systems that don’t truly serve their needs.
 
-That’s why open-source solutions like **[Dispensary Details for WooCommerce®](/projects/dispensary-details-for-woocommerce/)** matter. 
+That’s why open-source solutions like **[Dispensary Details for WooCommerce®](https://github.com/getCannaBiz/dispensary-details-for-woocommerce)** matter.
 
 They allow dispensaries to **own their data, customize their stores** , and **operate without fear of third-party shutdowns**. 
 
@@ -84,7 +84,7 @@ If you run a dispensary on WooCommerce® and need a **customizable, cannabis-fri
 
 No licensing fees, no subscriptions – just a tool built for the industry by someone who’s been in it for nearly a decade.
 
-➡️ **[Download the Plugin Here](/projects/dispensary-details-for-woocommerce/)**
+➡️ **[Download the Plugin Here](https://github.com/getCannaBiz/dispensary-details-for-woocommerce)**
 
 If you find it useful, consider sharing it with other dispensary owners or leaving feedback. 
 

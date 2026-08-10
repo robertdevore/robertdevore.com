@@ -27,7 +27,7 @@ With **User Login Status** , you can view user login statuses directly from the 
   * **Green Circle** : Indicates the user is **currently logged in**.
   * **Red Circle** : Indicates the user is **logged out** or inactive.
 
-[![User Login Status plugin screenshot](/assets/legacy-images/user_login_status_users_screen_1024x253.webp)](/images/user_login_status_users_screen.webp)
+[![User Login Status plugin screenshot](/assets/legacy-images/user_login_status_users_screen_1024x253.webp)](/assets/legacy-images/user_login_status_users_screen_1024x253.webp)
 
 This visual indicator allows for quick and easy monitoring of user activity without navigating through logs or third-party tools.
 

@@ -24,7 +24,7 @@ The more middle relays that Tor has, the faster it goes, making it more likely t
 
 ## Getting started with Digital Ocean
 
-For those of you who don't know, Digital Ocean is a SSD cloud server host that lets you _spin up_ a droplet in 55 seconds. By using the following sign up link (my affiliate link), you get a **$10 credit** , which means you'll be able to set up a server for your Tor relay without even having to come out of your pocket for the first two months. [Sign up to Digital Ocean](/recommends/digitalocean) ![digital-ocean-tor-relay-tutorial-1](/assets/legacy-images/digital_ocean_tor_relay_tutorial_1.webp) Getting your account set up is fairly straight forward. Create an account on their [home page](/recommends/digitalocean), add your credit card information for billing, and you're ready to start setting up your first droplet. ![The screen you see once your Digital Ocean account is set up](/assets/legacy-images/digital_ocean_tor_relay_tutorial_2.webp)The screen you see once your Digital Ocean account is set up
+For those of you who don't know, DigitalOcean is an SSD cloud server host that lets you spin up a droplet. When this article was published in 2015, its affiliate signup promotion offered a **$10 credit**; that offer may no longer be available. [Visit DigitalOcean](https://www.digitalocean.com/) to create an account, add your billing information, and start setting up your first droplet. ![digital-ocean-tor-relay-tutorial-1](/assets/legacy-images/digital_ocean_tor_relay_tutorial_1.webp) ![The screen you see once your Digital Ocean account is set up](/assets/legacy-images/digital_ocean_tor_relay_tutorial_2.webp)The screen you see once your Digital Ocean account is set up
 
 ### Creating your Droplet
 
@@ -64,7 +64,7 @@ There's a lot of documentation out there on how to set up Tor Relays, but in ord
 The links below were a big help for me getting this process together, and I doubt I would have been able to get this all sorted out without their help.
 
   * [Tor Project](http://www.torproject.org/index.html.en) … obviously!
-  * [Digital Ocean](/recommends/digitalocean) for the easy to use server & for allowing middle relays
+  * [DigitalOcean](https://www.digitalocean.com/) for the easy to use server & for allowing middle relays
   * [EFF's Tor Challenge](http://www.eff.org/torchallenge/)
   * [This Gist](http://gist.github.com/pdp7/138768f9279740096fe8) was a great help in visualizing the setup for me
   * [Tyler Longren's article](http://longren.io/tor-is-important-for-privacy-and-the-internet/) on Tor and Digital Ocean

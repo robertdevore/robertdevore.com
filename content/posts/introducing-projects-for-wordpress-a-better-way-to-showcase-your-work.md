@@ -34,7 +34,7 @@ I’m here to help create something better.
 
 ## What Is Projects for WordPress®?
 
-[Projects for WordPress®](/projects/projects-for-wordpress/) is a free, open source plugin that lets developers:
+[Projects for WordPress®](https://github.com/robertdevore/projects-for-wordpress/) is a free, open source plugin that lets developers:
 
   * 🚀 **Create a directory of projects** – plugins, themes, patterns – right on their own site.
   * 🔗 **Connect each project to a GitHub repository** to fetch release data, version info, and stats.
@@ -57,7 +57,7 @@ It’s freedom – without sacrificing familiarity.
 
 ### Independence
 
-No more relying on a centralized repo that can be de-indexed, deprioritized, or deleted without your input. With [Projects for WordPress®](/projects/projects-for-wordpress/), your site _is_ your plugin repo.
+No more relying on a centralized repo that can be de-indexed, deprioritized, or deleted without your input. With [Projects for WordPress®](https://github.com/robertdevore/projects-for-wordpress/), your site _is_ your plugin repo.
 
 ### Download Tracking
 
@@ -134,7 +134,7 @@ We are the builders who turned WordPress into a CMS that currently powers ~43% o
 
 ## How to Get Started
 
-  1. **Download the plugin** from [GitHub](https://github.com/robertdevore/projects-for-wordpress/) or [robertdevore.com](/projects/projects-for-wordpress/).
+  1. **Download the plugin** from [GitHub](https://github.com/robertdevore/projects-for-wordpress/) or [robertdevore.com](https://github.com/robertdevore/projects-for-wordpress/).
   2. **Upload & activate it** on your site.
   3. Go to **Projects → Add New** and start publishing.
   4. Paste in your GitHub URL and select a Project Type (plugin, theme, pattern).
@@ -150,7 +150,7 @@ To serve project downloads directly from GitHub:
   1. Create a **release** on your GitHub repo.
   2. **Attach a ZIP file** of your plugin/theme (make sure it contains all root-level files).
   3. Paste the repo URL into the Project edit screen.
-  4. [Projects for WordPress®](/projects/projects-for-wordpress/) will fetch the latest `.zip` and generate a public download link.
+  4. [Projects for WordPress®](https://github.com/robertdevore/projects-for-wordpress/) will fetch the latest `.zip` and generate a public download link.
 
 
 

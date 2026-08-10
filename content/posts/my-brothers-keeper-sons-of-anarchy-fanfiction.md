@@ -24,11 +24,7 @@ Now that I've had the chance to use the plugin, adding in my first book and a co
 
 ## My Brothers Keeper
 
-Below are links to the prologue and first two chapters.
-
-  * [00 - Prologue](/chapter/00/)
-  * [01 - Chapter 1](/chapter/01/)
-  * [02 - Chapter 2](/chapter/02/)
+The prologue and first two chapters were published separately on the original site. Those chapter routes are no longer part of this archive.
 
 
 

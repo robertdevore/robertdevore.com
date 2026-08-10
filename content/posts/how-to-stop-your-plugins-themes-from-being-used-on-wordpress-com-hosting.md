@@ -104,7 +104,7 @@ You can drop it into any plugin with minimal modifications, simply updating the 
 
 ![Snoop Dogg - All money ain't good money - GIF](/assets/legacy-images/snoop_all_money_aint_good_money.webp)
 
-BRB, I got [a LOT of plugins](/wordpress-and-woocommerce-plugins/) to update 😎
+BRB, I got [a LOT of plugins](/blog/) to update 😎
 
 ## Related Reading
 

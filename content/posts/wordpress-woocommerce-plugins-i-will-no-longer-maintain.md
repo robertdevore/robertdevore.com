@@ -106,7 +106,7 @@ The rest are still open for adoption. Interested? [Get in touch](/contact/).
 
 As I mentioned in my [WordPress Eulogy](/goodbye-wordpress-a-eulogy/), I am working on [Stattic](https://stattic.site) and [Devio Chat](https://devio.chat). Those will remain my main focus for the foreseeable future.
 
-On this site I’ll still be posting about [Extreme Leadership](/tag/extreme-leadership/), releasing new [projects](/projects/) and talking about them as I go.
+On this site I’ll still be posting about [Extreme Leadership](/leap-the-code-of-extreme-leadership/), releasing new [projects](/projects/) and talking about them as I go.
 
 Same flow, different focus 💪💯
 

@@ -78,7 +78,7 @@ This plugin adds a simple test order payment gateway with settings to choose the
 
 Admin notices be damned, now you can add a plugin that gives you the ability to remove admin notices even if they don’t come that way by default. We’re gonna clean WordPress® up one plugin at a time 💪
 
-**[Maintenance Mode for WordPress®](/articles/maintenance-mode-for-wordpress/)**
+**[Maintenance Mode for WordPress®](/introducing-maintenance-mode-for-wordpress/)**
 
 Speaking of building bloat free alternatives to sales machines, this plugin was created to help with that. It also lets you design your maintenance mode page with the block editor, because why not?
 
@@ -106,7 +106,7 @@ Continuing with the #WooWednesday campaign, I released this plugin to counter th
 
 And to prove I’m not some angry asshole who wants to just harm WooCommerce®, here’s a plugin I built to help devs check their HPOS compatibility. The feature is over a year old, and you had to wait for _me_ to build a compatibility checker 🤷‍♂️
 
-**[Delete Inactive Users](/articles/delete-inactive-users/)**
+**[Delete Inactive Users](/introducing-delete-inactive-users/)**
 
 Cleanliness is next to godliness and all that. So this plugin lets you remove users who are inactive. You’re able to choose the user role to target and the date the user needs to have been logged in by in order to not be deemed “inactive”.
 
@@ -249,7 +249,7 @@ I want more of that feeling in 2025 💪
 
 I’m also going to put more focus on offering comprehensive [security audits](/contact/) for developers who need a second set of eyes for their projects, as well as website owners who want to make sure the products they’re using are secure.
 
-This means I’ll be publishing more [security](/category/security/) related content, releasing more [security](https://github.com/robertdevore/api-audit) [focused](https://vuln.robertdevore.com) [tools](https://savage.robertdevore.com) and jumping into [bug bounty](https://hackerone.com/robertdevore) programs outside of WordPress®.
+This means I’ll be publishing more [security](/why-wordpress-plugin-developers-need-security-audits/) related content, releasing more [security](https://github.com/robertdevore/api-audit) [focused](https://vuln.robertdevore.com) [tools](https://savage.robertdevore.com) and jumping into [bug bounty](https://hackerone.com/robertdevore) programs outside of WordPress®.
 
 ## Stattic & decentralized publishing
 

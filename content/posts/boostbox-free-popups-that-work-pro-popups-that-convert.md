@@ -14,11 +14,11 @@ tags: ["WordPress"]
 
 Popups are **fucking powerful** – when they don’t suck.
 
-The problem? Most popup plugins are bloated, slow, and designed by people who clearly hate [web performance](/page-speed-optimization/).
+The problem? Most popup plugins are bloated, slow, and designed by people who clearly hate [web performance](/improve-cls-scores-by-dynamically-setting-image-width-and-height/).
 
 They force you into some janky drag-and-drop builder, load a dozen unnecessary scripts, and generally make you want to toss your website into the void.
 
-[BoostBox](/projects/boostbox/) **fixes all of that.**
+[BoostBox](https://github.com/deviodigital/boostbox) **fixes all of that.**
 
 It’s fast, lightweight, and **built inside WordPress®,** so you don’t have to learn some new interface just to get a damn popup on your site.
 
@@ -36,7 +36,7 @@ You know what’s stupid?
 
 Popup plugins that make you **leave WordPress®** just to build a damn popup.
 
-[BoostBox](/projects/boostbox/) keeps it simple – just open up the editor, create your popup like any normal post, and you’re done.
+[BoostBox](https://github.com/deviodigital/boostbox) keeps it simple – just open up the editor, create your popup like any normal post, and you’re done.
 
 ✔ **No clunky drag-and-drop bullshit**  
 ✔ **No extra learning curve**  
@@ -116,7 +116,7 @@ You can build popups, target specific pages, and use basic triggers – **withou
 
 ## **Final Thoughts: Get BoostBox, Then Get Paid**
 
-If you want a **fast, simple, no-bullshit** popup plugin that works **inside WordPress** , [BoostBox](/projects/boostbox/) is **the answer**.
+If you want a **fast, simple, no-bullshit** popup plugin that works **inside WordPress** , [BoostBox](https://github.com/deviodigital/boostbox) is **the answer**.
 
 ✅ **Works inside the WordPress editor**  
 ✅ **Smart popup triggers (no annoying popups here)**  
@@ -124,7 +124,7 @@ If you want a **fast, simple, no-bullshit** popup plugin that works **inside Wor
 ✅ **Doesn’t kill your site speed**  
 ✅ **Free as hell–but Pro makes it even better**
 
-🚀 **Get[BoostBox](/projects/boostbox/) for free today** – and when you’re ready to **turn your popups into a conversion machine,[go Pro](https://deviodigital.com/product/boostbox-pro/).**
+🚀 **Get[BoostBox](https://github.com/deviodigital/boostbox) for free today** – and when you’re ready to **turn your popups into a conversion machine,[go Pro](https://deviodigital.com/product/boostbox-pro/).**
 
 ## Related Reading
 

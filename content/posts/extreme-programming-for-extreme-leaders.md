@@ -24,7 +24,7 @@ Originally created to help teams respond to change quickly and deliver high-qual
 
 But when viewed through the lens of **[Extreme Leadership](/leap-the-code-of-extreme-leadership/)** , it becomes something more: a framework for focused execution, smart iteration, and consistent momentum.
 
-This article connects the dots between the core principles of XP and the values behind [Extreme Leadership](/tag/extreme-leadership/): accountability, adaptability, and clear communication through action. 
+This article connects the dots between the core principles of XP and the values behind [Extreme Leadership](/leap-the-code-of-extreme-leadership/): accountability, adaptability, and clear communication through action.
 
 Whether you’re building solo, leading a lean team, or working inside a fast-moving agency, XP offers tactical practices that align tightly with how effective leaders think and operate.
 

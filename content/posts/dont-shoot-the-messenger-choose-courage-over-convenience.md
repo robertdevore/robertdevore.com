@@ -124,7 +124,7 @@ Otherwise, it’s not a community anymore – it’s just another closed loop wh
 
 ## We Need Clarity Over Comfort
 
-I don’t expect everyone to agree with how I present things. That's fine. But if your first instinct is to critique the delivery instead of addressing the underlying truth, it’s worth asking: **Are you defending the community - or just your comfort inside it?** I’ll always choose clarity over comfort. Because at the end of the day, [extreme leadership](/tag/extreme-leadership/) isn't about keeping everyone happy - it's about doing what’s right, even when it’s inconvenient. The truth doesn't require permission. And sometimes, it shows up louder than people would like.
+I don’t expect everyone to agree with how I present things. That's fine. But if your first instinct is to critique the delivery instead of addressing the underlying truth, it’s worth asking: **Are you defending the community - or just your comfort inside it?** I’ll always choose clarity over comfort. Because at the end of the day, [extreme leadership](/leap-the-code-of-extreme-leadership/) isn't about keeping everyone happy - it's about doing what’s right, even when it’s inconvenient. The truth doesn't require permission. And sometimes, it shows up louder than people would like.
 
 ## Related Reading
 

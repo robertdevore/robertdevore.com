@@ -28,7 +28,7 @@ And by allowing customers to opt into real-time notifications when their favorit
 
 It’s also a direct competitor to the Back in Stock Notifications plugin from Woo that they charge $59/year for (at the time of this writing).
 
-It was deliberately chosen as a plugin to build because it allows some of the 20,000 customers ([screenshot](/images/woo_back_in_stock_notificartions_active_installs.webp)) to have a free alternative that does exactly what you need 🤘
+It was deliberately chosen as a plugin to build because it allows some of the 20,000 customers to have a free alternative that does exactly what you need 🤘
 
 [Back In Stock Notifications](https://github.com/robertdevore/back-in-stock-notifications/) provides:
 

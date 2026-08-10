@@ -12,7 +12,7 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-If you develop WordPress plugins and _haven’t_ had a third-party [security audit](/security-audits-for-wordpress/), **you’re playing a dangerous fucking game**.
+If you develop WordPress plugins and _haven’t_ had a third-party [security audit](/contact/), **you’re playing a dangerous fucking game**.
 
 I get it. You write solid code. You test your features. You’re confident in your work. 
 
@@ -22,7 +22,7 @@ And when (not if) someone finds a vulnerability in your code?
 
 It’s not just _your_ problem anymore. **Your users get hacked, their sites go down, and your reputation goes up in flames.**
 
-Let’s talk about why **getting a[security audit](/security-audits-for-wordpress/) isn’t optional** – it’s the difference between being a **trusted developer** and being the guy whose plugin just **made headlines for all the wrong reasons**.
+Let’s talk about why **getting a[security audit](/contact/) isn’t optional** – it’s the difference between being a **trusted developer** and being the guy whose plugin just **made headlines for all the wrong reasons**.
 
 ![Breaking News GIF](/assets/legacy-images/breaking_news.webp)
 
@@ -68,7 +68,7 @@ And that “someone else” might be a hacker who’s about to fuck up thousands
 
 Let’s be real – most WordPress® developers are **not** security experts. And that’s **fine**. You don’t have to be. But what you _do_ have to do is **bring in someone who is.**
 
-A [security audit](/security-audits-for-wordpress/) will:
+A [security audit](/contact/) will:
 
   * **Find the vulnerabilities you don’t even know to look for**
   * **Test for real-world attack scenarios** (the shit actual hackers try)
@@ -111,8 +111,6 @@ Start making **security** one of your selling points.
 
 When users have to choose between **your plugin and some random one** with no proof of security testing, **guess which one they’ll pick?**
 
-![Jim Carrey - Searching / Looking GIF](/assets/legacy-images/searching.webp)
-
 ## **A Security Audit Finds the Shit That Will Bite You Later**
 
 A proper audit doesn’t just check for “basic” vulnerabilities – it **stress-tests your plugin like a hacker would.**
@@ -130,7 +128,7 @@ Security isn’t just about **fixing what’s broken** —it’s about **future-
 
 ## **Get a Security Audit Before You Become the Next Horror Story**
 
-Look, you **can** keep rolling the dice and hoping nobody finds a critical flaw in your plugin. **Or** you can be proactive and **[make sure your shit is secure](/security-audits-for-wordpress/) before it becomes a problem.**
+Look, you **can** keep rolling the dice and hoping nobody finds a critical flaw in your plugin. **Or** you can be proactive and **[make sure your shit is secure](/contact/) before it becomes a problem.**
 
 A third-party security audit isn’t **optional**. It’s the difference between **being a developer users trust** and **being the guy whose plugin just caused a massive breach.**
 

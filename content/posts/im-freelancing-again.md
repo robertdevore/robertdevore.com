@@ -40,11 +40,11 @@ Whether it’s WordPress-specific or a completely separate stack, I’ve got yea
 
 **Some example** s
 
-  * [BenchPress](/projects/benchpress/)
-  * [Pattern Pal](/projects/pattern-pal/)
-  * [Customer Loyalty & Rewards](/projects/customer-loyalty-for-woocommerce/)
-  * [Bluesky Feed for WordPress®](/projects/bluesky-feed-for-wordpress/)
-  * [HPOS Compatibility Scanner](/projects/hpos-compatibility-scanner-for-woocommerce/)
+  * [BenchPress](https://github.com/robertdevore/benchpress)
+  * [Pattern Pal](https://github.com/robertdevore/pattern-pal/)
+  * [Customer Loyalty & Rewards](https://github.com/deviodigital/customer-loyalty-for-woocommerce)
+  * [Bluesky Feed for WordPress®](https://github.com/robertdevore/bluesky-feed-for-wordpress)
+  * [HPOS Compatibility Scanner](https://github.com/robertdevore/hpos-compatibility-scanner)
 
 
 
@@ -65,7 +65,7 @@ If you need a second pair of eyes on your code, I’m here to help.
 
 
 
-You can learn more about my security audits [here](/security-audits-for-wordpress/).
+You can learn more about my security audits [here](/why-wordpress-plugin-developers-need-security-audits/).
 
 ### ⚡ **Performance Optimization**
 
@@ -82,7 +82,7 @@ I’ve helped businesses optimize their websites and applications for speed and 
 
 
 
-You can learn more about page speed optimization services [here](/page-speed-optimization/).
+You can learn more about page speed optimization services [here](/improve-cls-scores-by-dynamically-setting-image-width-and-height/).
 
 ### 🚀 **MVP Website Builds**
 
@@ -105,7 +105,7 @@ You’ll get a fast, mobile-ready, SEO-friendly site that looks professional and
 
 If you’ve got your content (or a rough draft), we can launch. Simple as that.
 
-You can learn more about MVP Website Builds [here](/mvp-website-build/).
+You can learn more about MVP Website Builds [here](/contact/).
 
 ### 🛠 **Retainer Support**
 

@@ -12,7 +12,7 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-What if I told you there’s a way to build [WordPress® plugins](/wordpress-and-woocommerce-plugins/) that’s not just faster, but fundamentally better?
+What if I told you there’s a way to build [WordPress® plugins](https://github.com/robertdevore?tab=repositories) that’s not just faster, but fundamentally better?
 
 That the tedious, time-consuming process of writing boilerplate code, debugging, and ensuring security could be changed into something much more enjoyable?
 

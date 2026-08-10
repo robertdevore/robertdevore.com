@@ -16,8 +16,6 @@ I’m pumped to announce the release of **BenchPress** , a free WordPress® plug
 
 [BenchPress](https://github.com/robertdevore/benchpress) provides an easy way to measure the impact of various PHP operations, WordPress® queries, and database interactions – all from within the WordPress® dashboard.
 
-![BenchPress Admin Page](/assets/legacy-images/benchpress_admin_page.webp)
-
 ## 🎉 What is BenchPress?
 
 **BenchPress** is your all-in-one toolkit for benchmarking PHP and WordPress performance.
@@ -59,7 +57,7 @@ Plus, BenchPress lets you save snapshots of benchmark results for historical com
 
 BenchPress allows you to add custom benchmarks using the `benchpress_run_all_benchmarks` filter.
 
-You can read [this doc](/articles/extending-benchpress-with-custom-benchmarks/) to find out more.
+You can read [this doc](https://github.com/robertdevore/benchpress) to find out more.
 
 ![](/assets/legacy-images/benchpress_snapshots_modal_snapshot_data_1024x688.webp)Screenshot
 

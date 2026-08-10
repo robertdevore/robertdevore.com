@@ -224,7 +224,7 @@ For me, this is a beautiful way to begin 2024.
 
 After a rollercoaster year in 2023, I’m finding my groove again and this plugin is only the beginning.
 
-![](/assets/legacy-images/im_married_to_this_game_this_is_my_game.webp)#NeverNotWorking
+#NeverNotWorking
 
 I’ve already got a todo list for the free version’s next release. 
 

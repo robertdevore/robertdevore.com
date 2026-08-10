@@ -62,8 +62,6 @@ And since I was building a brand new product, it was only right that I would dog
 
 I’ve made some small tweaks to the content, but in order to get the site launched as quickly as possible, I used IntelliPress to write its own content … ALL OF IT.
 
-![](/assets/legacy-images/robot_waving.webp)
-
 The home page, about page, documentation, and support pages were all written by AI.
 
 Some text is more noticeable than others, which could be because of trying different prompts and editing on the fly.

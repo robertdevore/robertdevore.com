@@ -52,7 +52,7 @@ I got tired of this, so I built a solution.
 
 ## **Meet Slop Stopper: The AI Slop Bouncer for Your Blog**
 
-[Slop Stopper](/projects/slop-stopper/) is a free **WordPress® plugin that flags AI-generated bullshit before it gets published**.
+[Slop Stopper](https://github.com/robertdevore/slop-stopper) is a free **WordPress® plugin that flags AI-generated bullshit before it gets published**.
 
 Here’s how it works:
 
@@ -73,7 +73,7 @@ AI content isn’t going away.
 
 The marketing bros are out here calling AI **“the future of content creation”** , which is just code for **“we want to flood the internet with cheap, soulless slop that makes us money.”**
 
-**[Slop Stopper](/projects/slop-stopper/)** is about **keeping your content actually readable**. It’s about **making sure your site doesn’t turn into another SEO-driven AI landfill**.
+**[Slop Stopper](https://github.com/robertdevore/slop-stopper)** is about **keeping your content actually readable**. It’s about **making sure your site doesn’t turn into another SEO-driven AI landfill**.
 
 It’s about **forcing writers to put in actual effort instead of regurgitating chatbot nonsense**.
 
@@ -83,7 +83,7 @@ If you run a blog, you need this. Unless you _want_ your site to look like a Cha
 
 ## **Download Slop Stopper Now**
 
-Stop AI slop before it starts. Download [Slop Stopper](/projects/slop-stopper/) and save yourself.
+Stop AI slop before it starts. Download [Slop Stopper](https://github.com/robertdevore/slop-stopper) and save yourself.
 
 Your readers will thank you. 🤘
 

@@ -16,7 +16,7 @@ It is now less than 2 weeks until I release **version 2.0** of[**WP Dispensary**
 
 ## Rebuilt Settings Page
 
-This is arguably the biggest change coming in version 2.0 of [WP Dispensary](/two-years-building-wp-dispensary/). Back when I first released WPD, I honestly didn't put much thought into the **Settings** page. At the time, there wasn't many settings at all, and I wanted to get the MVP out into the world. This update brings in a brand new **Settings** page, built with the [WP OOP Settings API](https://github.com/AhmadAwais/WP-OOP-Settings-API) from [Ahmad Awaias](https://www.ahmadawais.com). [![](/assets/legacy-images/wpd_v2_settings_page_300x243.webp)](/wp-content/uploads/2018/04/wpd-v2-settings-page.png)click to expand
+This is arguably the biggest change coming in version 2.0 of [WP Dispensary](/two-years-building-wp-dispensary/). Back when I first released WPD, I honestly didn't put much thought into the **Settings** page. At the time, there wasn't many settings at all, and I wanted to get the MVP out into the world. This update brings in a brand new **Settings** page, built with the [WP OOP Settings API](https://github.com/AhmadAwais/WP-OOP-Settings-API) from [Ahmad Awaias](https://www.ahmadawais.com). [![](/assets/legacy-images/wpd_v2_settings_page_300x243.webp)](/assets/legacy-images/wpd_v2_settings_page_300x243.webp)click to expand
 
 ### Increased control over how to display data
 
@@ -28,7 +28,7 @@ With the **Settings** being built with the**WPOSA** , it is giving me the abilit
 
 ## Organized Edit Screens
 
-Another big update as far as the UI is concerned is the cleaned up **Edit** screens for each menu type. Previously, all**taxonomies** and**metaboxes** for each menu type would display on the **Edit** screen, creating a bit of chaos and intimidation for users. **Version 2.0** cleans house! [![](/assets/legacy-images/wpd_v2_edit_screen_300x238.webp)](/wp-content/uploads/2018/04/wpd-v2-edit-screen.png)click to expand
+Another big update as far as the UI is concerned is the cleaned up **Edit** screens for each menu type. Previously, all**taxonomies** and**metaboxes** for each menu type would display on the **Edit** screen, creating a bit of chaos and intimidation for users. **Version 2.0** cleans house! [![](/assets/legacy-images/wpd_v2_edit_screen_300x238.webp)](/assets/legacy-images/wpd_v2_edit_screen_300x238.webp)click to expand
 
 ### Default hidden data boxes
 

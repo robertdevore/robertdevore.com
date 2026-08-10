@@ -48,15 +48,13 @@ So the open source, free for anyone software was released 2+ years _before_ the 
 
 **So WordPress is software, right?**
 
-![](/assets/legacy-images/wtf_joe_pesci.webp)
-
 Then why are so many people confused over what it is when you search Google for it?
 
 “WordPress.com VS” results in a LOT of content to compare dot com to dot org, but you know what’s missing?
 
 Absolutely any type of focus on WordPress VS WP Engine.
 
-[![](/assets/legacy-images/wordpress_com_vs_wp_engine_google_search_results_394x1024.webp)](/images/wordpress_com_vs_wp_engine_google_search_results_scaled.webp)Screenshot
+[![](/assets/legacy-images/wordpress_com_vs_wp_engine_google_search_results_394x1024.webp)](/assets/legacy-images/wordpress_com_vs_wp_engine_google_search_results_394x1024.webp)Screenshot
 
 Actually, if you search for “wordpress.com vs wp engine” there is only 1 result that shows up ([link](https://www.krishaweb.com/blog/what-is-a-wordpress-vip/)), while “wordpress.org vs wp engine” returns 0 results.
 

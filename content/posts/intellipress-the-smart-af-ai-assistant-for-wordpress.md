@@ -12,7 +12,7 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
-Let’s be real – managing a WordPress® site is a full-time job, and I’m not even talking about [page speed optimization](/page-speed-optimization/), server maintenance, [security audits](/security-audits-for-wordpress/), etc.
+Let’s be real – managing a WordPress® site is a full-time job, and I’m not even talking about [page speed optimization](/improve-cls-scores-by-dynamically-setting-image-width-and-height/), server maintenance, [security audits](/why-wordpress-plugin-developers-need-security-audits/), etc.
 
 Writing content? Takes forever.
 

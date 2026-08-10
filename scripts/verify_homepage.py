@@ -73,8 +73,8 @@ if not hero_image or hero_image.get("src") != f"/assets/art/signal-a-1920.webp?v
     fail("homepage hero image is not eagerly discoverable with intrinsic dimensions")
 if not home.select_one('style[data-critical-css]'):
     fail("homepage is missing inline critical CSS")
-if not home.select_one(f'link[rel="preload"][as="style"][href$="site.bundle.css?v={release_version}"]'):
-    fail("homepage must preload the complete stylesheet bundle asynchronously")
+if not home.select_one(f'link[rel="stylesheet"][href$="site.bundle.css?v={release_version}"]'):
+    fail("homepage must load the complete stylesheet bundle before rendering")
 
 css = css_path.read_text(errors="ignore")
 required_css = (

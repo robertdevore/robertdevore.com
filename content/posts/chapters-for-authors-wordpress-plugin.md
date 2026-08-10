@@ -32,7 +32,7 @@ So once you have the plugin installed, you'll want to start writing immediately.
 
 ### Characters
 
-Tagging the Characters that appear in each chapter makes it easy to see how often characters appear throughout your book, link your readers to all of the times their favorite character appears in your book, etc. Don't have characters in your book? No problem! At the top right of the Add New Chapter page, you'll see a Screen Options button. [![click to view full size](/assets/legacy-images/chapters_for_authors_screen_options_1024x222.webp)](/wp-content/uploads/2016/09/chapters-for-authors_screen-options.jpg)click to view full size Clicking and opening this up lets you un-check the Characters option, hiding it from your screen forever 🙂
+Tagging the Characters that appear in each chapter makes it easy to see how often characters appear throughout your book, link your readers to all of the times their favorite character appears in your book, etc. Don't have characters in your book? No problem! At the top right of the Add New Chapter page, you'll see a Screen Options button. [![click to view full size](/assets/legacy-images/chapters_for_authors_screen_options_1024x222.webp)](/assets/legacy-images/chapters_for_authors_screen_options_1024x222.webp)click to view full size Clicking and opening this up lets you un-check the Characters option, hiding it from your screen forever 🙂
 
 ### Introduction Quotes
 

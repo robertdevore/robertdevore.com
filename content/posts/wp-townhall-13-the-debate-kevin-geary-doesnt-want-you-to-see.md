@@ -24,7 +24,7 @@ He blocked me on social media, and he deleted the episode entirely 🤦‍♂️
 
 Then, in a truly pathetic move, he uploaded a different video and labeled _that_ one Episode 13 – pretending the debate never happened at all.
 
-That’s not [leadership](/tag/extreme-leadership/). That’s insecurity in action.
+That’s not [leadership](/leap-the-code-of-extreme-leadership/). That’s insecurity in action.
 
 ## Why It Matters
 

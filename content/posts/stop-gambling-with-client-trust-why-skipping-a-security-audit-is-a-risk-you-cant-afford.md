@@ -20,7 +20,7 @@ You build websites, run campaigns, manage client data, and probably have access 
 
 If even **one** of those gets compromised, your **entire agency is on the hook**.
 
-A [professional security audit](/security-audits-for-wordpress/) isn’t just “nice to have.” 
+A [professional security audit](/why-wordpress-plugin-developers-need-security-audits/) isn’t just “nice to have.”
 
 It’s the difference between **running a smooth, trusted business** and **watching clients leave in droves after a security incident wrecks their sites, data, and trust in you.**
 
@@ -54,7 +54,7 @@ And once word gets out?
 
 
 
-A [security audit](/security-audits-for-wordpress/) ensures that you **catch problems before they turn into PR disasters**.
+A [security audit](/why-wordpress-plugin-developers-need-security-audits/) ensures that you **catch problems before they turn into PR disasters**.
 
 ![Sensitive GIF](/assets/legacy-images/sensitive.webp)
 
@@ -73,8 +73,6 @@ If that data leaks, **you’re legally liable** in a lot of cases.
 
 And even if you dodge the legal consequences, you won’t dodge the fallout when clients start demanding answers.
 
-![You are the weakest link, goodbye GIF](/assets/legacy-images/you_are_the_weakest_link_goodbye.webp)
-
 ## **Your Third-Party Tools Could Be the Weak Link**
 
 You know all those SaaS tools, plugins, and integrations you use? Yeah, they’re **not all secure**.
@@ -85,7 +83,7 @@ You know all those SaaS tools, plugins, and integrations you use? Yeah, they’r
 
 
 
-A [security audit](/security-audits-for-wordpress/) checks your **entire ecosystem** – not just your code, but everything your agency **relies on**.
+A [security audit](/why-wordpress-plugin-developers-need-security-audits/) checks your **entire ecosystem** – not just your code, but everything your agency **relies on**.
 
 ![GAME OVER GIF](/assets/legacy-images/game_over.webp)
 
@@ -133,7 +131,7 @@ When you **bake security into your agency’s offerings** , you can **charge mor
 
 ## **A Security Audit Gives You a Clear, Actionable Plan**
 
-A proper [security audit](/security-audits-for-wordpress/) doesn’t just point out problems – it gives you a **battle plan** to fix them before they turn into full-blown crises.
+A proper [security audit](/why-wordpress-plugin-developers-need-security-audits/) doesn’t just point out problems – it gives you a **battle plan** to fix them before they turn into full-blown crises.
 
 What you get:
 
@@ -150,7 +148,7 @@ You’re running an agency, not a charity for hackers. **Stop gambling with your
 
 A security audit isn’t an **extra expense** – it’s an **investment in keeping your agency alive and profitable.**
 
-If you actually give a shit about your clients and your own business, **[get a security audit today](/security-audits-for-wordpress/)** – before you’re the next agency scrambling to recover from a preventable disaster.
+If you actually give a shit about your clients and your own business, **[get a security audit today](/why-wordpress-plugin-developers-need-security-audits/)** – before you’re the next agency scrambling to recover from a preventable disaster.
 
 ## Related Reading
 

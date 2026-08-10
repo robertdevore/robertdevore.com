@@ -28,7 +28,7 @@ So I fixed that 😎
 
 ## Meet the Plugin
 
-**[Markdown Comments for WordPress®](/projects/markdown-comments-for-wordpress/)** does one thing well:
+**[Markdown Comments for WordPress®](https://github.com/robertdevore/markdown-comments-for-wordpress/)** does one thing well:
 
 It lets you and your readers write comments using Markdown syntax, and it automatically parses them into safe, semantic HTML.
 
@@ -84,7 +84,7 @@ Comments are part of the conversation, and the format we write in should reflect
 
 You can grab the plugin here:
 
-**[Markdown Comments for WordPress®](/projects/markdown-comments-for-wordpress/)**
+**[Markdown Comments for WordPress®](https://github.com/robertdevore/markdown-comments-for-wordpress/)**
 
 Try it out, leave a comment (in Markdown, of course), and let me know what you think 🤘
 

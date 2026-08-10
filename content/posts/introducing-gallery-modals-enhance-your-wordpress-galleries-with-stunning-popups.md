@@ -75,7 +75,7 @@ I understand that every website is unique. That’s why Gallery Modals offers ex
 
 For the title and description text that’s displayed in the popups, you can edit these directly in the image editor within the WordPress® gallery.
 
-[![](/assets/legacy-images/gallery_modals_image_editing_1024x530.webp)](/images/gallery_modals_image_editing_scaled.webp)Screenshot
+[![](/assets/legacy-images/gallery_modals_image_editing_1024x530.webp)](/assets/legacy-images/gallery_modals_image_editing_1024x530.webp)Screenshot
 
 ## Looking Ahead
 

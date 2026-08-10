@@ -69,7 +69,7 @@ Signal-acquisition motion uses two CSS pseudo-layers for 640–720 ms, runs once
 
 `scripts/migrate_legacy.py` parses the previous llms.txt/sitemap and rendered HTML, converts article bodies to Markdown, normalizes frontmatter, preserves 138 post routes, creates three related-reading links, and materializes category/tag archives. Category and tag metadata remains in article heroes; the redundant body taxonomy row and previous/next “Continue reading” section are intentionally omitted. The route-by-route record is [content-migration.csv](content-migration.csv).
 
-All 138 listed post URLs remain unchanged. The current homepage, blog, about, contact, free tools, seven service routes, portfolio, and unlisted `contact-new` route remain available. No route required a redirect. Old generated pagination routes continue through Kujo SSG. Historical broken project/tag/media/recommendation links are reported as warnings rather than silently rewritten.
+All 138 listed post URLs remain unchanged. The current homepage, blog, about, contact, free tools, seven service routes, portfolio, and unlisted `contact-new` route remain available. No route required a redirect. Canonical blog pagination continues under `/blog/page/N/`; generated duplicate homepage pagination under `/page/N/` is removed from both the artifact and sitemap during hardening. Verified stale internal project/tag/media/recommendation references were updated or removed. Unverifiable third-party links in historical articles remain an editorial review backlog rather than receiving fabricated replacements.
 
 ## Accessibility, performance, and operations
 

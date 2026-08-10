@@ -14,7 +14,7 @@ tags: ["WordPress"]
 
 Today is [Global Accessibility Awareness Day (GAAD)](https://accessibility.day/), and I’m celebrating the only way I know how: shipping code that actually helps.
 
-I pledged time with [Equalize Digital](https://equalizedigital.com/gaad2025/) to focus my time on the [IMG A11Y](/projects/img-a11y/) plugin, and that’s exactly what I did.
+I pledged time with [Equalize Digital](https://equalizedigital.com/gaad2025/) to focus my time on the [IMG A11Y](https://github.com/robertdevore/img-a11y) plugin, and that’s exactly what I did.
 
 But first, before we talk about the code, let’s talk about GAAD.
 
@@ -34,7 +34,7 @@ Full stop.
 
 ## IMG A11Y v1.1.0 – Small Changes, Big Impact
 
-To honor GAAD, I’m releasing version **1.1.0** of [IMG A11Y](/projects/img-a11y), my plugin dedicated to improving image accessibility in WordPress.
+To honor GAAD, I’m releasing version **1.1.0** of [IMG A11Y](https://github.com/robertdevore/img-a11y), my plugin dedicated to improving image accessibility in WordPress.
 
 ### 🚫 Removed A11Y Options for Non-Image Media
 
@@ -97,7 +97,7 @@ Let’s build a better web – not just for some, but for everyone.
 
 **Download IMG A11Y v1.1.0** :
 
-View the [IMG A11Y project page](/projects/img-a11y/) and download it from there. If you’ve already installed the plugin, you’ll receive the update notification in your dashboard.
+View the [IMG A11Y project page](https://github.com/robertdevore/img-a11y) and download it from there. If you’ve already installed the plugin, you’ll receive the update notification in your dashboard.
 
 _Released with purpose. Built for inclusion._
 
