@@ -11,11 +11,16 @@ import tempfile
 from pathlib import Path
 from urllib.parse import urlparse
 
+from PIL import Image
+
+from sync_howl_manifest import write_manifest
+
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "howl.json"
 SVG_OUTPUT = ROOT / "assets" / "social" / "howl"
 PNG_OUTPUT = ROOT / "assets" / "social"
+ROUTE_MAP = PNG_OUTPUT / "social-image-map.json"
 HOWL_BRAND_PREFIX = "KUJOLANG.AI  //  "
 GRAIN_OVERLAY = '<rect width="1200" height="630" filter="url(#grain)" opacity=".7"/>\n'
 EMBEDDED_FONT_STACK = "font-family:'HowlMono','Departure Mono',monospace"
@@ -44,6 +49,7 @@ def site_brand(manifest: dict) -> str:
 
 
 def main() -> int:
+    write_manifest()
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     cards = manifest.get("cards", [])
     if not cards:
@@ -86,6 +92,7 @@ def main() -> int:
         )
 
         brand_prefix = f"{site_brand(manifest)}  //  "
+        route_map: dict[str, str] = {}
         for card in cards:
             card_id = str(card["id"])
             source = rendered / f"{card_id}.svg"
@@ -107,12 +114,39 @@ def main() -> int:
             )
             cairosvg.svg2png(
                 bytestring=portable_svg.encode("utf-8"),
-                write_to=str(PNG_OUTPUT / f"{card_id}-social.png"),
+                write_to=str(PNG_OUTPUT / f".{card_id}-social.raw.png"),
                 output_width=1200,
                 output_height=630,
             )
 
-    print(f"Rendered {len(cards)} branded HOWL social cards.")
+            raw_png = PNG_OUTPUT / f".{card_id}-social.raw.png"
+            png_target = PNG_OUTPUT / f"{card_id}-social.png"
+            with Image.open(raw_png) as image:
+                image.convert("RGB").quantize(
+                    colors=128,
+                    method=Image.Quantize.MEDIANCUT,
+                ).save(png_target, optimize=True)
+            raw_png.unlink()
+
+            route = urlparse(str(card.get("url", ""))).path or "/"
+            if route in route_map:
+                raise SystemExit(f"Duplicate HOWL social route: {route}")
+            route_map[route] = f"/assets/social/{png_target.name}"
+
+    expected_svg_names = {f"{card['id']}.svg" for card in cards}
+    for stale in SVG_OUTPUT.glob("*.svg"):
+        if stale.name not in expected_svg_names:
+            stale.unlink()
+    expected_png_names = {f"{card['id']}-social.png" for card in cards}
+    for stale in PNG_OUTPUT.glob("*-social.png"):
+        if stale.name not in expected_png_names:
+            stale.unlink()
+    ROUTE_MAP.write_text(
+        json.dumps(dict(sorted(route_map.items())), indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    print(f"Rendered {len(cards)} branded, URL-free HOWL social cards.")
     return 0
 
 

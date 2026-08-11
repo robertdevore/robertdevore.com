@@ -29,12 +29,12 @@ The release stylesheet at `assets/css/site.bundle.css` combines the pinned SiteK
 
 ## Social cards
 
-HOWL card definitions live in `howl.json`. Render the committed, RobertDeVore.com-branded SVG and 1200×630 PNG assets with:
+HOWL card definitions live in `howl.json`. The renderer rebuilds that manifest from every authored post, page, project, taxonomy archive, collection index, writing-pagination route, and the 404 page, then renders a unique committed SVG and 1200×630 PNG for every generated HTML page:
 
 ```bash
 python3 scripts/render_howl_social.py
 ```
 
-The renderer expects `howl` on `PATH`; set `HOWL_BIN` when the executable is elsewhere. Post cards also need their generated PNG assigned through `featured_image` frontmatter. Social-card generation is intentionally a manual publishing step and is not invoked by the SSG build.
+The renderer expects `howl` on `PATH`; set `HOWL_BIN` when the executable is elsewhere. Every card sets `show_url: false` so the bottom-left area remains available for social platforms to overlay the destination. `assets/social/social-image-map.json` maps canonical routes to their cards, and generated-output hardening applies the matching absolute URL to `og:image` and `twitter:image` with 1200×630 dimensions and matching alt metadata. Social-card generation remains an intentional manual publishing step and is not invoked by the SSG build.
 
 See [docs/dependencies.md](docs/dependencies.md), [docs/architecture.md](docs/architecture.md), [docs/content-migration.csv](docs/content-migration.csv), and [docs/verification.md](docs/verification.md).

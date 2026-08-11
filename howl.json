@@ -15,69 +15,3329 @@
       "tagline": "Systems, tools, and writing for work that has to hold up",
       "file": "templates/page-home.html",
       "language": "html",
-      "concepts": ["software systems", "developer tools", "agentic workflows"],
-      "caption": "Software systems, developer tools, agentic workflows, and technical writing from Robert DeVore.",
-      "cta": "Explore the work.",
+      "concepts": [
+        "software systems",
+        "developer tools",
+        "agentic workflows"
+      ],
+      "caption": "Robert DeVore: Systems, tools, and writing for work that has to hold up",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/",
       "variant": "social",
       "label": "HOME",
       "background_image": "assets/art/signal-a-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "not-found",
+      "title": "Page Not Found",
+      "tagline": "The requested signal could not be located",
+      "file": "templates/404.html",
+      "language": "html",
+      "concepts": [
+        "404",
+        "not found"
+      ],
+      "caption": "Page Not Found: The requested signal could not be located",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/404.html",
+      "variant": "social",
+      "label": "SYSTEM / 404",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "5-python-scripts-for-osint-and-pentesting",
+      "title": "5 Python Scripts for OSINT and Pentesting",
+      "tagline": "Everything is insecure and you’re one bad decision away from being p0wn3d harder than …",
+      "file": "content/posts/5-python-scripts-for-osint-and-pentesting.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "5 Python Scripts for OSINT and Pentesting: Everything is insecure and you’re one bad decision away from being p0wn3d harder than you ever have in your entire life. It’s a harsh reality and one you’ve got to accept in full or ignore altogether. I’m from the group…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/5-python-scripts-for-osint-and-pentesting/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "5-questions-you-must-answer-before-writing-anything",
+      "title": "5 Questions You Must Answer Before Writing Anything",
+      "tagline": "You know the biggest problem with what people are publishing today? Most people treat AI …",
+      "file": "content/posts/5-questions-you-must-answer-before-writing-anything.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "5 Questions You Must Answer Before Writing Anything: You know the biggest problem with what people are publishing today? Most people treat AI like a vending machine. Drop in a half-baked prompt, hit enter, and expect magic to come out. They type: “Write a blog post about…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/5-questions-you-must-answer-before-writing-anything/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "5-things-i-learned-building-my-first-gutenberg-blocks-plugin",
+      "title": "5 Things I’ve learned building my first blocks for …",
+      "tagline": "Over the last few months I've watched as Gutenberg has been developed, silently taking …",
+      "file": "content/posts/5-things-i-learned-building-my-first-gutenberg-blocks-plugin.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "5 Things I’ve learned building my first blocks for Gutenberg: Over the last few months I've watched as Gutenberg has been developed, silently taking notes, watching for patterns and possible areas to excel in. Then I found that the domain Pillar.Press was available and it snapped…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/5-things-i-learned-building-my-first-gutenberg-blocks-plugin/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "7-days-full-time-wp-dispensary",
+      "title": "7 days full time at WP Dispensary",
+      "tagline": "There's now been 7 days in the books for me working full time on WP Dispensary and I want …",
+      "file": "content/posts/7-days-full-time-wp-dispensary.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "7 days full time at WP Dispensary: There's now been 7 days in the books for me working full time on WP Dispensary and I want to take a little bit of time to talk about what I've been up to. What's been done I made it a point to put some solid hours in…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/7-days-full-time-wp-dispensary/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "tagline": "Robert DeVore builds software systems, developer tools, programming-language …",
+      "file": "content/pages/about.md",
+      "language": "markdown",
+      "concepts": [
+        "about",
+        "Robert DeVore"
+      ],
+      "caption": "About: Robert DeVore builds software systems, developer tools, programming-language infrastructure, and agentic workflows.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/about/",
+      "variant": "social",
+      "label": "PROFILE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "all-in-one-wp-migration-plugin-ddos-attack",
+      "title": "WordPress plugin with 5M+ active installs can be …",
+      "tagline": "While doing some vulnerability research for WordPress plugins myself and my clients use, …",
+      "file": "content/posts/all-in-one-wp-migration-plugin-ddos-attack.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "WordPress plugin with 5M+ active installs can be utilized in DDoS attacks: While doing some vulnerability research for WordPress plugins myself and my clients use, I came across a plugin with 5M+ active installs that can be used in DDoS attacks by non-authenticated users. Let me preface this…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/all-in-one-wp-migration-plugin-ddos-attack/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "back-to-basics",
+      "title": "Back to Basics",
+      "tagline": "I always thought Impostor Syndrome was bullshit. Then I realized I was 6 months in …",
+      "file": "content/posts/back-to-basics.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Back to Basics: I always thought Impostor Syndrome was bullshit. Then I realized I was 6 months in to running WP Dispensary full time and I had no idea what I was doing. Recently, I've been working on WPD v2.0 and have pushed myself to…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/back-to-basics/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing",
+      "title": "Writing",
+      "tagline": "Field notes on software systems, developer tools, AI workflows, and open source",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing: Field notes on software systems, developer tools, AI workflows, and open source",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-10",
+      "title": "Writing — Page 10",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 10: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/10/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-11",
+      "title": "Writing — Page 11",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 11: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/11/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-12",
+      "title": "Writing — Page 12",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 12: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/12/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-2",
+      "title": "Writing — Page 2",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 2: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/2/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-3",
+      "title": "Writing — Page 3",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 3: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/3/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-4",
+      "title": "Writing — Page 4",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 4: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/4/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-5",
+      "title": "Writing — Page 5",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 5: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/5/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-6",
+      "title": "Writing — Page 6",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 6: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/6/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-7",
+      "title": "Writing — Page 7",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 7: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/7/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-8",
+      "title": "Writing — Page 8",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 8: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/8/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "writing-page-9",
+      "title": "Writing — Page 9",
+      "tagline": "Software systems, developer tools, AI workflows, open source, and the …",
+      "file": "templates/page-blog.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing — Page 9: Software systems, developer tools, AI workflows, open source, and the web-development archive",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/blog/page/9/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "boostbox-free-popups-that-work-pro-popups-that-convert",
+      "title": "BoostBox: Free Popups That Work, Pro Popups That …",
+      "tagline": "Popups are fucking powerful – when they don’t suck. The problem? Most popup plugins are …",
+      "file": "content/posts/boostbox-free-popups-that-work-pro-popups-that-convert.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "BoostBox: Free Popups That Work, Pro Popups That Convert: Popups are fucking powerful – when they don’t suck. The problem? Most popup plugins are bloated, slow, and designed by people who clearly hate web performance . They force you into some janky drag-and-drop builder, load…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/boostbox-free-popups-that-work-pro-popups-that-convert/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "boostbox-wordpress-popup-builder-for-the-core-editor",
+      "title": "Introducing BoostBox: The 1st WordPress popup …",
+      "tagline": "What better way to start off the year than to release a free WordPress plugin that lets you …",
+      "file": "content/posts/boostbox-wordpress-popup-builder-for-the-core-editor.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing BoostBox: The 1st WordPress popup builder for the core editor: What better way to start off the year than to release a free WordPress plugin that lets you design your popups using the core WordPress editor? That’s exactly what I’m doing today – say hello to BoostBox 😎 Whether you…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/boostbox-wordpress-popup-builder-for-the-core-editor/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "cannabis-health-benefits",
+      "title": "Health Benefits of Cannabis",
+      "tagline": "Nature is mans best medicine, even when those who benefit off of sick people tell you …",
+      "file": "content/posts/cannabis-health-benefits.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "Health Benefits of Cannabis: Nature is mans best medicine, even when those who benefit off of sick people tell you otherwise. Within the marijuana plant there are two main properties, cannabidiol (CBD) — which works without the 'high' effect - and…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/cannabis-health-benefits/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "cannabiz",
+      "title": "CannaBiz",
+      "tagline": "After building the WP Dispensary plugin and and add-on's like MMJMenu Sync, WooCommerce …",
+      "file": "content/posts/cannabiz.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "CannaBiz: After building the WP Dispensary plugin and and add-on's like MMJMenu Sync, WooCommerce Connect, Inventory Management, & Locations it was time to work on a top shelf theme that brings the entire package together. Last…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/cannabiz/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "category-index",
+      "title": "Writing Categories",
+      "tagline": "Browse the archive by broad subject category",
+      "file": "templates/page-category.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing Categories: Browse the archive by broad subject category",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/category/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "category-ai-content-systems",
+      "title": "AI & Content Systems",
+      "tagline": "Writing filed under AI & Content Systems.",
+      "file": "content/category/ai-content-systems.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "writing archive"
+      ],
+      "caption": "AI & Content Systems: Writing filed under AI & Content Systems.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/category/ai-content-systems/",
+      "variant": "social",
+      "label": "WRITING CATEGORY",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "category-developer-tools",
+      "title": "Developer Tools",
+      "tagline": "Writing filed under Developer Tools.",
+      "file": "content/category/developer-tools.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "writing archive"
+      ],
+      "caption": "Developer Tools: Writing filed under Developer Tools.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/category/developer-tools/",
+      "variant": "social",
+      "label": "WRITING CATEGORY",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "category-engineering-archive",
+      "title": "Engineering Archive",
+      "tagline": "Writing filed under Engineering Archive.",
+      "file": "content/category/engineering-archive.md",
+      "language": "markdown",
+      "concepts": [
+        "Engineering Archive",
+        "writing archive"
+      ],
+      "caption": "Engineering Archive: Writing filed under Engineering Archive.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/category/engineering-archive/",
+      "variant": "social",
+      "label": "WRITING CATEGORY",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "category-field-notes",
+      "title": "Field Notes",
+      "tagline": "Writing filed under Field Notes.",
+      "file": "content/category/field-notes.md",
+      "language": "markdown",
+      "concepts": [
+        "Field Notes",
+        "writing archive"
+      ],
+      "caption": "Field Notes: Writing filed under Field Notes.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/category/field-notes/",
+      "variant": "social",
+      "label": "WRITING CATEGORY",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "category-wordpress-archive",
+      "title": "WordPress",
+      "tagline": "Writing filed under WordPress.",
+      "file": "content/category/wordpress-archive.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress",
+        "writing archive"
+      ],
+      "caption": "WordPress: Writing filed under WordPress.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/category/wordpress-archive/",
+      "variant": "social",
+      "label": "WRITING CATEGORY",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "celebrating-gaad-with-img-a11y-v1-1-0",
+      "title": "Celebrating GAAD with IMG A11Y v1.1.0",
+      "tagline": "Today is Global Accessibility Awareness Day (GAAD) , and I’m celebrating the only way I …",
+      "file": "content/posts/celebrating-gaad-with-img-a11y-v1-1-0.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Celebrating GAAD with IMG A11Y v1.1.0: Today is Global Accessibility Awareness Day (GAAD) , and I’m celebrating the only way I know how: shipping code that actually helps. I pledged time with Equalize Digital to focus my time on the IMG A11Y plugin, and…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/celebrating-gaad-with-img-a11y-v1-1-0/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "chapters-for-authors-wordpress-plugin",
+      "title": "Chapters for Authors",
+      "tagline": "It's amazing what you can come up with randomly over the weekend while doing a dozen other …",
+      "file": "content/posts/chapters-for-authors-wordpress-plugin.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Chapters for Authors: It's amazing what you can come up with randomly over the weekend while doing a dozen other things ? Case in point - Chapters for Authors ? This is a new plugin I built from an idea I got when I read a tweet from Ines…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/chapters-for-authors-wordpress-plugin/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "clean-blog-free-wordpress-theme",
+      "title": "Clean Blog",
+      "tagline": "Today, I am releasing my first official open source WordPress theme. I've worked with …",
+      "file": "content/posts/clean-blog-free-wordpress-theme.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Clean Blog: Today, I am releasing my first official open source WordPress theme. I've worked with WordPress for years, but have never created anything that is free to download … until now. Being able to create open source projects,…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/clean-blog-free-wordpress-theme/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "complete-beginners-guide-building-a-python-url-checker-for-google-sheets",
+      "title": "Complete Beginner’s Guide: Building a Python URL Checker …",
+      "tagline": "Don’t worry if you’ve never written Python before! This tutorial will explain every …",
+      "file": "content/posts/complete-beginners-guide-building-a-python-url-checker-for-google-sheets.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "Complete Beginner’s Guide: Building a Python URL Checker for Google Sheets: Don’t worry if you’ve never written Python before! This tutorial will explain every single line of code so you understand exactly what’s happening. Think of this like you’re building with LEGO blocks – we’ll add one…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "tagline": "Contact Robert DeVore about software systems, developer tools, agent workflows, publishing, …",
+      "file": "content/pages/contact.md",
+      "language": "markdown",
+      "concepts": [
+        "contact",
+        "Robert DeVore"
+      ],
+      "caption": "Contact: Contact Robert DeVore about software systems, developer tools, agent workflows, publishing, and open-source work.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/contact/",
+      "variant": "social",
+      "label": "CONNECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "creating-my-own-cipher-code",
+      "title": "Creating my own cipher code",
+      "tagline": "I can’t remember what sparked the idea, but I got bit by a strong urge to create my own …",
+      "file": "content/posts/creating-my-own-cipher-code.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "Creating my own cipher code: I can’t remember what sparked the idea, but I got bit by a strong urge to create my own cipher. Maybe it’s all the spy shit I watch on TV 😂 Regardless, I knew that there were a couple of things that I needed to figure…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/creating-my-own-cipher-code/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "customer-loyalty-for-woocommerce-v2",
+      "title": "Just Released: Customer Loyalty for WooCommerce® v2.0.0!",
+      "tagline": "Welcome to another edition of #WooWednesday ! This week, I’m excited to unveil a …",
+      "file": "content/posts/customer-loyalty-for-woocommerce-v2.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Just Released: Customer Loyalty for WooCommerce® v2.0.0!: Welcome to another edition of #WooWednesday ! This week, I’m excited to unveil a significant update to Customer Loyalty for WooCommerce® with the release of version 2.0.0 . I’m committed to bringing you feature-rich,…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/customer-loyalty-for-woocommerce-v2/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "db-version-control-wordpress-plugin",
+      "title": "Introducing: DB Version Control for WordPress",
+      "tagline": "Finally, a WordPress plugin that treats your content like code. After years of wrestling …",
+      "file": "content/posts/db-version-control-wordpress-plugin.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing: DB Version Control for WordPress: Finally, a WordPress plugin that treats your content like code. After years of wrestling with database dumps, manual content migrations, and the constant fear of losing site changes, I’m excited to introduce DB Version…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/db-version-control-wordpress-plugin/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "december-2024-a-retrospective",
+      "title": "December 2024: A Retrospective",
+      "tagline": "Talk about a December to Remember , amirite? 😂💪💯 In November of 2024 I started releasing …",
+      "file": "content/posts/december-2024-a-retrospective.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "December 2024: A Retrospective: Talk about a December to Remember , amirite? 😂💪💯 In November of 2024 I started releasing free WordPress® and WooCommerce® plugins, and I liked the way it felt. So I decided to do some more of that in December. I called…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/december-2024-a-retrospective/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "delivery-drivers-for-woocommerce",
+      "title": "Delivery Drivers for WooCommerce",
+      "tagline": "Today I am happy to announce the release of my newest open source plugin, Delivery Drivers …",
+      "file": "content/posts/delivery-drivers-for-woocommerce.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Delivery Drivers for WooCommerce: Today I am happy to announce the release of my newest open source plugin, Delivery Drivers for WooCommerce . As you can probably guess by the name, it's a plugin for WooCommerce that adds functionality for businesses…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/delivery-drivers-for-woocommerce/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "devio-digital",
+      "title": "Devio Digital",
+      "tagline": "It's taken me three tries to sit here and begin writing this blog post. I've put so much of …",
+      "file": "content/posts/devio-digital.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Devio Digital: It's taken me three tries to sit here and begin writing this blog post. I've put so much of myself into my work these last six months that I am feeling something unique to me; pride in myself and my work. Over the last…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/devio-digital/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "dispensary-wordpress-plugins-2017",
+      "title": "Top Dispensary WordPress Plugins",
+      "tagline": "Notice: This post has been updated for 2018. Within the last few months we've seen medical …",
+      "file": "content/posts/dispensary-wordpress-plugins-2017.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Top Dispensary WordPress Plugins: Notice: This post has been updated for 2018. Within the last few months we've seen medical and recreational marijuana laws pass in 8 out of 9 states. This means there is going to be an influx of websites being built for…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/dispensary-wordpress-plugins-2017/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "do-less-deliver-more",
+      "title": "Do Less, Deliver More",
+      "tagline": "There's a lie that's been passed around in every business Slack channel, every …",
+      "file": "content/posts/do-less-deliver-more.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Do Less, Deliver More: There's a lie that's been passed around in every business Slack channel, every \"educational\" YouTube video, every founder AMA: Do more to get ahead. ✅ More features. ✅ More tasks. ✅ More tools. ✅ More outreach. ✅ More…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/do-less-deliver-more/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "docupress-documentation-plugin-for-wordpress",
+      "title": "DocuPress: documentation simplified.",
+      "tagline": "DocuPress is a documentation plugin for WordPress that lets you, you guessed it , add …",
+      "file": "content/posts/docupress-documentation-plugin-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "DocuPress: documentation simplified.: DocuPress is a documentation plugin for WordPress that lets you, you guessed it , add documentation directly from your website's WordPress dashboard. This is the 6th free plugin I've released in the WordPress plugin…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/docupress-documentation-plugin-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "dont-shoot-the-messenger-choose-courage-over-convenience",
+      "title": "Don’t Shoot the Messenger: Choose Courage Over …",
+      "tagline": "Over recent days, there’s been a lot of noise around my exchange with Kevin Geary, from the …",
+      "file": "content/posts/dont-shoot-the-messenger-choose-courage-over-convenience.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Don’t Shoot the Messenger: Choose Courage Over Convenience: Over recent days, there’s been a lot of noise around my exchange with Kevin Geary, from the WP Townhall Debate on YouTube , to the public knowledge I gathered about his history of hate and racism and shared on social…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/dont-shoot-the-messenger-choose-courage-over-convenience/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "extreme-programming-for-extreme-leaders",
+      "title": "Extreme Programming for Extreme Leaders",
+      "tagline": "How disciplined developers ship faster, adapt smarter, and lead with code You don’t need …",
+      "file": "content/posts/extreme-programming-for-extreme-leaders.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "Extreme Programming for Extreme Leaders: How disciplined developers ship faster, adapt smarter, and lead with code You don’t need permission. You don’t need a bloated roadmap or a management playbook. You need clarity, decisiveness, and the ability to turn…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/extreme-programming-for-extreme-leaders/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "focus",
+      "title": "Focus",
+      "tagline": "One question I've been asking myself lately is, how productive can you really claim to be if …",
+      "file": "content/posts/focus.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Focus: One question I've been asking myself lately is, how productive can you really claim to be if you 're not seeing results from your work ? Being motivated is great, and finding yourself putting a lot of rubber to the road…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/focus/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
     },
     {
       "id": "forever-forward",
       "title": "Forever Forward",
-      "tagline": "A return to public writing, and the beginning of the Kujo programming language",
+      "tagline": "I have been mostly quiet online for the last year. A lot of life fit inside the quiet …",
       "file": "content/posts/forever-forward.md",
       "language": "markdown",
-      "concepts": ["Kujo", "Jidoka", "AI-native development"],
-      "caption": "Forever Forward: a return to public writing, and the beginning of the Kujo programming language.",
-      "cta": "Read the field note.",
+      "concepts": [
+        "Developer Tools",
+        "AI",
+        "Engineering"
+      ],
+      "caption": "Forever Forward: I have been mostly quiet online for the last year. A lot of life fit inside the quiet silence. Most importantly, I gave myself room to think.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/forever-forward/",
       "variant": "social",
-      "label": "The Jidoka Files",
+      "label": "THE JIDOKA FILES",
       "background_image": "assets/social/forever-forward-background.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
     },
     {
-      "id": "zero-cool-cli-a-hackers-terminal-from-1995",
-      "title": "Zero Cool CLI",
-      "tagline": "A hacker's terminal from 1995, rebuilt as a working developer tool",
-      "file": "content/posts/zero-cool-cli-a-hackers-terminal-from-1995.md",
+      "id": "going-all-in-one-year-later",
+      "title": "Going all in: One year later",
+      "tagline": "On this day last year I went all in with WP Dispensary, leaving behind 10+ years of full …",
+      "file": "content/posts/going-all-in-one-year-later.md",
       "language": "markdown",
-      "concepts": ["CLI", "developer tools", "Hackers"],
-      "caption": "Zero Cool CLI: movie nostalgia rebuilt as a working terminal tool.",
-      "cta": "Read the field note.",
-      "variant": "social",
-      "label": "DEVELOPER TOOLS",
-      "background_image": "assets/art/signal-a-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
-    },
-    {
-      "id": "stattic-v1-0-the-worlds-fastest-python-based-static-site-generator",
-      "title": "Stattic v1.0",
-      "tagline": "The world's fastest Python-based static site generator",
-      "file": "content/posts/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator.md",
-      "language": "markdown",
-      "concepts": ["Python", "static site generator", "developer tools"],
-      "caption": "Stattic v1.0: fast, secure static publishing with no lock-in and no noise.",
-      "cta": "Read the release note.",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Going all in: One year later: On this day last year I went all in with WP Dispensary, leaving behind 10+ years of full time freelancing. It was one of the most exciting times in my life, both professionally and personally. I felt a huge weight…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/going-all-in-one-year-later/",
       "variant": "social",
       "label": "WORDPRESS ARCHIVE",
-      "background_image": "assets/art/signal-b-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "going-all-in-with-wp-dispensary",
+      "title": "Going all in with WP Dispensary",
+      "tagline": "If not now, then when? Today is the day I start working full time on my own product! 90 days …",
+      "file": "content/posts/going-all-in-with-wp-dispensary.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Going all in with WP Dispensary: If not now, then when? Today is the day I start working full time on my own product! 90 days until Christmas 🙌 What are you doing to make the most of the time left? I'm going full time at @WPDispensary starting today…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/going-all-in-with-wp-dispensary/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "goodbye-wordpress-a-eulogy",
+      "title": "Goodbye WordPress: A Eulogy",
+      "tagline": "From “ Thank You WordPress “, to “ WTF is WordPress? “, to this. The day WordPress …",
+      "file": "content/posts/goodbye-wordpress-a-eulogy.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Goodbye WordPress: A Eulogy: From “ Thank You WordPress “, to “ WTF is WordPress? “, to this. The day WordPress becomes dead to me. From this day forward, I will not freely write another line of code for the WordPress® platform. No more releasing…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/goodbye-wordpress-a-eulogy/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
     },
     {
       "id": "grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios",
-      "title": "20 Plugins Live On",
-      "tagline": "Grateful to see my open source work continue at WebDevStudios",
+      "title": "Grateful to See 20 of My WordPress Plugins Live On at …",
+      "tagline": "A little over a week ago, I announced that I was stepping away from the WordPress® …",
       "file": "content/posts/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios.md",
       "language": "markdown",
-      "concepts": ["WordPress", "open source", "WebDevStudios"],
-      "caption": "Twenty of my WordPress plugins found a new home at WebDevStudios.",
-      "cta": "Read the update.",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Grateful to See 20 of My WordPress Plugins Live On at WebDevStudios: A little over a week ago, I announced that I was stepping away from the WordPress® community and giving away all of my open source plugins. It wasn’t a light decision, but it was the right one for me. Today, I want to…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/",
       "variant": "social",
       "label": "WORDPRESS ARCHIVE",
       "background_image": "assets/art/signal-a-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "hello-2017",
+      "title": "Hello 2017",
+      "tagline": "This isn't your average \"2017 Goals\" article with a list of bullshit and nonsense that I …",
+      "file": "content/posts/hello-2017.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Hello 2017: This isn't your average \"2017 Goals\" article with a list of bullshit and nonsense that I know damn well gets forgotten within the first couple of weeks into January. There's no exhaustive list of totally awesome shit I…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/hello-2017/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "hello-plugin-pal-your-ai-powered-plugin-generator-for-wordpress",
+      "title": "Hello, Plugin Pal: Your AI Powered Plugin Generator …",
+      "tagline": "What if I told you there’s a way to build WordPress® plugins that’s not just faster, …",
+      "file": "content/posts/hello-plugin-pal-your-ai-powered-plugin-generator-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Hello, Plugin Pal: Your AI Powered Plugin Generator for WordPress®: What if I told you there’s a way to build WordPress® plugins that’s not just faster, but fundamentally better? That the tedious, time-consuming process of writing boilerplate code, debugging, and ensuring security could…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/hello-plugin-pal-your-ai-powered-plugin-generator-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "honoring-jesse-petersen-with-the-revival-of-stealth-login-page",
+      "title": "Honoring Jesse Petersen with the Revival of …",
+      "tagline": "The WordPress® community has always been defined by its people – the contributors, …",
+      "file": "content/posts/honoring-jesse-petersen-with-the-revival-of-stealth-login-page.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Honoring Jesse Petersen with the Revival of “Stealth Login Page”: The WordPress® community has always been defined by its people – the contributors, developers, and advocates who have shaped the ecosystem into what it is today. Among these individuals, Jesse Petersen stood out as a…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/honoring-jesse-petersen-with-the-revival-of-stealth-login-page/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "host-your-wordpress-plugins-on-github-and-automate-plugin-packaging",
+      "title": "Host Your WordPress Plugins on GitHub and Automate …",
+      "tagline": "Let’s talk plugin distribution. Hosting your plugins on GitHub provides powerful benefits …",
+      "file": "content/posts/host-your-wordpress-plugins-on-github-and-automate-plugin-packaging.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Host Your WordPress Plugins on GitHub and Automate Plugin Packaging: Let’s talk plugin distribution. Hosting your plugins on GitHub provides powerful benefits such as version control, collaboration, and easy sharing. But distributing your plugin as a proper .zip file for users can be…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/host-your-wordpress-plugins-on-github-and-automate-plugin-packaging/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-a-security-audit-can-save-your-e-commerce-store-from-disaster",
+      "title": "How a Security Audit Can Save Your E-Commerce Store …",
+      "tagline": "Fact: If you run an e-commerce store, your security is either making you money or losing …",
+      "file": "content/posts/how-a-security-audit-can-save-your-e-commerce-store-from-disaster.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "How a Security Audit Can Save Your E-Commerce Store from Disaster: Fact: If you run an e-commerce store, your security is either making you money or losing it . There’s no middle ground 🤷‍♂️ Every unpatched vulnerability, weak password, or outdated plugin is basically an invitation for…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-a-security-audit-can-save-your-e-commerce-store-from-disaster/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-hungry-are-you",
+      "title": "“How hungry are you?”",
+      "tagline": "This question changed everything. I was in the middle of writing a blog post titled “Hitting …",
+      "file": "content/posts/how-hungry-are-you.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "“How hungry are you?”: This question changed everything. I was in the middle of writing a blog post titled “Hitting pause”, outlining how I was going to be pushing back the CannaBiz Software launch and focus my efforts elsewhere. Then out of…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-hungry-are-you/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-i-use-textexpander-to-reuse-my-best-ai-prompts",
+      "title": "How I Use TextExpander to Reuse My Best AI …",
+      "tagline": "Most AI tools are bad at memory - I mean, bad-bad . You come up with a strong prompt, …",
+      "file": "content/posts/how-i-use-textexpander-to-reuse-my-best-ai-prompts.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "How I Use TextExpander to Reuse My Best AI Prompts: Most AI tools are bad at memory - I mean, bad-bad . You come up with a strong prompt, you use it, and it works. Then it's gone. Lost in the sidebar, buried in a thread, or locked into one app's context window. And when…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-i-use-textexpander-to-reuse-my-best-ai-prompts/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-block-website-tracking-data-in-woocommerce",
+      "title": "How to Block Website Tracking Data in WooCommerce®",
+      "tagline": "Let’s be perfectly clear here: WooCommerce’s reliance on tracking.woocommerce.com to …",
+      "file": "content/posts/how-to-block-website-tracking-data-in-woocommerce.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "How to Block Website Tracking Data in WooCommerce®: Let’s be perfectly clear here: WooCommerce’s reliance on tracking.woocommerce.com to gather telemetry data about your site is an overreach that we’re going to rectify today. While data collection isn’t inherently bad,…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-block-website-tracking-data-in-woocommerce/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-build-a-content-engine-that-scales-with-you",
+      "title": "How to build a content engine that scales with you",
+      "tagline": "You published your first post. Then your second. By the third, you’re tired. The …",
+      "file": "content/posts/how-to-build-a-content-engine-that-scales-with-you.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "How to build a content engine that scales with you: You published your first post. Then your second. By the third, you’re tired. The fourth? Forgotten. And the fifth one? Still sitting in drafts. This is what happens when content depends entirely on willpower. No…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-build-a-content-engine-that-scales-with-you/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-build-modular-prompts-that-save-you-hours-per-week",
+      "title": "How to Build Modular Prompts That Save You Hours Per Week",
+      "tagline": "If you're typing out a brand-new prompt every time you sit down to write, you're wasting …",
+      "file": "content/posts/how-to-build-modular-prompts-that-save-you-hours-per-week.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "How to Build Modular Prompts That Save You Hours Per Week: If you're typing out a brand-new prompt every time you sit down to write, you're wasting time - and likely getting inconsistent results. This post fixes that. Because the secret to writing faster, better content with AI…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-build-modular-prompts-that-save-you-hours-per-week/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-customize-the-style-of-your-wordpress-login-screen",
+      "title": "How to customize the style of your WordPress login …",
+      "tagline": "This post is going to show you how to add a few small code snippets to change the appearance …",
+      "file": "content/posts/how-to-customize-the-style-of-your-wordpress-login-screen.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "How to customize the style of your WordPress login screen: This post is going to show you how to add a few small code snippets to change the appearance of the WordPress login screen. We’ll walk through the process of changing the default WordPress logo to your own using the…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-customize-the-style-of-your-wordpress-login-screen/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-edit-ai-content-so-it-feels-clean-not-robotic",
+      "title": "How to edit AI content so it feels clean, not robotic",
+      "tagline": "You let AI write your first draft. Smart move. But now you're reading it back … and …",
+      "file": "content/posts/how-to-edit-ai-content-so-it-feels-clean-not-robotic.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "How to edit AI content so it feels clean, not robotic: You let AI write your first draft. Smart move. But now you're reading it back … and something’s off. It’s not wrong. It’s just soulless. Technically solid, and emotionally sterile. It says things, but it doesn’t say…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-edit-ai-content-so-it-feels-clean-not-robotic/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-stop-your-plugins-themes-from-being-used-on-wordpress-com-hosting",
+      "title": "How to Stop Your Plugins & Themes from Being Used on …",
+      "tagline": "In recent months, the WordPress® community has faced increasing challenges stemming from …",
+      "file": "content/posts/how-to-stop-your-plugins-themes-from-being-used-on-wordpress-com-hosting.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "How to Stop Your Plugins & Themes from Being Used on WordPress.com Hosting: In recent months, the WordPress® community has faced increasing challenges stemming from nuclear decisions made by Automattic’s CEO, Matthew Charles Mullenweg. During WordCamp US 2024, Mullenweg launched what he…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-stop-your-plugins-themes-from-being-used-on-wordpress-com-hosting/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-teach-ai-to-match-your-voice",
+      "title": "How to teach AI to match your voice",
+      "tagline": "Most people ask AI to \"sound more like me\" - then get frustrated when it doesn't. But …",
+      "file": "content/posts/how-to-teach-ai-to-match-your-voice.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "How to teach AI to match your voice: Most people ask AI to \"sound more like me\" - then get frustrated when it doesn't. But here's the truth: AI can't match your voice if you don't know what your voice actually sounds like. You don't need branding decks or…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-teach-ai-to-match-your-voice/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-use-ai-to-research-validate-ideas-and-stay-relevant",
+      "title": "How to Use AI to Research, Validate Ideas, and Stay …",
+      "tagline": "Let's be honest: Most \"AI research\" is just asking ChatGPT, \" Give me 10 blog post ideas …",
+      "file": "content/posts/how-to-use-ai-to-research-validate-ideas-and-stay-relevant.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "How to Use AI to Research, Validate Ideas, and Stay Relevant: Let's be honest: Most \"AI research\" is just asking ChatGPT, \" Give me 10 blog post ideas about [insert niche]\" … and hoping one of them sticks. It's fast, and it feels** productive. But it's usually just slop dressed up…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-use-ai-to-research-validate-ideas-and-stay-relevant/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "how-to-write-prompts-that-get-the-tone-structure-and-intent-right",
+      "title": "How to Write Prompts That Get the Tone, Structure, and …",
+      "tagline": "If you’ve ever typed a prompt into ChatGPT, hit enter, and thought … “Well, that’s not quite …",
+      "file": "content/posts/how-to-write-prompts-that-get-the-tone-structure-and-intent-right.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "How to Write Prompts That Get the Tone, Structure, and Intent Right: If you’ve ever typed a prompt into ChatGPT, hit enter, and thought … “Well, that’s not quite it” … you’re not alone. That moment of disappointment usually comes from a mismatch between what you meant and what you asked…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/how-to-write-prompts-that-get-the-tone-structure-and-intent-right/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "hue-js",
+      "title": "? hue.js",
+      "tagline": "I forked a color picker for WordPress I know what you're thinking. _Isn 't there a color …",
+      "file": "content/posts/hue-js.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "? hue.js: I forked a color picker for WordPress I know what you're thinking. _Isn 't there a color picker in WordPress already? _ Yeah … ? Not another color picker?!?! Why a color picker for WordPress? Technically, the hue.js…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/hue-js/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "i-built-a-python-stego-cipher-tool-and-you-can-have-it",
+      "title": "I Built a Python Stego-Cipher Tool (And You Can Have …",
+      "tagline": "Back in 2022, I got the itch (no, not that itch) An itch to build a cipher. A custom …",
+      "file": "content/posts/i-built-a-python-stego-cipher-tool-and-you-can-have-it.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "I Built a Python Stego-Cipher Tool (And You Can Have It): Back in 2022, I got the itch (no, not that itch) An itch to build a cipher. A custom cipher that I could call my own. Why? IDK. Probably too much spy shit on TV. 😂 So I scratched the itch. I came up with a system where…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/i-built-a-python-stego-cipher-tool-and-you-can-have-it/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "i-just-launched-a-python-course-for-php-developers",
+      "title": "I Just Launched a Python Course for PHP Developers",
+      "tagline": "After 20+ years of wrestling with WordPress and PHP, I’ve had enough . If you’ve been writing …",
+      "file": "content/posts/i-just-launched-a-python-course-for-php-developers.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "I Just Launched a Python Course for PHP Developers: After 20+ years of wrestling with WordPress and PHP, I’ve had enough . If you’ve been writing PHP for years – wrangling WordPress® sites, duct-taping functions together, or shipping WooCommerce hacks – this is for you.…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/i-just-launched-a-python-course-for-php-developers/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "im-freelancing-again",
+      "title": "I’m freelancing again",
+      "tagline": "At the end of 2019, I made a big shift – I took a full-time job for the first time in nearly …",
+      "file": "content/posts/im-freelancing-again.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "I’m freelancing again: At the end of 2019, I made a big shift – I took a full-time job for the first time in nearly 15 years. It was right before my first kid was born, and just a few months later, COVID hit. Looking back, the timing couldn’t…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/im-freelancing-again/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "improve-cls-scores-by-dynamically-setting-image-width-and-height",
+      "title": "Improve CLS scores by dynamically setting image …",
+      "tagline": "While working on WordPress performance optimization for myself and for my clients, …",
+      "file": "content/posts/improve-cls-scores-by-dynamically-setting-image-width-and-height.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Improve CLS scores by dynamically setting image width and height: While working on WordPress performance optimization for myself and for my clients, I’ve come across an issue that repeatedly affected CLS scores in a negative way. Luckily for myself (and now you, too), I created a fix…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/improve-cls-scores-by-dynamically-setting-image-width-and-height/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "intellipress-the-smart-af-ai-assistant-for-wordpress",
+      "title": "IntelliPress: The Smart AF AI Assistant for …",
+      "tagline": "Let’s be real – managing a WordPress® site is a full-time job, and I’m not even talking about …",
+      "file": "content/posts/intellipress-the-smart-af-ai-assistant-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "IntelliPress: The Smart AF AI Assistant for WordPress®: Let’s be real – managing a WordPress® site is a full-time job, and I’m not even talking about page speed optimization , server maintenance, security audits , etc. Writing content? Takes forever. SEO? A god damn maze.…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/intellipress-the-smart-af-ai-assistant-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-an-experimental-new-plugin-email-designer-for-woocommerce",
+      "title": "Introducing an experimental new plugin: Email …",
+      "tagline": "WooCommerce emails have always been a pain point for store owners looking to create …",
+      "file": "content/posts/introducing-an-experimental-new-plugin-email-designer-for-woocommerce.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing an experimental new plugin: Email Designer for WooCommerce®: WooCommerce emails have always been a pain point for store owners looking to create beautifully branded transactional emails without diving deep into custom PHP templates. While WooCommerce recently improved its email…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-an-experimental-new-plugin-email-designer-for-woocommerce/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-associated-taxonomies-for-wordpress",
+      "title": "Introducing Associated Taxonomies for …",
+      "tagline": "I’m thrilled to announce the release of Associated Taxonomies , a free WordPress® …",
+      "file": "content/posts/introducing-associated-taxonomies-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Associated Taxonomies for WordPress®: I’m thrilled to announce the release of Associated Taxonomies , a free WordPress® plugin designed to streamline taxonomy management by enabling you to associate terms within the same taxonomy. This plugin was built with…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-associated-taxonomies-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-automattic-css-an-open-source-css-utility-framework",
+      "title": "Introducing automattic.css – An open source CSS …",
+      "tagline": "Today I’m releasing v0.1.0 of automattic.css – a new utility-first CSS framework inspired by …",
+      "file": "content/posts/introducing-automattic-css-an-open-source-css-utility-framework.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing automattic.css – An open source CSS Utility Framework: Today I’m releasing v0.1.0 of automattic.css – a new utility-first CSS framework inspired by the structure and philosophy of Automatic.css, but with a twist: it’s lean, builder-agnostic, and open to the community from…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-automattic-css-an-open-source-css-utility-framework/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-back-in-stock-notifications-for-woocommerce",
+      "title": "Introducing Back In Stock Notifications for WooCommerce®",
+      "tagline": "Today I am super excited to introduce the release of my newest free plugin – Back In …",
+      "file": "content/posts/introducing-back-in-stock-notifications-for-woocommerce.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Back In Stock Notifications for WooCommerce®: Today I am super excited to introduce the release of my newest free plugin – Back In Stock Notifications 🚀 This is a 100% free plugin for WooCommerce® that lets your customers stay connected with products they love…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-back-in-stock-notifications-for-woocommerce/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-barcodes-for-woocommerce-free",
+      "title": "Introducing Barcodes for WooCommerce® (free)",
+      "tagline": "I’m thrilled to announce the release of Barcodes for WooCommerce® , a free plugin …",
+      "file": "content/posts/introducing-barcodes-for-woocommerce-free.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Barcodes for WooCommerce® (free): I’m thrilled to announce the release of Barcodes for WooCommerce® , a free plugin I’ve developed to make managing WooCommerce® stores more efficient. By integrating QR code functionality, this tool simplifies how you…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-barcodes-for-woocommerce-free/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-benchpress",
+      "title": "Introducing BenchPress: Performance …",
+      "tagline": "I’m pumped to announce the release of BenchPress , a free WordPress® plugin …",
+      "file": "content/posts/introducing-benchpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing BenchPress: Performance Benchmarks for WordPress®: I’m pumped to announce the release of BenchPress , a free WordPress® plugin designed to help developers identify performance bottlenecks in our code and optimize for speed! BenchPress provides an easy way to measure the…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-benchpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-block-ai-crawlers-for-wordpress",
+      "title": "Introducing Block AI Crawlers for WordPress®",
+      "tagline": "I’m excited to announce the release of Block AI Crawlers , a new WordPress plugin designed to …",
+      "file": "content/posts/introducing-block-ai-crawlers-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Block AI Crawlers for WordPress®: I’m excited to announce the release of Block AI Crawlers , a new WordPress plugin designed to give website owners control over how AI crawlers interact with their site. This lightweight, user-friendly plugin makes it…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-block-ai-crawlers-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-bluesky-feed-for-wordpress",
+      "title": "Introducing Bluesky Feed for WordPress®",
+      "tagline": "I’m excited to announce the release of my latest free plugin, Bluesky Feed for …",
+      "file": "content/posts/introducing-bluesky-feed-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Bluesky Feed for WordPress®: I’m excited to announce the release of my latest free plugin, Bluesky Feed for WordPress® 🚀 This is a free WordPress plugin designed to integrate your Bluesky feed into your WordPress® powered website. Whether you’re…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-bluesky-feed-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-brands-for-woocommerce-free",
+      "title": "Introducing Brands for WooCommerce® (free)",
+      "tagline": "Just a few days ago, WooCommerce® officially added a brands integration as a feature flag …",
+      "file": "content/posts/introducing-brands-for-woocommerce-free.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Brands for WooCommerce® (free): Just a few days ago, WooCommerce® officially added a brands integration as a feature flag option, available by default some time in December. However, this late addition of the brands functionality in Woo Core and the…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-brands-for-woocommerce-free/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-broken-image-scanner",
+      "title": "Introducing Broken Image Scanner",
+      "tagline": "Let’s face it: broken image links are like ghosts haunting your website – annoying, …",
+      "file": "content/posts/introducing-broken-image-scanner.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Broken Image Scanner: Let’s face it: broken image links are like ghosts haunting your website – annoying, scary for your users, and not great for your SEO. That’s why I’m excited to release the Broken Image Scanner , a free WordPress® plugin…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-broken-image-scanner/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-bulk-stock-management-for-woocommerce-free",
+      "title": "Introducing Bulk Stock Management for WooCommerce® (free)",
+      "tagline": "It’s WooWednesday again, and I’m happy to introduce Bulk Stock Management for …",
+      "file": "content/posts/introducing-bulk-stock-management-for-woocommerce-free.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Bulk Stock Management for WooCommerce® (free): It’s WooWednesday again, and I’m happy to introduce Bulk Stock Management for WooCommerce® – a free plugin designed to simplify your stock management workflow. Whether you’re managing hundreds of products or just a few,…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-bulk-stock-management-for-woocommerce-free/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-content-restriction-for-wordpress",
+      "title": "Introducing Content Restriction for WordPress®",
+      "tagline": "I’m excited to announce the launch of my 6th new free plugin in the last 11 days 🚀 Content …",
+      "file": "content/posts/introducing-content-restriction-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Content Restriction for WordPress®: I’m excited to announce the launch of my 6th new free plugin in the last 11 days 🚀 Content Restriction for WordPress® , a sophisticatedly simple solution for managing content visibility on your WordPress® site. With the…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-content-restriction-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-delete-inactive-users",
+      "title": "Introducing Delete Inactive Users",
+      "tagline": "Managing a WordPress® website can often feel like a juggling act, especially when dealing …",
+      "file": "content/posts/introducing-delete-inactive-users.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Delete Inactive Users: Managing a WordPress® website can often feel like a juggling act, especially when dealing with thousands of users. Keeping your database lean and mean is not just about performance; it’s also about maintaining clean,…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-delete-inactive-users/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-digg-this-a-social-sharing-plugin-for-wordpress",
+      "title": "Introducing Digg This: A social sharing plugin for …",
+      "tagline": "There are a million social sharing plugins out there. Most of them suck 🤷‍♂️ They either …",
+      "file": "content/posts/introducing-digg-this-a-social-sharing-plugin-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Digg This: A social sharing plugin for WordPress®: There are a million social sharing plugins out there. Most of them suck 🤷‍♂️ They either slow your site to a crawl, inject bloated tracking scripts, or just look like they were designed in 2008 and never updated. So in…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-digg-this-a-social-sharing-plugin-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-dispensary-details-for-woocommerce",
+      "title": "Introducing Dispensary Details for WooCommerce®",
+      "tagline": "Back in 2018, I built Dispensary Details for WooCommerce® to solve a problem: WooCommerce® …",
+      "file": "content/posts/introducing-dispensary-details-for-woocommerce.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Dispensary Details for WooCommerce®: Back in 2018, I built Dispensary Details for WooCommerce® to solve a problem: WooCommerce® lacked the essential cannabis-specific product details that dispensaries needed. Lab results, strain information, effects, and…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-dispensary-details-for-woocommerce/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-gallery-modals-enhance-your-wordpress-galleries-with-stunning-popups",
+      "title": "Introducing Gallery Modals: Enhance Your WordPress® …",
+      "tagline": "I am happy to release Gallery Modals , a new free WordPress® plugin designed to transform …",
+      "file": "content/posts/introducing-gallery-modals-enhance-your-wordpress-galleries-with-stunning-popups.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Gallery Modals: Enhance Your WordPress® Galleries with Stunning Popups!: I am happy to release Gallery Modals , a new free WordPress® plugin designed to transform your WordPress® galleries into immersive, interactive experiences. If you’ve ever wanted to give your site’s images that extra…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-gallery-modals-enhance-your-wordpress-galleries-with-stunning-popups/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-gift-cards-for-woocommerce-free",
+      "title": "Introducing Gift Cards for WooCommerce® (free)",
+      "tagline": "Today I’m happy to announce the official release of the free Gift Cards for …",
+      "file": "content/posts/introducing-gift-cards-for-woocommerce-free.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Gift Cards for WooCommerce® (free): Today I’m happy to announce the official release of the free Gift Cards for WooCommerce® plugin! This plugin seamlessly integrates gift card functionality into your WooCommerce® store, letting you to enhance customer…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-gift-cards-for-woocommerce-free/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-hpos-compatibility-scanner-for-woocommerce-free",
+      "title": "Introducing HPOS Compatibility Scanner for …",
+      "tagline": "I’m excited to announce the release of HPOS Compatibility Scanner , a free WordPress® …",
+      "file": "content/posts/introducing-hpos-compatibility-scanner-for-woocommerce-free.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing HPOS Compatibility Scanner for WooCommerce® (free): I’m excited to announce the release of HPOS Compatibility Scanner , a free WordPress® plugin designed to help developers identify and fix compatibility issues with WooCommerce’s High-Performance Order Storage (HPOS).…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-hpos-compatibility-scanner-for-woocommerce-free/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-img-a11y",
+      "title": "Introducing IMG A11Y",
+      "tagline": "Today marks the release of IMG A11Y , a free WordPress® plugin designed to make image …",
+      "file": "content/posts/introducing-img-a11y.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing IMG A11Y: Today marks the release of IMG A11Y , a free WordPress® plugin designed to make image accessibility compliance easier than ever. I created IMG A11Y to help WordPress users address one of the most important aspects of…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-img-a11y/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-intellipress-the-smart-ai-assistant-for-wordpress",
+      "title": "Introducing IntelliPress: The Smart Ai Assistant …",
+      "tagline": "The last time I was this excited to announce a new baby, it was my son 😂 Today I’d like to …",
+      "file": "content/posts/introducing-intellipress-the-smart-ai-assistant-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing IntelliPress: The Smart Ai Assistant for WordPress: The last time I was this excited to announce a new baby, it was my son 😂 Today I’d like to formally introduce you to IntelliPress , an AI WordPress plugin that integrates with the OpenAI API . It’s built to help you…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-intellipress-the-smart-ai-assistant-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-maintenance-mode-for-wordpress",
+      "title": "Introducing Maintenance Mode for WordPress®",
+      "tagline": "Today, I’m thrilled to announce the release of Maintenance Mode for WordPress® 🔥 This is a …",
+      "file": "content/posts/introducing-maintenance-mode-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Maintenance Mode for WordPress®: Today, I’m thrilled to announce the release of Maintenance Mode for WordPress® 🔥 This is a 100% free plugin designed to bring simplicity, flexibility, and true WordPress® integration to a task often overcomplicated by…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-maintenance-mode-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-markdown-comments-for-wordpress",
+      "title": "Introducing: Markdown Comments for WordPress®",
+      "tagline": "Markdown ALL THE THINGS 🔥 I built this plugin because I couldn’t stand how unnatural it …",
+      "file": "content/posts/introducing-markdown-comments-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing: Markdown Comments for WordPress®: Markdown ALL THE THINGS 🔥 I built this plugin because I couldn’t stand how unnatural it felt to write HTML or plain text in WordPress comments. If you’ve followed my work – especially around Stattic – you know I write…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-markdown-comments-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-markdown-exporter-for-wordpress",
+      "title": "Introducing Markdown Exporter for WordPress®",
+      "tagline": "This month has been a whirlwind of development and releases, and today continues that …",
+      "file": "content/posts/introducing-markdown-exporter-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Markdown Exporter for WordPress®: This month has been a whirlwind of development and releases, and today continues that tradition. I’m happy to proudly release my 7th free plugin this month 🔥 Each plugin represents a step forward in enhancing your…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-markdown-exporter-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-media-copyright-scanner",
+      "title": "Introducing Media Copyright Scanner",
+      "tagline": "I’m excited to introduce my latest plugin 👀 Media Copyright Scanner . This free tool is …",
+      "file": "content/posts/introducing-media-copyright-scanner.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Media Copyright Scanner: I’m excited to introduce my latest plugin 👀 Media Copyright Scanner . This free tool is crafted to assist website owners, content managers, and developers in identifying potentially copyrighted images within their…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-media-copyright-scanner/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-media-file-versioning-for-wordpress",
+      "title": "Introducing Media File Versioning for WordPress®",
+      "tagline": "Another day, another plugin 💪 Today, I’m happy to announce the release of Media File …",
+      "file": "content/posts/introducing-media-file-versioning-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Media File Versioning for WordPress®: Another day, another plugin 💪 Today, I’m happy to announce the release of Media File Versioning , a lightweight yet powerful plugin designed to bring version control to your WordPress Media Library. Whether you’re…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-media-file-versioning-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-metadata-import-export-for-yoast-seo",
+      "title": "Introducing Metadata Import/Export for Yoast SEO",
+      "tagline": "Today I’m really happy to release this new free plugin for the WordPress® and Yoast SEO …",
+      "file": "content/posts/introducing-metadata-import-export-for-yoast-seo.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Metadata Import/Export for Yoast SEO: Today I’m really happy to release this new free plugin for the WordPress® and Yoast SEO communities 💪💯 The Metadata Import/Export for Yoast plugin is designed to empower SEO’s and content managers who use Yoast SEO by…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-metadata-import-export-for-yoast-seo/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-module-usage-tracker-for-wp-bakery",
+      "title": "Introducing the Module Usage Tracker for WP Bakery",
+      "tagline": "I’m excited to announce the release of ANOTHER new free WordPress® plugin for 💪💯 The free …",
+      "file": "content/posts/introducing-module-usage-tracker-for-wp-bakery.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing the Module Usage Tracker for WP Bakery: I’m excited to announce the release of ANOTHER new free WordPress® plugin for 💪💯 The free Module Usage Tracker for WP Bakery plugin is a new tool for anyone looking to get a closer view of how WP Bakery modules are…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-module-usage-tracker-for-wp-bakery/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-pattern-pal-ai-powered-patterns-for-wordpress",
+      "title": "Introducing Pattern Pal: AI-Powered Patterns for …",
+      "tagline": "I’m excited to introduce Pattern Pal , a new free WordPress® plugin that leverages OpenAI …",
+      "file": "content/posts/introducing-pattern-pal-ai-powered-patterns-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Pattern Pal: AI-Powered Patterns for WordPress®: I’m excited to introduce Pattern Pal , a new free WordPress® plugin that leverages OpenAI to generate custom block patterns right inside the WordPress® editor! Whether you’re a content creator, designer, or developer,…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-pattern-pal-ai-powered-patterns-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-persistent-dismissible-notices",
+      "title": "Introducing Persistent Dismissible Notices",
+      "tagline": "I’m excited to announce the release of my new free WordPress® plugin, Persistent …",
+      "file": "content/posts/introducing-persistent-dismissible-notices.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Persistent Dismissible Notices: I’m excited to announce the release of my new free WordPress® plugin, Persistent Dismissible Notices , designed to solve a long-standing annoyance in the WordPress admin experience. If you’ve ever been frustrated by…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-persistent-dismissible-notices/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-projects-for-wordpress-a-better-way-to-showcase-your-work",
+      "title": "Introducing Projects for WordPress®: A Better Way to …",
+      "tagline": "Let me start by saying this isn’t simply about hate. It’s about clarity, control, and …",
+      "file": "content/posts/introducing-projects-for-wordpress-a-better-way-to-showcase-your-work.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Projects for WordPress®: A Better Way to Showcase Your Work: Let me start by saying this isn’t simply about hate. It’s about clarity, control, and community. WordPress – the open source project – has been the foundation of my entire career. I’m grateful for it. And I’ve even gone…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-projects-for-wordpress-a-better-way-to-showcase-your-work/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-purchase-orders-for-woocommerce-free",
+      "title": "Introducing Purchase Orders for WooCommerce® (free)",
+      "tagline": "Welcome to week 4 of the #WooWednesday plugin series! Today we’ve got the Purchase Orders …",
+      "file": "content/posts/introducing-purchase-orders-for-woocommerce-free.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Purchase Orders for WooCommerce® (free): Welcome to week 4 of the #WooWednesday plugin series! Today we’ve got the Purchase Orders for WooCommerce® plugin which is a simple, free, and functional alternative to Woo’s $49/year offering. It adds a purchase order…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-purchase-orders-for-woocommerce-free/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-seo-for-wordpress",
+      "title": "Introducing SEO for WordPress®",
+      "tagline": "Finding a reliable, lightweight SEO plugin without constant upsells or unnecessary …",
+      "file": "content/posts/introducing-seo-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing SEO for WordPress®: Finding a reliable, lightweight SEO plugin without constant upsells or unnecessary features can feel like searching for a needle in a haystack. Many SEO tools claim to empower your website, yet they often come with…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-seo-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-shipping-multiple-addresses-for-woocommerce-free",
+      "title": "Introducing Shipping Multiple Addresses for WooCommerce® …",
+      "tagline": "I’m thrilled to share my latest plugin that aims to make WooCommerce® even more powerful …",
+      "file": "content/posts/introducing-shipping-multiple-addresses-for-woocommerce-free.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Shipping Multiple Addresses for WooCommerce® (free): I’m thrilled to share my latest plugin that aims to make WooCommerce® even more powerful and versatile. Introducing Shipping Multiple Addresses for WooCommerce® , the free plugin that simplifies sending items to…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-shipping-multiple-addresses-for-woocommerce-free/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-site-vitals-for-wordpress",
+      "title": "Introducing Site Vitals for WordPress®",
+      "tagline": "I’m thrilled to introduce Site Vitals for WordPress® – a free plugin designed to help …",
+      "file": "content/posts/introducing-site-vitals-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Site Vitals for WordPress®: I’m thrilled to introduce Site Vitals for WordPress® – a free plugin designed to help you monitor, evaluate, and improve key aspects of your WordPress® website’s health. From performance and security to SEO, UX, and…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-site-vitals-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-slop-stopper-a-free-content-checker-for-wordpress",
+      "title": "Introducing Slop Stopper: A free content checker …",
+      "tagline": "You ever read an article and just know it was written by ChatGPT? You know, the ones where …",
+      "file": "content/posts/introducing-slop-stopper-a-free-content-checker-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Slop Stopper: A free content checker for WordPress®: You ever read an article and just know it was written by ChatGPT? You know, the ones where you don’t even have to check. The second you see “delve into the intricacies” or “tapestry of experiences” , you know you’re…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-slop-stopper-a-free-content-checker-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-stats-for-wordpress",
+      "title": "Introducing Stats for WordPress®",
+      "tagline": "The tools we rely on to manage our websites need to reflect our values, both …",
+      "file": "content/posts/introducing-stats-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Stats for WordPress®: The tools we rely on to manage our websites need to reflect our values, both professionally and personally. Recently, Jetpack, a popular WordPress plugin, has changed its usage restrictions , requiring non-profits to…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-stats-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-table-block-enhancer-for-wordpress",
+      "title": "Introducing Table Block Enhancer for WordPress®",
+      "tagline": "Today I’m happy to announce the release of a new free plugin for WordPress® called Table …",
+      "file": "content/posts/introducing-table-block-enhancer-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Table Block Enhancer for WordPress®: Today I’m happy to announce the release of a new free plugin for WordPress® called Table Block Enhancer 🚀 This WordPress® plugin designed to supercharge the default WordPress® Table block, which is lacking in features…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-table-block-enhancer-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-test-orders-for-woocommerce",
+      "title": "Introducing Test Orders for WooCommerce®",
+      "tagline": "I’m thrilled to announce the release of Test Orders for WooCommerce® , a free plugin …",
+      "file": "content/posts/introducing-test-orders-for-woocommerce.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Test Orders for WooCommerce®: I’m thrilled to announce the release of Test Orders for WooCommerce® , a free plugin designed to simplify testing workflows for WooCommerce® store owners. This plugin adds a “Test Order” payment gateway to your store,…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-test-orders-for-woocommerce/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-the-phlush-permalinks-wordpress-plugin",
+      "title": "Introducing the Phlush Permalinks WordPress Plugin",
+      "tagline": "Another day, another free WordPress plugin release 🚀💪 Are you tired of manually flushing …",
+      "file": "content/posts/introducing-the-phlush-permalinks-wordpress-plugin.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing the Phlush Permalinks WordPress Plugin: Another day, another free WordPress plugin release 🚀💪 Are you tired of manually flushing your permalinks every time you make structural changes to your WordPress site? Phlush Permalinks , a new WordPress plugin I…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-the-phlush-permalinks-wordpress-plugin/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-the-prompts-library-a-playground-for-ai-creativity",
+      "title": "Introducing the Prompts Library – A Playground for AI …",
+      "tagline": "Over the last few months, I’ve been experimenting with ways to push generative AI …",
+      "file": "content/posts/introducing-the-prompts-library-a-playground-for-ai-creativity.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "Introducing the Prompts Library – A Playground for AI Creativity: Over the last few months, I’ve been experimenting with ways to push generative AI further – not just to create images, but to design tools that help you consistently create great ones. That’s where the Prompts Library…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-the-prompts-library-a-playground-for-ai-creativity/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-the-user-login-status-plugin-for-wordpress",
+      "title": "Introducing the User Login Status Plugin for WordPress",
+      "tagline": "Today I’m happy to announce the release of User Login Status , a WordPress plugin designed to …",
+      "file": "content/posts/introducing-the-user-login-status-plugin-for-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing the User Login Status Plugin for WordPress: Today I’m happy to announce the release of User Login Status , a WordPress plugin designed to help administrators easily monitor user activity and manage user sessions with ease. This plugin comes with a couple key…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-the-user-login-status-plugin-for-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-vertical-gallery-product-display-for-woocommerce",
+      "title": "Introducing Vertical Gallery Product Display for …",
+      "tagline": "I’m thrilled to announce the release of my latest WordPress plugin, Vertical Gallery …",
+      "file": "content/posts/introducing-vertical-gallery-product-display-for-woocommerce.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Introducing Vertical Gallery Product Display for WooCommerce®: I’m thrilled to announce the release of my latest WordPress plugin, Vertical Gallery Product Display for WooCommerce® . This plugin is designed to enhance the shopping experience by transforming the WooCommerce® product…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-vertical-gallery-product-display-for-woocommerce/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "introducing-widget-usage-tracker-for-elementor",
+      "title": "Introducing Widget Usage Tracker for Elementor",
+      "tagline": "Another day, another plugin release 💪 I’m happy to launch Widget Usage Tracker for Elementor …",
+      "file": "content/posts/introducing-widget-usage-tracker-for-elementor.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Introducing Widget Usage Tracker for Elementor: Another day, another plugin release 💪 I’m happy to launch Widget Usage Tracker for Elementor , a WordPress® plugin designed to help you monitor and analyze the usage of Elementor widgets across your website. Whether…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/introducing-widget-usage-tracker-for-elementor/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "invest-in-yourself",
+      "title": "Invest in Yourself",
+      "tagline": "When it comes to building something that you want to turn into a business and earn a …",
+      "file": "content/posts/invest-in-yourself.md",
+      "language": "markdown",
+      "concepts": [
+        "Field Notes",
+        "Essays"
+      ],
+      "caption": "Invest in Yourself: When it comes to building something that you want to turn into a business and earn a living from, there's a lot of paths to success. Sometimes you go viral because one specific person tweeted you. Other times there's…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/invest-in-yourself/",
+      "variant": "social",
+      "label": "FIELD NOTES",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry",
+      "title": "Kevin Michael Geary: A Hidden History of Hate, Racism, and …",
+      "tagline": "⚠ Content Warning: This article contains archived examples of racism, sexism, ableism, …",
+      "file": "content/posts/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Kevin Michael Geary: A Hidden History of Hate, Racism, and Bigotry: ⚠ Content Warning: This article contains archived examples of racism, sexism, ableism, and hateful language used by Kevin Michael Geary. Reader discretion is advised. Introduction: Who is Kevin Michael Geary? Kevin…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/kevin-michael-geary-a-hidden-history-of-hate-racism-and-bigotry/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "leafly-reviews-wordpress-plugin",
+      "title": "Leafly Reviews",
+      "tagline": "You know those moments in your life where you step back and look around, knowing that …",
+      "file": "content/posts/leafly-reviews-wordpress-plugin.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Leafly Reviews: You know those moments in your life where you step back and look around, knowing that things are about to change? Yeah, I'm having one of those moments right now. I've wrote a lot of code in my lifetime and customized…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/leafly-reviews-wordpress-plugin/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "leap-the-code-of-extreme-leadership",
+      "title": "LEAP: The Code of Extreme Leadership",
+      "tagline": "In a world drowning in bloat and broken systems, leadership needs more than charisma. …",
+      "file": "content/posts/leap-the-code-of-extreme-leadership.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "LEAP: The Code of Extreme Leadership: In a world drowning in bloat and broken systems, leadership needs more than charisma. It needs a code. A compass. A creed that doesn’t just sound good in a keynote, but works when it’s 2AM and the product still isn’t…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/leap-the-code-of-extreme-leadership/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "making-up-for-lost-time",
+      "title": "Making up for lost time",
+      "tagline": "Growing pains are a part of everyone's life. From the time you're little and you wake up …",
+      "file": "content/posts/making-up-for-lost-time.md",
+      "language": "markdown",
+      "concepts": [
+        "Engineering Archive",
+        "Archive"
+      ],
+      "caption": "Making up for lost time: Growing pains are a part of everyone's life. From the time you're little and you wake up in the middle of the night with leg cramps because you're getting taller, to the time you have to bite your tongue when someone…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/making-up-for-lost-time/",
+      "variant": "social",
+      "label": "ENGINEERING ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "mnml-free-minimalist-wordpress-theme",
+      "title": "MNML",
+      "tagline": "Minimalism is beautiful. There's something about the clean, airy feeling you get when …",
+      "file": "content/posts/mnml-free-minimalist-wordpress-theme.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "MNML: Minimalism is beautiful. There's something about the clean, airy feeling you get when you look at a design that's truly minimalist in it's execution that makes you feel all warm and fuzzy inside. At least that's how it…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/mnml-free-minimalist-wordpress-theme/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "my-brothers-keeper-sons-of-anarchy-fanfiction",
+      "title": "My Brothers Keeper",
+      "tagline": "Creativity comes in many forms. Today, I would like to display another form of creative …",
+      "file": "content/posts/my-brothers-keeper-sons-of-anarchy-fanfiction.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "My Brothers Keeper: Creativity comes in many forms. Today, I would like to display another form of creative expression I have been interested in with a Sons of Anarchy fanfiction story. I've wrote fiction for as long as I can remember, and…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/my-brothers-keeper-sons-of-anarchy-fanfiction/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "my-development-projects",
+      "title": "Recent project updates",
+      "tagline": "Since late last year I've been hard at work on various development projects. While I've …",
+      "file": "content/posts/my-development-projects.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Recent project updates: Since late last year I've been hard at work on various development projects. While I've spent time blogging about each of them here, I haven't updated the posts with new details about each of the projects. This post is…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/my-development-projects/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "open-source-is-anarchism-in-action",
+      "title": "Open Source is Anarchism in Action",
+      "tagline": "Most people think of anarchism as chaos – burning dumpsters and smashed windows. But …",
+      "file": "content/posts/open-source-is-anarchism-in-action.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "Open Source is Anarchism in Action: Most people think of anarchism as chaos – burning dumpsters and smashed windows. But real anarchism is far more dangerous to power than broken glass. It’s about building systems without masters. It’s about horizontal…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/open-source-is-anarchism-in-action/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "organized-chaos",
+      "title": "Organized Chaos",
+      "tagline": "Life is chaotic, and beyond death nothing is ever guaranteed to you. While your goal …",
+      "file": "content/posts/organized-chaos.md",
+      "language": "markdown",
+      "concepts": [
+        "Engineering Archive",
+        "Archive"
+      ],
+      "caption": "Organized Chaos: Life is chaotic, and beyond death nothing is ever guaranteed to you. While your goal should never change to fit your current life situation, the path you take to achieve it may have to for reasons far beyond your…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/organized-chaos/",
+      "variant": "social",
+      "label": "ENGINEERING ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "patience",
+      "title": "Patience",
+      "tagline": "The concept of not getting what I want right now, without having to wait, has been …",
+      "file": "content/posts/patience.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Patience: The concept of not getting what I want right now, without having to wait, has been completely lost on me. I'm eager for the results, and a lot of the time, I lose any patience that's required in order to get the results…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/patience/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "peddle-free-wordpress-theme-for-easy-digital-downloads",
+      "title": "Peddle",
+      "tagline": "Pushing your product online is about to get a lot easier. Today I am releasing my newest …",
+      "file": "content/posts/peddle-free-wordpress-theme-for-easy-digital-downloads.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Peddle: Pushing your product online is about to get a lot easier. Today I am releasing my newest WordPress theme, Peddle** , into the wild. It's a free WordPress theme that fully integrates with the Easy Digital Downloads…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/peddle-free-wordpress-theme-for-easy-digital-downloads/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai",
+      "title": "Plan. Prompt. Publish. A Practical Guide to Creating …",
+      "tagline": "Most people use AI to make bad content faster. This guide flips that on its head. Over the …",
+      "file": "content/posts/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "Plan. Prompt. Publish. A Practical Guide to Creating Beautifully Useful Content with AI: Most people use AI to make bad content faster. This guide flips that on its head. Over the next 9 days, I'm breaking down a complete system for using AI to create content that's actually worth reading - content that…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/plan-prompt-publish-a-practical-guide-to-creating-beautifully-useful-content-with-ai/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "projects",
+      "title": "Software Projects",
+      "tagline": "Programming-language infrastructure, developer tools, agent workflows, and local-first systems",
+      "file": "templates/page-projects.html",
+      "language": "html",
+      "concepts": [
+        "project index"
+      ],
+      "caption": "Software Projects: Programming-language infrastructure, developer tools, agent workflows, and local-first systems",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/projects/",
+      "variant": "social",
+      "label": "PROJECT INDEX",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "project-agents-sdk",
+      "title": "Kujo Agents SDK",
+      "tagline": "Runtime primitives and examples for building bounded, testable agents with Kujo.",
+      "file": "content/projects/agents-sdk.md",
+      "language": "markdown",
+      "concepts": [
+        "Agents",
+        "SDK",
+        "Approvals"
+      ],
+      "caption": "Kujo Agents SDK: Runtime primitives and examples for building bounded, testable agents with Kujo.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/projects/agents-sdk/",
+      "variant": "social",
+      "label": "SOFTWARE PROJECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "project-dispatch",
+      "title": "Dispatch",
+      "tagline": "Reliable AI workflow orchestration with resumable runs, approvals, policies, and …",
+      "file": "content/projects/dispatch.md",
+      "language": "markdown",
+      "concepts": [
+        "Agents",
+        "Orchestration",
+        "Workflows"
+      ],
+      "caption": "Dispatch: Reliable AI workflow orchestration with resumable runs, approvals, policies, and trace artifacts.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/projects/dispatch/",
+      "variant": "social",
+      "label": "SOFTWARE PROJECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "project-kujo",
+      "title": "Kujo",
+      "tagline": "The programming language and ecosystem at the center of Robert DeVore's current systems work.",
+      "file": "content/projects/kujo.md",
+      "language": "markdown",
+      "concepts": [
+        "Language",
+        "Runtime",
+        "Open source"
+      ],
+      "caption": "Kujo: The programming language and ecosystem at the center of Robert DeVore's current systems work.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/projects/kujo/",
+      "variant": "social",
+      "label": "SOFTWARE PROJECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "project-lens",
+      "title": "Lens",
+      "tagline": "Deterministic browser and visual QA workflows for local web projects.",
+      "file": "content/projects/lens.md",
+      "language": "markdown",
+      "concepts": [
+        "Browser QA",
+        "Accessibility",
+        "Visual testing"
+      ],
+      "caption": "Lens: Deterministic browser and visual QA workflows for local web projects.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/projects/lens/",
+      "variant": "social",
+      "label": "SOFTWARE PROJECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "project-sitekit",
+      "title": "SiteKit",
+      "tagline": "An AI-readable, human-verifiable design system and semantic component library.",
+      "file": "content/projects/sitekit.md",
+      "language": "markdown",
+      "concepts": [
+        "Design systems",
+        "Accessibility",
+        "Components"
+      ],
+      "caption": "SiteKit: An AI-readable, human-verifiable design system and semantic component library.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/projects/sitekit/",
+      "variant": "social",
+      "label": "SOFTWARE PROJECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "project-ssg",
+      "title": "Kujo SSG",
+      "tagline": "A deterministic static-site generator with visible content, templates, metadata, feeds, …",
+      "file": "content/projects/ssg.md",
+      "language": "markdown",
+      "concepts": [
+        "Publishing",
+        "Static sites",
+        "Kujo"
+      ],
+      "caption": "Kujo SSG: A deterministic static-site generator with visible content, templates, metadata, feeds, and release checks.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/projects/ssg/",
+      "variant": "social",
+      "label": "SOFTWARE PROJECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "release-notes-back-in-stock-notifications-for-woocommerce-free-v1-0-1",
+      "title": "Release Notes: Back In Stock Notifications for …",
+      "tagline": "I’m happy to announce the release of Back In Stock Notifications for WooCommerce® (free) …",
+      "file": "content/posts/release-notes-back-in-stock-notifications-for-woocommerce-free-v1-0-1.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Release Notes: Back In Stock Notifications for WooCommerce® (free) v1.0.1: I’m happy to announce the release of Back In Stock Notifications for WooCommerce® (free) v1.0.1 ! This release focuses on improving the plugin’s performance, especially for sites that manage large volumes of waitlisted…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/release-notes-back-in-stock-notifications-for-woocommerce-free-v1-0-1/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "relentless",
+      "title": "Relentless",
+      "tagline": "I will hold $1,000,000 in my hands. Bold statement, right? Well, if fortune favors the …",
+      "file": "content/posts/relentless.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Relentless: I will hold $1,000,000 in my hands. Bold statement, right? Well, if fortune favors the bold, I plan on cashing in on it. I understand that overnight success doesn't mean that tomorrow morning I'll wake up and be rich.…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/relentless/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "rethinking-keyword-research-in-the-age-of-ai",
+      "title": "Rethinking Keyword Research in the Age of AI",
+      "tagline": "Most people think keyword research means opening up Ahrefs , dumping out a …",
+      "file": "content/posts/rethinking-keyword-research-in-the-age-of-ai.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "Rethinking Keyword Research in the Age of AI: Most people think keyword research means opening up Ahrefs , dumping out a spreadsheet, and calling it a day. That’s not strategy – that’s inventory . I believe that with the help of AI you can go way beyond the surface…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/rethinking-keyword-research-in-the-age-of-ai/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "reusable-flask-error-handling-a-step-by-step-guide-to-modular-http-error-responses",
+      "title": "Reusable Flask Error Handling: A Step-by-Step Guide …",
+      "tagline": "I don’t know about you, but in code and in real life, I hate repeating myself 🤦‍♂️ And after …",
+      "file": "content/posts/reusable-flask-error-handling-a-step-by-step-guide-to-modular-http-error-responses.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "Reusable Flask Error Handling: A Step-by-Step Guide to Modular HTTP Error Responses: I don’t know about you, but in code and in real life, I hate repeating myself 🤦‍♂️ And after building the Savage Scanner and Vuln Search apps, I realized quickly that I’ll be creating a lot of the same code for my Flask…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/reusable-flask-error-handling-a-step-by-step-guide-to-modular-http-error-responses/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "run-a-tor-relay",
+      "title": "Run a Tor relay",
+      "tagline": "Tor is an important tool for your privacy, security and freedom of speech. In an …",
+      "file": "content/posts/run-a-tor-relay.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "Run a Tor relay: Tor is an important tool for your privacy, security and freedom of speech. In an increasingly Orwellian world, Tor has become one of the most important tools, in my opinion, for you to be truly free online. I would like…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/run-a-tor-relay/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "say-goodbye-to-wordpress",
+      "title": "Say Goodbye to WordPress",
+      "tagline": "I’ve spent the past two decades working in the WordPress ecosystem – building, fixing, …",
+      "file": "content/posts/say-goodbye-to-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Say Goodbye to WordPress: I’ve spent the past two decades working in the WordPress ecosystem – building, fixing, debugging, migrating, and patching sites for clients large and small. Here’s what I’ve learned: Most of those sites never needed…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/say-goodbye-to-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "set-featured-images-programatically-wordpress",
+      "title": "Set Featured Images Programmatically in WordPress",
+      "tagline": "Recently, I found myself needing to auto-set 300+ featured images for a customers …",
+      "file": "content/posts/set-featured-images-programatically-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Set Featured Images Programmatically in WordPress: Recently, I found myself needing to auto-set 300+ featured images for a customers WooCommerce store. After the initial panic phased itself out, I took a couple of deep breathes and realized I've done a few kinda-sorta…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/set-featured-images-programatically-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "slackedd",
+      "title": "Slackedd",
+      "tagline": "Towards the end of last year, I tweeted that I was working on something with the Easy …",
+      "file": "content/posts/slackedd.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Slackedd: Towards the end of last year, I tweeted that I was working on something with the Easy Digital Downloads payment success function, and today I am able to share the fruits of that labor. Slackedd WordPress plugin Receive…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/slackedd/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "stattic-v0-3-0-release-llms-txt-faster-gifs-leaner-core-and-smarter-routing",
+      "title": "Just Released: Stattic v.0.3.0",
+      "tagline": "Another release. Another step forward. Stattic v0.3.0 isn’t a flashy overhaul – it’s a …",
+      "file": "content/posts/stattic-v0-3-0-release-llms-txt-faster-gifs-leaner-core-and-smarter-routing.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Just Released: Stattic v.0.3.0: Another release. Another step forward. Stattic v0.3.0 isn’t a flashy overhaul – it’s a focused upgrade that makes the core tighter, the output cleaner, and the tooling smarter. Here’s what’s new (and why it matters): 📦…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/stattic-v0-3-0-release-llms-txt-faster-gifs-leaner-core-and-smarter-routing/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "stattic-v1-0-the-worlds-fastest-python-based-static-site-generator",
+      "title": "Stattic v1.0: The World’s Fastest Python-based …",
+      "tagline": "Over the last few months, I’ve gone all-in on Python. Not just because it's powerful - but …",
+      "file": "content/posts/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Stattic v1.0: The World’s Fastest Python-based Static Site Generator: Over the last few months, I’ve gone all-in on Python. Not just because it's powerful - but because it’s accessible. I've been building tools , writing tutorials , dropping full cipher projects , and even releasing a…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "stop-gambling-with-client-trust-why-skipping-a-security-audit-is-a-risk-you-cant-afford",
+      "title": "Stop Gambling With Client Trust: Why Skipping a …",
+      "tagline": "If you run an agency – whether it’s maintenance, web development, marketing, …",
+      "file": "content/posts/stop-gambling-with-client-trust-why-skipping-a-security-audit-is-a-risk-you-cant-afford.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Stop Gambling With Client Trust: Why Skipping a Security Audit Is a Risk You Can’t Afford: If you run an agency – whether it’s maintenance, web development, marketing, branding, or anything in between – you probably think security is someone else’s problem. Spoiler alert: it’s yours. You build websites, run…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/stop-gambling-with-client-trust-why-skipping-a-security-audit-is-a-risk-you-cant-afford/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "tag-index",
+      "title": "Writing Tags",
+      "tagline": "Browse the archive by topic tag",
+      "file": "templates/page-tag.html",
+      "language": "html",
+      "concepts": [
+        "writing archive"
+      ],
+      "caption": "Writing Tags: Browse the archive by topic tag",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/tag/",
+      "variant": "social",
+      "label": "WRITING ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "tag-ai",
+      "title": "AI",
+      "tagline": "Writing filed under AI.",
+      "file": "content/tag/ai.md",
+      "language": "markdown",
+      "concepts": [
+        "AI",
+        "writing archive"
+      ],
+      "caption": "AI: Writing filed under AI.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/tag/ai/",
+      "variant": "social",
+      "label": "WRITING TAG",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "tag-archive",
+      "title": "Archive",
+      "tagline": "Writing filed under Archive.",
+      "file": "content/tag/archive.md",
+      "language": "markdown",
+      "concepts": [
+        "Archive",
+        "writing archive"
+      ],
+      "caption": "Archive: Writing filed under Archive.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/tag/archive/",
+      "variant": "social",
+      "label": "WRITING TAG",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "tag-engineering",
+      "title": "Engineering",
+      "tagline": "Writing filed under Engineering.",
+      "file": "content/tag/engineering.md",
+      "language": "markdown",
+      "concepts": [
+        "Engineering",
+        "writing archive"
+      ],
+      "caption": "Engineering: Writing filed under Engineering.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/tag/engineering/",
+      "variant": "social",
+      "label": "WRITING TAG",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "tag-essays",
+      "title": "Essays",
+      "tagline": "Writing filed under Essays.",
+      "file": "content/tag/essays.md",
+      "language": "markdown",
+      "concepts": [
+        "Essays",
+        "writing archive"
+      ],
+      "caption": "Essays: Writing filed under Essays.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/tag/essays/",
+      "variant": "social",
+      "label": "WRITING TAG",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "tag-woocommerce",
+      "title": "WooCommerce",
+      "tagline": "Writing filed under WooCommerce.",
+      "file": "content/tag/woocommerce.md",
+      "language": "markdown",
+      "concepts": [
+        "WooCommerce",
+        "writing archive"
+      ],
+      "caption": "WooCommerce: Writing filed under WooCommerce.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/tag/woocommerce/",
+      "variant": "social",
+      "label": "WRITING TAG",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "tag-wordpress",
+      "title": "WordPress",
+      "tagline": "Writing filed under WordPress.",
+      "file": "content/tag/wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress",
+        "writing archive"
+      ],
+      "caption": "WordPress: Writing filed under WordPress.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/tag/wordpress/",
+      "variant": "social",
+      "label": "WRITING TAG",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "thank-you-wordpress",
+      "title": "Thank You WordPress",
+      "tagline": "WordPress version 1.5, named Strayhorn after the pianist Billy Strayhorn because \" we …",
+      "file": "content/posts/thank-you-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Thank You WordPress: WordPress version 1.5, named Strayhorn after the pianist Billy Strayhorn because \" we thought he was perfect to represent the power and elegance of this release\" was released February 17th, 2002._ _ That seems to hold…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/thank-you-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "the-fastest-way-for-php-devs-to-learn-python",
+      "title": "The Fastest Way for PHP Devs to Learn Python",
+      "tagline": "So you’ve been writing PHP for years, maybe shipping WordPress® sites, WooCommerce® …",
+      "file": "content/posts/the-fastest-way-for-php-devs-to-learn-python.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "The Fastest Way for PHP Devs to Learn Python: So you’ve been writing PHP for years, maybe shipping WordPress® sites, WooCommerce® stores, or custom plugins. Now you’re stepping into the Python world – maybe because you found Stattic and realized you don’t need a…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/the-fastest-way-for-php-devs-to-learn-python/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "the-past-present-and-future-of-wp-dispensary",
+      "title": "The past, present and future of WP Dispensary",
+      "tagline": "It’s been nearly 7 years since I first released WP Dispensary 😲 On November 26th, 2015 I …",
+      "file": "content/posts/the-past-present-and-future-of-wp-dispensary.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "The past, present and future of WP Dispensary: It’s been nearly 7 years since I first released WP Dispensary 😲 On November 26th, 2015 I published this article announcing to the world that I built the first cannabis menu plugin for WordPress. Needless to say, it was…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/the-past-present-and-future-of-wp-dispensary/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "tools-and-workflows-for-formatting-visuals-and-citations",
+      "title": "Tools and Workflows for Formatting, Visuals, and …",
+      "tagline": "You wrote the draft and on your first read-through, it hits. But now it’s sitting …",
+      "file": "content/posts/tools-and-workflows-for-formatting-visuals-and-citations.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "Tools and Workflows for Formatting, Visuals, and Citations: You wrote the draft and on your first read-through, it hits. But now it’s sitting there like a great idea in sweatpants – unstyled and unfinished. No visuals. No formatting. No sources. Just vibes 🤦‍♂️ This post fixes…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/tools-and-workflows-for-formatting-visuals-and-citations/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "twitter-marketing",
+      "title": "Twitter Marketing",
+      "tagline": "When building your digital marketing strategy, social media websites like Twitter are …",
+      "file": "content/posts/twitter-marketing.md",
+      "language": "markdown",
+      "concepts": [
+        "Engineering Archive",
+        "Archive"
+      ],
+      "caption": "Twitter Marketing: When building your digital marketing strategy, social media websites like Twitter are usually at the top of the list. I mean, with over 300 million active users on Twitter, you'd be hard pressed to find a marketing blog…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/twitter-marketing/",
+      "variant": "social",
+      "label": "ENGINEERING ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "two-years-building-wp-dispensary",
+      "title": "WP Dispensary: 2 years after the launch",
+      "tagline": "Over the last two years, the WP Dispensary WordPress plugin has changed my entire life. …",
+      "file": "content/posts/two-years-building-wp-dispensary.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "WP Dispensary: 2 years after the launch: Over the last two years, the WP Dispensary WordPress plugin has changed my entire life. In these last two years, WP Dispensary** has gone from being just a \"thing\" I built to a thing that powers hundreds of websites for…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/two-years-building-wp-dispensary/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "use-ai-to-create-your-own-wwf-action-figure-blister-packs",
+      "title": "Use AI to create your own WWF Action Figure Blister Packs",
+      "tagline": "The best there is, the best there was, and the best there ever will be 😎 I just released an …",
+      "file": "content/posts/use-ai-to-create-your-own-wwf-action-figure-blister-packs.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "Use AI to create your own WWF Action Figure Blister Packs: The best there is, the best there was, and the best there ever will be 😎 I just released an AI prompt to turn your headshot into it’s own WWF action figure blister pack ! We’re talking full on retro fig glory – the…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/use-ai-to-create-your-own-wwf-action-figure-blister-packs/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "what-makes-content-beautifully-useful",
+      "title": "What Makes Content Beautifully Useful?",
+      "tagline": "Most AI content isn’t wrong. It’s just lifeless. It ticks boxes, hits the keyword …",
+      "file": "content/posts/what-makes-content-beautifully-useful.md",
+      "language": "markdown",
+      "concepts": [
+        "AI & Content Systems",
+        "AI"
+      ],
+      "caption": "What Makes Content Beautifully Useful?: Most AI content isn’t wrong. It’s just lifeless. It ticks boxes, hits the keyword and follows the format. And still gets ignored 😭 That’s the real problem: Content that’s technically fine - but emotionally flat. It…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/what-makes-content-beautifully-useful/",
+      "variant": "social",
+      "label": "AI & CONTENT SYSTEMS",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "why-wordpress-plugin-developers-need-security-audits",
+      "title": "Why WordPress Plugin Developers Need Security Audits",
+      "tagline": "If you develop WordPress plugins and haven’t had a third-party security audit , you’re …",
+      "file": "content/posts/why-wordpress-plugin-developers-need-security-audits.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Why WordPress Plugin Developers Need Security Audits: If you develop WordPress plugins and haven’t had a third-party security audit , you’re playing a dangerous fucking game . I get it. You write solid code. You test your features. You’re confident in your work. But that…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/why-wordpress-plugin-developers-need-security-audits/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "woocommerce-dispensary-details-plugin",
+      "title": "Dispensary Details for WooCommerce",
+      "tagline": "I recently built and released a new plugin on WP Dispensary that works 100% without WP …",
+      "file": "content/posts/woocommerce-dispensary-details-plugin.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "Dispensary Details for WooCommerce: I recently built and released a new plugin on WP Dispensary that works 100% without WP Dispensary . \"But didn't you just jump in full time to build WP Dispensary? Why create something that doesn't work with it?\" I know,…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/woocommerce-dispensary-details-plugin/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "wordpress-custom-post-types-code-snippets",
+      "title": "Enhance the power of your WordPress Custom Post Types",
+      "tagline": "I've been working on extending the WP Dispensary plugin and wanted to share some of …",
+      "file": "content/posts/wordpress-custom-post-types-code-snippets.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "Enhance the power of your WordPress Custom Post Types: I've been working on extending the WP Dispensary plugin and wanted to share some of the ways I've found to help boost the power of the Custom Post Types you create. Custom Post Types are a great building block for…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/wordpress-custom-post-types-code-snippets/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "wordpress-plugin-security-is-a-joke-and-youre-the-punchline",
+      "title": "WordPress Plugin Security Is a Joke, and You’re the …",
+      "tagline": "Trigger Warning Unfiltered technical opinions. Brutal honesty. WordPress plugins held …",
+      "file": "content/posts/wordpress-plugin-security-is-a-joke-and-youre-the-punchline.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "WordPress Plugin Security Is a Joke, and You’re the Punchline: Trigger Warning Unfiltered technical opinions. Brutal honesty. WordPress plugins held accountable. OK, so, once again we find ourselves in the land of infinite possibilities – and infinite insecurities – called…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/wordpress-plugin-security-is-a-joke-and-youre-the-punchline/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "wordpress-woocommerce-plugins-i-will-no-longer-maintain",
+      "title": "WordPress & WooCommerce plugins I will no longer …",
+      "tagline": "In an effort to help the code below potentially find new homes, I've compiled all of the free …",
+      "file": "content/posts/wordpress-woocommerce-plugins-i-will-no-longer-maintain.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "WordPress & WooCommerce plugins I will no longer maintain: In an effort to help the code below potentially find new homes, I've compiled all of the free WordPress and WooCommerce plugins I've released. These will all be archived in GitHub eventually, and the Projects page on…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/wordpress-woocommerce-plugins-i-will-no-longer-maintain/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "wp-dispensary-v2",
+      "title": "WP Dispensary v2.0 is being released on 4/20",
+      "tagline": "It is now less than 2 weeks until I release version 2.0** of WP Dispensary . And if …",
+      "file": "content/posts/wp-dispensary-v2.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress",
+        "WooCommerce"
+      ],
+      "caption": "WP Dispensary v2.0 is being released on 4/20: It is now less than 2 weeks until I release version 2.0** of WP Dispensary . And if you're not looking at a calendar, yes, the release date is 4/20 ? After working on this release, I took a step back and realized that…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/wp-dispensary-v2/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "wp-dispensary",
+      "title": "WP Dispensary",
+      "tagline": "Within the last few months I have been developing this plugin from the ground up. …",
+      "file": "content/posts/wp-dispensary.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "WP Dispensary: Within the last few months I have been developing this plugin from the ground up. I've ensured that when the product was released, there would be a great use for it, and a demand for more solutions like it. With a…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/wp-dispensary/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-c-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see",
+      "title": "WP Townhall 13: The Debate Kevin Geary Doesn’t Want You …",
+      "tagline": "A little over a month ago, I joined Kevin Geary on WP Townhall for what was supposed to be an …",
+      "file": "content/posts/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "WP Townhall 13: The Debate Kevin Geary Doesn’t Want You to See: A little over a month ago, I joined Kevin Geary on WP Townhall for what was supposed to be an honest debate about WordPress, pricing, and how to actually help clients win. It didn’t go the way he expected. I challenged…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/wp-townhall-13-the-debate-kevin-geary-doesnt-want-you-to-see/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "wtf-is-wordpress",
+      "title": "WTF is WordPress?",
+      "tagline": "The soundtrack for this blog post is the Ted Dibiase Million Dollar Man Theme Song ( …",
+      "file": "content/posts/wtf-is-wordpress.md",
+      "language": "markdown",
+      "concepts": [
+        "WordPress Archive",
+        "WordPress"
+      ],
+      "caption": "WTF is WordPress?: The soundtrack for this blog post is the Ted Dibiase Million Dollar Man Theme Song ( youtube ) WordPress – real name, no gimmicks 🙄 First, let me say that I’m thankful for WordPress . I’d also like to say that I agree…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/wtf-is-wordpress/",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
+      "id": "zero-cool-cli-a-hackers-terminal-from-1995",
+      "title": "Zero Cool CLI – A Hacker’s Terminal from 1995",
+      "tagline": "HACK THE PLANET 🌍💻 I built this CLI tool because I couldn’t get the movie “Hackers” …",
+      "file": "content/posts/zero-cool-cli-a-hackers-terminal-from-1995.md",
+      "language": "markdown",
+      "concepts": [
+        "Developer Tools",
+        "Engineering"
+      ],
+      "caption": "Zero Cool CLI – A Hacker’s Terminal from 1995: HACK THE PLANET 🌍💻 I built this CLI tool because I couldn’t get the movie “Hackers” out of my head after rewatching it recently. If you’ve followed my work – especially around terminal tools and developer utilities –…",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/zero-cool-cli-a-hackers-terminal-from-1995/",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
     }
   ]
 }
