@@ -181,29 +181,84 @@ for item in ("feed/index.xml", "sitemap.xml", "llms.txt"):
         errors.append(f"{item}: still includes the removed Devio Chat article")
 
 home = BeautifulSoup((root / "index.html").read_text(errors="ignore"), "html.parser")
-social_images = {
-    "/": "/assets/social/home-social.png",
-    "/forever-forward/": "/images/forever-forward-social-",
-    "/zero-cool-cli-a-hackers-terminal-from-1995/": "/images/zero-cool-cli-a-hackers-terminal-from-1995-social-",
-    "/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/": "/images/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator-social-",
-    "/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/": "/images/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios-social-",
-}
-for route, expected_path in social_images.items():
-    page_path = root / "index.html" if route == "/" else root / route.lstrip("/") / "index.html"
+social_map_path = root / "assets/social/social-image-map.json"
+try:
+    social_images = json.loads(social_map_path.read_text(encoding="utf-8"))
+except (OSError, json.JSONDecodeError) as exc:
+    errors.append(f"social image map is missing or invalid: {exc}")
+    social_images = {}
+canonical_routes = {urlparse(url).path or "/" for url in canonical_urls}
+shareable_routes = canonical_routes | {"/404.html"}
+if set(social_images) != shareable_routes:
+    for route in sorted(shareable_routes - set(social_images)):
+        errors.append(f"canonical route is missing from the social image map: {route}")
+    for route in sorted(set(social_images) - shareable_routes):
+        errors.append(f"social image map contains a non-canonical route: {route}")
+if len(set(social_images.values())) != len(social_images):
+    errors.append("social image map must assign a unique image to every canonical route")
+
+manifest_path = Path(__file__).resolve().parents[1] / "howl.json"
+try:
+    howl_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+except (OSError, json.JSONDecodeError) as exc:
+    errors.append(f"HOWL manifest is missing or invalid: {exc}")
+    howl_manifest = {"cards": []}
+howl_cards = howl_manifest.get("cards", [])
+manifest_routes = {urlparse(str(card.get("url", ""))).path or "/" for card in howl_cards}
+if manifest_routes != shareable_routes:
+    errors.append(
+        f"HOWL manifest route coverage differs from shareable output "
+        f"({len(manifest_routes)} cards, {len(shareable_routes)} routes)"
+    )
+for card in howl_cards:
+    card_id = str(card.get("id", ""))
+    if card.get("show_url") is not False:
+        errors.append(f"HOWL card {card_id} must disable the bottom-left URL")
+    svg_path = root / f"assets/social/howl/{card_id}.svg"
+    if not svg_path.is_file():
+        errors.append(f"HOWL card {card_id} is missing its generated SVG")
+    else:
+        svg = svg_path.read_text(errors="ignore")
+        if re.search(r'<text\b[^>]*class="mono social-url"', svg) or ">https://robertdevore.com" in svg:
+            errors.append(f"HOWL card {card_id} renders a forbidden bottom-left URL")
+
+for route, expected_path in sorted(social_images.items()):
+    page_path = root / "index.html" if route == "/" else root / "404.html" if route == "/404.html" else root / route.lstrip("/") / "index.html"
+    if not page_path.is_file():
+        errors.append(f"social image route has no generated page: {route}")
+        continue
     page = BeautifulSoup(page_path.read_text(errors="ignore"), "html.parser")
     og_image = page.select_one('meta[property="og:image"]')
     twitter_image = page.select_one('meta[name="twitter:image"]')
     og_url = og_image.get("content", "") if og_image else ""
     twitter_url = twitter_image.get("content", "") if twitter_image else ""
     parsed_image = urlparse(og_url)
-    exact_path = route == "/"
-    path_matches = parsed_image.path == expected_path if exact_path else (
-        parsed_image.path.startswith(expected_path) and parsed_image.path.endswith(".webp")
-    )
-    if parsed_image.netloc != "robertdevore.com" or not path_matches:
+    if parsed_image.scheme != "https" or parsed_image.netloc != "robertdevore.com" or parsed_image.path != expected_path:
         errors.append(f"{route} is missing its HOWL Open Graph image")
     if twitter_url != og_url:
         errors.append(f"{route} is missing its matching HOWL Twitter image")
+    for selector, expected in (
+        ('meta[property="og:image:type"]', "image/png"),
+        ('meta[property="og:image:width"]', "1200"),
+        ('meta[property="og:image:height"]', "630"),
+    ):
+        node = page.select_one(selector)
+        if not node or node.get("content") != expected:
+            errors.append(f"{route} is missing social image dimension metadata {expected}")
+    title = page.select_one('meta[property="og:title"]')
+    expected_alt = title.get("content", "") if title else ""
+    for selector in ('meta[property="og:image:alt"]', 'meta[name="twitter:image:alt"]'):
+        node = page.select_one(selector)
+        if not node or node.get("content") != expected_alt:
+            errors.append(f"{route} is missing matching social image alt text")
+    schema = page.select_one('script[type="application/ld+json"]')
+    try:
+        graph = json.loads(schema.string or "").get("@graph", []) if schema else []
+    except json.JSONDecodeError:
+        graph = []
+    page_nodes = [node for node in graph if node.get("@type") not in {"Person", "BreadcrumbList"}]
+    if not page_nodes or page_nodes[0].get("image") != og_url:
+        errors.append(f"{route} JSON-LD image does not match its HOWL social image")
     image_file = root / parsed_image.path.lstrip("/")
     if not image_file.is_file():
         errors.append(f"{route} HOWL image is missing from generated assets: {parsed_image.path}")

@@ -16,16 +16,15 @@ from PIL import Image
 
 SITE_URL = "https://robertdevore.com"
 FEED_URL = f"{SITE_URL}/feed/index.xml"
-HOME_SOCIAL_IMAGE = f"{SITE_URL}/assets/social/home-social.png"
 ATOM_NAMESPACE = "http://www.w3.org/2005/Atom"
 FOREVER_FORWARD_CARD_IMAGE = re.compile(
-    r'(<a class="listing-card-image-link" href="/forever-forward/">)'
-    r'<img\b[^>]*class="listing-card-image"[^>]*>'
+    r'(<a(?=[^>]*class="listing-card-image-link")(?=[^>]*href="/forever-forward/")[^>]*>)'
+    r'<img\b(?=[^>]*class="listing-card-image")[^>]*>'
     r'(</a>)'
 )
 FOREVER_FORWARD_CARD_PLACEHOLDER = re.compile(
-    r'<a class="listing-card-image-link" href="/forever-forward/">'
-    r'<span class="listing-card-image-placeholder" aria-hidden="true"></span>'
+    r'<a(?=[^>]*class="listing-card-image-link")(?=[^>]*href="/forever-forward/")[^>]*>'
+    r'<span(?=[^>]*class="listing-card-image-placeholder")(?=[^>]*aria-hidden="true")[^>]*></span>'
     r'</a>'
 )
 RELATIVE_404_ASSET = re.compile(
@@ -127,6 +126,8 @@ def structured_data(soup: BeautifulSoup, route: str) -> dict:
         "description": description,
         "isPartOf": {"@id": f"{SITE_URL}/#website"},
     }
+    if image:
+        page["image"] = image
     breadcrumb = breadcrumb_schema(soup, canonical)
     graph = [page, person]
     if breadcrumb:
@@ -140,8 +141,6 @@ def structured_data(soup: BeautifulSoup, route: str) -> dict:
         published = meta_content(soup, 'meta[property="article:published_time"]')
         if published:
             page["datePublished"] = published
-        if image:
-            page["image"] = image
     elif page_type == "SoftwareSourceCode":
         page["author"] = {"@id": person_id}
         repository = soup.select_one('.project-landing a[href^="https://github.com/"]')
@@ -152,7 +151,11 @@ def structured_data(soup: BeautifulSoup, route: str) -> dict:
     return {"@context": "https://schema.org", "@graph": graph}
 
 
-def harden_page_metadata(path: Path, output: Path) -> tuple[int, int, int]:
+def harden_page_metadata(
+    path: Path,
+    output: Path,
+    social_images: dict[str, str],
+) -> tuple[int, int, int, int]:
     soup = BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
     removed_keywords = 0
     keywords = soup.select_one('meta[name="keywords"]')
@@ -162,10 +165,23 @@ def harden_page_metadata(path: Path, output: Path) -> tuple[int, int, int]:
 
     canonical = soup.select_one('link[rel="canonical"]')
     route = urlparse(str(canonical.get("href", ""))).path or "/" if canonical else ""
-    if route == "/":
-        ensure_meta(soup, "property", "og:image", HOME_SOCIAL_IMAGE)
-        ensure_meta(soup, "name", "twitter:image", HOME_SOCIAL_IMAGE)
+    social_updates = 0
+    if canonical:
+        social_route = "/404.html" if path.name == "404.html" else route
+        social_path = social_images.get(social_route)
+        if not social_path:
+            raise SystemExit(f"Generated-output hardening refused: no HOWL social image for {social_route}")
+        social_url = urljoin(SITE_URL, social_path)
+        title = meta_content(soup, 'meta[property="og:title"]') or (soup.title.get_text(strip=True) if soup.title else "")
+        ensure_meta(soup, "property", "og:image", social_url)
+        ensure_meta(soup, "property", "og:image:type", "image/png")
+        ensure_meta(soup, "property", "og:image:width", "1200")
+        ensure_meta(soup, "property", "og:image:height", "630")
+        ensure_meta(soup, "property", "og:image:alt", title)
+        ensure_meta(soup, "name", "twitter:image", social_url)
+        ensure_meta(soup, "name", "twitter:image:alt", title)
         set_meta(soup, 'meta[name="twitter:card"]', "summary_large_image")
+        social_updates = 1
     title_updates = 0
     collection_metadata = {
         "/blog/": (
@@ -225,13 +241,18 @@ def harden_page_metadata(path: Path, output: Path) -> tuple[int, int, int]:
         set_meta(soup, 'meta[name="twitter:description"]', description)
         title_updates = 1
 
+    if canonical:
+        social_alt = meta_content(soup, 'meta[property="og:title"]') or (soup.title.get_text(strip=True) if soup.title else "")
+        set_meta(soup, 'meta[property="og:image:alt"]', social_alt)
+        set_meta(soup, 'meta[name="twitter:image:alt"]', social_alt)
+
     twitter_card = soup.select_one('meta[name="twitter:card"]')
     if twitter_card and not soup.select_one('meta[name="twitter:image"]'):
         twitter_card["content"] = "summary"
 
     if not canonical:
         path.write_text(str(soup), encoding="utf-8")
-        return removed_keywords, title_updates, 0
+        return removed_keywords, title_updates, 0, social_updates
 
     dimension_updates = 0
     for image in soup.find_all("img"):
@@ -260,13 +281,26 @@ def harden_page_metadata(path: Path, output: Path) -> tuple[int, int, int]:
         for duplicate in schemas[1:]:
             duplicate.decompose()
     path.write_text(str(soup), encoding="utf-8")
-    return removed_keywords, title_updates, dimension_updates
+    return removed_keywords, title_updates, dimension_updates, social_updates
 
 
 def main() -> int:
     output = Path(sys.argv[1] if len(sys.argv) > 1 else "output").resolve()
     if not output.is_dir():
         print(f"Generated-output hardening refused: missing {output}", file=sys.stderr)
+        return 1
+
+    social_map_path = output / "assets" / "social" / "social-image-map.json"
+    if not social_map_path.is_file():
+        print(f"Generated-output hardening refused: missing {social_map_path}", file=sys.stderr)
+        return 1
+    try:
+        social_images = json.loads(social_map_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        print(f"Generated-output hardening refused: invalid social image map: {exc}", file=sys.stderr)
+        return 1
+    if not isinstance(social_images, dict) or not social_images:
+        print("Generated-output hardening refused: social image map is empty", file=sys.stderr)
         return 1
 
     root_pagination = output / "page"
@@ -411,19 +445,21 @@ def main() -> int:
     removed_keywords = 0
     metadata_titles = 0
     image_dimensions = 0
+    social_metadata = 0
     metadata_pages = sorted(output.rglob("index.html")) + [output / "404.html"]
     for path in metadata_pages:
-        keywords, titles, dimensions = harden_page_metadata(path, output)
+        keywords, titles, dimensions, social = harden_page_metadata(path, output, social_images)
         removed_keywords += keywords
         metadata_titles += titles
         image_dimensions += dimensions
+        social_metadata += social
 
     print(
         f"Hardened {aliases} redirect aliases, {writing_cards} writing card, "
         f"{home_cards} homepage card, {not_found_assets} nested-route 404 assets, "
         f"{removed_root_pages} duplicate root pagination routes, {removed_keywords} legacy keyword tags, "
         f"{metadata_titles} archive metadata records, {image_dimensions} image dimension records, "
-        "page-type JSON-LD, and RSS discovery metadata."
+        f"{social_metadata} route-specific social images, page-type JSON-LD, and RSS discovery metadata."
     )
     return 0
 
