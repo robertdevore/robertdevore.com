@@ -97,9 +97,12 @@ def main() -> int:
             card_id = str(card["id"])
             source = rendered / f"{card_id}.svg"
             svg = source.read_text(encoding="utf-8")
-            if HOWL_BRAND_PREFIX not in svg:
+            if brand_prefix in svg:
+                branded_svg = svg
+            elif HOWL_BRAND_PREFIX in svg:
+                branded_svg = svg.replace(HOWL_BRAND_PREFIX, brand_prefix, 1)
+            else:
                 raise SystemExit(f"HOWL brand marker is missing from {source.name}.")
-            branded_svg = svg.replace(HOWL_BRAND_PREFIX, brand_prefix, 1)
             svg_target = SVG_OUTPUT / source.name
             svg_target.write_text(branded_svg, encoding="utf-8")
 
