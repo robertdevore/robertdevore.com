@@ -1,3 +1,4 @@
 # Required by generated-site validation, audit, hardening, and migration scripts.
 beautifulsoup4==4.14.3
+CairoSVG==2.7.1
 Pillow==12.3.0

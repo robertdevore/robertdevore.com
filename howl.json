@@ -2,13 +2,27 @@
   "project": {
     "name": "RobertDeVore.com",
     "tagline": "Systems, tools, and writing for work that has to hold up.",
-    "url": ""
+    "url": "https://robertdevore.com"
   },
   "theme": {
     "name": "signal",
     "mode": "light"
   },
   "cards": [
+    {
+      "id": "home",
+      "title": "Robert DeVore",
+      "tagline": "Systems, tools, and writing for work that has to hold up",
+      "file": "templates/page-home.html",
+      "language": "html",
+      "concepts": ["software systems", "developer tools", "agentic workflows"],
+      "caption": "Software systems, developer tools, agentic workflows, and technical writing from Robert DeVore.",
+      "cta": "Explore the work.",
+      "variant": "social",
+      "label": "HOME",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
+    },
     {
       "id": "forever-forward",
       "title": "Forever Forward",
@@ -21,6 +35,48 @@
       "variant": "social",
       "label": "The Jidoka Files",
       "background_image": "assets/social/forever-forward-background.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
+    },
+    {
+      "id": "zero-cool-cli-a-hackers-terminal-from-1995",
+      "title": "Zero Cool CLI",
+      "tagline": "A hacker's terminal from 1995, rebuilt as a working developer tool",
+      "file": "content/posts/zero-cool-cli-a-hackers-terminal-from-1995.md",
+      "language": "markdown",
+      "concepts": ["CLI", "developer tools", "Hackers"],
+      "caption": "Zero Cool CLI: movie nostalgia rebuilt as a working terminal tool.",
+      "cta": "Read the field note.",
+      "variant": "social",
+      "label": "DEVELOPER TOOLS",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
+    },
+    {
+      "id": "stattic-v1-0-the-worlds-fastest-python-based-static-site-generator",
+      "title": "Stattic v1.0",
+      "tagline": "The world's fastest Python-based static site generator",
+      "file": "content/posts/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator.md",
+      "language": "markdown",
+      "concepts": ["Python", "static site generator", "developer tools"],
+      "caption": "Stattic v1.0: fast, secure static publishing with no lock-in and no noise.",
+      "cta": "Read the release note.",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-b-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2"
+    },
+    {
+      "id": "grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios",
+      "title": "20 Plugins Live On",
+      "tagline": "Grateful to see my open source work continue at WebDevStudios",
+      "file": "content/posts/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios.md",
+      "language": "markdown",
+      "concepts": ["WordPress", "open source", "WebDevStudios"],
+      "caption": "Twenty of my WordPress plugins found a new home at WebDevStudios.",
+      "cta": "Read the update.",
+      "variant": "social",
+      "label": "WORDPRESS ARCHIVE",
+      "background_image": "assets/art/signal-a-1920.webp",
       "font_file": "assets/fonts/DepartureMono-Regular.woff2"
     }
   ]
