@@ -10,6 +10,7 @@ nav_hide: true
 excerpt: "Over the last few months, I’ve gone all-in on Python. Not just because it's powerful - but because it’s accessible. I've been building tools , writing tutorials , dropping full cipher projects , and even releasing a…"
 categories: ["WordPress Archive"]
 tags: ["WordPress"]
+featured_image: "/assets/social/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator-social.png"
 ---
 
 Over the last few months, I’ve gone all-in on Python. Not just because it's powerful - but because it’s accessible. I've been [building tools](/5-python-scripts-for-osint-and-pentesting/), [writing tutorials](/complete-beginners-guide-building-a-python-url-checker-for-google-sheets/), dropping full [cipher projects](/i-built-a-python-stego-cipher-tool-and-you-can-have-it/), and even releasing a full [Python course](https://python.robertdevore.com) specifically designed to help PHP and WordPress® developers make the leap. Because I’m not just trying to hand people a tool. I want to teach you how to wield it, too. That’s what [Stattic](https://stattic.site) is about: giving devs control again - with no lock-in, no unnecessary functionality, and no noise. Just fast, secure, clean builds every time. And now? Stattic v1.0 is here! It's the **fastest Python static site generator in the world** - and the **second fastest SSG overall** , right behind Hugo. Brag? Hell yeah. I’m proud of it. 😎

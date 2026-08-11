@@ -16,6 +16,7 @@ from PIL import Image
 
 SITE_URL = "https://robertdevore.com"
 FEED_URL = f"{SITE_URL}/feed/index.xml"
+HOME_SOCIAL_IMAGE = f"{SITE_URL}/assets/social/home-social.png"
 ATOM_NAMESPACE = "http://www.w3.org/2005/Atom"
 FOREVER_FORWARD_CARD_IMAGE = re.compile(
     r'(<a class="listing-card-image-link" href="/forever-forward/">)'
@@ -58,6 +59,16 @@ def set_meta(soup: BeautifulSoup, selector: str, value: str) -> None:
     node = soup.select_one(selector)
     if node:
         node["content"] = value
+
+
+def ensure_meta(soup: BeautifulSoup, attribute: str, name: str, value: str) -> None:
+    node = soup.find("meta", attrs={attribute: name})
+    if node:
+        node["content"] = value
+        return
+    head = soup.find("head")
+    if head:
+        head.append(soup.new_tag("meta", attrs={attribute: name, "content": value}))
 
 
 def breadcrumb_schema(soup: BeautifulSoup, canonical: str) -> dict | None:
@@ -104,6 +115,8 @@ def structured_data(soup: BeautifulSoup, route: str) -> dict:
             "description": description,
             "publisher": {"@id": person_id},
         }
+        if image:
+            website["image"] = image
         return {"@context": "https://schema.org", "@graph": [website, person]}
 
     page: dict = {
@@ -149,6 +162,10 @@ def harden_page_metadata(path: Path, output: Path) -> tuple[int, int, int]:
 
     canonical = soup.select_one('link[rel="canonical"]')
     route = urlparse(str(canonical.get("href", ""))).path or "/" if canonical else ""
+    if route == "/":
+        ensure_meta(soup, "property", "og:image", HOME_SOCIAL_IMAGE)
+        ensure_meta(soup, "name", "twitter:image", HOME_SOCIAL_IMAGE)
+        set_meta(soup, 'meta[name="twitter:card"]', "summary_large_image")
     title_updates = 0
     collection_metadata = {
         "/blog/": (

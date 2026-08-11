@@ -10,6 +10,7 @@ nav_hide: true
 excerpt: "HACK THE PLANET 🌍💻 I built this CLI tool because I couldn’t get the movie “Hackers” out of my head after rewatching it recently. If you’ve followed my work – especially around terminal tools and developer utilities –…"
 categories: ["Developer Tools"]
 tags: ["Engineering"]
+featured_image: "/assets/social/zero-cool-cli-a-hackers-terminal-from-1995-social.png"
 ---
 
 HACK THE PLANET 🌍💻

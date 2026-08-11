@@ -10,6 +10,7 @@ nav_hide: true
 excerpt: "A little over a week ago, I announced that I was stepping away from the WordPress® community and giving away all of my open source plugins. It wasn’t a light decision, but it was the right one for me. Today, I want to…"
 categories: ["WordPress Archive"]
 tags: ["WordPress"]
+featured_image: "/assets/social/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios-social.png"
 ---
 
 A little over a week ago, I announced that I was stepping away from the WordPress® community and [giving away](/wordpress-woocommerce-plugins-i-will-no-longer-maintain/) all of my open source plugins. 

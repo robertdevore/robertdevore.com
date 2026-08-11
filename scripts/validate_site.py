@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+from PIL import Image
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else "output").resolve()
 errors, warnings, titles, descriptions = [], [], {}, {}
@@ -180,6 +181,39 @@ for item in ("feed/index.xml", "sitemap.xml", "llms.txt"):
         errors.append(f"{item}: still includes the removed Devio Chat article")
 
 home = BeautifulSoup((root / "index.html").read_text(errors="ignore"), "html.parser")
+social_images = {
+    "/": "/assets/social/home-social.png",
+    "/forever-forward/": "/images/forever-forward-social-",
+    "/zero-cool-cli-a-hackers-terminal-from-1995/": "/images/zero-cool-cli-a-hackers-terminal-from-1995-social-",
+    "/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator/": "/images/stattic-v1-0-the-worlds-fastest-python-based-static-site-generator-social-",
+    "/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios/": "/images/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios-social-",
+}
+for route, expected_path in social_images.items():
+    page_path = root / "index.html" if route == "/" else root / route.lstrip("/") / "index.html"
+    page = BeautifulSoup(page_path.read_text(errors="ignore"), "html.parser")
+    og_image = page.select_one('meta[property="og:image"]')
+    twitter_image = page.select_one('meta[name="twitter:image"]')
+    og_url = og_image.get("content", "") if og_image else ""
+    twitter_url = twitter_image.get("content", "") if twitter_image else ""
+    parsed_image = urlparse(og_url)
+    exact_path = route == "/"
+    path_matches = parsed_image.path == expected_path if exact_path else (
+        parsed_image.path.startswith(expected_path) and parsed_image.path.endswith(".webp")
+    )
+    if parsed_image.netloc != "robertdevore.com" or not path_matches:
+        errors.append(f"{route} is missing its HOWL Open Graph image")
+    if twitter_url != og_url:
+        errors.append(f"{route} is missing its matching HOWL Twitter image")
+    image_file = root / parsed_image.path.lstrip("/")
+    if not image_file.is_file():
+        errors.append(f"{route} HOWL image is missing from generated assets: {parsed_image.path}")
+    else:
+        try:
+            with Image.open(image_file) as source:
+                if source.size != (1200, 630):
+                    errors.append(f"{route} HOWL image must be 1200x630, found {source.size}")
+        except OSError as exc:
+            errors.append(f"{route} HOWL image is unreadable: {exc}")
 writing_label = home.select_one("#writing .section-index")
 if not writing_label or writing_label.get_text(" ", strip=True) != "04 / Writing": errors.append("homepage writing label includes pagination or is missing")
 footer = home.select_one(".site-footer")
