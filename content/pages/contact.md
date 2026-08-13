@@ -13,9 +13,3 @@ order: 30
 A short note with the problem, constraints, relevant links, and the kind of response you need is the fastest way to start a productive conversation.
 
 [hello@robertdevore.com](mailto:hello@robertdevore.com)
-
-## Useful subjects
-
-- Programming languages, runtimes, package workflows, developer infrastructure, and static publishing.
-- Workflow orchestration, evaluation, retrieval, telemetry, memory, approvals, and evidence boundaries.
-- Open-source collaboration, technical writing, ecosystem connections, and practical feedback.

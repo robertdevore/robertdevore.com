@@ -290,12 +290,31 @@ for selector, expected in (
         errors.append(f"404 page must use root-absolute asset URL {expected}")
 
 contact = BeautifulSoup((root / "contact/index.html").read_text(errors="ignore"), "html.parser")
-if len(contact.select("form[data-contact-form] label")) != 5: errors.append("contact form fields are incomplete")
-if contact.select_one("input[inputmode]"): errors.append("contact form uses a legacy-validator compatibility warning attribute")
+if contact.select_one("form"): errors.append("contact page still includes a form")
+if len(contact.select(".contact-subjects__grid article")) != 3: errors.append("contact subject grid is incomplete")
+if len(contact.select(".contact-subjects__grid article > svg[aria-hidden='true']")) != 3:
+    errors.append("contact subject cards must each include a decorative icon")
+if not contact.select_one('.page-content a[href="mailto:hello@robertdevore.com"]'):
+    errors.append("contact page is missing the direct email link")
 if contact.select_one('.page-content a[href="https://github.com/robertdevore"]'):
     errors.append("contact content still includes the removed GitHub link")
 
+writing = BeautifulSoup((root / "blog/index.html").read_text(errors="ignore"), "html.parser")
+writing_kicker = writing.select_one(".signal-hero .signal-kicker")
+if not writing_kicker or writing_kicker.get_text(" ", strip=True) != "Archive / Writing":
+    errors.append("writing hero kicker still includes pagination")
+
+about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
+selected_surfaces = about.select_one(".about-surfaces > h2")
+if not selected_surfaces or selected_surfaces.get_text(" ", strip=True) != "Selected surfaces":
+    errors.append("about page Selected surfaces title is missing its section heading treatment")
+
 projects = BeautifulSoup((root / "projects/index.html").read_text(errors="ignore"), "html.parser")
+ecosystem_title = projects.select_one("#project-ecosystem-title")
+if not ecosystem_title or ecosystem_title.get_text(" ", strip=True) != "Kujo Ecosystem":
+    errors.append("projects page Kujo Ecosystem title is incorrect")
+if projects.select_one(".project-ecosystem__heading p"):
+    errors.append("projects page ecosystem heading still includes supporting copy")
 snips = next((article for article in projects.select(".project-secondary article") if article.find("h3") and article.find("h3").get_text(" ", strip=True) == "Snips"), None)
 if not snips or "without losing the required context" not in snips.get_text(" ", strip=True):
     errors.append("projects page Snips description is incorrect")
