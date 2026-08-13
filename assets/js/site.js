@@ -32,45 +32,6 @@
     tag.replaceWith(link);
   });
 
-  if (window.ScrambleDecode && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    var titles = document.querySelectorAll(".section-heading h2,.project-feature h2,.project-secondary h2,.project-link-bank h2,.project-link-bank__columns a,.flagship-panel h3,.home-focus .sk-card h3,.home-principles h3,.project-secondary h3,.article-related-grid .listing-card a,.clarity-grid h2,.about-map h3,.about-timeline h2,.about-proof h3");
-    function runTitle(title) {
-      if (title.hasAttribute("data-scramble-complete")) return;
-      var headingAnchor = title.querySelector(":scope > .heading-anchor");
-      if (headingAnchor) headingAnchor.remove();
-      var original = (title.getAttribute("data-text") || title.textContent).trim();
-      if (!original) {
-        if (headingAnchor) title.append(headingAnchor);
-        return;
-      }
-      title.setAttribute("aria-label", original);
-      title.setAttribute("data-scrambling", "true");
-      title.textContent = "";
-      title.setAttribute("data-scramble-complete", "true");
-      window.ScrambleDecode.scramble(title, {
-        text: original,
-        duration: 680 + Math.min(420, original.length * 12),
-        pool: "█▓▒░<>/\\#[]{}=+*01"
-      }).finished.then(function () {
-        title.textContent = original;
-        if (headingAnchor) title.append(" ", headingAnchor);
-        title.removeAttribute("data-scrambling");
-      });
-    }
-    if ("IntersectionObserver" in window) {
-      var titleObserver = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (!entry.isIntersecting) return;
-          titleObserver.unobserve(entry.target);
-          runTitle(entry.target);
-        });
-      }, { rootMargin: "0px 0px -12% 0px", threshold: 0.25 });
-      titles.forEach(function (title) { titleObserver.observe(title); });
-    } else {
-      titles.forEach(runTitle);
-    }
-  }
-
   document.querySelectorAll(".article-content,.page-content").forEach(function (content) {
     var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
       acceptNode: function (node) {
@@ -177,6 +138,57 @@
     label.textContent = "Code"; button.type = "button"; button.textContent = "Copy"; status.className = "sk-sr-only"; status.setAttribute("aria-live", "polite"); caption.append(label, button, status); figure.insertBefore(caption, pre);
     button.addEventListener("click", function () { navigator.clipboard.writeText(pre.textContent).then(function () { button.textContent = "Copied"; status.textContent = "Code copied to clipboard"; setTimeout(function () { button.textContent = "Copy"; }, 1800); }); });
   });
+
+  if (window.ScrambleDecode && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var monoRuns = [];
+    var monoWalker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        var parent = node.parentElement;
+        if (!parent || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        if (parent.closest("script,style,textarea,[data-no-scramble]")) return NodeFilter.FILTER_REJECT;
+        return getComputedStyle(parent).fontFamily.indexOf("Departure Mono") >= 0
+          ? NodeFilter.FILTER_ACCEPT
+          : NodeFilter.FILTER_REJECT;
+      }
+    });
+    while (monoWalker.nextNode()) monoRuns.push(monoWalker.currentNode);
+
+    monoRuns = monoRuns.map(function (node) {
+      var run = document.createElement("span");
+      run.className = "scramble-run";
+      run.setAttribute("data-scramble-text", node.nodeValue);
+      run.textContent = node.nodeValue;
+      node.parentNode.replaceChild(run, node);
+      return run;
+    });
+
+    function runMonoDecode(run) {
+      if (run.hasAttribute("data-scramble-complete")) return;
+      var original = run.getAttribute("data-scramble-text") || "";
+      run.setAttribute("data-scramble-complete", "true");
+      run.setAttribute("data-scrambling", "true");
+      window.ScrambleDecode.scramble(run, {
+        text: original,
+        duration: 520 + Math.min(400, original.trim().length * 9),
+        pool: "█▓▒░<>/\\#[]{}=+*01"
+      }).finished.then(function () {
+        run.textContent = original;
+        run.removeAttribute("data-scrambling");
+      });
+    }
+    if ("IntersectionObserver" in window) {
+      var monoObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          monoObserver.unobserve(entry.target);
+          runMonoDecode(entry.target);
+        });
+      }, { rootMargin: "0px 0px -10% 0px", threshold: 0.15 });
+      monoRuns.forEach(function (run) { monoObserver.observe(run); });
+    } else {
+      monoRuns.forEach(runMonoDecode);
+    }
+  }
 
   var contactForm = document.querySelector("[data-contact-form]");
   if (contactForm) contactForm.addEventListener("submit", function (event) {

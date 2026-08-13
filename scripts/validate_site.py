@@ -302,9 +302,26 @@ if not snips or "without losing the required context" not in snips.get_text(" ",
 active_system_titles = [heading.get_text(" ", strip=True) for heading in projects.select(".project-secondary h3")]
 if active_system_titles != ["Strata", "Snips", "RepoRadar"]:
     errors.append(f"projects active-system titles are incorrect: {active_system_titles}")
+ecosystem_links = {
+    link.select_one("strong").get_text(" ", strip=True): link.get("href")
+    for link in projects.select(".project-ecosystem__grid a")
+    if link.select_one("strong")
+}
+expected_ecosystem_links = {
+    "Primitives": "https://kujolang.ai/ecosystem/primitives/",
+    "Tooling": "https://kujolang.ai/ecosystem/tooling/",
+    "Workflows": "https://kujolang.ai/ecosystem/workflows/",
+    "Skills": "https://kujolang.ai/ecosystem/skills/",
+    "Agents": "https://agents.kujolang.ai",
+}
+if ecosystem_links != expected_ecosystem_links:
+    errors.append(f"projects Kujo ecosystem grid links are incorrect: {ecosystem_links}")
+kujo_website = projects.select_one('.project-feature__actions a[href="https://kujolang.ai"]')
+if not kujo_website or kujo_website.get_text(" ", strip=True) != "View Website":
+    errors.append("projects Kujo feature is missing the View Website link")
 for slug in ("agents-sdk", "dispatch", "lens", "sitekit", "ssg"):
-    if not projects.select_one(f'.project-ecosystem a[href="/projects/{slug}/"]'):
-        errors.append(f"projects page does not link to project record {slug}")
+    if (root / f"projects/{slug}/index.html").exists():
+        errors.append(f"removed personal project route still exists: {slug}")
 tool_links = {link.get_text(" ", strip=True): link.get("href") for link in projects.select(".project-link-bank__columns a")}
 for removed_tool in ("Repo Radar", "Agent Skills", "PlaneWatch", "AI Agents", "Learn Chess", "Content Creator", "Don't Break The Chain"):
     if removed_tool in tool_links: errors.append(f"projects tool archive still includes removed tool {removed_tool}")
@@ -327,10 +344,8 @@ if "Kujo 1.0 is released." not in kujo.get_text(" ", strip=True):
 kujo_site_link = kujo.select_one('.project-landing a[href="https://kujolang.ai"]')
 if not kujo_site_link or kujo_site_link.get("target") != "_blank" or set(kujo_site_link.get("rel", [])) != {"noopener", "noreferrer"}:
     errors.append("Kujo project introduction is missing the safe new-window kujolang.ai link")
-for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
-    project = BeautifulSoup((root / f"projects/{slug}/index.html").read_text(errors="ignore"), "html.parser")
-    if project.select_one("main.project-page > article"):
-        errors.append(f"project {slug} uses an outer article that triggers a legacy-validator heading warning")
+if kujo.select_one("main.project-page > article"):
+    errors.append("project kujo uses an outer article that triggers a legacy-validator heading warning")
 
 forever_forward = BeautifulSoup((root / "forever-forward/index.html").read_text(errors="ignore"), "html.parser")
 forever_og = forever_forward.select_one('meta[property="og:image"]')
@@ -343,20 +358,16 @@ else:
     if parsed_forever_og.netloc != "robertdevore.com" or not route_exists(parsed_forever_og.path):
         errors.append(f"Forever Forward social image is not a local production asset: {forever_og_url}")
 
-writing = BeautifulSoup((root / "blog/index.html").read_text(errors="ignore"), "html.parser")
-forever_writing_media = writing.select_one('.listing-card-image-link[href="/forever-forward/"]')
-if not forever_writing_media:
-    errors.append("Writing index is missing the Forever Forward card media placeholder")
-elif forever_writing_media.select_one("img"):
-    errors.append("Writing index displays the Forever Forward social image")
-elif not forever_writing_media.select_one(".listing-card-image-placeholder"):
-    errors.append("Writing index Forever Forward card is missing its standard placeholder")
-
-forever_home_media = home.select_one('.listing-card-image-link[href="/forever-forward/"]')
-if forever_home_media and forever_home_media.select_one("img"):
-    errors.append("Homepage Writing section displays the Forever Forward social image")
-elif forever_home_media and not forever_home_media.select_one(".listing-card-image-placeholder"):
-    errors.append("Homepage Forever Forward card is missing its standard placeholder")
+for path in sorted((root / "blog").rglob("index.html")):
+    writing = BeautifulSoup(path.read_text(errors="ignore"), "html.parser")
+    if writing.select_one(".writing-index .listing-card-image-link img"):
+        errors.append(f"writing index displays a featured image: {path.relative_to(root)}")
+    if any(not media.select_one(".listing-card-image-placeholder") for media in writing.select(".writing-index .listing-card-image-link")):
+        errors.append(f"writing index card is missing its media placeholder: {path.relative_to(root)}")
+if home.select_one("#writing .listing-card-image-link img"):
+    errors.append("homepage Writing section displays a featured image")
+if any(not media.select_one(".listing-card-image-placeholder") for media in home.select("#writing .listing-card-image-link")):
+    errors.append("homepage Writing card is missing its media placeholder")
 
 about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
 if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):
@@ -374,8 +385,11 @@ if not about.select_one(".about-timeline h2") or about.select_one(".about-timeli
 llms = (root / "llms.txt").read_text(errors="ignore")
 if "## Projects" not in llms or "[Projects index](https://robertdevore.com/projects/)" not in llms:
     errors.append("llms.txt missing Projects collection")
-for slug in ("agents-sdk", "dispatch", "kujo", "lens", "sitekit", "ssg"):
-    if f"https://robertdevore.com/projects/{slug}/" not in llms: errors.append(f"llms.txt missing project {slug}")
+if "https://robertdevore.com/projects/kujo/" not in llms:
+    errors.append("llms.txt missing project kujo")
+for slug in ("agents-sdk", "dispatch", "lens", "sitekit", "ssg"):
+    if f"https://robertdevore.com/projects/{slug}/" in llms:
+        errors.append(f"llms.txt still includes removed project {slug}")
 
 site_css = (root / "assets/css/site.bundle.css").read_text(errors="ignore")
 if "paint-order:" in site_css: errors.append("site CSS contains paint-order, which fails the Nu HTML/CSS checker")

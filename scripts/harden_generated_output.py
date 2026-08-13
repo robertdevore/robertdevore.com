@@ -17,13 +17,13 @@ from PIL import Image
 SITE_URL = "https://robertdevore.com"
 FEED_URL = f"{SITE_URL}/feed/index.xml"
 ATOM_NAMESPACE = "http://www.w3.org/2005/Atom"
-FOREVER_FORWARD_CARD_IMAGE = re.compile(
-    r'(<a(?=[^>]*class="listing-card-image-link")(?=[^>]*href="/forever-forward/")[^>]*>)'
+WRITING_CARD_IMAGE = re.compile(
+    r'(<a(?=[^>]*class="listing-card-image-link")[^>]*>)'
     r'<img\b(?=[^>]*class="listing-card-image")[^>]*>'
     r'(</a>)'
 )
-FOREVER_FORWARD_CARD_PLACEHOLDER = re.compile(
-    r'<a(?=[^>]*class="listing-card-image-link")(?=[^>]*href="/forever-forward/")[^>]*>'
+WRITING_CARD_PLACEHOLDER = re.compile(
+    r'<a(?=[^>]*class="listing-card-image-link")[^>]*>'
     r'<span(?=[^>]*class="listing-card-image-placeholder")(?=[^>]*aria-hidden="true")[^>]*></span>'
     r'</a>'
 )
@@ -348,44 +348,38 @@ def main() -> int:
     blog_root = output / "blog"
     for path in sorted(blog_root.rglob("index.html")):
         html = path.read_text(encoding="utf-8")
-        existing_placeholders = len(FOREVER_FORWARD_CARD_PLACEHOLDER.findall(html))
-        html, replacements = FOREVER_FORWARD_CARD_IMAGE.subn(
+        existing_placeholders = len(WRITING_CARD_PLACEHOLDER.findall(html))
+        html, replacements = WRITING_CARD_IMAGE.subn(
             r'\1<span class="listing-card-image-placeholder" aria-hidden="true"></span>\2',
             html,
         )
         card_count = existing_placeholders + replacements
-        if card_count > 1:
-            print(
-                f"Generated-output hardening refused: duplicate Forever Forward cards in {path.relative_to(output)}",
-                file=sys.stderr,
-            )
-            return 1
-        if replacements == 1:
+        if replacements > 0:
             path.write_text(html, encoding="utf-8")
         writing_cards += card_count
 
-    if writing_cards != 1:
+    if writing_cards == 0:
         print(
-            f"Generated-output hardening refused: expected one Forever Forward writing card, found {writing_cards}",
+            "Generated-output hardening refused: expected writing cards, found none",
             file=sys.stderr,
         )
         return 1
 
     home_path = output / "index.html"
     home_html = home_path.read_text(encoding="utf-8")
-    home_placeholders = len(FOREVER_FORWARD_CARD_PLACEHOLDER.findall(home_html))
-    home_html, home_replacements = FOREVER_FORWARD_CARD_IMAGE.subn(
+    home_placeholders = len(WRITING_CARD_PLACEHOLDER.findall(home_html))
+    home_html, home_replacements = WRITING_CARD_IMAGE.subn(
         r'\1<span class="listing-card-image-placeholder" aria-hidden="true"></span>\2',
         home_html,
     )
     home_cards = home_placeholders + home_replacements
-    if home_cards > 1:
+    if home_cards != 3:
         print(
-            "Generated-output hardening refused: duplicate Forever Forward cards on homepage",
+            f"Generated-output hardening refused: expected three homepage writing cards, found {home_cards}",
             file=sys.stderr,
         )
         return 1
-    if home_replacements == 1:
+    if home_replacements > 0:
         home_path.write_text(home_html, encoding="utf-8")
 
     not_found_path = output / "404.html"

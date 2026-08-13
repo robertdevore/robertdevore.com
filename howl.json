@@ -2531,46 +2531,6 @@
       "show_url": false
     },
     {
-      "id": "project-agents-sdk",
-      "title": "Kujo Agents SDK",
-      "tagline": "Runtime primitives and examples for building bounded, testable agents with Kujo.",
-      "file": "content/projects/agents-sdk.md",
-      "language": "markdown",
-      "concepts": [
-        "Agents",
-        "SDK",
-        "Approvals"
-      ],
-      "caption": "Kujo Agents SDK: Runtime primitives and examples for building bounded, testable agents with Kujo.",
-      "cta": "Read more on RobertDeVore.com.",
-      "url": "https://robertdevore.com/projects/agents-sdk/",
-      "variant": "social",
-      "label": "SOFTWARE PROJECT",
-      "background_image": "assets/art/signal-a-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
-      "show_url": false
-    },
-    {
-      "id": "project-dispatch",
-      "title": "Dispatch",
-      "tagline": "Reliable AI workflow orchestration with resumable runs, approvals, policies, and …",
-      "file": "content/projects/dispatch.md",
-      "language": "markdown",
-      "concepts": [
-        "Agents",
-        "Orchestration",
-        "Workflows"
-      ],
-      "caption": "Dispatch: Reliable AI workflow orchestration with resumable runs, approvals, policies, and trace artifacts.",
-      "cta": "Read more on RobertDeVore.com.",
-      "url": "https://robertdevore.com/projects/dispatch/",
-      "variant": "social",
-      "label": "SOFTWARE PROJECT",
-      "background_image": "assets/art/signal-a-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
-      "show_url": false
-    },
-    {
       "id": "project-kujo",
       "title": "Kujo",
       "tagline": "The programming language and ecosystem at the center of Robert DeVore's current systems work.",
@@ -2584,66 +2544,6 @@
       "caption": "Kujo: The programming language and ecosystem at the center of Robert DeVore's current systems work.",
       "cta": "Read more on RobertDeVore.com.",
       "url": "https://robertdevore.com/projects/kujo/",
-      "variant": "social",
-      "label": "SOFTWARE PROJECT",
-      "background_image": "assets/art/signal-a-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
-      "show_url": false
-    },
-    {
-      "id": "project-lens",
-      "title": "Lens",
-      "tagline": "Deterministic browser and visual QA workflows for local web projects.",
-      "file": "content/projects/lens.md",
-      "language": "markdown",
-      "concepts": [
-        "Browser QA",
-        "Accessibility",
-        "Visual testing"
-      ],
-      "caption": "Lens: Deterministic browser and visual QA workflows for local web projects.",
-      "cta": "Read more on RobertDeVore.com.",
-      "url": "https://robertdevore.com/projects/lens/",
-      "variant": "social",
-      "label": "SOFTWARE PROJECT",
-      "background_image": "assets/art/signal-a-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
-      "show_url": false
-    },
-    {
-      "id": "project-sitekit",
-      "title": "SiteKit",
-      "tagline": "An AI-readable, human-verifiable design system and semantic component library.",
-      "file": "content/projects/sitekit.md",
-      "language": "markdown",
-      "concepts": [
-        "Design systems",
-        "Accessibility",
-        "Components"
-      ],
-      "caption": "SiteKit: An AI-readable, human-verifiable design system and semantic component library.",
-      "cta": "Read more on RobertDeVore.com.",
-      "url": "https://robertdevore.com/projects/sitekit/",
-      "variant": "social",
-      "label": "SOFTWARE PROJECT",
-      "background_image": "assets/art/signal-a-1920.webp",
-      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
-      "show_url": false
-    },
-    {
-      "id": "project-ssg",
-      "title": "Kujo SSG",
-      "tagline": "A deterministic static-site generator with visible content, templates, metadata, feeds, …",
-      "file": "content/projects/ssg.md",
-      "language": "markdown",
-      "concepts": [
-        "Publishing",
-        "Static sites",
-        "Kujo"
-      ],
-      "caption": "Kujo SSG: A deterministic static-site generator with visible content, templates, metadata, feeds, and release checks.",
-      "cta": "Read more on RobertDeVore.com.",
-      "url": "https://robertdevore.com/projects/ssg/",
       "variant": "social",
       "label": "SOFTWARE PROJECT",
       "background_image": "assets/art/signal-a-1920.webp",
