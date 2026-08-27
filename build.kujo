@@ -659,6 +659,13 @@ func parse_frontmatter(content, source_file) {
 	meta["draft"] = parse_bool_value(meta["draft"], false)
 	meta["nav_hide"] = parse_bool_value(meta["nav_hide"], false)
 	meta["order"] = parse_int_value(meta["order"], 1000)
+	if !has_key(meta, "nav_title") {
+		meta["nav_title"] = ""
+	}
+	if !has_key(meta, "last_updated") {
+		meta["last_updated"] = ""
+	}
+	meta["search_exclude"] = parse_bool_value(meta["search_exclude"], false)
 	meta["tags"] = to_string_array(meta["tags"])
 	meta["categories"] = to_string_array(meta["categories"])
 	meta["taxonomies"] = normalize_taxonomies_map(meta["taxonomies"])
