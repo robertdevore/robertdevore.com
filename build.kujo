@@ -3656,12 +3656,16 @@ func build_site(settings) {
 		page_tags := meta_terms(meta, "tags", tags_lookup)
 		page_custom_taxonomies_html := custom_taxonomies_html(meta, "pages", taxonomy_lookups, reserved_taxonomy_slots, has_custom_tax_lookups)
 		page_public_taxonomies := {}
+		page_nav_title := ""
+		if has_key(meta, "nav_title") {
+			page_nav_title = trim(to_string(meta["nav_title"]))
+		}
 		if settings["webmcp"] && !parse_bool_value(meta["draft"], false) {
 			page_public_taxonomies = resolve_taxonomy_groups(meta, "pages", taxonomy_lookups)
 		}
 		pages_data = push(pages_data, {
 			"title": title,
-			"nav_title": trim(to_string(meta["nav_title"])),
+			"nav_title": page_nav_title,
 			"slug": slug,
 			"route": slug + "/",
 			"source_file": page_file,
