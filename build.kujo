@@ -659,10 +659,10 @@ func parse_frontmatter(content, source_file) {
 	meta["draft"] = parse_bool_value(meta["draft"], false)
 	meta["nav_hide"] = parse_bool_value(meta["nav_hide"], false)
 	meta["order"] = parse_int_value(meta["order"], 1000)
-	if !has_key(meta, "nav_title") {
+	if has_key(meta, "nav_title") == 0 {
 		meta["nav_title"] = ""
 	}
-	if !has_key(meta, "last_updated") {
+	if has_key(meta, "last_updated") == 0 {
 		meta["last_updated"] = ""
 	}
 	meta["search_exclude"] = parse_bool_value(meta["search_exclude"], false)
