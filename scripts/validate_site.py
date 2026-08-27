@@ -15,6 +15,15 @@ all_html_files = sorted(root.rglob("*.html"))
 release_version = (Path(__file__).resolve().parents[1] / "VERSION").read_text().strip()
 canonical_urls = set()
 
+webmcp_index = root / ".well-known/kujo-site-index.json"
+webmcp_runtime = root / "assets/js/kujo-webmcp.js"
+if not webmcp_index.is_file() or not webmcp_runtime.is_file():
+    errors.append("WebMCP index/runtime artifact missing")
+if (root / "index.html").is_file() and (root / "index.html").read_text(errors="ignore").count("data-kujo-webmcp") != 1:
+    errors.append("homepage must contain exactly one WebMCP marker")
+if (root / "404.html").is_file() and "data-kujo-webmcp" in (root / "404.html").read_text(errors="ignore"):
+    errors.append("404.html must not contain a WebMCP marker")
+
 def route_exists(path: str) -> bool:
     clean = path.split("?", 1)[0].split("#", 1)[0]
     if clean in {"", "/"}: return (root / "index.html").exists()
