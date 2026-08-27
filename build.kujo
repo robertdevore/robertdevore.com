@@ -665,7 +665,11 @@ func parse_frontmatter(content, source_file) {
 	if has_key(meta, "last_updated") == 0 {
 		meta["last_updated"] = ""
 	}
-	meta["search_exclude"] = parse_bool_value(meta["search_exclude"], false)
+	if has_key(meta, "search_exclude") == 0 {
+		meta["search_exclude"] = false
+	} else {
+		meta["search_exclude"] = parse_bool_value(meta["search_exclude"], false)
+	}
 	meta["tags"] = to_string_array(meta["tags"])
 	meta["categories"] = to_string_array(meta["categories"])
 	meta["taxonomies"] = normalize_taxonomies_map(meta["taxonomies"])
