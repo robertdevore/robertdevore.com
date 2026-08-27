@@ -785,7 +785,10 @@ func public_navigation(settings, pages_data, custom_collections, content_type_co
 		if page["draft"] || page["nav_hide"] {
 			continue
 		}
-		label := trim(to_string(page["nav_title"]))
+		label := trim(to_string(page["title"]))
+		if has_key(page, "nav_title") {
+			label = trim(to_string(page["nav_title"]))
+		}
 		if len(label) == 0 {
 			label = page["title"]
 		}
