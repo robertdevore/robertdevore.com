@@ -22,6 +22,9 @@ BACKGROUNDS = {
 SPECIAL_BACKGROUNDS = {
     "forever-forward": "assets/social/forever-forward-background.webp",
 }
+SPECIAL_TAGLINES = {
+    "courses": "Learn Rust, Python, TypeScript, Kujo, and CPC medical coding.",
+}
 SPECIAL_LABELS = {
     "forever-forward": "THE JIDOKA FILES",
 }
@@ -121,7 +124,7 @@ def content_card(path: Path, kind: str) -> dict[str, object]:
     meta = frontmatter(path)
     slug = text(meta, "custom_url", path.stem)
     title = text(meta, "title")
-    tagline = text(meta, "description", text(meta, "excerpt"))
+    tagline = SPECIAL_TAGLINES.get(slug, text(meta, "description", text(meta, "excerpt")))
     template = text(meta, "template", "signal-a")
     background = SPECIAL_BACKGROUNDS.get(slug, BACKGROUNDS.get(template, BACKGROUNDS["signal-a"]))
     relative = path.relative_to(ROOT).as_posix()
@@ -135,7 +138,7 @@ def content_card(path: Path, kind: str) -> dict[str, object]:
         card_id = slug
     elif kind == "page":
         route = f"/{slug}/"
-        label = "PROFILE" if slug == "about" else "CONNECT"
+        label = {"about": "PROFILE", "courses": "COURSES"}.get(slug, "CONNECT")
         concepts = [slug, "Robert DeVore"]
         card_id = slug
     elif kind == "project":

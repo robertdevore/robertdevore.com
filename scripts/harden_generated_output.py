@@ -42,7 +42,7 @@ def page_type_for(route: str) -> str:
         return "AboutPage"
     if route == "/contact/":
         return "ContactPage"
-    if route == "/blog/" or route.startswith(("/blog/page/", "/category/", "/tag/")) or route == "/projects/":
+    if route == "/blog/" or route.startswith(("/blog/page/", "/category/", "/tag/")) or route in {"/projects/", "/courses/"}:
         return "CollectionPage"
     if route.startswith("/projects/"):
         return "SoftwareSourceCode"
@@ -141,6 +141,29 @@ def structured_data(soup: BeautifulSoup, route: str) -> dict:
         published = meta_content(soup, 'meta[property="article:published_time"]')
         if published:
             page["datePublished"] = published
+    elif route == "/courses/":
+        items = []
+        for position, card in enumerate(soup.select(".course-card"), start=1):
+            heading = card.select_one("h3")
+            link = card.select_one(".sk-card__actions a[href]")
+            description_node = card.select_one(".course-card__description")
+            if not heading or not link or not description_node:
+                raise ValueError("Course card is missing its heading, link, or description")
+            items.append({
+                "@type": "ListItem",
+                "position": position,
+                "item": {
+                    "@type": "Course",
+                    "name": heading.get_text(" ", strip=True),
+                    "description": description_node.get_text(" ", strip=True),
+                    "url": urljoin(canonical, link["href"]),
+                },
+            })
+        page["mainEntity"] = {
+            "@type": "ItemList",
+            "numberOfItems": len(items),
+            "itemListElement": items,
+        }
     elif page_type == "SoftwareSourceCode":
         page["author"] = {"@id": person_id}
         repository = soup.select_one('.project-landing a[href^="https://github.com/"]')

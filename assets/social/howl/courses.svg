@@ -5,9 +5,9 @@
 <rect width="1200" height="630" fill="url(#wash)"/>
 <rect width="1200" height="630" filter="url(#grain)" opacity=".7"/>
 <rect x="42" y="42" width="1116" height="546" fill="none" stroke="#111" stroke-width="1"/>
-<text x="78" y="98" class="mono label">ROBERTDEVORE.COM  //  CONNECT</text>
+<text x="78" y="98" class="mono label">ROBERTDEVORE.COM  //  COURSES</text>
 <text x="76" y="232" class="mono social-title">Courses</text>
-<text x="78" y="342" class="mono social-tag">Explore practical courses in Rust, Python,</text>
-<text x="78" y="376" class="mono social-tag">TypeScript, Kujo, and CPC medical coding with …</text>
+<text x="78" y="342" class="mono social-tag">Learn Rust, Python, TypeScript, Kujo, and CPC</text>
+<text x="78" y="376" class="mono social-tag">medical coding.</text>
 <rect x="78" y="570" width="84" height="4" fill="#111"/>
 </svg>

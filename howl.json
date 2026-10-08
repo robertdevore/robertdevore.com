@@ -687,18 +687,18 @@
     {
       "id": "courses",
       "title": "Courses",
-      "tagline": "Explore practical courses in Rust, Python, TypeScript, Kujo, and CPC medical coding with …",
+      "tagline": "Learn Rust, Python, TypeScript, Kujo, and CPC medical coding.",
       "file": "content/pages/courses.md",
       "language": "markdown",
       "concepts": [
         "courses",
         "Robert DeVore"
       ],
-      "caption": "Courses: Explore practical courses in Rust, Python, TypeScript, Kujo, and CPC medical coding with Robert DeVore. Find a subject and start learning.",
+      "caption": "Courses: Learn Rust, Python, TypeScript, Kujo, and CPC medical coding.",
       "cta": "Read more on RobertDeVore.com.",
       "url": "https://robertdevore.com/courses/",
       "variant": "social",
-      "label": "CONNECT",
+      "label": "COURSES",
       "background_image": "assets/art/signal-a-1920.webp",
       "font_file": "assets/fonts/DepartureMono-Regular.woff2",
       "show_url": false

@@ -100,6 +100,27 @@ for path in html_files:
                 if target.startswith(("/wp-content/", "/recommends/")): warnings.append(f"{rel}: retained historical external path {target}")
                 else: warnings.append(f"{rel}: missing historical internal target {target}")
 
+    if rel.as_posix() == "courses/index.html":
+        graph = [node for script in soup.select('script[type="application/ld+json"]')
+                 for node in json.loads(script.string or "{}").get("@graph", [])]
+        catalog = next((node for node in graph if node.get("@type") == "CollectionPage"), {})
+        listing = catalog.get("mainEntity", {})
+        items = listing.get("itemListElement", [])
+        cards = soup.select(".course-card")
+        if not cards or listing.get("@type") != "ItemList" or listing.get("numberOfItems") != len(cards) or len(items) != len(cards):
+            errors.append(f"{rel}: course collection schema must match the visible catalog")
+        for position, (item, card) in enumerate(zip(items, cards), start=1):
+            course = item.get("item", {})
+            link = card.select_one(".sk-card__actions a[href]")
+            heading = card.select_one("h3")
+            description_node = card.select_one(".course-card__description")
+            if (item.get("position") != position or course.get("@type") != "Course"
+                or not link or not heading or not description_node
+                or course.get("url") != link["href"]
+                or course.get("name") != heading.get_text(" ", strip=True)
+                or course.get("description") != description_node.get_text(" ", strip=True)):
+                errors.append(f"{rel}: structured course {position} differs from visible content")
+
     article_content = soup.select_one(".article-content")
     if article_content:
         previous_level = 1
@@ -138,7 +159,7 @@ for path in sorted(root.rglob("*.css")):
         if not target.is_relative_to(root) or not target.exists():
             errors.append(f"{rel}: missing CSS asset {url}")
 
-required = ["index.html", "blog/index.html", "blog/page/2/index.html", "about/index.html", "contact/index.html", "projects/index.html", "category/developer-tools/index.html", "tag/engineering/index.html", "404.html", "feed/index.xml", "sitemap.xml", "robots.txt", "llms.txt"]
+required = ["index.html", "blog/index.html", "blog/page/2/index.html", "about/index.html", "contact/index.html", "projects/index.html", "courses/index.html", "category/developer-tools/index.html", "tag/engineering/index.html", "404.html", "feed/index.xml", "sitemap.xml", "robots.txt", "llms.txt"]
 for item in required:
     if not (root / item).exists(): errors.append(f"missing required output: {item}")
 if (root / "page").exists(): errors.append("duplicate root pagination routes remain in generated output")
