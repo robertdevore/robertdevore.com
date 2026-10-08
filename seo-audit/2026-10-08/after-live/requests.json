@@ -1,0 +1,439 @@
+{
+  "courses": {
+    "url": "https://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579cf4f6f369d-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 745,
+    "sha256": "fb3a5ee53cca61534dade0d17d4423f4785d4731c0c53a89448cd605687cabb3",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "home": {
+    "url": "https://robertdevore.com/",
+    "final_url": "https://robertdevore.com/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579ce78e936b5-YYZ"
+    },
+    "redirects": [],
+    "bytes": 17154,
+    "elapsed_ms": 625,
+    "sha256": "30bd1763d32d77044fb037df31b6e3e1754a0b280397d609fdb4d38307685b4a",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "robots": {
+    "url": "https://robertdevore.com/robots.txt",
+    "final_url": "https://robertdevore.com/robots.txt",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=14400",
+      "CF-RAY": "a47579cf1ed0b634-YYZ"
+    },
+    "redirects": [],
+    "bytes": 70,
+    "elapsed_ms": 797,
+    "sha256": "805d3c2933c1328b1ed7e422e4c1a0709553350dd8da9ea2d01a3c2f3d60b77e",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "sitemap": {
+    "url": "https://robertdevore.com/sitemap.xml",
+    "final_url": "https://robertdevore.com/sitemap.xml",
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/xml",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579cf0852abee-YYZ"
+    },
+    "redirects": [],
+    "bytes": 32767,
+    "elapsed_ms": 755,
+    "sha256": "3ee56a649e05bf9691135290b125ea6455c75bb9fefb3f6af22b0c5321aabcce",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "llms": {
+    "url": "https://robertdevore.com/llms.txt",
+    "final_url": "https://robertdevore.com/llms.txt",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579ce788af4cc-YYZ"
+    },
+    "redirects": [],
+    "bytes": 17717,
+    "elapsed_ms": 607,
+    "sha256": "aee4ca5c789cfb90b702f0cc0cf521892b32824088f3e3f072cdbd43ccf82f42",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "index": {
+    "url": "https://robertdevore.com/.well-known/kujo-site-index.json",
+    "final_url": "https://robertdevore.com/.well-known/kujo-site-index.json",
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:52 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579ce795fab78-YYZ"
+    },
+    "redirects": [],
+    "bytes": 124275,
+    "elapsed_ms": 870,
+    "sha256": "61fb04673256c4857ef70b724d111ef69c2e24b0694b36edc17cd7bdcac7cd35",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "image": {
+    "url": "https://robertdevore.com/assets/social/courses-social.png",
+    "final_url": "https://robertdevore.com/assets/social/courses-social.png",
+    "status": 200,
+    "headers": {
+      "Content-Type": "image/png",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=14400",
+      "CF-RAY": "a47579ce985c4d63-YYZ"
+    },
+    "redirects": [],
+    "bytes": 161947,
+    "elapsed_ms": 1000,
+    "sha256": "9dcd04db570922e4139c43cb98bff4b88e5deb6b39bf046972463b9dea3ed0b4",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "http": {
+    "url": "http://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d2e8a23a05-YYZ"
+    },
+    "redirects": [
+      {
+        "source": "http://robertdevore.com/courses/",
+        "status": 301,
+        "target": "https://robertdevore.com/courses/"
+      }
+    ],
+    "bytes": 15954,
+    "elapsed_ms": 1285,
+    "sha256": "c15e23e54bd01288c77c3e86a103b1249c4640f7f0adf7d70fbedef7f8e44e97",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "www": {
+    "url": "https://www.robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d788b91341-YYZ"
+    },
+    "redirects": [
+      {
+        "source": "https://www.robertdevore.com/courses/",
+        "status": 301,
+        "target": "https://robertdevore.com/courses/"
+      }
+    ],
+    "bytes": 15954,
+    "elapsed_ms": 1354,
+    "sha256": "6fa95dcb7b279f4384b4c64f4fb4a63f4182ca53d890d9fe86144266ce5a3b76",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "http-www": {
+    "url": "http://www.robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d6fbe6aab0-YYZ"
+    },
+    "redirects": [
+      {
+        "source": "http://www.robertdevore.com/courses/",
+        "status": 301,
+        "target": "https://robertdevore.com/courses/"
+      }
+    ],
+    "bytes": 15954,
+    "elapsed_ms": 1309,
+    "sha256": "d44573dc5059790458267f304c519f9e15fcfc03662e230d7676292445938d9d",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "slash": {
+    "url": "https://robertdevore.com/courses",
+    "final_url": "https://robertdevore.com/courses",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:52 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d58cc639e4-YYZ"
+    },
+    "redirects": [],
+    "bytes": 1612,
+    "elapsed_ms": 1036,
+    "sha256": "cd12b884fbafb44f291d06e636925204774a6c897e8e8e372e4eea44598e94b9",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "query": {
+    "url": "https://robertdevore.com/courses/?audit=20261008",
+    "final_url": "https://robertdevore.com/courses/?audit=20261008",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d53d7336ca-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 835,
+    "sha256": "6935ccf2598c72946eeef306a30b40731d9af42c1b4c63b96e44f476d5c56e72",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "missing": {
+    "url": "https://robertdevore.com/courses/audit-not-found-20261008/",
+    "final_url": "https://robertdevore.com/courses/audit-not-found-20261008/",
+    "status": 404,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "CF-RAY": "a47579d5bfdaab99-YYZ"
+    },
+    "redirects": [],
+    "bytes": 9885,
+    "elapsed_ms": 959,
+    "sha256": "3f9f8b7d5fdf56aefb597c77d298e2527ae1900f6d9252635fcb55866e141682",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "rust.robertdevore.com": {
+    "url": "https://rust.robertdevore.com/",
+    "final_url": "https://rust.robertdevore.com/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Server": "cloudflare",
+      "CF-RAY": "a47579d61930175c-YYZ"
+    },
+    "redirects": [],
+    "bytes": 10366,
+    "elapsed_ms": 974,
+    "sha256": "77594b97db8b59b3fc6164d17fd891734676a69198fb1b636b4ed023dcb359cb",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "python.robertdevore.com": {
+    "url": "https://python.robertdevore.com/",
+    "final_url": "https://python.robertdevore.com/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 27 Aug 2026 04:51:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d6fd6039c3-YYZ"
+    },
+    "redirects": [],
+    "bytes": 14459,
+    "elapsed_ms": 1005,
+    "sha256": "8ab9cea17dbd5075deb7ec529794730a42fbf1166016f7bc0017f67efa345849",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "typescript.robertdevore.com": {
+    "url": "https://typescript.robertdevore.com/",
+    "final_url": "https://typescript.robertdevore.com/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Server": "cloudflare",
+      "CF-RAY": "a47579d6fd8d4b56-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15894,
+    "elapsed_ms": 602,
+    "sha256": "e344c123c84796bacbaa860e1bc91d43245495a166b5dcf02a3cb7e39c5c9037",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "kujo.robertdevore.com": {
+    "url": "https://kujo.robertdevore.com/",
+    "final_url": "https://kujo.robertdevore.com/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Server": "cloudflare",
+      "CF-RAY": "a47579d8b97aab00-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15411,
+    "elapsed_ms": 543,
+    "sha256": "d1d8732ce69a542ae88430be21c5699ea74fd6eee9f8fd89ad13c3088df0c85a",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "cpc.robertdevore.com": {
+    "url": "https://cpc.robertdevore.com/",
+    "final_url": "https://cpc.robertdevore.com/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate, no-transform",
+      "Server": "cloudflare",
+      "CF-RAY": "a47579d9cb31aae5-YYZ"
+    },
+    "redirects": [],
+    "bytes": 13557,
+    "elapsed_ms": 640,
+    "sha256": "17fcba3b7ec0de94377d29b92d6a9a799b314f237d739b7f6e176f5dc2ae133f",
+    "user_agent": "Mozilla/5.0 (compatible; CoursesAudit/1.0)"
+  },
+  "Googlebot": {
+    "url": "https://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d8aba80c69-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 418,
+    "sha256": "6b6df37a220322e05282172122515c8c279eb03c14855ff051c79d7d690063af",
+    "user_agent": "Googlebot"
+  },
+  "Bingbot": {
+    "url": "https://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d8a9cb961e-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 354,
+    "sha256": "d94a09e63077bc7a13ff894c675d78b11141a5572acc04893a456ccc47216832",
+    "user_agent": "bingbot"
+  },
+  "OAI-SearchBot": {
+    "url": "https://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579d9da6964a6-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 541,
+    "sha256": "97ac46fed6362d8df7add11ee1610e013ed0e05717b8dd384be6f5f82420c17e",
+    "user_agent": "OAI-SearchBot"
+  },
+  "GPTBot": {
+    "url": "https://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579da1f69f41f-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 512,
+    "sha256": "31f984c1d2f0865e6e30d439fa94d656d7f47a9a44b56998830e7b36ff49cb9b",
+    "user_agent": "GPTBot"
+  },
+  "ChatGPT-User": {
+    "url": "https://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579db3891b0a3-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 632,
+    "sha256": "2506ed1e1db3adf3b5043373f9324f97b7d63e9c96d09f44af488d9ffa5c76de",
+    "user_agent": "ChatGPT-User"
+  },
+  "Claude-SearchBot": {
+    "url": "https://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579db38ebddfa-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 818,
+    "sha256": "3e0b8d0031487db295e23b6b005e904ba3ed4afd98a6b32265a4950d2f861d2a",
+    "user_agent": "Claude-SearchBot"
+  },
+  "PerplexityBot": {
+    "url": "https://robertdevore.com/courses/",
+    "final_url": "https://robertdevore.com/courses/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Server": "cloudflare",
+      "last-modified": "Thu, 08 Oct 2026 13:24:51 GMT",
+      "Cache-Control": "max-age=600",
+      "CF-RAY": "a47579dbbeba8eb6-YYZ"
+    },
+    "redirects": [],
+    "bytes": 15954,
+    "elapsed_ms": 491,
+    "sha256": "aee94bcff5d54a9b4d782fa443d3f98478c96e882760638ab1f799acef918ba1",
+    "user_agent": "PerplexityBot"
+  }
+}

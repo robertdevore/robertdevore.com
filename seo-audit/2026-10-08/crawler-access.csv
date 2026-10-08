@@ -1,0 +1,15 @@
+crawler,purpose,robots_access,live_status,waf_or_cdn_result,recommended_action,action_taken,evidence
+Googlebot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,before/live/requests.json
+Bingbot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,before/live/requests.json
+OAI-SearchBot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,before/live/requests.json
+GPTBot,training,True,200,UA-only probe; not a verified provider IP,,policy unchanged,before/live/requests.json
+ChatGPT-User,user-triggered fetch,True,200,UA-only probe; not a verified provider IP,,policy unchanged,before/live/requests.json
+Claude-SearchBot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,before/live/requests.json
+PerplexityBot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,before/live/requests.json
+Googlebot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,after-live/requests.json
+Bingbot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,after-live/requests.json
+OAI-SearchBot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,after-live/requests.json
+GPTBot,training,True,200,UA-only probe; not a verified provider IP,,policy unchanged,after-live/requests.json
+ChatGPT-User,user-triggered fetch,True,200,UA-only probe; not a verified provider IP,,policy unchanged,after-live/requests.json
+Claude-SearchBot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,after-live/requests.json
+PerplexityBot,search discovery,True,200,UA-only probe; not a verified provider IP,,policy unchanged,after-live/requests.json

@@ -1,0 +1,20 @@
+{
+  "manifest_validation": "PASS (170 cards)",
+  "card": "courses",
+  "dimensions": [
+    1200,
+    630
+  ],
+  "brand_transform": "Existing repository renderer replaces Kujo brand prefix with ROBERTDEVORE.COM",
+  "source": "howl.json; content/pages/courses.md",
+  "caption_x": "Validated with howl caption courses --platform x",
+  "baseline_regeneration_matches_committed": true,
+  "after_manifest_validation": "PASS (170 cards)",
+  "after_renderer": "python3 scripts/render_howl_social.py completed successfully",
+  "after_label": "COURSES",
+  "after_tagline": "Learn Rust, Python, TypeScript, Kujo, and CPC medical coding.",
+  "after_visual_review": "1200x630 PNG inspected; complete subtitle, consistent site art/branding, no clipped text",
+  "svg_sha256": "99f3a95cbf44a12f6cc8819122d1f723b555430091af73df4f10d3774eaf2663",
+  "png_sha256": "9dcd04db570922e4139c43cb98bff4b88e5deb6b39bf046972463b9dea3ed0b4",
+  "after_caption_x": "Courses: Learn Rust, Python, TypeScript, Kujo, and CPC medical coding.\n\nRead more on RobertDeVore.com."
+}

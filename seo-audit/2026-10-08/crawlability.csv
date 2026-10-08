@@ -1,0 +1,3 @@
+phase,url,page_depth,internal_inbound_links,internal_outbound_links,external_outbound_links,orphan,pages_over_three_clicks,broken_internal_links,redirect_chain,crawlable_html_links,issues
+baseline,https://robertdevore.com/courses/,1,504,16,7,False,0,0,,True,SCHEMA-01
+after,https://robertdevore.com/courses/,1,504,16,7,False,0,0,,True,

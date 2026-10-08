@@ -1,0 +1,10 @@
+{
+  "run": 37783562143,
+  "commit": "925401c269cab5a258e7ab45ad7f57146885f311",
+  "build": "success",
+  "deploy": "success",
+  "live_schema": "CollectionPage + ItemList + 5 Course entries match visible cards",
+  "live_png_matches_committed": true,
+  "main_content_hash_unchanged": true,
+  "baseline_seal_intact": true
+}

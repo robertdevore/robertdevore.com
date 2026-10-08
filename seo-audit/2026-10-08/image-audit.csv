@@ -1,0 +1,3 @@
+phase,page_url,image_url,alt_text,alt_present,decorative,width,height,loading,format,local_exists,file_bytes,issues
+baseline,https://robertdevore.com/courses/,https://robertdevore.com/assets/art/signal-a-1920.webp?v=1.0.8,,True,True,1920,800,eager,.webp,True,108274,
+after,https://robertdevore.com/courses/,https://robertdevore.com/assets/art/signal-a-1920.webp?v=1.0.8,,True,True,1920,800,eager,.webp,True,108274,

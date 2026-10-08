@@ -1,0 +1,3 @@
+phase,url,schema_types,json_ld_blocks,valid_json,visible_match,rich_result_eligible,issues,recommended_action
+baseline,https://robertdevore.com/courses/,BlogPosting|Person,1,True,False,not established; Schema.org meaning is distinct from search eligibility,SCHEMA-01,Use CollectionPage with visible course list
+after,https://robertdevore.com/courses/,CollectionPage|ItemList|ListItem|Course|Person,1,True,True,not established; Schema.org meaning is distinct from search eligibility,,none

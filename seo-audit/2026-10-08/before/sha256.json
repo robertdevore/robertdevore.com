@@ -1,0 +1,13 @@
+{
+  "output/courses/index.html": "1f34f335ee9551712f97ac28f049bbd1c2d905b79d67eb5656380ecffd61e009",
+  "output/robots.txt": "805d3c2933c1328b1ed7e422e4c1a0709553350dd8da9ea2d01a3c2f3d60b77e",
+  "output/sitemap.xml": "3ee56a649e05bf9691135290b125ea6455c75bb9fefb3f6af22b0c5321aabcce",
+  "output/llms.txt": "aee4ca5c789cfb90b702f0cc0cf521892b32824088f3e3f072cdbd43ccf82f42",
+  "output/.well-known/kujo-site-index.json": "61fb04673256c4857ef70b724d111ef69c2e24b0694b36edc17cd7bdcac7cd35",
+  "templates/page-courses.html": "f75f2e42ac0e6fdd5e394b8090962fee9fb380771472859bdb7e8c99d8fa9223",
+  "content/pages/courses.md": "4ccf2013aa3f3966ea8d56eb0ae4848f4d36e311fa900f40796b9927d2449263",
+  "scripts/harden_generated_output.py": "e1f78911cecb9b8b1ccb7551193473472c735f920ef362ce274275e5421329ee",
+  "assets/social/courses-social.png": "74caa134f85250dac9ea5a0ed1e171fd19926335b51cb653180b41158b8d5207",
+  "assets/social/howl/courses.svg": "2284adb7b4ae55b52aa09679e9134f11180a859474851ae9f8437dc169d42f50",
+  "howl.json": "ea1b5cde382c0dc67c21c00f55a3bb5a41234c185fa9c0704efc0c98055e5e65"
+}

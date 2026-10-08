@@ -1,0 +1,13 @@
+phase,source_url,source_variant,http_status,target_url,chain_length,final_status,canonical_target,query_preserved,verification,issues
+baseline,http://robertdevore.com/courses/,http,301,https://robertdevore.com/courses/,1,200,https://robertdevore.com/courses/,not applicable,"[{""source"": ""http://robertdevore.com/courses/"", ""status"": 301, ""target"": ""https://robertdevore.com/courses/""}]",
+baseline,https://www.robertdevore.com/courses/,www,301,https://robertdevore.com/courses/,1,200,https://robertdevore.com/courses/,not applicable,"[{""source"": ""https://www.robertdevore.com/courses/"", ""status"": 301, ""target"": ""https://robertdevore.com/courses/""}]",
+baseline,http://www.robertdevore.com/courses/,http-www,301,https://robertdevore.com/courses/,1,200,https://robertdevore.com/courses/,not applicable,"[{""source"": ""http://www.robertdevore.com/courses/"", ""status"": 301, ""target"": ""https://robertdevore.com/courses/""}]",
+baseline,https://robertdevore.com/courses,slash,200,https://robertdevore.com/courses,0,200,https://robertdevore.com/courses/,not applicable,[],
+baseline,https://robertdevore.com/courses/?audit=20261008,query,200,https://robertdevore.com/courses/?audit=20261008,0,200,https://robertdevore.com/courses/,True,[],
+baseline,https://robertdevore.com/courses/audit-not-found-20261008/,missing,404,https://robertdevore.com/courses/audit-not-found-20261008/,0,404,https://robertdevore.com/courses/,not applicable,[],
+after,http://robertdevore.com/courses/,http,301,https://robertdevore.com/courses/,1,200,https://robertdevore.com/courses/,not applicable,"[{""source"": ""http://robertdevore.com/courses/"", ""status"": 301, ""target"": ""https://robertdevore.com/courses/""}]",
+after,https://www.robertdevore.com/courses/,www,301,https://robertdevore.com/courses/,1,200,https://robertdevore.com/courses/,not applicable,"[{""source"": ""https://www.robertdevore.com/courses/"", ""status"": 301, ""target"": ""https://robertdevore.com/courses/""}]",
+after,http://www.robertdevore.com/courses/,http-www,301,https://robertdevore.com/courses/,1,200,https://robertdevore.com/courses/,not applicable,"[{""source"": ""http://www.robertdevore.com/courses/"", ""status"": 301, ""target"": ""https://robertdevore.com/courses/""}]",
+after,https://robertdevore.com/courses,slash,200,https://robertdevore.com/courses,0,200,https://robertdevore.com/courses/,not applicable,[],
+after,https://robertdevore.com/courses/?audit=20261008,query,200,https://robertdevore.com/courses/?audit=20261008,0,200,https://robertdevore.com/courses/,True,[],
+after,https://robertdevore.com/courses/audit-not-found-20261008/,missing,404,https://robertdevore.com/courses/audit-not-found-20261008/,0,404,https://robertdevore.com/courses/,not applicable,[],

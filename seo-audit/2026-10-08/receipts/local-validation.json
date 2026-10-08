@@ -1,0 +1,14 @@
+{
+  "commit": "925401c269cab5a258e7ab45ad7f57146885f311",
+  "schema_checks": [
+    "CollectionPage type",
+    "five exact course URLs",
+    "visible-content-derived names and descriptions",
+    "JSON roundtrip escaping",
+    "ordinary articles remain BlogPosting"
+  ],
+  "site_validation": "170 primary HTML routes; 0 warnings; passed",
+  "nu_html_validation": "scripts/validate_html.sh output exited 0",
+  "howl_validation": "170 cards; passed",
+  "scope": "Local integration over preserved prior full artifact, not a new full SSG build; new full CI build required"
+}

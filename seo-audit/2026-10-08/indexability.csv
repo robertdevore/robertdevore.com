@@ -1,0 +1,3 @@
+phase,url,local_status,production_status,indexable,robots_directives,canonical,canonical_target_status,sitemap_included,sitemap_lastmod,reason
+baseline,https://robertdevore.com/courses/,artifact-present,200,True,no explicit restrictions,https://robertdevore.com/courses/,200,True,,
+after,https://robertdevore.com/courses/,artifact-present,200,True,no explicit restrictions,https://robertdevore.com/courses/,200,True,,
