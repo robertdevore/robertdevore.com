@@ -128,3 +128,20 @@ html{scroll-behavior:smooth;scrollbar-gutter:stable}body{min-block-size:100vh;di
 @media(max-width:64rem){.contact-subjects__grid{grid-template-columns:1fr}.project-ecosystem__grid{grid-template-columns:repeat(2,minmax(0,1fr))}.project-ecosystem__grid a,.project-ecosystem__grid a:nth-child(n+4){grid-column:span 1}.project-ecosystem__grid a:last-child{grid-column:1/-1}}
 @media(max-width:48rem){.about-overview,.tools-overview{grid-template-columns:1fr;gap:var(--sk-space-8)}.article-related-grid,.project-feature__panel,.project-secondary__grid,.project-landing ul,.home-principles .project-grid,.clarity-grid,.about-proof,.tools-feature,.about-map,.project-ecosystem__grid{grid-template-columns:1fr}.project-ecosystem__grid a,.project-ecosystem__grid a:nth-child(n+4),.project-ecosystem__grid a:last-child{grid-column:1}.project-ecosystem__grid a{min-block-size:13rem}.clarity-grid article{border-inline-end:0;border-block-end:var(--sk-border-1) solid var(--sk-color-gray-700)}.timeline-list li{grid-template-columns:1fr}.site-footer .sk-footer__inner{grid-template-columns:1fr;justify-items:center;text-align:center}.site-footer small,.footer-social{justify-self:center}}
 @media(forced-colors:active){.home-page>.signal-hero .signal-title::before{content:none}.home-page>.signal-hero .signal-kicker,.home-page>.signal-hero .signal-lede{background:Canvas;color:CanvasText}}
+
+/* Courses: shared SiteKit cards, grid, badges, and buttons. */
+.course-catalog{padding-block:clamp(var(--sk-space-12),9vw,var(--sk-space-24))}
+.course-catalog__heading{max-inline-size:65ch;margin-block-end:var(--sk-space-10)}
+.course-catalog h2,.course-card h3{font-family:var(--sk-font-mono);letter-spacing:0}
+.course-catalog__heading>p:last-child{color:var(--sk-text-secondary)}
+.course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.course-card{display:flex;flex-direction:column;min-inline-size:0;padding:clamp(var(--sk-space-6),4vw,var(--sk-space-10))}
+.course-card__meta{justify-content:space-between;margin-block-end:var(--sk-space-6)}
+.course-card__number{font-family:var(--sk-font-mono);color:var(--rd-red)}
+.course-card h3{font-size:clamp(var(--sk-type-size-2xl),3vw,var(--sk-type-size-3xl))}
+.course-card__description{max-inline-size:55ch}
+.course-card__topics,.course-card__note{font-size:var(--sk-type-size-sm)}
+.course-card__topics{font-family:var(--sk-font-mono)}
+.course-card .sk-card__actions{margin-block-start:auto;padding-block-start:var(--sk-space-6)}
+.course-card:last-child{grid-column:1/-1}
+@media(max-width:48rem){.course-grid{grid-template-columns:minmax(0,1fr)}}

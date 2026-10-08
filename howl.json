@@ -685,6 +685,25 @@
       "show_url": false
     },
     {
+      "id": "courses",
+      "title": "Courses",
+      "tagline": "Explore practical courses in Rust, Python, TypeScript, Kujo, and CPC medical coding with …",
+      "file": "content/pages/courses.md",
+      "language": "markdown",
+      "concepts": [
+        "courses",
+        "Robert DeVore"
+      ],
+      "caption": "Courses: Explore practical courses in Rust, Python, TypeScript, Kujo, and CPC medical coding with Robert DeVore. Find a subject and start learning.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/courses/",
+      "variant": "social",
+      "label": "CONNECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
       "id": "creating-my-own-cipher-code",
       "title": "Creating my own cipher code",
       "tagline": "I can’t remember what sparked the idea, but I got bit by a strong urge to create my own …",
