@@ -143,5 +143,5 @@ html{scroll-behavior:smooth;scrollbar-gutter:stable}body{min-block-size:100vh;di
 .course-card__topics,.course-card__note{font-size:var(--sk-type-size-sm)}
 .course-card__topics{font-family:var(--sk-font-mono)}
 .course-card .sk-card__actions{margin-block-start:auto;padding-block-start:var(--sk-space-6)}
-.course-card:last-child{grid-column:1/-1}
+.course-card:last-child:nth-child(odd){grid-column:1/-1}
 @media(max-width:48rem){.course-grid{grid-template-columns:minmax(0,1fr)}}
