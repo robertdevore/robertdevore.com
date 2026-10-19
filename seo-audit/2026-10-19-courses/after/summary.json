@@ -1,0 +1,18 @@
+{
+  "sha256": "4778dc9a6b00e34be27b17403877527a04c58ffb48ecec6d3cb6ca80598e69eb",
+  "course_count": 6,
+  "courses": [
+    "Rust",
+    "Python",
+    "TypeScript",
+    "Kujo",
+    "CPC Study Course",
+    "Edge Academy"
+  ],
+  "title": "Courses | Robert DeVore",
+  "description": "Explore Robert DeVore\u2019s courses in programming, customer engineering with Edge Academy, and CPC medical coding. Choose a subject and start learning.",
+  "canonical": "https://robertdevore.com/courses/",
+  "h1_count": 1,
+  "schema_matches": true,
+  "social_image": "https://robertdevore.com/assets/social/courses-social.png"
+}

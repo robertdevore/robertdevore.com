@@ -1,0 +1,17 @@
+{
+  "sha256": "bced1a0eba117d42f81d97c8fe497ebf5a7f21bcb43f7e1002589ed36816ee9e",
+  "course_count": 5,
+  "courses": [
+    "Rust",
+    "Python",
+    "TypeScript",
+    "Kujo",
+    "CPC Study Course"
+  ],
+  "title": "Courses | Robert DeVore",
+  "description": "Explore practical courses in Rust, Python, TypeScript, Kujo, and CPC medical coding with Robert DeVore. Find a subject and start learning.",
+  "canonical": "https://robertdevore.com/courses/",
+  "h1_count": 1,
+  "schema_matches": true,
+  "social_image": "https://robertdevore.com/assets/social/courses-social.png"
+}

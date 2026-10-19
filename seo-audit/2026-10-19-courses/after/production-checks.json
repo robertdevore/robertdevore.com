@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://edgeacademy.robertdevore.com/",
+    "success": true,
+    "sha256": "bb2157df236d5f3296306447e06045f2b23571e27135910c87d66f26443dbe92"
+  },
+  {
+    "url": "https://robertdevore.com/robots.txt",
+    "success": true,
+    "sha256": "805d3c2933c1328b1ed7e422e4c1a0709553350dd8da9ea2d01a3c2f3d60b77e"
+  },
+  {
+    "url": "https://robertdevore.com/sitemap.xml",
+    "success": true,
+    "sha256": "3ee56a649e05bf9691135290b125ea6455c75bb9fefb3f6af22b0c5321aabcce"
+  },
+  {
+    "url": "https://robertdevore.com/assets/social/courses-social.png",
+    "success": true,
+    "sha256": "bdcbdcebd9cb02a99096cd9993d7ac5be1db8cf89f69bd7caa60f9cf7ffcd8f7"
+  }
+]
