@@ -23,7 +23,7 @@ SPECIAL_BACKGROUNDS = {
     "forever-forward": "assets/social/forever-forward-background.webp",
 }
 SPECIAL_TAGLINES = {
-    "courses": "Learn Rust, Python, TypeScript, Kujo, and CPC medical coding.",
+    "courses": "Programming, customer engineering, and medical coding.",
 }
 SPECIAL_LABELS = {
     "forever-forward": "THE JIDOKA FILES",
