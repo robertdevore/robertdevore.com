@@ -1,0 +1,1017 @@
+{
+  "schema_version": 1,
+  "researcher": "Robert DeVore",
+  "verified_on": "2026-10-21",
+  "wordfence_discoveries": 40,
+  "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+  "patchstack_reports": 31,
+  "patchstack_profile": "https://patchstack.com/database/researchers/770fb791-e511-4ce8-8c93-c3f912d443df",
+  "methodology": "Membership from both Wordfence profile pages; 40 distinct published CVE Program records individually credit Robert DeVore. Patchstack reports overlap and are not additive. Displayed severity and publication dates use CNA CVSS 3.1 and CVE Program datePublished; Wordfence values are retained separately because assessments and publication dates differ. Snapshot checked 2026-10-21; no runtime fetching.",
+  "discoveries": [
+    {
+      "cve": "CVE-2025-5537",
+      "product": "Lightbox & Modal Popup WordPress Plugin – FooBox",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2025-07-08",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/b5fd2163-b8ef-4dd1-a12b-cd9187145134?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/b5fd2163-b8ef-4dd1-a12b-cd9187145134?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/5xxx/CVE-2025-5537.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/5xxx/CVE-2025-5537.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-07-07",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2025-5290",
+      "product": "Borderless – Addons and Templates for Elementor",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2025-05-31",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/4492aede-b68d-46b8-955f-81ebdc875921?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/4492aede-b68d-46b8-955f-81ebdc875921?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/5xxx/CVE-2025-5290.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/5xxx/CVE-2025-5290.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-05-30",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2025-5292",
+      "product": "Element Pack – Widgets, Templates & Addons for Elementor",
+      "vulnerability_type": "DOM-based stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2025-05-31",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/ab8dfdd8-820c-4066-8014-2cb5b9f935a4?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/ab8dfdd8-820c-4066-8014-2cb5b9f935a4?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/5xxx/CVE-2025-5292.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/5xxx/CVE-2025-5292.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-05-30",
+      "verified_on": "2026-10-21",
+      "selected": true,
+      "selection_note": "Contributor-level input reached a DOM-based rendering path."
+    },
+    {
+      "cve": "CVE-2025-4944",
+      "product": "LA-Studio Element Kit for Elementor",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2025-05-30",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/68ae8404-6dfa-4b13-b2a6-bd4554f1043f?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/68ae8404-6dfa-4b13-b2a6-bd4554f1043f?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/4xxx/CVE-2025-4944.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/4xxx/CVE-2025-4944.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-05-29",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2025-32259",
+      "product": "WP ULike",
+      "vulnerability_type": "Content spoofing / missing authorization",
+      "severity": "Medium",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "score_source": "Patchstack",
+      "published": "2025-04-10",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/wp-ulike/vulnerability/wordpress-wp-ulike-plugin-4-7-9-1-content-spoofing-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/wp-ulike/vulnerability/wordpress-wp-ulike-plugin-4-7-9-1-content-spoofing-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/32xxx/CVE-2025-32259.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/32xxx/CVE-2025-32259.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 5.3,
+      "wordfence_published": "2025-04-04",
+      "verified_on": "2026-10-21",
+      "selected": true,
+      "selection_note": "A missing authorization check allowed unauthenticated content spoofing."
+    },
+    {
+      "cve": "CVE-2025-32139",
+      "product": "FooBox Image Lightbox",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2025-04-10",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/foobox-image-lightbox/vulnerability/wordpress-lightbox-modal-popup-wordpress-plugin-foobox-plugin-2-7-33-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/foobox-image-lightbox/vulnerability/wordpress-lightbox-modal-popup-wordpress-plugin-foobox-plugin-2-7-33-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/32xxx/CVE-2025-32139.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/32xxx/CVE-2025-32139.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-04-04",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2025-22738",
+      "product": "WP ULike",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2025-01-15",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/wp-ulike/vulnerability/wordpress-wp-ulike-plugin-4-7-6-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/wp-ulike/vulnerability/wordpress-wp-ulike-plugin-4-7-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/22xxx/CVE-2025-22738.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/22xxx/CVE-2025-22738.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 4.4,
+      "wordfence_published": "2025-01-14",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2025-22788",
+      "product": "CoDesigner",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2025-01-15",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/woolementor/vulnerability/wordpress-codesigner-plugin-4-7-17-2-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/woolementor/vulnerability/wordpress-codesigner-plugin-4-7-17-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/22xxx/CVE-2025-22788.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/22xxx/CVE-2025-22788.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-01-13",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-9502",
+      "product": "Master Addons For Elementor – Widgets, Extensions, Theme Builder, Popup Builder & Template Kits",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2025-01-07",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/485c9ee6-9cb5-45ca-86af-ee5d10ee6734?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/485c9ee6-9cb5-45ca-86af-ee5d10ee6734?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/9xxx/CVE-2024-9502.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/9xxx/CVE-2024-9502.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-01-06",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2025-22308",
+      "product": "Smart Custom Fields",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2025-01-07",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/smart-custom-fields/vulnerability/wordpress-smart-custom-fields-plugin-5-0-0-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/smart-custom-fields/vulnerability/wordpress-smart-custom-fields-plugin-5-0-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/22xxx/CVE-2025-22308.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/22xxx/CVE-2025-22308.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-01-06",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-56285",
+      "product": "WPBITS Addons For Elementor Page Builder",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2025-01-07",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/wpbits-addons-for-elementor/vulnerability/wordpress-wpbits-addons-for-elementor-page-builder-plugin-1-5-1-cross-site-scripting-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/wpbits-addons-for-elementor/vulnerability/wordpress-wpbits-addons-for-elementor-page-builder-plugin-1-5-1-cross-site-scripting-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/56xxx/CVE-2024-56285.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/56xxx/CVE-2024-56285.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-01-03",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2025-22333",
+      "product": "Piotnet Addons For Elementor",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2025-01-07",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/piotnet-addons-for-elementor/vulnerability/wordpress-piotnet-addons-for-elementor-plugin-2-4-31-cross-site-scripting-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/piotnet-addons-for-elementor/vulnerability/wordpress-piotnet-addons-for-elementor-plugin-2-4-31-cross-site-scripting-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/22xxx/CVE-2025-22333.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2025/22xxx/CVE-2025-22333.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2025-01-03",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-56062",
+      "product": "Royal Elementor Addons",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-12-31",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/royal-elementor-addons/vulnerability/wordpress-royal-elementor-addons-and-templates-plugin-1-3-987-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/royal-elementor-addons/vulnerability/wordpress-royal-elementor-addons-and-templates-plugin-1-3-987-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/56xxx/CVE-2024-56062.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/56xxx/CVE-2024-56062.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-12-18",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-8442",
+      "product": "Prime Slider – Addons for Elementor",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2024-11-07",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/eff765b4-22d1-4311-8a69-af6b41ef4b6e?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/eff765b4-22d1-4311-8a69-af6b41ef4b6e?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/8xxx/CVE-2024-8442.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/8xxx/CVE-2024-8442.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-11-06",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-50460",
+      "product": "Firelight Lightbox",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-28",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/easy-fancybox/vulnerability/wordpress-firelight-lightbox-plugin-2-3-3-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/easy-fancybox/vulnerability/wordpress-firelight-lightbox-plugin-2-3-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/50xxx/CVE-2024-50460.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/50xxx/CVE-2024-50460.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-10-24",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-49696",
+      "product": "Robo Gallery",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-24",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/robo-gallery/vulnerability/wordpress-photo-gallery-images-slider-in-rbs-image-gallery-plugin-3-2-21-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/robo-gallery/vulnerability/wordpress-photo-gallery-images-slider-in-rbs-image-gallery-plugin-3-2-21-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49696.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49696.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-10-21",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-49292",
+      "product": "Exclusive Addons Elementor",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-17",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/exclusive-addons-for-elementor/vulnerability/wordpress-exclusive-addons-for-elementor-plugin-2-7-1-cross-site-scripting-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/exclusive-addons-for-elementor/vulnerability/wordpress-exclusive-addons-for-elementor-plugin-2-7-1-cross-site-scripting-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49292.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49292.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-10-15",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-49280",
+      "product": "Lightbox slider – Responsive Lightbox Gallery",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-17",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/simple-lightbox-gallery/vulnerability/wordpress-lightbox-slider-responsive-lightbox-gallery-plugin-1-10-0-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/simple-lightbox-gallery/vulnerability/wordpress-lightbox-slider-responsive-lightbox-gallery-plugin-1-10-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49280.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49280.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-10-15",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-49282",
+      "product": "Responsive Lightbox",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-17",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/responsive-lightbox/vulnerability/wordpress-responsive-lightbox-gallery-plugin-2-4-8-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/responsive-lightbox/vulnerability/wordpress-responsive-lightbox-gallery-plugin-2-4-8-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49282.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49282.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-10-15",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-49301",
+      "product": "G Meta Keywords",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-17",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/g-meta-keywords/vulnerability/wordpress-g-meta-keywords-plugin-1-4-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/g-meta-keywords/vulnerability/wordpress-g-meta-keywords-plugin-1-4-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49301.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/49xxx/CVE-2024-49301.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-10-15",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-48041",
+      "product": "CM Tooltip Glossary",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-11",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/enhanced-tooltipglossary/vulnerability/wordpress-cm-tooltip-glossary-plugin-4-3-9-privilege-escalation-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/enhanced-tooltipglossary/vulnerability/wordpress-cm-tooltip-glossary-plugin-4-3-9-privilege-escalation-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/48xxx/CVE-2024-48041.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/48xxx/CVE-2024-48041.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-10-09",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-8505",
+      "product": "Ajax Load More – Infinite Scroll, Load More, & Lazy Load",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2024-10-02",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/ca29158a-ca60-46c7-93a5-bcf76e7666e4?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/ca29158a-ca60-46c7-93a5-bcf76e7666e4?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/8xxx/CVE-2024-8505.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/8xxx/CVE-2024-8505.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-10-01",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-47387",
+      "product": "Search Atlas SEO",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-05",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/metasync/vulnerability/wordpress-search-atlas-seo-plugin-1-8-2-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/metasync/vulnerability/wordpress-search-atlas-seo-plugin-1-8-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47387.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47387.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 4.4,
+      "wordfence_published": "2024-09-30",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-47357",
+      "product": "Happy Addons for Elementor",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-06",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/happy-elementor-addons/vulnerability/wordpress-happy-addons-for-elementor-plugin-3-12-0-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/happy-elementor-addons/vulnerability/wordpress-happy-addons-for-elementor-plugin-3-12-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47357.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47357.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-30",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-47623",
+      "product": "Gallery Lightbox",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-05",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/gallery-lightbox-slider/vulnerability/wordpress-gallery-lightbox-plugin-1-0-0-39-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/gallery-lightbox-slider/vulnerability/wordpress-gallery-lightbox-plugin-1-0-0-39-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47623.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47623.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-30",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-47391",
+      "product": "Bold Page Builder",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-05",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/bold-page-builder/vulnerability/wordpress-bold-page-builder-plugin-5-1-1-cross-site-scripting-xss-vulnerability-2?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/bold-page-builder/vulnerability/wordpress-bold-page-builder-plugin-5-1-1-cross-site-scripting-xss-vulnerability-2?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47391.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47391.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-30",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-47392",
+      "product": "Element Pack Elementor Addons",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-05",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/bdthemes-element-pack-lite/vulnerability/wordpress-element-pack-elementor-addons-header-footer-template-library-dynamic-grid-carousel-remote-arrows-plugin-5-7-5-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/bdthemes-element-pack-lite/vulnerability/wordpress-element-pack-elementor-addons-header-footer-template-library-dynamic-grid-carousel-remote-arrows-plugin-5-7-5-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47392.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47392.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-30",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-47342",
+      "product": "Accordion",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-06",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/accordions/vulnerability/wordpress-accordion-plugin-2-2-99-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/accordions/vulnerability/wordpress-accordion-plugin-2-2-99-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47342.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47342.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-27",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-47310",
+      "product": "ARI Fancy Lightbox",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-06",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/ari-fancy-lightbox/vulnerability/wordpress-ari-fancy-lightbox-popup-for-wordpress-plugin-1-3-17-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/ari-fancy-lightbox/vulnerability/wordpress-ari-fancy-lightbox-popup-for-wordpress-plugin-1-3-17-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47310.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47310.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-25",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-47307",
+      "product": "Meta slider and carousel with lightbox",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-06",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/meta-slider-and-carousel-with-lightbox/vulnerability/wordpress-meta-slider-and-carousel-with-lightbox-plugin-2-0-1-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/meta-slider-and-carousel-with-lightbox/vulnerability/wordpress-meta-slider-and-carousel-with-lightbox-plugin-2-0-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47307.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/47xxx/CVE-2024-47307.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-25",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-44043",
+      "product": "Photo Gallery by 10Web",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-10-06",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/photo-gallery/vulnerability/wordpress-photo-gallery-by-10web-mobile-friendly-image-gallery-plugin-1-8-27-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/photo-gallery/vulnerability/wordpress-photo-gallery-by-10web-mobile-friendly-image-gallery-plugin-1-8-27-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/44xxx/CVE-2024-44043.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/44xxx/CVE-2024-44043.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 4.4,
+      "wordfence_published": "2024-09-23",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-45456",
+      "product": "WP Meta SEO",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-09-15",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/wp-meta-seo/vulnerability/wordpress-wp-meta-seo-plugin-4-5-13-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/wp-meta-seo/vulnerability/wordpress-wp-meta-seo-plugin-4-5-13-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/45xxx/CVE-2024-45456.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/45xxx/CVE-2024-45456.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-12",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-45455",
+      "product": "WP Meta SEO",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-09-15",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/Wordpress/Plugin/wp-meta-seo/vulnerability/wordpress-wp-meta-seo-plugin-4-5-13-cross-site-scripting-xss-vulnerability-2?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/Wordpress/Plugin/wp-meta-seo/vulnerability/wordpress-wp-meta-seo-plugin-4-5-13-cross-site-scripting-xss-vulnerability-2?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/45xxx/CVE-2024-45455.json",
+      "attribution": [
+        "Robert DeVore | Patchstack Bug Bounty Program"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/45xxx/CVE-2024-45455.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 4.4,
+      "wordfence_published": "2024-09-12",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-8440",
+      "product": "Essential Addons for Elementor – Popular Elementor Templates & Widgets",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2024-09-11",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/c5960396-5320-4978-aa82-2e33700daa43?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/c5960396-5320-4978-aa82-2e33700daa43?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/8xxx/CVE-2024-8440.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/8xxx/CVE-2024-8440.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-09-10",
+      "verified_on": "2026-10-21",
+      "selected": true,
+      "selection_note": "Contributor-level access exposed a stored scripting flaw in the Fancy Text widget."
+    },
+    {
+      "cve": "CVE-2024-44062",
+      "product": "Custom Field Template",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-09-15",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/vulnerability/custom-field-template/wordpress-custom-field-template-plugin-2-6-5-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/vulnerability/custom-field-template/wordpress-custom-field-template-plugin-2-6-5-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/44xxx/CVE-2024-44062.json",
+      "attribution": [
+        "Robert DeVore (Patchstack Alliance)"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/44xxx/CVE-2024-44062.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.4,
+      "wordfence_published": "2024-08-29",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2024-2793",
+      "product": "Atarim – Visual Feedback, Review & AI Collaboration",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "High",
+      "cvss_score": 7.2,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+      "score_source": "Wordfence",
+      "published": "2024-05-31",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://www.wordfence.com/threat-intel/vulnerabilities/id/9bd63003-d1d6-480a-8df7-878bcc89f1ee?source=cve",
+      "references": [
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/9bd63003-d1d6-480a-8df7-878bcc89f1ee?source=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/2xxx/CVE-2024-2793.json",
+      "attribution": [
+        "Robert DeVore"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2024/2xxx/CVE-2024-2793.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 7.2,
+      "wordfence_published": "2024-05-30",
+      "verified_on": "2026-10-21",
+      "selected": true,
+      "selection_note": "Unauthenticated comments crossed into stored page content."
+    },
+    {
+      "cve": "CVE-2023-51695",
+      "product": "Everest Forms – Build Contact Forms, Surveys, Polls, Application Forms, and more with Ease!",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2024-02-01",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/vulnerability/everest-forms/wordpress-everest-forms-plugin-2-0-4-1-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/vulnerability/everest-forms/wordpress-everest-forms-plugin-2-0-4-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2023/51xxx/CVE-2023-51695.json",
+      "attribution": [
+        "Robert DeVore (Patchstack Alliance)"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2023/51xxx/CVE-2023-51695.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 4.4,
+      "wordfence_published": "2023-12-27",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2023-39926",
+      "product": "Under Construction / Maintenance Mode from Acurax",
+      "vulnerability_type": "Reflected cross-site scripting",
+      "severity": "High",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2023-11-16",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/vulnerability/coming-soon-maintenance-mode-from-acurax/wordpress-under-construction-maintenance-mode-from-acurax-plugin-2-6-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/vulnerability/coming-soon-maintenance-mode-from-acurax/wordpress-under-construction-maintenance-mode-from-acurax-plugin-2-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2023/39xxx/CVE-2023-39926.json",
+      "attribution": [
+        "Robert DeVore (Patchstack Alliance)"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2023/39xxx/CVE-2023-39926.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.1,
+      "wordfence_published": "2023-11-07",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2023-44986",
+      "product": "Abandoned Cart Lite for WooCommerce",
+      "vulnerability_type": "Stored cross-site scripting",
+      "severity": "Medium",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2023-10-16",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/vulnerability/woocommerce-abandoned-cart/wordpress-abandoned-cart-lite-for-woocommerce-plugin-5-15-2-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/vulnerability/woocommerce-abandoned-cart/wordpress-abandoned-cart-lite-for-woocommerce-plugin-5-15-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2023/44xxx/CVE-2023-44986.json",
+      "attribution": [
+        "Robert DeVore (Patchstack Alliance)"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2023/44xxx/CVE-2023-44986.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 4.4,
+      "wordfence_published": "2023-10-02",
+      "verified_on": "2026-10-21",
+      "selected": false
+    },
+    {
+      "cve": "CVE-2023-37393",
+      "product": "Visual Website Collaboration, Feedback & Project Management – Atarim",
+      "vulnerability_type": "Reflected cross-site scripting",
+      "severity": "High",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "score_source": "Patchstack",
+      "published": "2023-09-04",
+      "publication_source": "CVE Program datePublished",
+      "primary_reference": "https://patchstack.com/database/vulnerability/atarim-visual-collaboration/wordpress-atarim-plugin-3-9-3-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve",
+      "references": [
+        "https://patchstack.com/database/vulnerability/atarim-visual-collaboration/wordpress-atarim-plugin-3-9-3-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
+      ],
+      "cve_record": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2023/37xxx/CVE-2023-37393.json",
+      "attribution": [
+        "Robert DeVore (Patchstack Alliance)"
+      ],
+      "attribution_source": "https://github.com/CVEProject/cvelistV5/blob/main/cves/2023/37xxx/CVE-2023-37393.json",
+      "wordfence_profile": "https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2",
+      "wordfence_score": 6.1,
+      "wordfence_published": "2023-08-10",
+      "verified_on": "2026-10-21",
+      "selected": true,
+      "selection_note": "A reflected scripting flaw in a visual collaboration tool."
+    }
+  ]
+}
