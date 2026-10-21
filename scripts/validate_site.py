@@ -423,13 +423,17 @@ if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):
     errors.append("about page still includes a removed box section")
 if any(heading.get_text(" ", strip=True) == "Where the work shows up" for heading in about.find_all("h2")):
     errors.append("about page still includes the removed selected-surfaces heading")
-about_proof_titles = [heading.get_text(" ", strip=True) for heading in about.select(".about-proof h3")]
-if about_proof_titles != ["Field Notes", "Projects", "Contact"]:
-    errors.append(f"about selected surfaces are incorrect or out of order: {about_proof_titles}")
-if any(not heading.has_attr("data-no-heading-anchor") for heading in about.select(".about-proof h3")):
-    errors.append("about selected-surface titles do not suppress heading anchors")
-if not about.select_one(".about-timeline h2") or about.select_one(".about-timeline h2").get_text(" ", strip=True) != "Through-line":
-    errors.append("about timeline heading is missing")
+about_project_titles = [heading.get_text(" ", strip=True) for heading in about.select(".about-project h3")]
+if about_project_titles != ["Kujo", "Strata", "RepoRadar", "Stattic", "WP Dispensary", "Markdown Exporter"]:
+    errors.append(f"about project selection is incorrect or out of order: {about_project_titles}")
+if len(about.select(".about-progression > li")) != 4:
+    errors.append("about background progression is incomplete")
+if len(about.select("#disclosure-records > li")) != 40:
+    errors.append("about security research index must contain 40 verified records")
+for section_id in ("background", "security", "built", "writing", "approach"):
+    if not about.select_one(f"section#{section_id}[aria-labelledby]"):
+        errors.append(f"about section is missing: {section_id}")
+
 
 llms = (root / "llms.txt").read_text(errors="ignore")
 if "## Projects" not in llms or "[Projects index](https://robertdevore.com/projects/)" not in llms:
