@@ -49,7 +49,14 @@ Maintenance: review both Wordfence profile pages, verify each added CVE and cred
 
 ## Validation record
 
-Final build, browser, accessibility, and deployment results are recorded below when verification completes.
+- The focused About build used the deployment runtime version (Kujo 1.0.1) and the repository's own SSG/templates. All four `scripts/test_about.py` checks passed against its rendered and hardened output.
+- Playwright/Chrome checks passed at 390, 768, and 1440 pixels: no overflow or JavaScript errors; CVE search, severity filtering, clearing, empty results, and keyboard activation passed. With JavaScript disabled, all 40 records remained readable through the native disclosure.
+- axe-core reported zero WCAG 2 A/AA and WCAG 2.1 AA violations at all three widths, with the complete index open. This is an automated check, supplemented by visual inspection; it is not a claim of exhaustive accessibility certification.
+- Nu HTML Checker 26.8.6 passed the redesigned page. CSS bundle freshness and `git diff --check` passed.
+- HOWL validated and rendered all 170 card definitions; only the changed About SVG/PNG and manifest entry were retained. Unrelated regenerated images were restored.
+- Full local `scripts/build.sh` completed with the isolated manifest-pinned Kujo 1.0.0 release: 138 posts, 3 generated pages, 170 primary routes after hardening. The About route was regenerated with the deployment-version runtime after browser fixes, and its current assets were staged from authored sources.
+- Final `python3 scripts/validate_site.py output`: 170 primary routes, zero warnings, passed, including internal-link and asset checks. `python3 scripts/test_about.py`: 4 passed. `python3 scripts/verify_homepage.py output`: passed. `./scripts/validate_html.sh output`: passed across the complete generated site.
+- GitHub Pages [run 39550696897](https://github.com/robertdevore/robertdevore.com/actions/runs/39550696897) succeeded for implementation commit `dbbc6cf5c0819e799ea4f5d1e115b018a6cecc59`: fresh full build, all 170-route checks, four About regression tests, homepage checks, full HTML validation, upload, and deployment. The entire browser suite also passed on the live HTTPS page at all three widths, including axe and the no-JavaScript fallback. A browser fetch of the live JSON returned HTTP 200 and matched the committed dataset byte-for-byte. Raw urllib requests were blocked with HTTP 403, so live checks used the browser.
 
 ### Existing dependency-manifest drift
 
