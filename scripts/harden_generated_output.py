@@ -135,7 +135,7 @@ def structured_data(soup: BeautifulSoup, route: str) -> dict:
     breadcrumb = breadcrumb_schema(soup, canonical)
     graph = [page, person]
     if route == "/about/":
-        for name, url in [("Kujo", "https://github.com/kujolang/kujo"), ("Strata", "https://github.com/robertdevore/strata"), ("RepoRadar", "https://github.com/robertdevore/reporadar"), ("Stattic", "https://github.com/getstattic/stattic")]:
+        for name, url in [("Kujo", "https://github.com/kujolang/kujo"), ("Strata", "https://github.com/robertdevore/strata"), ("RepoRadar", "https://github.com/robertdevore/reporadar"), ("DB Version Control", "https://github.com/WebDevStudios/db-version-control")]:
             graph.append({"@type": "SoftwareSourceCode", "@id": url + "#source", "name": name, "codeRepository": url, "creator": {"@id": person_id}})
         page["mentions"] = [{"@id": node["@id"]} for node in graph if node["@type"] == "SoftwareSourceCode"]
     if breadcrumb:

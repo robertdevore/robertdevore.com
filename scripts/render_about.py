@@ -43,7 +43,7 @@ def render(data):
         r = {k: escape(str(v), quote=True) for k, v in record.items()}
         score = f'{r["severity"]} · {r["cvss_score"]}'
         if record['selected']:
-            selected.append(f'<article><p class="about-record-id">{r["cve"]} <span>{score}</span></p><h4>{r["product"]}</h4><p>{r["vulnerability_type"]}</p><p>{r["selection_note"]}</p><a href="{r["primary_reference"]}">Read advisory <span class="sk-visually-hidden">for {r["cve"]}</span>↗</a></article>')
+            selected.append(f'<article><p class="about-record-id">{r["cve"]} <span>{score}</span></p><h4>{r["product"]}</h4><p>{r["vulnerability_type"]}</p><a href="{r["primary_reference"]}">Read advisory <span class="sk-visually-hidden">for {r["cve"]}</span>↗</a></article>')
         rows.append(f'<li data-severity="{r["severity"]}"><div class="about-record-heading"><h4><a href="{r["cve_record"]}">{r["cve"]}</a></h4><span class="sk-badge">{score}</span></div><p class="about-record-product">{r["product"]}</p><p>{r["vulnerability_type"]}</p><dl><div><dt>Published</dt><dd><time datetime="{r["published"]}">{r["published"]}</time></dd></div><div><dt>CVSS 3.1 source</dt><dd>{r["score_source"]}</dd></div></dl><p class="about-record-links"><a href="{r["primary_reference"]}">Advisory</a><a href="{r["attribution_source"]}">Researcher credit</a></p></li>')
     return '<div class="about-selected-grid" data-no-scramble>'+''.join(selected)+'</div>', '<ul id="disclosure-records" class="about-records" data-no-scramble>'+''.join(rows)+'</ul>'
 

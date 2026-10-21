@@ -424,7 +424,7 @@ if about.select_one(".tools-hero-card, .about-map, .clarity-grid"):
 if any(heading.get_text(" ", strip=True) == "Where the work shows up" for heading in about.find_all("h2")):
     errors.append("about page still includes the removed selected-surfaces heading")
 about_project_titles = [heading.get_text(" ", strip=True) for heading in about.select(".about-project h3")]
-if about_project_titles != ["Kujo", "Strata", "RepoRadar", "Stattic", "WP Dispensary", "Markdown Exporter"]:
+if about_project_titles != ["Kujo", "Strata", "RepoRadar", "DB Version Control", "Snips", "Markdown Exporter"]:
     errors.append(f"about project selection is incorrect or out of order: {about_project_titles}")
 if len(about.select(".about-progression > li")) != 4:
     errors.append("about background progression is incomplete")

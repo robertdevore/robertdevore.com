@@ -31,7 +31,7 @@
       "wordfence_score": 6.4,
       "wordfence_published": "2025-07-07",
       "verified_on": "2026-10-21",
-      "selected": false
+      "selected": true
     },
     {
       "cve": "CVE-2025-5290",

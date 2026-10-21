@@ -16,7 +16,7 @@ class AboutResearchTests(unittest.TestCase):
 
     def test_complete_attributed_snapshot(self):
         self.assertEqual(len(self.data['discoveries']), 40)
-        self.assertEqual(sum(r['selected'] for r in self.data['discoveries']), 5)
+        self.assertEqual(sum(r['selected'] for r in self.data['discoveries']), 6)
         self.assertEqual(sum(r['score_source'] == 'Wordfence' for r in self.data['discoveries']), 9)
         self.assertEqual(sum(r['score_source'] == 'Patchstack' for r in self.data['discoveries']), 31)
         for row in self.data['discoveries']:
@@ -47,7 +47,7 @@ class AboutResearchTests(unittest.TestCase):
         page = BeautifulSoup((Path(os.environ.get('ABOUT_OUTPUT', 'output')) / 'about/index.html').read_text(), 'html.parser')
         self.assertEqual(len(page.select('h1')), 1)
         self.assertEqual(len(page.select('#disclosure-records > li')), 40)
-        self.assertEqual(len(page.select('.about-selected-grid article')), 5)
+        self.assertEqual(len(page.select('.about-selected-grid article')), 6)
         self.assertTrue(page.select_one('.about-filter').has_attr('hidden'))
         self.assertEqual([o.get('value') for o in page.select('#disclosure-severity option')], ['', 'High', 'Medium'])
         self.assertFalse(page.select_one('#disclosure-index').has_attr('open'))
