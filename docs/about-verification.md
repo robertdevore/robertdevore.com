@@ -71,3 +71,9 @@ Before this change, the clean baseline at `f16d160` already had a vendored `buil
 - Built a distinct Featured press panel led by Search Engine Journal, followed by WP Tavern and the verified [WP Minute interview](https://thewpminute.com/open-source-saved-my-life/). Own writing is not presented as press coverage.
 - Replaced the closing red divider with the shared thin neutral rule.
 - Focused deployment-runtime build and four research/markup checks passed. Browser checks passed at 390, 768, and 1440 pixels, including the visible 40 in Departure Mono, six selected disclosures, press order, filters, keyboard controls, no-JavaScript records, no overflow, and zero automated accessibility violations.
+
+## Additional press verification, 21 October 2026
+
+- Added Within WP (Within WordPress), linking directly to its [14 February 2025 newsletter](https://withinwp.com/newsletter/faster-woo-and-new-and-improved-generateblocks-wpgraphql/). The news section names Robert DeVore and links to his AI-Powered Patterns plugin announcement. This is labeled a newsletter mention, not an interview or authored article.
+- Search Engine Journal remains first; all existing coverage links remain.
+- The Repository remains pending verification: its site returned a Cloudflare challenge to both HTTP and browser access, and searches did not locate a specific mention. The existing December 2024 retrospective alone does not establish a primary publication URL.
