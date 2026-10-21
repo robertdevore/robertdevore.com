@@ -14,8 +14,8 @@ The previous About template emphasized current Kujo work, a four-item through-li
 | Kujo | [Public organization](https://github.com/kujolang), [language](https://github.com/kujolang/kujo), local project documentation and site's `/projects/kujo/` | Language, runtime, tooling, and ecosystem; no adoption or performance claims |
 | Strata | [Repository](https://github.com/robertdevore/strata), local README | Markdown notes application, optional AI, CLI/HTTP interfaces |
 | RepoRadar | [Repository](https://github.com/robertdevore/reporadar), local README | Local Git dashboard written in Kujo; avoids the older site's generic scanner description |
-| Stattic | [Repository](https://github.com/getstattic/stattic), local release article | Python, Markdown, Jinja2; omits unsupported “world's fastest” marketing |
-| WP Dispensary | Local product history and [WP Tavern coverage](https://wptavern.com/wp-dispensary-offers-a-complete-marijuana-menu-solution-for-wordpress) | Earlier product work, extensions and WooCommerce; links to [CannaBiz organization](https://github.com/getCannaBiz), not the nonexistent `getCannaBiz/wp-dispensary` repository |
+| DB Version Control | [Current repository](https://github.com/WebDevStudios/db-version-control), original release article | WordPress content exported to version-controlled JSON; now maintained by WebDevStudios |
+| Snips | [Repository](https://github.com/robertdevore/snips), current README | Local macOS text expansion with Electron, SQLite, and a native Swift helper; no unreleased feature claims |
 | Markdown Exporter | [Repository](https://github.com/robertdevore/markdown-exporter-for-wordpress) | Content portability; no usage statistics |
 | Plugin succession | `content/posts/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios.md` | Article says 20 adopted plugins; historical URL says 21, so visible copy uses the article's 20 |
 | Press | [WP Tavern](https://wptavern.com/wp-dispensary-offers-a-complete-marijuana-menu-solution-for-wordpress), [Search Engine Journal](https://www.searchenginejournal.com/wordpress-developer-publishes-code-to-block-mullenwegs-web-hosting-clients/536427/) | Clearly coverage of his work, not authored bylines or endorsements |
@@ -34,7 +34,7 @@ Canonical source: `assets/data/security-discoveries.json`. This is a reviewed sn
 - [CIRCL plain-name credit](https://vulnerability.circl.lu/credits/Robert%20DeVore) and [Patchstack-program credit](https://cve.circl.lu/credits/Robert%20DeVore%20%7C%20Patchstack%20Bug%20Bounty%20Program) were secondary checks. Name variants are not independent researcher totals.
 - Each dataset entry retains affected product, vulnerability class, CNA severity/score/vector, CVE publication date, primary advisory, attribution text and source, Wordfence profile page, Wordfence score/date, verification date, and selection flag.
 - Visible severity and dates consistently use the CNA's CVSS 3.1 assessment and CVE Program `datePublished`. Wordfence assessments and publication dates sometimes differ. For example, CVE-2023-37393 is 7.1 in the CNA record and 6.1 on Wordfence; CVE-2024-2793 is published May 31 in the CVE record and May 30 on Wordfence. The page explains this rather than mixing source conventions.
-- The five selected disclosures cover unauthenticated stored XSS, reflected XSS, DOM-based stored XSS, contributor-level stored XSS, and missing authorization/content spoofing. No exploit payloads are included.
+- The six selected disclosures cover unauthenticated stored XSS, reflected XSS, DOM-based stored XSS, contributor-level stored XSS, and missing authorization/content spoofing. No exploit payloads are included.
 
 Maintenance: review both Wordfence profile pages, verify each added CVE and credit, retain source-specific score/date differences, and update the snapshot date and explanatory copy together. Run `python3 scripts/test_about.py` after building. Never sum researcher-profile totals.
 
@@ -61,3 +61,13 @@ Maintenance: review both Wordfence profile pages, verify each added CVE and cred
 ### Existing dependency-manifest drift
 
 Before this change, the clean baseline at `f16d160` already had a vendored `build.kujo` hash differing from `workspace-dependencies.json`. History includes intentional metadata compatibility fixes (`a563720`, `d94264d`, `6bf1edb`). A dependency sync would overwrite these patches. This redesign does not change the SSG source or pin metadata. `sync_dependencies.sh --check` still reports this pre-existing mismatch, even with the pinned source checkouts. The standard build can be run with the documented `KUJO_ROOT` override to an isolated pinned checkout and its verified release binary. Current neighboring dependency checkouts are newer than the manifest and are not reset.
+
+## Requested refinement, 21 October 2026
+
+- Edited the page using the Orwell writing skill: clearer background, research introduction, project summaries, and contact invitation.
+- Added a white hero text outline; promoted the four progression labels to headings; gave the 40-discovery figure explicit Departure Mono sizing and excluded it from text scrambling.
+- Selected six disclosures, enlarged their titles, and removed the extra explanatory sentences. The verified 40-record snapshot and provenance remain intact.
+- Replaced Stattic and WP Dispensary in the project showcase with DB Version Control and Snips; updated the project schema association.
+- Built a distinct Featured press panel led by Search Engine Journal, followed by WP Tavern and the verified [WP Minute interview](https://thewpminute.com/open-source-saved-my-life/). Own writing is not presented as press coverage.
+- Replaced the closing red divider with the shared thin neutral rule.
+- Focused deployment-runtime build and four research/markup checks passed. Browser checks passed at 390, 768, and 1440 pixels, including the visible 40 in Departure Mono, six selected disclosures, press order, filters, keyboard controls, no-JavaScript records, no overflow, and zero automated accessibility violations.
