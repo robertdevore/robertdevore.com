@@ -127,15 +127,15 @@
     },
     {
       "id": "about",
-      "title": "About",
-      "tagline": "Robert DeVore builds software systems, developer tools, programming-language …",
+      "title": "Robert DeVore — Software Engineer & Security Researcher",
+      "tagline": "Meet Robert DeVore: software engineer, security researcher, and open-source developer with …",
       "file": "content/pages/about.md",
       "language": "markdown",
       "concepts": [
         "about",
         "Robert DeVore"
       ],
-      "caption": "About: Robert DeVore builds software systems, developer tools, programming-language infrastructure, and agentic workflows.",
+      "caption": "Robert DeVore — Software Engineer & Security Researcher: Meet Robert DeVore: software engineer, security researcher, and open-source developer with 20+ years of work, 40 credited discoveries, and the Kujo ecosystem.",
       "cta": "Read more on RobertDeVore.com.",
       "url": "https://robertdevore.com/about/",
       "variant": "social",

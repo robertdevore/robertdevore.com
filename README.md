@@ -38,3 +38,9 @@ python3 scripts/render_howl_social.py
 The renderer expects `howl` on `PATH`; set `HOWL_BIN` when the executable is elsewhere. Every card sets `show_url: false` so the bottom-left area remains available for social platforms to overlay the destination. `assets/social/social-image-map.json` maps canonical routes to their cards, and generated-output hardening applies the matching absolute URL to `og:image` and `twitter:image` with 1200×630 dimensions and matching alt metadata. Social-card generation remains an intentional manual publishing step and is not invoked by the SSG build.
 
 See [docs/dependencies.md](docs/dependencies.md), [docs/architecture.md](docs/architecture.md), [docs/content-migration.csv](docs/content-migration.csv), and [docs/verification.md](docs/verification.md).
+
+## About profile and security research
+
+The editorial profile lives in `templates/page-about.html`; metadata and the discovery summary live in `content/pages/about.md`. `assets/data/security-discoveries.json` is the reviewed, attributed disclosure snapshot. `scripts/render_about.py` validates and renders it offline into the generated page during both local and CI builds. Do not edit generated records in `output/`.
+
+After a build, run `python3 scripts/test_about.py` for attribution/count, escaping, and generated-page checks. `scripts/verify_about_browser.cjs` uses Playwright and axe-core installed in your test environment to check 390/768/1440 px layouts, keyboard disclosure, search, severity, reset, empty state, and the no-JavaScript fallback. It defaults to a local server at port 4173; set `ABOUT_BASE_URL`, `ABOUT_ARTIFACT_DIR`, and optionally `ABOUT_BROWSER_CHANNEL` for other test environments. See `docs/about-verification.md` for source provenance, counting rules, design decisions, and verification limitations.

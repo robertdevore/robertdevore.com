@@ -335,9 +335,9 @@ if not writing_kicker or writing_kicker.get_text(" ", strip=True) != "Archive / 
     errors.append("writing hero kicker still includes pagination")
 
 about = BeautifulSoup((root / "about/index.html").read_text(errors="ignore"), "html.parser")
-selected_surfaces = about.select_one(".about-surfaces > h2")
-if not selected_surfaces or selected_surfaces.get_text(" ", strip=True) != "Selected surfaces":
-    errors.append("about page Selected surfaces title is missing its section heading treatment")
+software_heading = about.select_one(".about-surfaces > h2")
+if not software_heading or software_heading.get("id") != "built-title":
+    errors.append("about page software section is missing its heading")
 
 projects = BeautifulSoup((root / "projects/index.html").read_text(errors="ignore"), "html.parser")
 ecosystem_title = projects.select_one("#project-ecosystem-title")

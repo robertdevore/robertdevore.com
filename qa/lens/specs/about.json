@@ -1,8 +1,8 @@
 {
   "url": { "path_contains": "/about/" },
-  "title": { "contains": "About" },
-  "text": { "contains": ["Through-line", "Field Notes", "Projects", "Contact"] },
-  "selectors": { "exists": ["main", ".about-overview", ".timeline-list", ".about-proof"] },
+  "title": { "contains": "Software Engineer" },
+  "text": { "contains": ["Software engineer.", "Security researcher.", "Selected disclosures", "Strata", "RepoRadar", "Independent courses"] },
+  "selectors": { "exists": ["main", ".about-progression", ".about-projects", "#disclosure-index", "#disclosure-records", "#disclosure-search"] },
   "console": { "no_errors": true },
   "network": { "no_5xx": true },
   "layout": { "no_horizontal_overflow": true }

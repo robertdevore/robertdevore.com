@@ -1,0 +1,56 @@
+# About page: content and design verification
+
+Research checked 2026-10-21. Canonical route: `https://robertdevore.com/about/`.
+
+## Content inventory and attribution
+
+The previous About template emphasized current Kujo work, a four-item through-line, and three navigation cards. The homepage establishes monochrome signal artwork, Departure Mono headings, red accents, numbered sections, and inspectable systems as the recurring theme. Projects and Courses already provide a source-link catalog and six independent learning resources. The redesign retains that visual language and broadens the biography.
+
+| Claim / subject | Evidence | Editorial treatment |
+| --- | --- | --- |
+| More than 20 years building software | User's supplied brief; `content/posts/5-things-i-learned-building-my-first-gutenberg-blocks-plugin.md`; `content/posts/goodbye-wordpress-a-eulogy.md` | Broad experience claim; no invented start date |
+| Independent, commercial, and agency work | `content/posts/im-freelancing-again.md` (2025-02-15), `content/posts/the-past-present-and-future-of-wp-dispensary.md` (2022-08-14) | Custom development, security audits, performance, maintenance; no invented employer or leadership title |
+| Technical leadership | User-supplied background; `/leap-the-code-of-extreme-leadership/` and homepage engineering principles | Describes approach and responsibility, not an unverified job title or team size |
+| Kujo | [Public organization](https://github.com/kujolang), [language](https://github.com/kujolang/kujo), local project documentation and site's `/projects/kujo/` | Language, runtime, tooling, and ecosystem; no adoption or performance claims |
+| Strata | [Repository](https://github.com/robertdevore/strata), local README | Markdown notes application, optional AI, CLI/HTTP interfaces |
+| RepoRadar | [Repository](https://github.com/robertdevore/reporadar), local README | Local Git dashboard written in Kujo; avoids the older site's generic scanner description |
+| Stattic | [Repository](https://github.com/getstattic/stattic), local release article | Python, Markdown, Jinja2; omits unsupported “world's fastest” marketing |
+| WP Dispensary | Local product history and [WP Tavern coverage](https://wptavern.com/wp-dispensary-offers-a-complete-marijuana-menu-solution-for-wordpress) | Earlier product work, extensions and WooCommerce; links to [CannaBiz organization](https://github.com/getCannaBiz), not the nonexistent `getCannaBiz/wp-dispensary` repository |
+| Markdown Exporter | [Repository](https://github.com/robertdevore/markdown-exporter-for-wordpress) | Content portability; no usage statistics |
+| Plugin succession | `content/posts/grateful-to-see-21-of-my-wordpress-plugins-live-on-at-webdevstudios.md` | Article says 20 adopted plugins; historical URL says 21, so visible copy uses the article's 20 |
+| Press | [WP Tavern](https://wptavern.com/wp-dispensary-offers-a-complete-marijuana-menu-solution-for-wordpress), [Search Engine Journal](https://www.searchenginejournal.com/wordpress-developer-publishes-code-to-block-mullenwegs-web-hosting-clients/536427/) | Clearly coverage of his work, not authored bylines or endorsements |
+| The Repository | December 2024 retrospective reports two mentions; exact issues not independently located | Omitted from public profile rather than implying verified publication or authorship |
+| Independent courses | Existing `templates/page-courses.html`; public TypeScript, Rust, Python, CPC course sites | All six existing course destinations retained; no endorsement/certification claim |
+
+The Kujo and Edge Academy course hosts returned HTTP 403 to automated checks. Their links and course identities are supported by the existing catalog; live accessibility could not be independently confirmed by this client. Other featured repository and press links returned HTTP 200. No additional biography claims require approval; omitted publication details would need primary evidence before inclusion.
+
+## Security dataset
+
+Canonical source: `assets/data/security-discoveries.json`. This is a reviewed snapshot, not a feed fetched during builds or page visits.
+
+- [Wordfence page 1](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore) lists discoveries 1–20; [page 2](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore?page=2) lists 21–40. Every listed item has a different CVE ID.
+- All 40 corresponding JSON records were retrieved from the [CVE Program repository](https://github.com/CVEProject/cvelistV5). Each was PUBLISHED and explicitly credited Robert DeVore in `containers.cna.credits`: 9 Wordfence-assigned records and 31 Patchstack-assigned records.
+- The [Patchstack profile](https://patchstack.com/database/researchers/770fb791-e511-4ce8-8c93-c3f912d443df) reports 31 reports. These overlap the Wordfence set and are never added to 40.
+- [CIRCL plain-name credit](https://vulnerability.circl.lu/credits/Robert%20DeVore) and [Patchstack-program credit](https://cve.circl.lu/credits/Robert%20DeVore%20%7C%20Patchstack%20Bug%20Bounty%20Program) were secondary checks. Name variants are not independent researcher totals.
+- Each dataset entry retains affected product, vulnerability class, CNA severity/score/vector, CVE publication date, primary advisory, attribution text and source, Wordfence profile page, Wordfence score/date, verification date, and selection flag.
+- Visible severity and dates consistently use the CNA's CVSS 3.1 assessment and CVE Program `datePublished`. Wordfence assessments and publication dates sometimes differ. For example, CVE-2023-37393 is 7.1 in the CNA record and 6.1 on Wordfence; CVE-2024-2793 is published May 31 in the CVE record and May 30 on Wordfence. The page explains this rather than mixing source conventions.
+- The five selected disclosures cover unauthenticated stored XSS, reflected XSS, DOM-based stored XSS, contributor-level stored XSS, and missing authorization/content spoofing. No exploit payloads are included.
+
+Maintenance: review both Wordfence profile pages, verify each added CVE and credit, retain source-specific score/date differences, and update the snapshot date and explanatory copy together. Run `python3 scripts/test_about.py` after building. Never sum researcher-profile totals.
+
+## Design and implementation
+
+- Existing signal artwork, fonts, header/footer, buttons, badges, container, and SiteKit accordion/search-input contracts are reused. Native `details/summary` supplies keyboard and no-JavaScript disclosure behavior. No shared SiteKit distribution changes were necessary.
+- Wide editorial introduction, four-step undated progression, inverse research section, compact selected disclosures, row-based projects, contrasting learning section, principles, and restrained contact invitation provide varied rhythm without a repeated card dashboard.
+- The 40-item index is built statically by `scripts/render_about.py`. Search, severity, reset, result count, and empty state use a small local script. Controls stay hidden when JavaScript is unavailable; records remain readable.
+- The renderer validates count, uniqueness, credit, dates, CVSS/severity, and HTTPS source hosts; all external strings are HTML-escaped. The client uses `textContent` and no network requests or HTML insertion.
+- Both local build and GitHub Pages workflow invoke the renderer before output hardening. No edits to generated `output/` are committed.
+- Title, description, canonical, Open Graph/Twitter metadata, HOWL preview, and AboutPage/Person structured data are aligned. Project nodes identify authored source projects without inventing employment or organizational affiliations.
+
+## Validation record
+
+Final build, browser, accessibility, and deployment results are recorded below when verification completes.
+
+### Existing dependency-manifest drift
+
+Before this change, the clean baseline at `f16d160` already had a vendored `build.kujo` hash differing from `workspace-dependencies.json`. History includes intentional metadata compatibility fixes (`a563720`, `d94264d`, `6bf1edb`). A dependency sync would overwrite these patches. This redesign does not change the SSG source or pin metadata. `sync_dependencies.sh --check` still reports this pre-existing mismatch, even with the pinned source checkouts. The standard build can be run with the documented `KUJO_ROOT` override to an isolated pinned checkout and its verified release binary. Current neighboring dependency checkouts are newer than the manifest and are not reset.

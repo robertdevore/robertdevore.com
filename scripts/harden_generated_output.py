@@ -105,6 +105,10 @@ def structured_data(soup: BeautifulSoup, route: str) -> dict:
         "url": f"{SITE_URL}/about/",
         "sameAs": ["https://github.com/robertdevore", "https://x.com/deviorobert"],
     }
+    if route == "/about/":
+        person["jobTitle"] = "Software engineer and security researcher"
+        person["knowsAbout"] = ["Software engineering", "Security research", "Open-source software", "Programming language development", "Developer tooling", "AI-native software engineering"]
+        person["sameAs"] += ["https://www.wordfence.com/threat-intel/vulnerabilities/researchers/robert-devore", "https://patchstack.com/database/researchers/770fb791-e511-4ce8-8c93-c3f912d443df"]
     if page_type == "WebSite":
         website = {
             "@type": "WebSite",
@@ -130,6 +134,10 @@ def structured_data(soup: BeautifulSoup, route: str) -> dict:
         page["image"] = image
     breadcrumb = breadcrumb_schema(soup, canonical)
     graph = [page, person]
+    if route == "/about/":
+        for name, url in [("Kujo", "https://github.com/kujolang/kujo"), ("Strata", "https://github.com/robertdevore/strata"), ("RepoRadar", "https://github.com/robertdevore/reporadar"), ("Stattic", "https://github.com/getstattic/stattic")]:
+            graph.append({"@type": "SoftwareSourceCode", "@id": url + "#source", "name": name, "codeRepository": url, "creator": {"@id": person_id}})
+        page["mentions"] = [{"@id": node["@id"]} for node in graph if node["@type"] == "SoftwareSourceCode"]
     if breadcrumb:
         page["breadcrumb"] = {"@id": breadcrumb["@id"]}
         graph.append(breadcrumb)
