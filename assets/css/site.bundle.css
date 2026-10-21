@@ -2660,6 +2660,7 @@ html{scroll-behavior:smooth;scrollbar-gutter:stable}body{min-block-size:100vh;di
 .about-project h3{margin-top:.5rem;font-size:1.6rem}
 .about-project p:first-child{margin-top:0}
 .about-project--lead{padding:2rem;background:#f2f2f2;border:1px solid #ccc;margin-bottom:1rem}
+.about-project--lead+.about-project{border-top:0}
 .about-project--lead h3{font-size:3rem}
 .about-project a{font-size:.9rem}
 .about-learning{background:#f1f1f1;padding-block:clamp(4rem,8vw,7rem)}
@@ -2678,10 +2679,14 @@ html{scroll-behavior:smooth;scrollbar-gutter:stable}body{min-block-size:100vh;di
 .about-principles>div{padding-block:1.25rem;border-top:var(--about-rule)}
 .about-principles dt{font:1.1rem/1.5 var(--sk-font-mono);font-weight:700}
 .about-principles dd{margin: .75rem 0 0;line-height:1.75;color:var(--sk-text-secondary)}
-.about-closing{border-top:var(--about-rule);padding-block:3rem 6rem}
-.about-closing h2{max-width:24ch}
-.about-closing>p{max-width:65ch}
-.about-closing .sk-cluster{margin-top:2rem}
+.about-closing{padding-block:clamp(4rem,8vw,7rem);background:#151515;color:#eee;text-align:center}
+.about-closing h2{max-width:30ch;margin-inline:auto;color:#fff}
+.about-closing .section-index{color:#ddd}
+.about-closing .sk-container>p{max-width:65ch;margin-inline:auto}
+.about-closing a{color:#fff}
+.about-closing .sk-button{background:#fff;border-color:#fff;color:#151515}
+.about-closing .sk-button:hover{background:#ddd;border-color:#ddd;color:#151515}
+.about-closing .sk-cluster{margin-top:2rem;justify-content:center}
 @media(max-width:64rem){.about-progression{grid-template-columns:repeat(2,minmax(0,1fr))}.about-editorial,.about-project{gap:2rem}}
 @media(max-width:48rem){.about-editorial,.about-project,.about-selected-grid,.about-records{grid-template-columns:1fr}.about-selected-grid article:last-child{grid-column:auto}.about-progression{gap:1rem}.about-progression li{padding-right:.5rem}.about-project--lead{padding:1.25rem}.about-hero .signal-title{font-size:clamp(2rem,8vw,3.8rem)}.about-filter>div{flex-wrap:wrap}.about-index-body{padding-inline:1rem}.about-filter{padding:1rem}.about-research-total{gap:1rem}.about-nav{gap:.25rem 1rem}.about-profile h2 br{display:none}}
 @media print{.about-nav,.about-filter{display:none!important}.about-security{background:white;color:black}.about-security h2,.about-security h3,.about-security h4,.about-security a{color:black}}
