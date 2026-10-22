@@ -1,0 +1,92 @@
+[
+  {
+    "host": "intellipress.robertdevore.com",
+    "checks": [
+      {
+        "nameserver": "anahi.ns.cloudflare.com",
+        "result": ";; communications error to 172.64.34.24#53: timed out\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61298\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      },
+      {
+        "nameserver": "randall.ns.cloudflare.com",
+        "result": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29162\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      }
+    ]
+  },
+  {
+    "host": "savage.robertdevore.com",
+    "checks": [
+      {
+        "nameserver": "anahi.ns.cloudflare.com",
+        "result": ";; communications error to 172.64.34.24#53: timed out\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1916\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      },
+      {
+        "nameserver": "randall.ns.cloudflare.com",
+        "result": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9726\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      }
+    ]
+  },
+  {
+    "host": "vuln.robertdevore.com",
+    "checks": [
+      {
+        "nameserver": "anahi.ns.cloudflare.com",
+        "result": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21795\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      },
+      {
+        "nameserver": "randall.ns.cloudflare.com",
+        "result": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 59202\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      }
+    ]
+  },
+  {
+    "host": "mothersday.robertdevore.com",
+    "checks": [
+      {
+        "nameserver": "anahi.ns.cloudflare.com",
+        "result": ";; communications error to 172.64.34.24#53: timed out\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 41579\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      },
+      {
+        "nameserver": "randall.ns.cloudflare.com",
+        "result": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17831\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      }
+    ]
+  },
+  {
+    "host": "wolfpack.robertdevore.com",
+    "checks": [
+      {
+        "nameserver": "anahi.ns.cloudflare.com",
+        "result": ";; communications error to 172.64.34.24#53: timed out\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 27976\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      },
+      {
+        "nameserver": "randall.ns.cloudflare.com",
+        "result": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6028\n;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232",
+        "error": ""
+      }
+    ]
+  },
+  {
+    "host": "moneyman.robertdevore.com",
+    "checks": [
+      {
+        "nameserver": "anahi.ns.cloudflare.com",
+        "result": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41671\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmoneyman.robertdevore.com. 300\tIN\tA\t104.21.76.202\nmoneyman.robertdevore.com. 300\tIN\tA\t172.67.200.180",
+        "error": ""
+      },
+      {
+        "nameserver": "randall.ns.cloudflare.com",
+        "result": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42329\n;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n;; WARNING: recursion requested but not available\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nmoneyman.robertdevore.com. 300\tIN\tA\t104.21.76.202\nmoneyman.robertdevore.com. 300\tIN\tA\t172.67.200.180",
+        "error": ""
+      }
+    ]
+  }
+]

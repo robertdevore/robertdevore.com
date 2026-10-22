@@ -14,7 +14,7 @@ Verified 2026-10-22. This records the live Cloudflare configuration; changing th
 
 ## Host coverage and boundaries
 
-`evidence/final-host-checks.json` records 18 reachable public hosts with Zaraz injection and no automatic Cloudflare beacon. Browser checks demonstrated rejection without a beacon, acceptance with one beacon, a working Privacy settings control, and withdrawal without a beacon on reload. GA realtime showed main-site and course-site pageviews; Cloudflare reporting showed multiple hostnames under the existing site.
+`evidence/final-host-checks.json` records the pre-retirement baseline of 18 reachable public hosts (16 remain after Mother's Day and Wolfpack retirement) with Zaraz injection and no automatic Cloudflare beacon. Browser checks demonstrated rejection without a beacon, acceptance with one beacon, a working Privacy settings control, and withdrawal without a beacon on reload. GA realtime showed main-site and course-site pageviews; Cloudflare reporting showed multiple hostnames under the existing site.
 
 CheatCodes now uses Cloudflare proxying for its existing GitHub Pages CNAME. Its target was not changed.
 
@@ -28,7 +28,7 @@ All 15 current sitemap files (main plus 14 subdomains) showed **Success** in Goo
 
 Bing ownership was verified with a DNS-only CNAME `27d6cbe94d24628fd6a43e029c53ccc4` to `verify.bing.com`. The same 15 sitemap files were submitted and all showed **Success**, with 736 discovered URLs. See `evidence/bing-sitemap-results.json`. Discovery is not a guarantee of indexing.
 
-The legacy MoneyMan, Mother's Day and Wolfpack pages have no sitemap at the conventional location. They receive the shared analytics configuration but were not newly promoted for search indexing. IntelliPress returned Cloudflare 522 on retry, and Savage/Vuln do not resolve through their old targets; restore or retire those hostnames separately before claiming universal live-site coverage.
+MoneyMan remains unchanged, including its existing analytics configuration; it has no sitemap at the conventional location and was not newly promoted for indexing. On October 22, 2026, the owner approved retirement of IntelliPress, Savage, Vuln, Mother's Day and Wolfpack. Their 11 DNS records were deleted: one IntelliPress A, four Mother's Day A, four Wolfpack A and the Savage/Vuln CNAMEs. Both authoritative Cloudflare nameservers returned NXDOMAIN for all five hostnames. MoneyMan retained all four original proxied A records and resolves successfully. See `evidence/retirement-dns-checks.json`. Historical analytics and the 15 current sitemap submissions were retained; none of those submissions belongs to a retired hostname. Source repositories and hosting accounts were not deleted.
 
 ## Future sites and verification
 
