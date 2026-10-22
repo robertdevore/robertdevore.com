@@ -57,7 +57,7 @@ Instead of juggling 20 different tools to write, optimize, and design your conte
 
 ### **1. Write Content Without the Pain**
 
-Tell IntelliPress what you need, and boom – you’ve got a fully optimized article, product page, or landing page **in seconds**. 
+Tell IntelliPress what you need, and boom – you’ve got a fully optimized article, product page, or landing page **in seconds**.
 
 No writer’s block. No fluff. Just **good, usable content** that doesn’t sound like a robot wrote it.
 
