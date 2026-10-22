@@ -2532,6 +2532,25 @@
       "show_url": false
     },
     {
+      "id": "privacy",
+      "title": "Privacy",
+      "tagline": "How optional analytics and privacy choices work across Robert DeVore’s public websites.",
+      "file": "content/pages/privacy.md",
+      "language": "markdown",
+      "concepts": [
+        "privacy",
+        "Robert DeVore"
+      ],
+      "caption": "Privacy: How optional analytics and privacy choices work across Robert DeVore’s public websites.",
+      "cta": "Read more on RobertDeVore.com.",
+      "url": "https://robertdevore.com/privacy/",
+      "variant": "social",
+      "label": "CONNECT",
+      "background_image": "assets/art/signal-a-1920.webp",
+      "font_file": "assets/fonts/DepartureMono-Regular.woff2",
+      "show_url": false
+    },
+    {
       "id": "projects",
       "title": "Software Projects",
       "tagline": "Programming-language infrastructure, developer tools, agent workflows, and local-first systems",

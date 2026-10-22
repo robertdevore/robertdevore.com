@@ -40,6 +40,8 @@ def page_type_for(route: str) -> str:
         return "WebSite"
     if route == "/about/":
         return "AboutPage"
+    if route == "/privacy/":
+        return "WebPage"
     if route == "/contact/":
         return "ContactPage"
     if route == "/blog/" or route.startswith(("/blog/page/", "/category/", "/tag/")) or route in {"/projects/", "/courses/"}:
