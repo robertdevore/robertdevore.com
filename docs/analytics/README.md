@@ -26,9 +26,9 @@ Response-header rule `8840a5e6aa3c46218917192dc83efd1b` preserves existing CSP d
 
 All 15 current sitemap files (main plus 14 subdomains) showed **Success** in Google Search Console, totaling 736 listed URLs at verification. These are discovered URLs, not a promise of indexing. The two historical 2015/2016 WordPress sitemap-index submissions were retained; their stale errors do not describe the current sitemap.
 
-Bing ownership was verified with a DNS-only CNAME `27d6cbe94d24628fd6a43e029c53ccc4` to `verify.bing.com`. The same 15 sitemap files were submitted. See `evidence/bing-sitemap-results.json` for observed processing status; submitted is not equivalent to indexed.
+Bing ownership was verified with a DNS-only CNAME `27d6cbe94d24628fd6a43e029c53ccc4` to `verify.bing.com`. The same 15 sitemap files were submitted and all showed **Success**, with 736 discovered URLs. See `evidence/bing-sitemap-results.json`. Discovery is not a guarantee of indexing.
 
-The legacy MoneyMan, Mother's Day and Wolfpack pages have no sitemap at the conventional location. They receive the shared analytics configuration but were not newly promoted for search indexing. IntelliPress timed out, and Savage/Vuln do not resolve through their old targets; restore or retire those hostnames separately before claiming universal live-site coverage.
+The legacy MoneyMan, Mother's Day and Wolfpack pages have no sitemap at the conventional location. They receive the shared analytics configuration but were not newly promoted for search indexing. IntelliPress returned Cloudflare 522 on retry, and Savage/Vuln do not resolve through their old targets; restore or retire those hostnames separately before claiming universal live-site coverage.
 
 ## Future sites and verification
 
