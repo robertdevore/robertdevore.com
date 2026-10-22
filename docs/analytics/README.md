@@ -35,3 +35,7 @@ The legacy MoneyMan, Mother's Day and Wolfpack pages have no sitemap at the conv
 A new public subdomain must be proxied, serve normal HTML, permit the shared scripts/connections under its CSP, and expose the privacy control. Check accept/reject behavior and its hostname in reporting. Submit its actual sitemap separately to the existing domain properties. Consent rejection, blockers and disabled JavaScript mean analytics never represents every request; Cloudflare edge/security request counts are a separate measure.
 
 Do not count email-link clicks as delivered enquiries. The main site's contact page uses email and has no successful-form event to instrument. Additional application events need explicit, non-sensitive success signals from their application code.
+
+## Publication verification
+
+The privacy notice at `https://robertdevore.com/privacy/` is live, linked from the footer and the shared consent dialog. Deployment run `39872079319` passed build, validation and Pages deployment for commit `94b9803`. The privacy route has its required Howl social card and `WebPage` schema. The live browser confirmed the canonical URL, notice content, footer control and consent-dialog link. The sitemap totals above are the console counts before the new privacy page is reprocessed.
