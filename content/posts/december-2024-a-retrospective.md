@@ -12,6 +12,9 @@ categories: ["WordPress Archive"]
 tags: ["WordPress", "WooCommerce"]
 ---
 
+> **Update, October 22, 2026:** The Savage Scanner and Vuln Search web apps referenced in this post have been retired. The historical article and repository links remain available.
+
+
 Talk about a **December to Remember** , amirite? 😂💪💯
 
 In November of 2024 I started releasing free WordPress® and WooCommerce® plugins, and I liked the way it felt. 
@@ -155,9 +158,9 @@ Below is a list of additional scripts and things that I released in December.
   * [Website Uptime Monitor + Visualizer script](https://github.com/robertdevore/wp-uptime) that I used to monitor Automattic’s websites for downtime when they were going out early in the month. Cuz that’s what friends are for 😎
   * Published “[Host your WordPress® Plugins on GitHub and Automate Plugin Packaging](/host-your-wordpress-plugins-on-github-and-automate-plugin-packaging/)” to help plugin and theme developers with an alternative to the wordpress.org repository.
   * Published Published “[How to Stop Your Plugins & Themes from Being Used on WordPress.com Hosting](/how-to-stop-your-plugins-themes-from-being-used-on-wordpress-com-hosting/)” to help plugin and theme authors stop their projects from working on wordpress.com.
-  * Released the **Savage Scanner** [script](https://github.com/robertdevore/savage-scanner) & [web app](https://savage.robertdevore.com) to help with bug hunting both for internal purposes and for fun & profit.
+  * Released the **Savage Scanner** [script](https://github.com/robertdevore/savage-scanner) & web app to help with bug hunting both for internal purposes and for fun & profit.
   * Open sourced all [CannaBiz Software](https://github.com/getCannaBiz/) plugins & theme (more on this soon) because I am tired of waiting on federal legalization.
-  * Released the **Vuln Search** [script](https://github.com/robertdevore/vuln-search) & [web app](https://vuln.robertdevore.com) to help with bug hunting both for internal purposes and for fun & profit.
+  * Released the **Vuln Search** [script](https://github.com/robertdevore/vuln-search) & web app to help with bug hunting both for internal purposes and for fun & profit.
 
 
 
@@ -249,7 +252,7 @@ I want more of that feeling in 2025 💪
 
 I’m also going to put more focus on offering comprehensive [security audits](/contact/) for developers who need a second set of eyes for their projects, as well as website owners who want to make sure the products they’re using are secure.
 
-This means I’ll be publishing more [security](/why-wordpress-plugin-developers-need-security-audits/) related content, releasing more [security](https://github.com/robertdevore/api-audit) [focused](https://vuln.robertdevore.com) [tools](https://savage.robertdevore.com) and jumping into [bug bounty](https://hackerone.com/robertdevore) programs outside of WordPress®.
+This means I’ll be publishing more [security](/why-wordpress-plugin-developers-need-security-audits/) related content, releasing more [security](https://github.com/robertdevore/api-audit) focused tools and jumping into [bug bounty](https://hackerone.com/robertdevore) programs outside of WordPress®.
 
 ## Stattic & decentralized publishing
 

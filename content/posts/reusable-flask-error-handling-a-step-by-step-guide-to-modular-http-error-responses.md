@@ -12,9 +12,12 @@ categories: ["Developer Tools"]
 tags: ["Engineering"]
 ---
 
+> **Update, October 22, 2026:** The Savage Scanner and Vuln Search web apps referenced in this post have been retired. The historical article and repository links remain available.
+
+
 I don’t know about you, but in code and in real life, I hate repeating myself 🤦‍♂️
 
-And after building the [Savage Scanner](https://savage.robertdevore.com) and [Vuln Search](https://vuln.robertdevore.com) apps, I realized quickly that I’ll be creating a _lot_ of the same code for my Flask projects.
+And after building the Savage Scanner and Vuln Search apps, I realized quickly that I’ll be creating a _lot_ of the same code for my Flask projects.
 
 And since error handling is a key feature for creating a user-friendly and professional web application, I figured now was the perfect time to create a modular solution for it.
 

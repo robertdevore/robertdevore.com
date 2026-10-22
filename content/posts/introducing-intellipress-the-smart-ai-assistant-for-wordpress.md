@@ -12,9 +12,12 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
+> **Update, October 22, 2026:** The IntelliPress website referenced in this post has been retired. This post remains as a historical record.
+
+
 The last time I was this excited to announce a new baby, it was my son 😂
 
-Today I’d like to formally introduce you to [IntelliPress](https://intellipress.robertdevore.com/), an AI WordPress plugin that integrates with the [OpenAI API](https://openai.com/product).
+Today I’d like to formally introduce you to IntelliPress, an AI WordPress plugin that integrates with the [OpenAI API](https://openai.com/product).
 
 It’s built to help you write content faster, optimize it for search engines, generate featured images from [Pexels](https://pexels.com), and more.
 
@@ -120,7 +123,7 @@ As you can see, the integration with Gutenberg lets you take the content generat
 
 I just released version 1.1.0 of the IntelliPress plugin a few minutes ago, which includes a new panel for the settings, a title field generator, and additional language translations.
 
-Head over to the [IntelliPress](https://intellipress.robertdevore.com/) website and grab your copy today so you can start revolutionizing your content creation process 💪💯
+The former IntelliPress website is no longer available.
 
 ## Related Reading
 

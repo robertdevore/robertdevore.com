@@ -12,6 +12,9 @@ categories: ["WordPress Archive"]
 tags: ["WordPress"]
 ---
 
+> **Update, October 22, 2026:** The IntelliPress website referenced in this post has been retired. This post remains as a historical record.
+
+
 Today, I’m thrilled to announce the release of **[Maintenance Mode for WordPress®](https://github.com/robertdevore/maintenance-mode-for-wordpress/)** 🔥
 
 This is a 100% free plugin designed to bring simplicity, flexibility, and true WordPress® integration to a task often overcomplicated by bloated alternatives: enabling a maintenance mode or coming soon page.
@@ -87,11 +90,13 @@ If you’re looking to adapt the plugin for unique use cases, the clean codebase
 
 ## Maintenance Mode Example
 
-I’ve updated the [IntelliPress](https://intellipress.robertdevore.com/) website to use the maintenance mode plugin in order for a live example to be available.
+I’ve updated the IntelliPress website to use the maintenance mode plugin in order for a live example to be available.
 
 Perfect timing since I have some updates coming to that site soon too 🤫
 
-[![Maintenance Mode for WordPress® - Example usage on intelli.press](/assets/legacy-images/maintenance_mode_for_wordpress_example_scaled.webp)](https://intellipress.robertdevore.com/)Maintenance Mode page using only the cover block
+![Maintenance Mode for WordPress® - Example usage on intelli.press](/assets/legacy-images/maintenance_mode_for_wordpress_example_scaled.webp)
+
+Maintenance Mode page using only the cover block
 
 ### **Why I Built This Plugin**
 
