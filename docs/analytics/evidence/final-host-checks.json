@@ -1,0 +1,138 @@
+[
+  {
+    "host": "robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "changelog.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "moneyman.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "mothersday.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "prompts.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "python.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "wolfpack.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "astra2.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "astra3.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "cheatcodes.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "commerce.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "cpc.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "edgeacademy.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": [
+      "default-src 'self'; style-src 'self' 'sha256-i48QVayp+d1NvTERq3/dwVxGtRnNYxJPJUqjpv0e5Js=' 'nonce-fa1b740e-637f-4678-a587-e9c3d11e9a95'; connect-src 'self' https://cloudflareinsights.com https://www.google-analytics.com https://region1.google-analytics.com https://stats.g.doubleclick.net https://www.google.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; script-src 'self' https://static.cloudflareinsights.com https://static.cloudflareinsights.com 'nonce-fa1b740e-637f-4678-a587-e9c3d11e9a95'"
+    ]
+  },
+  {
+    "host": "astra.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": []
+  },
+  {
+    "host": "kujo.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": [
+      "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'nonce-9e6c64f2-5d28-4722-91c5-6791ab189fac'; style-src 'self' 'nonce-9e6c64f2-5d28-4722-91c5-6791ab189fac'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"
+    ]
+  },
+  {
+    "host": "rebuild.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": [
+      "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'nonce-31bd0864-6f35-4d96-b232-903e8233a628'; style-src 'self' 'nonce-31bd0864-6f35-4d96-b232-903e8233a628'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+    ]
+  },
+  {
+    "host": "rust.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": [
+      "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'nonce-89e4bfe4-4524-4515-87ec-edf5bdc006bc'; style-src 'self' 'nonce-89e4bfe4-4524-4515-87ec-edf5bdc006bc'; img-src 'self'; font-src 'self'; connect-src 'self' https://cloudflareinsights.com https://stats.g.doubleclick.net https://www.google.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests"
+    ]
+  },
+  {
+    "host": "typescript.robertdevore.com",
+    "ok": true,
+    "zaraz": true,
+    "automaticBeacon": false,
+    "csp": [
+      "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'nonce-44b7a178-1040-4012-af6a-d7db14a6ed2e'; style-src 'self' 'nonce-44b7a178-1040-4012-af6a-d7db14a6ed2e'; font-src 'self'; img-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+    ]
+  }
+]

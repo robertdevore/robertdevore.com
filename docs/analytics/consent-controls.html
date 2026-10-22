@@ -1,0 +1,41 @@
+<script>
+(function () {
+  if (window.robertConsentControls) return;
+  window.robertConsentControls = true;
+  var purpose = "vIAC";
+  var loaded = false;
+  var nonce = document.currentScript && document.currentScript.nonce;
+  function allowed() {
+    return window.zaraz && zaraz.consent && zaraz.consent.get(purpose) === true;
+  }
+  function update() {
+    if (!allowed()) {
+      if (loaded) window.location.reload();
+      return;
+    }
+    if (loaded) return;
+    loaded = true;
+    var script = document.createElement("script");
+    script.type = "module";
+    script.src = "https://static.cloudflareinsights.com/beacon.min.js";
+    script.setAttribute("data-cf-beacon", JSON.stringify({token:"d9d7359b43a441e6a71dd4d4cb6f45a5", spa:false}));
+    if (nonce) script.nonce = nonce;
+    document.head.appendChild(script);
+  }
+  function setup() {
+    if (!document.getElementById("robert-privacy-settings")) {
+      var button = document.createElement("button");
+      button.id = "robert-privacy-settings";
+      button.type = "button";
+      button.textContent = "Privacy settings";
+      button.style.cssText = "font:inherit;font-size:14px;background:#fff;color:#111;border:1px solid #cbd4ce;border-radius:4px;padding:8px 12px;margin:16px;cursor:pointer";
+      button.addEventListener("click", function () { zaraz.consent.modal = true; });
+      (document.querySelector("footer") || document.body).appendChild(button);
+    }
+    update();
+  }
+  document.addEventListener("zarazConsentAPIReady", setup);
+  document.addEventListener("zarazConsentChoicesUpdated", update);
+  if (window.zaraz && zaraz.consent && zaraz.consent.APIReady) setup();
+})();
+</script>

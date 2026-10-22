@@ -1,0 +1,341 @@
+[
+  {
+    "host": "robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Robert DeVore"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 169
+    },
+    "error": ""
+  },
+  {
+    "host": "changelog.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Changelog"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 45
+    },
+    "error": ""
+  },
+  {
+    "host": "intellipress.robertdevore.com",
+    "statusLines": [],
+    "title": [],
+    "csp": [],
+    "sitemap": {
+      "valid": false
+    },
+    "error": "curl: (28) Operation timed out after 15006 milliseconds with 0 bytes received"
+  },
+  {
+    "host": "moneyman.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "MoneyMan \u2014 Modern Digital Banking"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": false
+    },
+    "error": ""
+  },
+  {
+    "host": "mothersday.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Happy Mother's Day"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": false
+    },
+    "error": ""
+  },
+  {
+    "host": "prompts.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Prompts by Robert DeVore"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 23
+    },
+    "error": ""
+  },
+  {
+    "host": "python.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Python Course"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 26
+    },
+    "error": ""
+  },
+  {
+    "host": "wolfpack.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Wolf Pack - Lone Wolf Lifestyle - Robert DeVore"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": false
+    },
+    "error": ""
+  },
+  {
+    "host": "wwf.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 301 ",
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Robert DeVore"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": false
+    },
+    "error": ""
+  },
+  {
+    "host": "astra2.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Bird \u2014 Early belief and founder resources"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 15
+    },
+    "error": ""
+  },
+  {
+    "host": "astra3.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Gilmore \u2014 Strategy, insight, and clear next steps"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 16
+    },
+    "error": ""
+  },
+  {
+    "host": "bench.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 302 ",
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Sign in \u30fb Cloudflare Access"
+    ],
+    "csp": [
+      "content-security-policy: frame-ancestors 'none'; connect-src 'self' http://127.0.0.1:*; default-src https: 'unsafe-inline'"
+    ],
+    "sitemap": {
+      "valid": false
+    },
+    "error": ""
+  },
+  {
+    "host": "cheatcodes.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "CheatCodes.com \u2014 2001"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 1
+    },
+    "error": ""
+  },
+  {
+    "host": "commerce.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Kujo Commerce Demo"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 18
+    },
+    "error": ""
+  },
+  {
+    "host": "cpc.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Free CPC Study Course | Medical Coding Exam Preparation"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 178
+    },
+    "error": ""
+  },
+  {
+    "host": "edgeacademy.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Edge Academy"
+    ],
+    "csp": [
+      "content-security-policy: default-src 'self'; style-src 'self' 'sha256-i48QVayp+d1NvTERq3/dwVxGtRnNYxJPJUqjpv0e5Js='; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://stats.g.doubleclick.net https://www.google.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+    ],
+    "sitemap": {
+      "valid": true,
+      "urls": 86
+    },
+    "error": ""
+  },
+  {
+    "host": "savage.robertdevore.com",
+    "statusLines": [],
+    "title": [],
+    "csp": [],
+    "sitemap": {
+      "valid": false
+    },
+    "error": "curl: (6) Could not resolve host: savage.robertdevore.com"
+  },
+  {
+    "host": "vuln.robertdevore.com",
+    "statusLines": [],
+    "title": [],
+    "csp": [],
+    "sitemap": {
+      "valid": false
+    },
+    "error": "curl: (6) Could not resolve host: vuln.robertdevore.com"
+  },
+  {
+    "host": "astra.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Scribblit \u2014 Notes, ideas, and room to think"
+    ],
+    "csp": [],
+    "sitemap": {
+      "valid": true,
+      "urls": 14
+    },
+    "error": ""
+  },
+  {
+    "host": "kujo.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Clarity. Context. Control."
+    ],
+    "csp": [
+      "content-security-policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"
+    ],
+    "sitemap": {
+      "valid": true,
+      "urls": 52
+    },
+    "error": ""
+  },
+  {
+    "host": "rebuild.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Website Analysis &amp; Kujo Migration | Rebuild"
+    ],
+    "csp": [
+      "content-security-policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+    ],
+    "sitemap": {
+      "valid": true,
+      "urls": 14
+    },
+    "error": ""
+  },
+  {
+    "host": "rust.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Learn Rust. Build with Confidence. \u00b7 Rust Course"
+    ],
+    "csp": [
+      "content-security-policy: default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://cloudflareinsights.com https://stats.g.doubleclick.net https://www.google.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests"
+    ],
+    "sitemap": {
+      "valid": true,
+      "urls": 32
+    },
+    "error": ""
+  },
+  {
+    "host": "typescript.robertdevore.com",
+    "statusLines": [
+      "HTTP/2 200 "
+    ],
+    "title": [
+      "Learn TypeScript. Build apps and libraries. \u00b7 TypeScript Course"
+    ],
+    "csp": [
+      "content-security-policy: default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+    ],
+    "sitemap": {
+      "valid": true,
+      "urls": 47
+    },
+    "error": ""
+  }
+]
