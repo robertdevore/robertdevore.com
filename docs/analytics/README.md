@@ -1,5 +1,7 @@
 # Shared analytics and search configuration
 
+> **Current configuration — October 22, 2026:** Owner approved automatic Google Analytics and Cloudflare Web Analytics collection without banners or privacy-settings widgets. Zaraz consent management is disabled. The updated shared helper loads one Cloudflare beacon automatically (manual snippet mode, SPA off), preserving edge exclusions and data minimization. Earlier consent-dependent verification below is historical and superseded. Public notices have been updated.
+
 Verified 2026-10-22. This records the live Cloudflare configuration; changing the source file here does not publish it to Zaraz.
 
 ## Identity and collection

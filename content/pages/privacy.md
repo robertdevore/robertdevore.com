@@ -1,6 +1,6 @@
 ---
 title: "Privacy"
-description: "How optional analytics and privacy choices work across Robert DeVore’s public websites."
+description: "How website analytics works across Robert DeVore’s public websites."
 custom_url: "privacy"
 author: "Robert DeVore"
 canonical: "https://robertdevore.com/privacy/"
@@ -11,17 +11,17 @@ Updated October 22, 2026.
 
 ## Website analytics
 
-Robert DeVore uses Google Analytics 4 and Cloudflare Web Analytics across robertdevore.com and its public subdomains to understand which pages people use and how those pages perform. Optional analytics starts after you allow it in the privacy dialog. Rejecting analytics does not prevent you from using the websites.
+Robert DeVore uses Google Analytics 4 and Cloudflare Web Analytics across robertdevore.com and its public subdomains to understand which pages people use and how those pages perform. Analytics loads automatically on public pages without an analytics consent dialog or privacy-settings widget.
 
 Google Analytics uses cookies to measure visits and sessions. Cloudflare Web Analytics measures page views and performance without analytics cookies. Both services may receive page addresses and titles, browser and device information, and interaction or performance measurements. The shared configuration removes URL query parameters before forwarding page addresses to Google and hides visitors’ originating IP addresses from Google Analytics. Advertising audiences are disabled.
 
-## Change your choice
+## Browser controls
 
-Use the **Privacy settings** button in the footer of a public page to reopen your choices. You can withdraw permission at any time. Withdrawal stops future optional collection; it does not erase information already processed. Your browser stores your choice, so clearing its cookies or using another browser can bring the dialog back.
+Your browser’s privacy settings and content blockers can limit analytics collection. Clearing browser cookies removes locally stored identifiers; it does not erase information already processed by analytics providers.
 
 ## Hosting and security
 
-Cloudflare provides delivery and security services. Necessary requests and security logs are separate from optional audience analytics and may be processed regardless of your analytics choice. Private administration and API routes are excluded from the shared analytics configuration.
+Cloudflare provides delivery and security services. Necessary requests and security logs are separate from audience analytics. Private administration and API routes are excluded from the shared analytics configuration.
 
 ## Contact and other services
 
