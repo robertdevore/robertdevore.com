@@ -9,3 +9,4 @@ rm -rf output
 python3 scripts/render_about.py output
 python3 scripts/inline_critical_css.py output
 python3 scripts/harden_generated_output.py output
+python3 scripts/security-checkpoint.py
